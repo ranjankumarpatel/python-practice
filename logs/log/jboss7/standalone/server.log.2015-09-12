@@ -1,0 +1,18 @@
+07:53:58,456 INFO  [stdout] (Finalizer) Connection Count 1
+07:53:58,457 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/09/12 13:23:58 | 07:53:58,456 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/09/12 13:23:58 | 07:53:58,457 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 3
+23:00:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) connection is idle true connection release count 2
+23:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Error while closing
+23:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Remove connection from pool
+23:00:00,036 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) New connection added in pool
+23:00:00,039 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) schedule on check at Sun Sep 13 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 3
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,036 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,039 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) schedule on check at Sun Sep 13 04:30:00 IST 2015
+23:00:00,713 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/09/13 04:30:00 | 23:00:00,713 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK

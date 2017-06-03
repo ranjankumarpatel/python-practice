@@ -1,0 +1,4 @@
+122.161.188.146 - - [07/Oct/2014:10:27:41 +0000] "GET / HTTP/1.1" 200 11217
+122.161.188.146 - - [07/Oct/2014:10:27:44 +0000] "GET /manager/html HTTP/1.1" 401 2486
+122.161.188.146 - admin [07/Oct/2014:10:27:51 +0000] "GET /manager/html HTTP/1.1" 200 21150
+122.161.188.146 - admin [07/Oct/2014:10:30:23 +0000] "POST /manager/html/reload?path=/aricentmes&org.apache.catalina.filters.CSRF_NONCE=86DD68666D87FFEE63788FDEC1D8B78E HTTP/1.1" 200 21202

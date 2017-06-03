@@ -1,0 +1,48 @@
+00:01:15,749 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-10) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/04/03 05:31:15 | 00:01:15,749 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-10) Invalid message received with signature 18245
+17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 3
+17:30:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) 3
+17:30:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) connection is idle true connection release count 2
+17:30:00,008 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) connection is idle true connection release count 2
+17:30:00,009 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Error while closing
+17:30:00,010 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Remove connection from pool
+17:30:00,012 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Error while closing
+17:30:00,013 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Remove connection from pool
+17:30:00,024 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) New connection added in pool
+17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) New connection added in pool
+17:30:00,026 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) schedule on check at Fri Apr 03 23:00:00 IST 2015
+17:30:00,027 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) schedule on check at Fri Apr 03 23:00:00 IST 2015
+17:30:00,036 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Fri Apr 03 23:00:00 IST 2015
+17:30:00,037 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Sat Apr 04 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 3
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) 3
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,008 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,009 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Error while closing
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,010 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Remove connection from pool
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,012 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Error while closing
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,013 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Remove connection from pool
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,024 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,026 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) schedule on check at Fri Apr 03 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,027 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) schedule on check at Fri Apr 03 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,036 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Fri Apr 03 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,037 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-10) Sat Apr 04 23:00:00 IST 2015
+17:30:00,445 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+17:30:00,446 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+17:30:00,462 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,445 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,446 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,462 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 
+17:30:00,766 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+17:30:00,767 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,766 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,767 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+17:30:00,784 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/03 23:00:00 | 17:30:00,784 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 
+17:30:01,085 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+17:30:01,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+17:30:01,163 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/03 23:00:01 | 17:30:01,085 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/03 23:00:01 | 17:30:01,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) 
+INFO   | jvm 1    | 2015/04/03 23:00:01 | 17:30:01,163 INFO  [stdout] (360_MailQuartzScheduler_Worker-10) mail sent successfully... 

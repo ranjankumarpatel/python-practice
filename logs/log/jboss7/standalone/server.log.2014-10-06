@@ -1,0 +1,542 @@
+00:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 19
+00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) connection is idle true connection release count 2
+00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Error while closing
+00:00:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Remove connection from pool
+00:00:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+00:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Mon Oct 06 00:00:00 UTC 2014
+00:00:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-9) schedule on check at Mon Oct 06 00:00:00 UTC 2014
+00:00:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+00:00:00,052 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-9) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 19
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Error while closing
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Remove connection from pool
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Mon Oct 06 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-9) schedule on check at Mon Oct 06 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) dateCompare1
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 00:00:00,052 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-9) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/06 05:30:00 | 
+00:30:00,002 INFO  [stdout]INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 19
+ (Mail360QuartzScheduler_Worker-10) 19
+00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) connection is idle true connection release count 2
+00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Error while closing
+00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Remove connection from pool
+00:30:00,014 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+00:30:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Mon Oct 06 00:30:00 UTC 2014
+00:30:00,016 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-10) schedule on check at Mon Oct 06 00:30:00 UTC 2014
+00:30:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+00:30:00,039 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-10) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Error while closing
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Remove connection from pool
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,014 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Mon Oct 06 00:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,016 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-10) schedule on check at Mon Oct 06 00:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) dateCompare1
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 00:30:00,039 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-10) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/06 06:00:00 | 
+02:19:44,679 INFO  [stdout] (Finalizer) Connection Count 1
+02:19:44,692 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/10/06 07:49:44 | 02:19:44,679 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/10/06 07:49:44 | 02:19:44,692 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:49:58,545 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+04:49:58,555 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+04:49:58,564 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+04:49:58,572 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 10:19:58 | 04:49:58,545 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 10:19:58 | 04:49:58,555 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 10:19:58 | 04:49:58,564 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 10:19:58 | 04:49:58,572 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+07:03:35,098 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+07:03:35,099 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+07:03:35,100 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1412579015098exp date1412578956128expirydate<curdatetrue
+INFO   | jvm 1    | 2014/10/06 12:33:35 | 07:03:35,098 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/10/06 12:33:35 | 07:03:35,099 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/10/06 12:33:35 | 07:03:35,100 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1412579015098exp date1412578956128expirydate<curdatetrue
+07:36:49,293 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:36:49,306 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:36:49,320 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:06:49 | 07:36:49,293 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:06:49 | 07:36:49,306 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:06:49 | 07:36:49,320 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:36:49,333 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:06:49 | 07:36:49,333 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:37:10,233 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+07:37:10,248 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+07:37:10,257 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:07:10 | 07:37:10,233 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:07:10 | 07:37:10,248 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:07:10 | 07:37:10,257 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+07:37:10,270 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:07:10 | 07:37:10,270 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+07:41:19,370 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+07:41:19,379 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+07:41:19,386 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+07:41:19,395 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:19 | 07:41:19,370 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:19 | 07:41:19,379 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:19 | 07:41:19,386 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:19 | 07:41:19,395 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+07:41:31,162 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+07:41:31,175 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:31 | 07:41:31,162 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:31 | 07:41:31,175 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+07:41:31,183 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+07:41:31,191 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:31 | 07:41:31,183 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:31 | 07:41:31,191 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+07:41:40,419 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+07:41:40,427 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+07:41:40,441 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+07:41:40,454 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:40 | 07:41:40,419 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:40 | 07:41:40,427 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:40 | 07:41:40,441 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:40 | 07:41:40,454 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+07:41:57,890 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+07:41:57,900 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+07:41:57,911 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:57 | 07:41:57,890 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:57 | 07:41:57,900 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:57 | 07:41:57,911 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+07:41:57,921 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:11:58 | 07:41:57,921 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+07:43:57,254 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+07:43:57,267 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+07:43:57,277 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+07:43:57,287 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:13:57 | 07:43:57,254 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:13:57 | 07:43:57,267 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:13:57 | 07:43:57,277 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:13:57 | 07:43:57,287 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+07:44:08,572 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:44:08,584 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:44:08,592 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:44:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:08 | 07:44:08,572 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:08 | 07:44:08,584 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:08 | 07:44:08,592 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:08 | 07:44:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:44:27,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+07:44:27,079 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+07:44:27,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+07:44:27,095 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:27 | 07:44:27,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:27 | 07:44:27,079 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:27 | 07:44:27,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:14:27 | 07:44:27,095 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+08:29:57,090 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:29:57,102 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:59:57 | 08:29:57,090 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:59:57 | 08:29:57,102 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:29:57,112 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:29:57,120 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:59:57 | 08:29:57,112 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 13:59:57 | 08:29:57,120 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:34:35,281 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+08:34:35,282 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+08:34:35,283 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1412584475281exp date1412584452793expirydate<curdatetrue
+INFO   | jvm 1    | 2014/10/06 14:04:35 | 08:34:35,281 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/10/06 14:04:35 | 08:34:35,282 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/10/06 14:04:35 | 08:34:35,283 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1412584475281exp date1412584452793expirydate<curdatetrue
+08:36:02,894 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+08:36:02,902 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+08:36:02,911 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+08:36:02,919 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:02 | 08:36:02,894 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:02 | 08:36:02,902 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:02 | 08:36:02,911 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:02 | 08:36:02,919 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+08:36:11,803 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+08:36:11,814 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+08:36:11,823 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+08:36:11,833 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:11 | 08:36:11,803 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:11 | 08:36:11,814 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:11 | 08:36:11,823 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:06:11 | 08:36:11,833 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+08:37:43,035 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+08:37:43,047 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to INFO   | jvm 1    | 2014/10/06 14:07:43 | 08:37:43,035 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+PoolINFO   | jvm 1    | 2014/10/06 14:07:43 | 08:37:43,047 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+
+08:37:43,057 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+08:37:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:07:43 | 08:37:43,057 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:07:43 | 08:37:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+08:53:04,275 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:53:04,283 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:53:04,295 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:23:04 | 08:53:04,275 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:23:04 | 08:53:04,283 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:23:04 | 08:53:04,295 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:53:04,310 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:23:04 | 08:53:04,310 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+08:54:40,211 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+08:54:40,222 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+08:54:40,231 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+08:54:40,242 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:24:40 | 08:54:40,211 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:24:40 | 08:54:40,222 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:24:40 | 08:54:40,231 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:24:40 | 08:54:40,242 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+08:55:23,897 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+08:55:23,909 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+08:55:23,918 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+08:55:23,927 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:23 | 08:55:23,897 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:23 | 08:55:23,909 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:23 | 08:55:23,918 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:23 | 08:55:23,927 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+08:55:59,374 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+08:55:59,387 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:59 | 08:55:59,374 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:59 | 08:55:59,387 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+08:55:59,402 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+08:55:59,413 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:59 | 08:55:59,402 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:25:59 | 08:55:59,413 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+08:57:15,505 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:27:15 | 08:57:15,505 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+08:57:15,519 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+08:57:15,529 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+08:57:15,538 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:27:15 | 08:57:15,519 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:27:15 | 08:57:15,529 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:27:15 | 08:57:15,538 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+09:01:20,068 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:01:20,077 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:01:20,085 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:01:20,093 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:31:20 | 09:01:20,068 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:31:20 | 09:01:20,077 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:31:20 | 09:01:20,085 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:31:20 | 09:01:20,093 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:06:16,109 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:06:16,118 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:06:16,126 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:06:16,137 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:36:16 | 09:06:16,109 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:36:16 | 09:06:16,118 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:36:16 | 09:06:16,126 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:36:16 | 09:06:16,137 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:10:25,017 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:10:25,030 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:10:25,044 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:10:25,058 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:25 | 09:10:25,017 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:25 | 09:10:25,030 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:25 | 09:10:25,044 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:25 | 09:10:25,058 INFO  [stdout] (ajp--0.0.0.0-8009-16) Connection back to Pool
+09:10:34,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+09:10:34,859 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+09:10:34,867 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+09:10:34,876 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:34 | 09:10:34,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:34 | 09:10:34,859 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:34 | 09:10:34,867 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:34 | 09:10:34,876 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+09:10:48,731 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:10:48,739 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:10:48,748 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:10:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:48 | 09:10:48,731 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:48 | 09:10:48,739 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:48 | 09:10:48,748 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:40:48 | 09:10:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:11:05,883 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+09:11:05,892 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+09:11:05,900 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+09:11:05,908 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:05 | 09:11:05,883 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:05 | 09:11:05,892 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:05 | 09:11:05,900 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:05 | 09:11:05,908 INFO  [stdout] (ajp--0.0.0.0-8009-12) Connection back to Pool
+09:11:19,789 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+09:11:19,798 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+09:11:19,807 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+09:11:19,820 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:19 | 09:11:19,789 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:19 | 09:11:19,798 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:19 | 09:11:19,807 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:41:19 | 09:11:19,820 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+09:12:24,419 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+09:12:24,427 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+09:12:24,436 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+09:12:24,444 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:24 | 09:12:24,419 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:24 | 09:12:24,427 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:24 | 09:12:24,436 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:24 | 09:12:24,444 INFO  [stdout] (ajp--0.0.0.0-8009-7) Connection back to Pool
+09:12:27,479 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:27 | 09:12:27,479 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+09:12:27,490 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+09:12:27,502 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+09:12:27,514 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:27 | 09:12:27,490 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:27 | 09:12:27,502 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 14:42:27 | 09:12:27,514 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+09:33:52,906 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:33:52,914 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:33:52,922 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:33:52,930 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:03:52 | 09:33:52,906 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:03:52 | 09:33:52,914 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:03:52 | 09:33:52,922 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:03:52 | 09:33:52,930 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+09:35:11,337 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+09:35:11,349 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:11 | 09:35:11,337 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:11 | 09:35:11,349 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+09:35:11,366 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+09:35:11,374 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:11 | 09:35:11,366 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:11 | 09:35:11,374 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+09:35:28,738 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+09:35:28,746 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+09:35:28,754 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+09:35:28,761 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:28 | 09:35:28,738 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:28 | 09:35:28,746 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:28 | 09:35:28,754 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 15:05:28 | 09:35:28,761 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+11:03:50,293 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:33:50 | 11:03:50,293 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+11:03:50,305 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+11:03:50,313 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+11:03:50,324 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:33:50 | 11:03:50,305 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:33:50 | 11:03:50,313 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:33:50 | 11:03:50,324 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+11:04:35,429 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+11:04:35,441 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+11:04:35,451 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+11:04:35,460 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:34:35 | 11:04:35,429 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:34:35 | 11:04:35,441 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:34:35 | 11:04:35,451 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+INFO   | jvm 1    | 2014/10/06 16:34:35 | 11:04:35,460 INFO  [stdout] (ajp--0.0.0.0-8009-9) Connection back to Pool
+22:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 19
+22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+22:00:00INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 19
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+22:00:00,008 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+22:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+22:00:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Mon Oct 06 22:00:00 UTC 2014
+22:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Mon Oct 06 22:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,008 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Mon Oct 06 22:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Mon Oct 06 22:00:00 UTC 2014
+22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,124 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,125 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,129 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,130 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,132 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,124 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,125 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,129 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,130 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 22:00:00,132 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 03:30:00 | 
+22:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 19
+22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+22:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+22:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+22:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Mon Oct 06 22:30:00 UTC 2014
+22:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Mon Oct 06 22:30:00 UTC 2014
+22:30:00,026 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,040 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 19
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Mon Oct 06 22:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Mon Oct 06 22:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,026 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 22:30:00,040 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 04:00:00 | 
+22:33:05,121 INFO  [stdout] (Finalizer) Connection Count 1
+22:33:05,122 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/10/07 04:03:05 | 22:33:05,121 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/10/07 04:03:05 | 22:33:05,122 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 19
+23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+23:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+23:00:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Mon Oct 06 23:00:00 UTC 2014
+23:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Mon Oct 06 23:00:00 UTC 2014
+23:00:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,044 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 19
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Mon Oct 06 23:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Mon Oct 06 23:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 23:00:00,044 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 04:30:00 | 
+23:30:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 19
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 19
+23:30:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+23:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Mon Oct 06 23:30:00 UTC 2014
+23:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Mon Oct 06 23:30:00 UTC 2014
+23:30:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,048 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Mon Oct 06 23:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Mon Oct 06 23:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 23:30:00,048 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/07 05:00:00 | 

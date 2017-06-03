@@ -1,0 +1,1150 @@
+03:38:18,298 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+03:38:18,299 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+03:38:18,300 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+03:38:18,301 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+03:38:18,309 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,298 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,299 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,300 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,301 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,309 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+03:38:18,809 INFO  [stdout] (Finalizer) Connection Count 1
+03:38:18,810 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,809 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:08:18 | 03:38:18,810 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:38:19,118 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+03:38:19,119 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+03:38:19,120 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+03:38:19,121 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+03:38:19,133 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,118 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,119 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,120 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,121 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,133 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+03:38:19,782 INFO  [stdout] (Finalizer) Connection Count 1
+03:38:19,783 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,782 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:08:19 | 03:38:19,783 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:10:31,778 ERROR [stderr] (ajp--0.0.0.0-8009-16) com.fs360.exception.InvalidLoginException: invalid respondent
+04:10:31,780 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:96)
+04:10:31,781 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.respondent.RespondentSurveyServlet.doPost(RespondentSurveyServlet.java:278)
+04:10:31,783 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+04:10:31,784 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+04:10:31,786 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+04:10:31,788 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:10:31,789 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:98)
+04:10:31,791 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+04:10:31,793 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:10:31,795 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+04:10:31,797 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+04:10:31,798 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+04:10:31,800 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+04:10:31,802 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+04:10:31,803 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+04:10:31,805 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+04:10:31,807 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+04:10:31,808 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+04:10:31,810 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+04:10:31,811 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,778 ERROR [stderr] (ajp--0.0.0.0-8009-16) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,780 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:96)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,781 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.respondent.RespondentSurveyServlet.doPost(RespondentSurveyServlet.java:278)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,783 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,784 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,786 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,788 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,789 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:98)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,791 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,793 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,795 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,797 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,798 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,800 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,802 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,803 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,805 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,807 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,808 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,810 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/10/18 09:40:31 | 04:10:31,811 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at java.lang.Thread.run(Thread.java:745)
+04:11:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-4) /respondentLogin.jsp
+04:11:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+04:11:49,718 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+04:11:49,719 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+04:11:49,720 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+04:11:49,730 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-4) /respondentLogin.jsp
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,718 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,719 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,720 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:41:49 | 04:11:49,730 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+04:11:50,200 INFO  [stdout] (Finalizer) Connection Count 1
+04:11:50,201 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,200 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,201 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:11:50,728 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+04:11:50,729 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+04:11:50,731 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+04:11:50,731 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+04:11:50,743 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,728 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,729 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,731 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,731 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:41:50 | 04:11:50,743 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+04:11:51,284 INFO  [stdout] (Finalizer) Connection Count 1
+04:11:51,285 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:41:51 | 04:11:51,284 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:41:51 | 04:11:51,285 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:12:11,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+04:12:11,209 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+04:12:11,210 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+04:12:11,211 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+04:12:11,225 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,209 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,210 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,211 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,225 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+04:12:11,784 INFO  [stdout] (Finalizer) Connection Count 1
+04:12:11,785 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,784 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:42:11 | 04:12:11,785 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:20:08,211 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+04:20:08,212 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+04:20:08,214 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+04:20:08,215 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+04:20:08,228 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+04:20:08,243 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,243 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,250 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,250 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,252 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,253 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,255 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,255 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,257 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,257 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,259 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,260 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,267 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,268 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,271 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,272 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,275 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,275 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,278 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,279 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+04:20:08,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,285 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,286 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,289 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,290 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,293 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,294 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,211 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,212 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,214 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,215 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,228 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,243 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,243 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,250 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,250 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:2INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,252 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+0:08INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,253 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,255 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,255 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,257 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,257 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+,2INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,259 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+98 INFINFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,260 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+O  [stINFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+doutINFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+] (ajp--INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,267 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+0.0.0.0-INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,268 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+8009-16INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,271 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+) RateINFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,272 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+ : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,275 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,275 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,278 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,279 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+04INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+:20:0INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,285 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+8,299 INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,286 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO  [sINFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,289 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+tdout]INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,290 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+ (ajp-INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,293 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+-0.0.0INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,294 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+.0-INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,298 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+8009-16) Subjective : null
+04:20:08,304 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,304 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,308 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,314 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,318 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,321 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,323 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,324 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,328 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,329 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,331 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,332 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,336 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,337 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,339 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,339 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,341 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+04:20:08,342 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,343 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,344 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,346 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,347 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,349 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,349 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,351 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,352 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,354 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,354 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,356 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,357 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,359 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,360 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,362 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,362 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,365 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 4
+04:20:08,365 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,367 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,368 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,370 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+04:20:08,370 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+04:20:08,373 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+04:20:08,373 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : No Comments
+04:20:08,376 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+04:20:08,377 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : No Comments
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,299 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,304 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,304 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,308 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,314 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,318 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,321 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,323 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,324 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,328 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,329 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,331 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,332 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,336 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,337 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,339 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,339 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,341 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,342 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,343 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,344 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,346 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,347 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,349 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,349 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,351 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,352 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,354 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,354 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,356 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,357 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,359 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,360 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,362 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,362 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,365 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 4
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,365 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,367 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,368 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,370 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,370 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,373 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,373 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : No Comments
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,376 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+INFO   | jvm 1    | 2015/10/18 09:50:08 | 04:20:08,377 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : No Comments
+04:20:09,002 INFO  [stdout] (ajp--0.0.0.0-8009-16) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/10/18 09:50:09 | 04:20:09,002 INFO  [stdout] (ajp--0.0.0.0-8009-16) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+04:20:09,469 INFO  [stdout] (Finalizer) Connection Count 1
+04:20:09,470 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 09:50:09 | 04:20:09,469 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 09:50:09 | 04:20:09,470 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:49,578 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+05:19:49,578 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+05:19:49,579 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+05:19:49,580 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+05:19:49,588 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 10:49:49 | 05:19:49,578 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/18 10:49:49 | 05:19:49,578 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 10:49:49 | 05:19:49,579 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/18 10:49:49 | 05:19:49,580 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 10:49:49 | 05:19:49,588 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+05:19:50,024 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:50,025 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,024 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,025 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:50,789 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:19:50,790 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+05:19:50,792 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,789 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,790 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,792 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+05:19:50,793 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+05:19:50,806 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,793 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 10:49:50 | 05:19:50,806 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+05:19:51,407 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:51,408 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 10:49:51 | 05:19:51,407 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 10:49:51 | 05:19:51,408 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:40:55,338 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3
+05:40:55,338 INFO  [stdout] (ajp--0.0.0.0-8009-28) connection is idle true connection release count 2
+05:40:55,339 INFO  [stdout] (ajp--0.0.0.0-8009-28) Error while closing
+05:40:55,340 INFO  [stdout] (ajp--0.0.0.0-8009-28) Remove connection from pool
+05:40:55,348 INFO  [stdout] (ajp--0.0.0.0-8009-28) New connection added in pool
+05:40:55,366 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,367 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,374 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,375 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,377 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,378 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,380 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,380 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,382 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,383 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,385 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,385 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,387 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,388 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,390 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,391 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,393 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,393 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,395 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,396 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,398 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,399 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,401 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,402 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,404 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,404 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,406 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,407 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,409 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,409 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,411 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,412 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,415 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,415 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,417 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,418 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,420 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,420 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,422 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 1
+05:40:55,423 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,425 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,425 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,427 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,428 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,430 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,431 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,433 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,433 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,435 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,436 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,338 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,338 INFO  [stdout] (ajp--0.0.0.0-8009-28) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,339 INFO  [stdout] (ajp--0.0.0.0-8009-28) Error while closing
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,340 INFO  [stdout] (ajp--0.0.0.0-8009-28) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,348 INFO  [stdout] (ajp--0.0.0.0-8009-28) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,366 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,367 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,374 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,375 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,377 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,378 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,380 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,380 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,382 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,383 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,385 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,385 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,387 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,388 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,390 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,391 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,393 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,393 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,395 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,396 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,398 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,399 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,401 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,402 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,404 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,404 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,406 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,407 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,409 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,409 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,411 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,412 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,415 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,415 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,417 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,418 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,420 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,420 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,422 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 1
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,423 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,425 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,425 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,427 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,428 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,430 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,431 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,433 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,433 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,435 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,436 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,443 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,444 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,448 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,448 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,450 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,451 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,455 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,456 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,459 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,460 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,465 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,466 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,470 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,471 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,475 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,476 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,479 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,480 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,484 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40:55,485 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,488 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 1
+05:40:55,488 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,492 INFO  [stdout] (ajp--INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,443 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+0.0.0.0-800INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,444 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+9-28) RateINFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,448 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+ : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,448 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,450 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,451 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,455 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,456 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,459 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+05:40INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,460 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+:55,6INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,465 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,466 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,470 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,471 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,475 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,476 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,479 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,480 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,484 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,485 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,488 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 1
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,488 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,492 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 3
+81 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,686 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+05:40:55,686 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+05:40:55,689 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 0
+05:40:55,689 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : He has do following things to go forward;
+05:40:55,690 INFO  [stdout] (ajp--0.0.0.0-8009-28) 1.Time management
+05:40:55,691 INFO  [stdout] (ajp--0.0.0.0-8009-28) 2.Strong Leadership.
+05:40:55,691 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3.Decision making.
+05:40:55,692 INFO  [stdout] (ajp--0.0.0.0-8009-28) 4.Team work.
+05:40:55,692 INFO  [stdout] (ajp--0.0.0.0-8009-28) 5.Spirits to work in high level.
+05:40:55,695 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 0
+05:40:55,696 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : He has stop following things to go forward;
+05:40:55,696 INFO  [stdout] (ajp--0.0.0.0-8009-28) 1.Don't neglect site issues.
+05:40:55,697 INFO  [stdout] (ajp--0.0.0.0-8009-28) 2.Don't avoid to share important things with collegue or team members.
+05:40:55,698 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3.Don't delay in releasing PR to save time for all dependent department.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,681 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,686 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 2
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,686 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : null
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,689 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 0
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,689 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : He has do following things to go forward;
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,690 INFO  [stdout] (ajp--0.0.0.0-8009-28) 1.Time management
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,691 INFO  [stdout] (ajp--0.0.0.0-8009-28) 2.Strong Leadership.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,691 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3.Decision making.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,692 INFO  [stdout] (ajp--0.0.0.0-8009-28) 4.Team work.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,692 INFO  [stdout] (ajp--0.0.0.0-8009-28) 5.Spirits to work in high level.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,695 INFO  [stdout] (ajp--0.0.0.0-8009-28) Rate : 0
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,696 INFO  [stdout] (ajp--0.0.0.0-8009-28) Subjective : He has stop following things to go forward;
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,696 INFO  [stdout] (ajp--0.0.0.0-8009-28) 1.Don't neglect site issues.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,697 INFO  [stdout] (ajp--0.0.0.0-8009-28) 2.Don't avoid to share important things with collegue or team members.
+INFO   | jvm 1    | 2015/10/18 11:10:55 | 05:40:55,698 INFO  [stdout] (ajp--0.0.0.0-8009-28) 3.Don't delay in releasing PR to save time for all dependent department.
+05:40:55,957 INFO  [stdout] (ajp--0.0.0.0-8009-28) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/10/18 11:10:56 | 05:40:55,957 INFO  [stdout] (ajp--0.0.0.0-8009-28) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+05:40:56,507 INFO  [stdout] (Finalizer) Connection Count 1
+05:40:56,508 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 11:10:56 | 05:40:56,507 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 11:10:56 | 05:40:56,508 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:51:53,318 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+09:51:53,318 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+09:51:53,319 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+09:51:53,320 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+09:51:53,328 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,318 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,318 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,319 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,320 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,328 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+09:51:53,835 INFO  [stdout] (Finalizer) Connection Count 1
+09:51:53,836 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,835 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:21:53 | 09:51:53,836 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:51:54,167 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+09:51:54,168 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+09:51:54,169 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+09:51:54,170 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+09:51:54,184 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,167 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,168 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,169 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,170 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,184 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+09:51:54,734 INFO  [stdout] (Finalizer) Connection Count 1
+09:51:54,734 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,734 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:21:54 | 09:51:54,734 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:01:17,094 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+10:01:17,094 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+10:01:17,095 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+10:01:17,096 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+10:01:17,104 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+10:01:17,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,118 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,130 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,130 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,133 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,137 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:0INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,094 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+1:17,138 INFO  [stINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,094 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+dout] (ajp--0.0.INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,095 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+0.0-8009-14) SubINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,096 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+jective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,104 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,118 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,130 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,130 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,133 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,140 INFINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,137 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+O  [INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,138 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,140 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,142 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,143 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,145 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,145 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,147 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,148 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,150 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,150 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,152 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,153 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,155 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,155 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,157 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,158 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,162 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,162 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,166 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,167 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,171 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,171 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,175 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,176 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,179 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,180 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,183 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,184 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,187 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,188 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,190 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,191 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,195 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,196 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,199 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,200 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,203 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,207 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,211 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,212 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,215 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,216 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,219 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,220 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,223 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,224 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,227 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,228 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,231 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,231 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,233 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,234 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,236 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:17,237 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,240 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,140 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,140 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,142 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,143 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,145 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+:01:17,2INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,145 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+40 INFO INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,147 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+ [stdouINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,148 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+t] (ajp-INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,150 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+-0.0.0.0INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,150 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,152 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,153 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,155 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,155 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,157 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,158 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,162 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,162 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,166 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,167 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,171 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,171 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,175 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,176 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,179 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,180 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+,243 INFO  INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,183 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+[stdout] (INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,184 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+ajp--0.INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,187 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+0.0.0-8009INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,188 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+-14) Rate :INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,190 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+ 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,191 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,195 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,196 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+,244 INFO INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,199 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+ [stdout] (ajp--0.0.0.0-8009-14) Subjective :INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,200 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+ null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,203 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,207 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,211 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,212 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,215 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,216 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,219 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,220 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,223 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,224 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,227 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,228 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,231 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,231 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+17,247 INFO  [stdoutINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,233 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+] (ajp--0.0.0.0-8009INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,234 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,236 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+10:01:INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,237 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+17,247 INFO  [stdINFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,240 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+out] (ajp--0.0.0.0-8INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,240 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+009-14) Subjective :INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,243 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+ null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,244 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,247 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,247 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,250 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+10:01:17,250 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+10:01:17,253 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,253 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Flexibility in nature.
+10:01:17,256 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+10:01:17,257 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Also think over of other persons difficulty.
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,250 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,250 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,253 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,253 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Flexibility in nature.
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,256 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:31:17 | 10:01:17,257 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Also think over of other persons difficulty.
+10:01:17,592 INFO  [stdout] (ajp--0.0.0.0-8009-14) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/10/18 15:31:19 | 10:01:17,592 INFO  [stdout] (ajp--0.0.0.0-8009-14) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+10:01:21,976 INFO  [stdout] (Finalizer) Connection Count 1
+10:01:21,977 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:31:22 | 10:01:21,976 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:31:22 | 10:01:21,977 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:13:11,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+10:13:11,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+10:13:11,852 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+10:13:11,853 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+10:13:11,861 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:43:11 | 10:13:11,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/18 15:43:11 | 10:13:11,851 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 15:43:11 | 10:13:11,852 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/18 15:43:11 | 10:13:11,853 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 15:43:11 | 10:13:11,861 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+10:13:12,295 INFO  [stdout] (Finalizer) Connection Count 1
+10:13:12,408 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,295 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,408 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:13:12,588 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+10:13:12,720 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+10:13:12,721 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+10:13:12,722 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+10:13:12,735 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,588 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,720 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,721 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,722 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 15:43:12 | 10:13:12,735 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+10:13:13,284 INFO  [stdout] (Finalizer) Connection Count 1
+10:13:13,285 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:43:13 | 10:13:13,284 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:43:13 | 10:13:13,285 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:27:23,865 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+10:27:23,866 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+10:27:23,867 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+10:27:23,867 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+10:27:23,880 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+10:27:23,890 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:23,891 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,899 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:23,900 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,902 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:23,903 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,905 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:23,905 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,907 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:23,907 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,911 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:23,912 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,915 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:23,915 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,919 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:23,920 INFO  [stdout] (ajp--0.0.0.0-8009-15) SubjectINFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,865 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+ive : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,866 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,867 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,867 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,880 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,890 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,891 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,899 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,900 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,902 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,903 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,905 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,905 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,907 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,907 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,911 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,912 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,915 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,915 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,919 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:23 | 10:27:23,920 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,924 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:23,924 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,928 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:23,928 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:23,932 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+10:27:24,020 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:23,924 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:23,924 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:23,928 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:23,928 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:23,932 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,020 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,026 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,027 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,030 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,031 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,035 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,035 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,039 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+10:27:24,040 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,043 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,044 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,050 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,051 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,055 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,055 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,059 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,060 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,064 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,065 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,068 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,069 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,072 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,073 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,077 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,078 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,082 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,082 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,084 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,085 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,087 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,088 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,090 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,091 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,095 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,096 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,098 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,099 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,101 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,102 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,104 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,104 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,107 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,107 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,109 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,110 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,112 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,113 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,115 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,115 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,118 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,118 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,120 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+10:27:24,121 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,123 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+10:27:24,124 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,026 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,027 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,030 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,031 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,035 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,035 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,039 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 3
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,040 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,043 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,044 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,050 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,051 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,055 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,055 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,059 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,060 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,064 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,065 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,068 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,069 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,072 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,073 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,077 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,078 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,082 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,082 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,084 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,085 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,087 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,088 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,090 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,091 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,095 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,096 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,098 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,099 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,101 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,102 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,104 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,104 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,107 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,107 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,109 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,110 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,112 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,113 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,115 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,115 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,118 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,118 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,120 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 5
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,121 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,123 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 4
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,124 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : null
+10:27:24,131 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+10:27:24,132 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : 1.More planing & motivation in department.
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,131 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,132 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : 1.More planing & motivation in department.
+10:27:24,388 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+10:27:24,737 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : NA.
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,388 INFO  [stdout] (ajp--0.0.0.0-8009-15) Rate : 0
+INFO   | jvm 1    | 2015/10/18 15:57:24 | 10:27:24,737 INFO  [stdout] (ajp--0.0.0.0-8009-15) Subjective : NA.
+10:27:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-15) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/10/18 15:57:25 | 10:27:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-15) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+10:27:28,853 INFO  [stdout] (Finalizer) Connection Count 1
+10:27:28,854 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 15:57:28 | 10:27:28,853 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 15:57:28 | 10:27:28,854 INFO  [stdout] (Finalizer) Releasing connection back to pool
+13:33:21,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+13:33:21,745 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+13:33:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+13:33:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+13:33:21,758 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/18 19:03:21 | 13:33:21,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/18 19:03:21 | 13:33:21,745 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/18 19:03:21 | 13:33:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/18 19:03:21 | 13:33:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/18 19:03:21 | 13:33:21,758 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+13:33:22,120 INFO  [stdout] (Finalizer) Connection Count 1
+13:33:22,120 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,120 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,120 INFO  [stdout] (Finalizer) Releasing connection back to pool
+13:33:22,229 ERROR [stderr] (ajp--0.0.0.0-8009-12) com.fs360.exception.InvalidLoginException: invalid respondent
+13:33:22,259 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:96)
+13:33:22,260 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+13:33:22,261 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+13:33:22,262 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+13:33:22,263 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+13:33:22,264 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:98)
+13:33:22,264 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+13:33:22,265 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+13:33:22,266 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+13:33:22,267 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+13:33:22,268 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+13:33:22,269 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+13:33:22,270 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+13:33:22,271 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+13:33:22,271 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+13:33:22,272 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+13:33:22,273 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+13:33:22,274 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+13:33:22,275 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,229 ERROR [stderr] (ajp--0.0.0.0-8009-12) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,259 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:96)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,260 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,261 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,262 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,263 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,264 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:98)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,264 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,265 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,266 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,267 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,268 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,269 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,270 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,271 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,271 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,272 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,273 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,274 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/10/18 19:03:22 | 13:33:22,275 ERROR [stderr] (ajp--0.0.0.0-8009-12) 	at java.lang.Thread.run(Thread.java:745)
+STATUS | wrapper  | 2015/10/19 08:50:46 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,456 INFO  [org.jboss.as.osgi] (MSC service thread 1-6) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,523 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,536 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[next360.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at com.fs360.login.LoginActionServlet.destroy(LoginActionServlet.java:150) [classes:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	... 8 more
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,550 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:142) [classes:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	... 8 more
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,563 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:138) [classes:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	... 8 more
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,594 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,643 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."abilitytest.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:54)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,659 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."indusind.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:54)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,671 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,682 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,682 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,684 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.detection.DetectionServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,686 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,689 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,691 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,687 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,693 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,696 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,698 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,694 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,700 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,701 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,704 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,703 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,735 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,738 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,740 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,742 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,744 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,746 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,749 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,752 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,754 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,748 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,758 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,756 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,774 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,772 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment shield.war in 324ms
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,778 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,776 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,781 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,783 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,787 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,785 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,803 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,806 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,807 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,808 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,805 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,810 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,813 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,819 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,815 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,821 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,846 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,847 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,848 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,855 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,856 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,857 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,859 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,822 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,860 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,861 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,863 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[logs.LoggerActionServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,865 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,867 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,869 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,881 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,883 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,871 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,885 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,887 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,894 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,896 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,905 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:47 | 03:20:47,911 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:47,890 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@7411a045" of service jboss.web.deployment."abilitytest.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:54)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:47,975 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment engage.war in 528ms
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:47,914 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@31314d8b" of service jboss.web.deployment."indusind.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:54)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:47,995 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment next360.war in 542ms
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:47,997 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:48,004 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:48,133 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment indusindassess.war in 680ms
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:48,146 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abilitytest.war in 693ms
+INFO   | jvm 1    | 2015/10/19 08:50:48 | 03:20:48,151 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 668ms
+STATUS | wrapper  | 2015/10/19 08:50:48 | <-- Wrapper Stopped

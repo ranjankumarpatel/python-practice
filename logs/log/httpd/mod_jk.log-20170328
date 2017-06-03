@@ -1,0 +1,9 @@
+[Mon Mar 27 20:38:36.962 2017] [8887:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:38:37.080 2017] [8887:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:38:37.080 2017] [8887:140712883746624] [error] ajp_service::jk_ajp_common.c (2693): (ajp13) connecting to tomcat failed.
+[Mon Mar 27 20:38:40.798 2017] [8886:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:38:40.898 2017] [8886:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:38:40.898 2017] [8886:140712883746624] [error] ajp_service::jk_ajp_common.c (2693): (ajp13) connecting to tomcat failed.
+[Mon Mar 27 20:42:39.750 2017] [8486:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:42:39.850 2017] [8486:140712883746624] [error] ajp_send_request::jk_ajp_common.c (1663): (ajp13) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=111)
+[Mon Mar 27 20:42:39.850 2017] [8486:140712883746624] [error] ajp_service::jk_ajp_common.c (2693): (ajp13) connecting to tomcat failed.

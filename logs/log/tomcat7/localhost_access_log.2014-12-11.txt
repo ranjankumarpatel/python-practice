@@ -1,0 +1,9 @@
+182.71.157.42 - - [11/Dec/2014:04:22:35 +0000] "GET / HTTP/1.1" 200 11217
+182.71.157.42 - - [11/Dec/2014:04:30:47 +0000] "GET / HTTP/1.1" 200 11217
+182.71.157.42 - - [11/Dec/2014:04:30:48 +0000] "GET / HTTP/1.1" 200 11217
+182.71.157.42 - - [11/Dec/2014:04:30:51 +0000] "GET /manager/html HTTP/1.1" 401 2486
+182.71.157.42 - admin [11/Dec/2014:04:30:54 +0000] "GET /manager/html HTTP/1.1" 200 22873
+182.71.157.42 - admin [11/Dec/2014:04:31:03 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=1103A7BFC84D790F075740585C7868A5 HTTP/1.1" 200 22931
+182.71.157.42 - admin [11/Dec/2014:05:20:50 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=61F2788205A7ED1C259ABCE5F63A0EF7 HTTP/1.1" 403 3208
+182.71.157.42 - admin [11/Dec/2014:05:20:59 +0000] "GET /manager/html HTTP/1.1" 200 22873
+182.71.157.42 - admin [11/Dec/2014:05:21:04 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=1F51AA6BE1D339D506E4C75E2D6CEBDA HTTP/1.1" 200 22931

@@ -1,0 +1,188 @@
+06:50:41,634 INFO  [stdout] (ajp--0.0.0.0-8009-9) /clientLogin.jsp
+06:50:41,636 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+06:50:41,637 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+06:50:41,638 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+06:50:41,638 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+06:50:41,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,634 INFO  [stdout] (ajp--0.0.0.0-8009-9) /clientLogin.jsp
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,636 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,637 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,638 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,638 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:20:41 | 06:50:41,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+06:50:42,995 INFO  [stdout] (Finalizer) Connection Count 1
+06:50:42,997 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:50:42,998 INFO  [stdout] (Finalizer) Connection Count 1
+06:50:42,998 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:50:42,999 INFO  [stdout] (Finalizer) Connection Count 1
+06:50:43,000 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:42,995 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:42,997 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:42,998 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:42,998 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:42,999 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:20:43 | 06:50:43,000 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:50:44,161 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+06:50:44,162 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+06:50:44,163 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+06:50:44,163 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+06:50:44,171 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,161 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,162 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,163 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,163 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,171 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+06:50:44,582 INFO  [stdout] (Finalizer) Connection Count 1
+06:50:44,582 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,582 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:20:44 | 06:50:44,582 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:52:48,202 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+06:52:48,203 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+06:52:48,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+06:52:48,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+06:52:48,212 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+06:52:48,215 ERROR [stderr] (ajp--0.0.0.0-8009-14) com.fs360.exception.InvalidLoginException: Invalid User session
+06:52:48,216 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:411)
+06:52:48,217 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:86)
+06:52:48,218 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+06:52:48,219 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+06:52:48,220 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+06:52:48,221 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+06:52:48,222 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+06:52:48,223 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+06:52:48,224 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+06:52:48,225 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+06:52:48,226 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+06:52:48,227 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+06:52:48,228 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+06:52:48,229 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+06:52:48,230 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+06:52:48,231 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+06:52:48,232 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+06:52:48,233 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+06:52:48,234 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+06:52:48,235 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,202 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,203 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,204 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,212 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,215 ERROR [stderr] (ajp--0.0.0.0-8009-14) com.fs360.exception.InvalidLoginException: Invalid User session
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,216 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:411)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,217 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:86)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,218 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,219 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,220 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,221 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,222 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,223 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,224 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,225 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,226 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,227 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,228 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,229 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,230 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,231 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,232 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,233 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,234 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,235 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at java.lang.Thread.run(Thread.java:745)
+06:52:48,527 INFO  [stdout] (Finalizer) Connection Count 1
+06:52:48,528 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,527 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:22:48 | 06:52:48,528 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:05:28,205 INFO  [stdout] (ajp--0.0.0.0-8009-15) /clientLogin.jsp
+07:05:28,206 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+07:05:28,207 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+07:05:28,208 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+07:05:28,209 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+07:05:28,218 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,205 INFO  [stdout] (ajp--0.0.0.0-8009-15) /clientLogin.jsp
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,206 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,207 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,208 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,209 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:35:28 | 07:05:28,218 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+07:05:29,494 INFO  [stdout] (Finalizer) Connection Count 1
+07:05:29,495 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:35:29 | 07:05:29,494 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:35:29 | 07:05:29,495 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:05:30,670 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+07:05:30,671 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+07:05:30,673 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+07:05:30,674 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+07:05:30,687 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:35:30 | 07:05:30,670 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/04/28 12:35:30 | 07:05:30,671 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:35:30 | 07:05:30,673 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:35:30 | 07:05:30,674 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:35:30 | 07:05:30,687 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+07:05:31,128 INFO  [stdout] (Finalizer) Connection Count 1
+07:05:31,129 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:35:31 | 07:05:31,128 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:35:31 | 07:05:31,129 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:06:34,264 INFO  [stdout] (ajp--0.0.0.0-8009-5) /clientLogin.jsp
+07:06:34,265 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+07:06:34,265 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+07:06:34,266 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+07:06:34,267 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connectioINFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,264 INFO  [stdout] (ajp--0.0.0.0-8009-5) /clientLogin.jsp
+n from pool
+INFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,265 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,265 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,266 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,267 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+07:06:34,277 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:36:34 | 07:06:34,277 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+07:06:35,473 INFO  [stdout] (Finalizer) Connection Count 1
+07:06:35,474 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:36:35 | 07:06:35,473 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:36:35 | 07:06:35,474 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:06:36,655 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+07:06:36,656 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+07:06:36,657 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+07:06:36,657 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+07:06:36,665 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 12:36:36 | 07:06:36,655 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2015/04/28 12:36:36 | 07:06:36,656 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 12:36:36 | 07:06:36,657 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2015/04/28 12:36:36 | 07:06:36,657 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 12:36:36 | 07:06:36,665 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+07:06:37,005 INFO  [stdout] (Finalizer) Connection Count 1
+07:06:37,006 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/28 12:36:37 | 07:06:37,005 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/28 12:36:37 | 07:06:37,006 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:30:00,004 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) 2
+17:30:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) connection is idle true connection release count 2
+17:30:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 3
+17:30:00,007 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Error while closing
+17:30:00,008 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Remove connection from pool
+17:30:00,009 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) connection is idle true connection release count 2
+17:30:00,010 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Error while closing
+17:30:00,011 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Remove connection from pool
+17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) New connection added in pool
+17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) schedule on check at Tue Apr 28 23:00:00 IST 2015
+17:30:00,031 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) New connection added in pool
+17:30:00,033 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) schedule on check at Tue Apr 28 23:00:00 IST 2015
+17:30:00,044 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Tue Apr 28 23:00:00 IST 2015
+17:30:00,046 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Wed Apr 29 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,004 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) 2
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 3
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,007 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Error while closing
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,008 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,009 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,010 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Error while closing
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,011 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Remove connection from pool
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) schedule on check at Tue Apr 28 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,031 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,033 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) schedule on check at Tue Apr 28 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,044 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Tue Apr 28 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,046 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-6) Wed Apr 29 23:00:00 IST 2015
+17:30:00,923 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Response: 250 Great success
+17:30:00,924 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,923 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/28 23:00:00 | 17:30:00,924 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 
+17:30:00,978 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/28 23:00:01 | 17:30:00,978 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) mail sent successfully... 

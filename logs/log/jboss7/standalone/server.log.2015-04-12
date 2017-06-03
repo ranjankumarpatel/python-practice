@@ -1,0 +1,1348 @@
+01:16:07,638 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+01:16:07,640 INFO  [stdout]INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,638 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+ (ajpINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,640 INFO  [stdout] (ajp--0.0.0.0-8009-11) 3
+--0.0.0.0-8009-11) 3
+01:16:07,641 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+01:16:07,661 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 60,305,567 milliseconds ago.  The last packet sent successfully to the server was 60,305,568 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+01:16:07,668 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+01:16:07,670 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+01:16:07,672 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+01:16:07,674 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+01:16:07,676 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+01:16:07,677 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+01:16:07,679 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+01:16:07,681 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+01:16:07,682 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+01:16:07,684 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+01:16:07,685 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+01:16:07,687 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+01:16:07,689 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+01:16:07,691 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+01:16:07,692 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+01:16:07,694 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+01:16:07,696 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+01:16:07,698 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+01:16:07,700 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+01:16:07,702 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+01:16:07,704 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+01:16:07,706 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+01:16:07,708 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:74)
+01:16:07,710 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+01:16:07,712 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+01:16:07,713 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+01:16:07,715 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+01:16:07,717 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:16:07,719 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+01:16:07,721 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+01:16:07,723 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:16:07,725 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+01:16:07,727 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+01:16:07,729 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+01:16:07,731 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+01:16:07,733 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+01:16:07,735 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+01:16:07,737 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+01:16:07,738 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+01:16:07,740 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,641 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+Protocol.java:445)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,661 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 60,305,567 milliseconds ago.  The last packet sent successfully to the server was 60,305,568 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,668 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+01:16:07,742 INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,670 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+ERROR [stderr] (ajINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,672 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+p--0.0.0.0-8009-INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,674 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+11) 	at org.apache.tINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,676 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+omcat.util.net.JIoINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,677 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+Endpoint$Worker.ruINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,679 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+n(JIoEndpoint.jaINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,681 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+va:930)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,682 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+01:16:0INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,684 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+7,744 ERROR [sINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,685 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+tderr] (ajp--0.0.0.INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,687 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+0-8009-11) 	at jINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,689 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+ava.lang.ThreINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,691 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+ad.run(Thread.java:74INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,692 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+5)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,694 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,696 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,698 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,700 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,702 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+01:16:07,746 ERINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,704 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+ROR [stderr] (ajp--0.0.0.INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,706 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+0-8009-11) Caused by: javINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,708 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:74)
+a.net.SocketExceptionINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,710 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+: Broken pipe
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,712 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,713 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+01:16:07,748 EINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,715 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+RROR [stderr] (ajp--0.0INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,717 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+.0.0-8009-11) 	at javaINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,719 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+.net.SocketOutputStreINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,721 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+am.socketWrite0(NaINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,723 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+tive Method)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,725 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+0INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,727 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+1:16:07,749 ERROR [INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,729 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+stderr] (ajp--0.0.0.0INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,731 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+-8009-11) 	at javaINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,733 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+.net.SocketOutputStreINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,735 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+am.socketWrite(SocketINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,737 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+OutputStream.java:113INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,738 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,740 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,742 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+01:16:07,751 EINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,744 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.Thread.run(Thread.java:745)
+RROR [stderr] (ajp--0INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,746 ERROR [stderr] (ajp--0.0.0.0-8009-11) Caused by: java.net.SocketException: Broken pipe
+.0.0.0-8009-11) 	at jINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,748 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+ava.net.SocketOutINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,749 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+putStrINFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,751 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+eam.write(SocketOutputStream.java:159)
+01:16:07,752 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+01:16:07,754 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+01:16:07,755 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+01:16:07,756 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	... 35 more
+01:16:07,759 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+01:16:07,760 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+01:16:07,783 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,752 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,754 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,755 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,756 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	... 35 more
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,759 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,760 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 06:46:07 | 01:16:07,783 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+01:16:08,346 INFO  [stdout] (Finalizer) Connection Count 1
+01:16:08,348 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:16:08,349 INFO  [stdout] (Finalizer) Connection Count 1
+01:16:08,350 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 06:46:08 | 01:16:08,346 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 06:46:08 | 01:16:08,348 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 06:46:08 | 01:16:08,349 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 06:46:08 | 01:16:08,350 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:16:09,138 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+01:16:09,139 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+01:16:09,141 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+01:16:09,142 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 06:46:09 | 01:16:09,138 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/04/12 06:46:09 | 01:16:09,139 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 06:46:09 | 01:16:09,141 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/04/12 06:46:09 | 01:16:09,142 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+01:16:09,165 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 06:46:09 | 01:16:09,165 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+01:16:10,159 INFO  [stdout] (Finalizer) Connection Count 1
+01:16:10,159 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 06:46:10 | 01:16:10,159 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 06:46:10 | 01:16:10,159 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:16:16,847 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+01:16:16,848 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+01:16:16,849 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+01:16:16,850 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+01:16:16,870 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 06:46:16 | 01:16:16,847 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/04/12 06:46:16 | 01:16:16,848 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 06:46:16 | 01:16:16,849 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/04/12 06:46:16 | 01:16:16,850 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 06:46:16 | 01:16:16,870 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+01:16:17,903 INFO  [stdout] (Finalizer) Connection Count 1
+01:16:17,904 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 06:46:17 | 01:16:17,903 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 06:46:17 | 01:16:17,904 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:40:47,965 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+01:40:47,966 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+01:40:47,966 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+01:40:47,967 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+01:40:47,980 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+01:40:47,995 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:47,995 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,021 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,022 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,024 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,024 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,027 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+01:40:48,027 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,031 INFO  [stdoINFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,965 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+ut] (ajp--0INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,966 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+.0.0.0-8009INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,966 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+-3) Rate : INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,967 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+5
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,980 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,995 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:47,995 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+:40:48,032 INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,021 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO  [stdout] INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,022 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+(ajp--0.0.0INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,024 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+.0-8009-3INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,024 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,027 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,027 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,031 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,032 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,034 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,034 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,037 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+01:40:48,037 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,039 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 2
+01:40:48,040 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,042 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+01:40:48,043 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,045 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,045 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,048 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,048 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,050 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+01:40:48,051 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,053 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,054 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,056 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,057 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,059 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,059 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,062 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,062 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,065 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,065 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+01:40:48,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,074 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,075 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,078 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,078 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,080 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,081 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,083 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,084 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,086 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 2
+01:40:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,093 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+01:40:48,093 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,096 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+01:40:48,096 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,099 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+01:40:48,100 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+01:40:48,103 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,103 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : I like his ways of communication and interaction with any person.
+01:40:48,109 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,110 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : He has to be focus on his own decision rather than throwing it on someone else shoulder.
+01:40:48,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : 
+01:40:48,119 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+01:40:48,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : He inspires me for taking regular followups and communicate his points very well.
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,034 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,034 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,037 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,037 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,039 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 2
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,040 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,042 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,043 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,045 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,045 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,048 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,048 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,050 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,051 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,053 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,054 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,056 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,057 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,059 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,059 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,062 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,062 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,065 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,065 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,071 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,074 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,075 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,078 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,078 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,080 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,081 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,083 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,084 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,086 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 2
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,093 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,093 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,096 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,096 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,099 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,100 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,103 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,103 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : I like his ways of communication and interaction with any person.
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,109 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,110 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : He has to be focus on his own decision rather than throwing it on someone else shoulder.
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : 
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,119 INFO  [stdout] (ajp--0.0.0.0-8009-3) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:10:48 | 01:40:48,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) Subjective : He inspires me for taking regular followups and communicate his points very well.
+01:40:49,089 INFO  [stdout] (ajp--0.0.0.0-8009-3) Response: 250 Great success
+01:40:49,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) 
+INFO   | jvm 1    | 2015/04/12 07:10:49 | 01:40:49,089 INFO  [stdout] (ajp--0.0.0.0-8009-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 07:10:49 | 01:40:49,090 INFO  [stdout] (ajp--0.0.0.0-8009-3) 
+01:40:49,140 INFO  [stdout] (ajp--0.0.0.0-8009-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 07:10:49 | 01:40:49,140 INFO  [stdout] (ajp--0.0.0.0-8009-3) mail sent successfully... 
+01:40:49,589 INFO  [stdout] (Finalizer) Connection Count 1
+01:40:49,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 07:10:49 | 01:40:49,589 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 07:10:49 | 01:40:49,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:40:59,851 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+01:40:59,852 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+01:40:59,853 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+01:40:59,853 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 07:10:59 | 01:40:59,851 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/04/12 07:10:59 | 01:40:59,852 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 07:10:59 | 01:40:59,853 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/04/12 07:10:59 | 01:40:59,853 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+01:40:59,876 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 07:10:59 | 01:40:59,876 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+01:41:00,524 INFO  [stdout] (Finalizer) Connection Count 1
+01:41:00,525 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 07:11:00 | 01:41:00,524 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 07:11:00 | 01:41:00,525 INFO  [stdout] (Finalizer) Releasing connection back to pool
+02:03:12,132 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+02:03:12,133 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+02:03:12,134 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+02:03:12,134 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+02:03:12,148 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+02:03:12,166 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,167 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,173 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,174 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,177 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,177 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,179 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,180 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,182 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,183 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,185 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,185 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,188 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,188 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,190 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,191 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,193 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,194 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,196 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,197 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,199 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,200 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,202 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,203 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,206 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,206 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,209 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,209 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,212 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,213 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,216 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,217 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,222 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,223 INFO  [stdout] (ajp--0.0.0.0-8009-13) SubjecINFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,132 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+tive : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,133 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,134 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,134 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,148 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,166 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,167 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,173 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,174 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,177 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,177 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,179 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,180 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,182 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,183 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,185 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,225 INFINFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,185 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+O  [stdout] (ajp--0.INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,188 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+0.0.0-8009-13) Rate : INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,188 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,190 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:1INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,191 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+2,225 INFO  [stdout] (ajINFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,193 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+p--0.0.0.0-8009-13) SubjINFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,194 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+ective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,196 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,197 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,199 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,200 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,202 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,203 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,206 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,206 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,209 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,209 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,212 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,213 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,216 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,217 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:0INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,222 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+3:12,227 INFO  [stdoINFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,223 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+ut] (ajp--0.0.0.0-80INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,225 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+09-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,225 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,227 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,228 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,231 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,232 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,244 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,249 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,250 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,254 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,257 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,258 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,260 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+02:03:12,261 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,263 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,264 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,266 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+02:03:12,266 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,268 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+02:03:12,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+02:03:12,271 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+02:03:12,271 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : He has to be more focus on managing people and ways of followups.
+02:03:12,274 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+02:03:12,274 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : 
+02:03:12,277 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+02:03:12,277 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : His technical knowledge is mind blowing,
+02:03:12,278 INFO  [stdout] (ajp--0.0.0.0-8009-13) I learns a lot from him.
+02:03:12,278 INFO  [stdout] (ajp--0.0.0.0-8009-13) He is my technical Guru.
+02:03:12,281 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+02:03:12,281 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : His technical and architectural knowledge inspires me a lot.
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,228 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,231 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,232 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,244 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,249 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,250 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,254 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,257 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,258 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,260 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 3
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,261 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,263 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,264 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,266 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 4
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,266 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,268 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 5
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : null
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,271 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,271 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : He has to be more focus on managing people and ways of followups.
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,274 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,274 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : 
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,277 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,277 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : His technical knowledge is mind blowing,
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,278 INFO  [stdout] (ajp--0.0.0.0-8009-13) I learns a lot from him.
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,278 INFO  [stdout] (ajp--0.0.0.0-8009-13) He is my technical Guru.
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,281 INFO  [stdout] (ajp--0.0.0.0-8009-13) Rate : 0
+INFO   | jvm 1    | 2015/04/12 07:33:12 | 02:03:12,281 INFO  [stdout] (ajp--0.0.0.0-8009-13) Subjective : His technical and architectural knowledge inspires me a lot.
+02:03:13,220 INFO  [stdout] (ajp--0.0.0.0-8009-13) Response: 250 Great success
+02:03:13,220 INFO  [stdout] (ajp--0.0.0.0-8009-13) 
+INFO   | jvm 1    | 2015/04/12 07:33:13 | 02:03:13,220 INFO  [stdout] (ajp--0.0.0.0-8009-13) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 07:33:13 | 02:03:13,220 INFO  [stdout] (ajp--0.0.0.0-8009-13) 
+02:03:13,273 INFO  [stdout] (ajp--0.0.0.0-8009-13) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 07:33:13 | 02:03:13,273 INFO  [stdout] (ajp--0.0.0.0-8009-13) mail sent successfully... 
+02:03:13,559 INFO  [stdout] (Finalizer) Connection Count 1
+02:03:13,560 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 07:33:13 | 02:03:13,559 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 07:33:13 | 02:03:13,560 INFO  [stdout] (Finalizer) Releasing connection back to pool
+02:03:27,754 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+02:03:27,755 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+02:03:27,756 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+02:03:27,756 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 07:33:27 | 02:03:27,754 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/04/12 07:33:27 | 02:03:27,755 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 07:33:27 | 02:03:27,756 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/04/12 07:33:27 | 02:03:27,756 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+02:03:27,776 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 07:33:27 | 02:03:27,776 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+02:03:28,150 INFO  [stdout] (Finalizer) Connection Count 1
+02:03:28,151 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 07:33:28 | 02:03:28,150 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 07:33:28 | 02:03:28,151 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:01:11,672 INFO  [stdout] (ajp--0.0.0.0-8009-16) /respondentLogin.jsp
+07:01:11,673 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+07:01:11,673 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+07:01:11,674 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+07:01:11,675 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+07:01:11,693 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,672 INFO  [stdout] (ajp--0.0.0.0-8009-16) /respondentLogin.jsp
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,673 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,673 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,674 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,675 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 12:31:11 | 07:01:11,693 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+07:01:12,013 INFO  [stdout] (Finalizer) Connection Count 1
+07:01:12,013 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,013 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,013 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:01:12,704 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+07:01:12,704 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+07:01:12,705 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+07:01:12,706 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+07:01:12,722 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,704 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,704 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,705 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,706 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 12:31:12 | 07:01:12,722 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+07:01:13,202 INFO  [stdout] (Finalizer) Connection Count 1
+07:01:13,202 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 12:31:13 | 07:01:13,202 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 12:31:13 | 07:01:13,202 INFO  [stdout] (Finalizer) Releasing connection back to pool
+07:01:20,540 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+07:01:20,541 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+07:01:20,542 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+07:01:20,542 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+07:01:20,560 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 12:31:20 | 07:01:20,540 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/04/12 12:31:20 | 07:01:20,541 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 12:31:20 | 07:01:20,542 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/04/12 12:31:20 | 07:01:20,542 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 12:31:20 | 07:01:20,560 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+07:01:21,089 INFO  [stdout] (Finalizer) Connection Count 1
+07:01:21,090 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 12:31:21 | 07:01:21,089 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 12:31:21 | 07:01:21,090 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:25:28,800 INFO  [stdout] (ajp--0.0.0.0-8009-15) /respondentLogin.jsp
+15:25:28,801 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+15:25:28,802 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+15:25:28,803 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+15:25:28,803 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+15:25:28,815 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,800 INFO  [stdout] (ajp--0.0.0.0-8009-15) /respondentLogin.jsp
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,801 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,802 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,803 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,803 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 20:55:28 | 15:25:28,815 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+15:25:29,216 INFO  [stdout] (Finalizer) Connection Count 1
+15:25:29,217 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,216 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,217 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:25:29,901 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+15:25:29,902 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+15:25:29,904 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+15:25:29,904 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+15:25:29,919 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,901 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,902 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,904 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,904 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 20:55:29 | 15:25:29,919 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+15:25:30,369 INFO  [stdout] (Finalizer) Connection Count 1
+15:25:30,371 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 20:55:30 | 15:25:30,369 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 20:55:30 | 15:25:30,371 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:25:39,235 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+15:25:39,237 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+15:25:39,238 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+15:25:39,239 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+15:25:39,260 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,235 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,237 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,238 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,239 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,260 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+15:25:39,919 INFO  [stdout] (Finalizer) Connection Count 1
+15:25:39,919 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,919 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 20:55:39 | 15:25:39,919 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:39:26,044 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+15:39:26,044 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+15:39:26,045 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+15:39:26,046 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+15:39:26,058 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+15:39:26,068 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+15:39:26,069 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+15:39:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,080 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+15:39:26,081 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,086 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+15:39:26,086 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,090 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,094 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,094 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,098 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,099 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,102 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,103 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,107 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,044 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,044 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,045 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,046 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,058 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,068 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,069 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,080 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,081 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,086 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,086 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,090 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,094 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,094 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,098 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,099 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,102 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,103 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,107 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,112 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,117 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+15:39:26,118 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,122 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,122 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,126 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+15:39:26,127 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,131 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+15:39:26,132 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,136 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,136 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,140 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,141 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,146 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,147 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,151 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,152 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,155 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,156 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,160 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+15:39:26,161 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,166 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,167 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,171 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,172 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,175 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,176 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,180 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,181 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,189 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+15:39:26,190 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,194 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+15:39:26,195 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,199 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+15:39:26,200 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,204 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,204 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : Required more participation with company old employees for streamlined the process. Also should inform the old employees with changes into the system and also share the facts what top management tel to share with its employees.
+15:39:26,208 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,209 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : Start considering the fact of current company culture rather than establishing new culture without understanding the needs. E,g, whenever new process come into picture it should be clear to each employee w.r.t. to old or new employees. Also should take clear feedbaINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+ck for all employees INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,112 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+w.r.t. employeesINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,117 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+ tenure.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,118 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,122 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,122 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,126 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,127 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,131 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,132 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,136 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,136 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,140 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,141 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,146 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+39:26,214 INFO  [stdout] (ajp--0INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,147 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,151 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,215 IINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,152 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+NFO  [stdout] (ajp--0.0.0.0-800INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,155 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+9-9) Subjective : 1. Not focusINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,156 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ed for employees demands. NeverINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,160 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+ share the feedback of emplINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,161 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+oyees so that an individual could INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,166 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+improve.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,167 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,216 INFO  [stdout] (ajpINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,171 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+--0.0.0.0-8009-9) 2. Never shaINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,172 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+re the feedback of the employeeINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,175 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+s who left the organization.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,176 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+15:39:26,21INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,180 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+7 INFO  [stdout] (ajp--0.0.0.0-INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,181 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+8009-9) 3. We need HR who caINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+n understand the employees real proINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+blem and share there experienceINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,189 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+ and guide then as an counsINFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,190 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+eller so that they could INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,194 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+motivate and focused to there goals
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,195 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,199 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,200 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,204 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,204 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : Required more participation with company old employees for streamlined the process. Also should inform the old employees with changes into the system and also share the facts what top management tel to share with its employees.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,208 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,209 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : Start considering the fact of current company culture rather than establishing new culture without understanding the needs. E,g, whenever new process come into picture it should be clear to each employee w.r.t. to old or new employees. Also should take clear feedback for all employees w.r.t. employees tenure.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,214 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,215 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : 1. Not focused for employees demands. Never share the feedback of employees so that an individual could improve.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,216 INFO  [stdout] (ajp--0.0.0.0-8009-9) 2. Never share the feedback of the employees who left the organization.
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,217 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3. We need HR who can understand the employees real problem and share there experience and guide then as an counseller so that they could motivate and focused to there goals
+15:39:26,221 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+15:39:26,222 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : 
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,221 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:09:26 | 15:39:26,222 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : 
+15:39:27,157 INFO  [stdout] (ajp--0.0.0.0-8009-9) Response: 250 Great success
+15:39:27,158 INFO  [stdout] (ajp--0.0.0.0-8009-9) 
+15:39:27,211 INFO  [stdout] (ajp--0.0.0.0-8009-9) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 21:09:27 | 15:39:27,157 INFO  [stdout] (ajp--0.0.0.0-8009-9) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 21:09:27 | 15:39:27,158 INFO  [stdout] (ajp--0.0.0.0-8009-9) 
+INFO   | jvm 1    | 2015/04/12 21:09:27 | 15:39:27,211 INFO  [stdout] (ajp--0.0.0.0-8009-9) mail sent successfully... 
+15:39:27,697 INFO  [stdout] (Finalizer) Connection Count 1
+15:39:27,698 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 21:09:27 | 15:39:27,697 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 21:09:27 | 15:39:27,698 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:39:36,740 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+15:39:36,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+15:39:36,742 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+15:39:36,742 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 21:09:36 | 15:39:36,740 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/04/12 21:09:36 | 15:39:36,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 21:09:36 | 15:39:36,742 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/04/12 21:09:36 | 15:39:36,742 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+15:39:36,758 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 21:09:36 | 15:39:36,758 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+15:39:37,215 INFO  [stdout] (Finalizer) Connection Count 1
+15:39:37,216 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 21:09:37 | 15:39:37,215 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 21:09:37 | 15:39:37,216 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:39:42,472 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+15:39:42,479 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+15:39:42,481 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+15:39:42,482 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+15:39:42,503 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 21:09:42 | 15:39:42,472 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/04/12 21:09:42 | 15:39:42,479 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 21:09:42 | 15:39:42,481 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/04/12 21:09:42 | 15:39:42,482 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 21:09:42 | 15:39:42,503 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+15:39:43,122 INFO  [stdout] (Finalizer) Connection Count 1
+15:39:43,123 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 21:09:43 | 15:39:43,122 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 21:09:43 | 15:39:43,123 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:53:06,496 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+15:53:06,497 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+15:53:06,498 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+15:53:06,499 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+15:53:06,517 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+15:53:06,531 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+15:53:06,532 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,536 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,536 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,538 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,539 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,541 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,541 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,543 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+15:53:06,544 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,548 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,548 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,551 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,551 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,553 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,554 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,556 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+15:53:06,556 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,558 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,559 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,561 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,561 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,564 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+15:53:06,564 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,496 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,497 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,498 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,499 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,517 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,531 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,532 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,536 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,536 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,538 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,539 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,541 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,541 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,543 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,544 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,548 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,548 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,551 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+:06,566 INFINFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,551 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+O  [stdouINFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,553 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+t] (ajp--INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,554 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+0.0.0.0-8INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,556 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+009-2) RaINFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,556 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+te : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,558 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,559 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,561 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+53:06,568 INFO  [sINFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,561 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+tdout] (ajp--0.0.0.0-80INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,564 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+09-2) SubjectivINFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,564 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+e : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,566 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,568 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,572 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,573 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,578 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,579 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,583 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+15:53:06,584 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,588 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,589 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,593 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,594 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,598 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,599 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,603 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+15:53:06,604 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,609 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,610 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,612 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,613 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,615 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,616 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,618 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,619 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,621 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+15:53:06,622 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,624 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,625 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,627 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+15:53:06,627 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,630 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+15:53:06,630 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+15:53:06,632 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,633 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 1. Should help to guide the team with his expert technical and non technical level.
+15:53:06,634 INFO  [stdout] (ajp--0.0.0.0-8009-2) 2. Should guide and continuously help team to recognize their weaknesses and strength.
+15:53:06,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3. Help to streamlined clear responsibilities to all mentors.
+15:53:06,637 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,638 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 
+15:53:06,640 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,640 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 1. Could discuss the problems however we need to take help of others for resolving conflicts
+15:53:06,641 INFO  [stdout] (ajp--0.0.0.0-8009-2) 2. Less inputs provides in technical front.
+15:53:06,642 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3. Practices should be in place like agile, so that we could learn the industry best practices.
+15:53:06,645 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+15:53:06,645 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,572 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,573 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,578 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,579 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,583 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 4
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,584 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,588 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,589 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,593 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,594 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,598 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,599 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,603 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,604 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,609 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,610 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,612 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,613 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,615 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,616 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,618 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,619 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,621 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 3
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,622 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,624 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,625 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,627 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 2
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,627 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,630 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 1
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,630 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : null
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,632 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,633 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 1. Should help to guide the team with his expert technical and non technical level.
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,634 INFO  [stdout] (ajp--0.0.0.0-8009-2) 2. Should guide and continuously help team to recognize their weaknesses and strength.
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3. Help to streamlined clear responsibilities to all mentors.
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,637 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,638 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,640 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,640 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 1. Could discuss the problems however we need to take help of others for resolving conflicts
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,641 INFO  [stdout] (ajp--0.0.0.0-8009-2) 2. Less inputs provides in technical front.
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,642 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3. Practices should be in place like agile, so that we could learn the industry best practices.
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,645 INFO  [stdout] (ajp--0.0.0.0-8009-2) Rate : 0
+INFO   | jvm 1    | 2015/04/12 21:23:06 | 15:53:06,645 INFO  [stdout] (ajp--0.0.0.0-8009-2) Subjective : 
+15:53:06,997 INFO  [stdout] (ajp--0.0.0.0-8009-2) Response: 250 Great success
+15:53:06,998 INFO  [stdout] (ajp--0.0.0.0-8009-2) 
+15:53:07,014 INFO  [stdout] (ajp--0.0.0.0-8009-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 21:23:07 | 15:53:06,997 INFO  [stdout] (ajp--0.0.0.0-8009-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 21:23:07 | 15:53:06,998 INFO  [stdout] (ajp--0.0.0.0-8009-2) 
+INFO   | jvm 1    | 2015/04/12 21:23:07 | 15:53:07,014 INFO  [stdout] (ajp--0.0.0.0-8009-2) mail sent successfully... 
+15:53:07,317 INFO  [stdout] (Finalizer) Connection Count 1
+15:53:07,317 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 21:23:07 | 15:53:07,317 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 21:23:07 | 15:53:07,317 INFO  [stdout] (Finalizer) Releasing connection back to pool
+15:53:42,914 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+15:53:42,915 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+15:53:42,916 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+15:53:42,917 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 21:23:42 | 15:53:42,914 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2015/04/12 21:23:42 | 15:53:42,915 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 21:23:42 | 15:53:42,916 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2015/04/12 21:23:42 | 15:53:42,917 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+15:53:42,937 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 21:23:43 | 15:53:42,937 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+15:53:43,361 INFO  [stdout] (Finalizer) Connection Count 1
+15:53:43,362 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/12 21:23:43 | 15:53:43,361 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/12 21:23:43 | 15:53:43,362 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:30:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 3
+17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Error while closing
+17:30:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Remove connection from pool
+17:30:00,019 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Sun Apr 12 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 3
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,019 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Sun Apr 12 23:00:00 IST 2015
+17:30:00,534 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:00,535 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,534 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,535 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:00,552 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:00 | 17:30:00,552 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:00,950 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:00,951 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:00,968 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:00,950 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:00,951 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:00,968 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:01,385 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:01,386 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:01,401 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,385 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,386 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,401 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:01,717 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:01,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:01,736 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,717 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:01 | 17:30:01,736 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:02,225 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:02,227 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,225 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,227 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:02,242 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,242 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:02,691 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:02,693 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:02,709 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,691 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,693 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:02 | 17:30:02,709 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:03,033 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:03,034 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,033 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,034 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:03,052 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,052 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:03,306 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:03,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:03,324 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,306 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,324 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:03,650 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:03,651 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:03,668 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,650 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,651 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,668 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:03,915 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:03,917 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:03,934 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,915 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,917 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:03 | 17:30:03,934 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:04,467 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:04,468 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:04,484 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,467 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,468 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,484 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:04,793 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:04,795 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:04,811 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,793 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,795 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:04 | 17:30:04,811 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:05,114 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:05,115 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:05,133 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,114 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,115 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,133 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:05,428 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:05,429 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:05,446 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,428 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,429 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,446 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:05,730 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:05,731 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,730 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,731 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:05,764 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:05 | 17:30:05,764 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:06,115 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:06,116 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:06,132 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,115 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,116 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,132 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:06,457 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:06,457 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:06,472 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,457 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,457 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,472 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:06,778 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:06,779 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:06,795 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,778 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,779 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:06 | 17:30:06,795 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:07,097 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:07,098 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:07,114 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,097 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,098 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,114 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:07,404 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:07,405 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:07,420 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,404 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,405 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,420 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:07,738 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:07,739 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:07,756 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,738 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,739 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:07 | 17:30:07,756 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:08,065 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:08,073 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:08,089 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,065 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,073 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,089 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:08,398 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:08,400 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:08,416 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,398 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,400 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,416 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:08,663 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:08,664 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:08,680 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,663 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,664 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:08 | 17:30:08,680 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:08,979 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:08,980 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:08,995 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:08,979 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:08,980 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:08,995 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:09,299 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:09,300 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:09,317 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,299 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,300 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,317 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:09,628 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:09,629 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:09,646 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,628 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,629 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,646 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:09,952 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:09,953 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,952 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:09 | 17:30:09,953 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:09,970 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:09,970 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:10,288 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:10,289 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:10,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,288 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,289 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:10,823 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:10,824 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:10,840 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,823 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,824 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:10 | 17:30:10,840 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:11,148 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:11,149 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:11,165 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,148 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,149 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,165 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:11,762 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:11,763 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,762 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,763 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:11,778 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:11 | 17:30:11,778 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:12,012 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:12,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:12,029 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,012 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,029 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:12,290 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:12,291 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:12,307 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,290 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,291 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,307 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:12,707 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:12,708 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,707 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,708 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:12,798 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:12 | 17:30:12,798 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:14,118 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:14,118 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:14,136 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,118 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,118 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,136 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:14,681 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:14,682 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:14,697 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,681 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,682 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:14 | 17:30:14,697 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:15,066 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:15,068 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,066 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,068 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:15,085 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,085 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:15,394 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:15,396 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:15,411 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,394 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,396 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,411 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:15,723 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:15,724 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:15,741 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,723 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,724 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:15 | 17:30:15,741 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:16,052 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:16,053 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:16,068 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,052 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,053 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,068 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:16,377 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:16,378 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,377 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,378 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:16,394 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,394 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:16,709 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:16,710 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:16,727 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,709 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,710 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:16 | 17:30:16,727 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:17,038 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:17,039 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:17,055 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,038 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,039 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,055 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:17,307 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:17,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:17,323 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,307 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,308 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,323 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:17,655 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:17,656 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:17,673 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,655 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,656 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:17 | 17:30:17,673 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:17,992 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:17,993 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:18,008 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:17,992 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:17,993 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,008 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:18,312 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:18,314 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:18,329 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,312 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,314 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,329 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:18,676 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:18,677 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,676 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,677 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:18,694 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,694 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:18,939 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:18,940 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:18,957 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,939 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,940 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:18 | 17:30:18,957 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:19,275 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:19,280 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,275 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,280 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:19,296 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,296 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:19,541 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:19,542 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:19,558 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,541 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,542 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,558 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:19,866 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:19,867 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:19,882 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,866 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,867 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:19 | 17:30:19,882 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:20,125 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:20,126 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:20,141 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,125 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,126 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,141 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:20,448 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:20,450 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:20,466 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,448 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,450 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,466 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:20,812 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:20,814 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:20,829 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,812 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,814 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:20 | 17:30:20,829 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:21,091 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:21,091 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,091 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,091 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:21,108 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,108 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:21,417 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:21,418 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:21,434 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,417 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,418 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,434 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:21,749 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:21,751 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:21,768 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,749 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,751 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:21 | 17:30:21,768 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:22,092 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:22,093 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,092 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,093 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:22,109 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,109 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:22,414 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:22,415 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:22,433 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,414 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,415 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,433 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:22,881 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:22,882 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:22,899 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,881 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,882 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:22 | 17:30:22,899 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:23,350 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:23,351 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:23,368 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,350 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,351 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,368 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+17:30:23,762 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+17:30:23,763 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+17:30:23,781 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,762 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,763 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/12 23:00:23 | 17:30:23,781 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+22:23:40,463 INFO  INFO   | jvm 1    | 2015/04/13 03:53:40 | 22:23:40,463 INFO  [stdout] (Finalizer) Connection Count 1
+[stdout] (Finalizer) Connection Count 1
+22:23:40,479 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 03:53:40 | 22:23:40,479 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:00:00,004 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 3
+23:00:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+23:00:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Error while closing
+23:00:00,007 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Remove connection from pool
+23:00:00,019 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) New connection added in pool
+23:00:00,020 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) schedule on check at Mon Apr 13 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,004 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 3
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,007 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,019 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,020 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) schedule on check at Mon Apr 13 04:30:00 IST 2015
+23:00:00,444 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:00,444 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 
+23:00:00,460 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,444 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,444 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,460 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:00,776 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:00,777 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 
+23:00:00,793 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:00,806 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Mon Apr 13 04:30:00 IST 2015
+23:00:00,807 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Tue Apr 14 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,776 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,777 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,793 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,806 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Mon Apr 13 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/13 04:30:00 | 23:00:00,807 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-2) Tue Apr 14 04:30:00 IST 2015
+23:00:50,522 INFO  [stdout] (Finalizer) Connection Count 1
+23:00:50,523 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 04:30:50 | 23:00:50,522 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 04:30:50 | 23:00:50,523 INFO  [stdout] (Finalizer) Releasing connection back to pool

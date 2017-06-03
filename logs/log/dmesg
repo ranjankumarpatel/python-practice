@@ -1,0 +1,348 @@
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Linux version 2.6.32-431.20.3.el6.x86_64 (mockbuild@c6b9.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) ) #1 SMP Thu Jun 19 21:14:45 UTC 2014
+Command line: ro root=/dev/xvda1 rd_NO_LUKS rd_NO_LVM rd_NO_MD rd_NO_DM LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc KEYTABLE=us crashkernel=auto console=tty0 xen_blkfront.sda_is_xvda=1 
+KERNEL supported cpus:
+  Intel GenuineIntel
+  AMD AuthenticAMD
+  Centaur CentaurHauls
+ACPI in unprivileged domain disabled
+released 0 pages of unused memory
+BIOS-provided physical RAM map:
+ Xen: 0000000000000000 - 00000000000a0000 (usable)
+ Xen: 00000000000a0000 - 0000000000100000 (reserved)
+ Xen: 0000000000100000 - 0000000180000000 (usable)
+DMI not present or invalid.
+e820 update range: 0000000000000000 - 0000000000001000 (usable) ==> (reserved)
+e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+last_pfn = 0x180000 max_arch_pfn = 0x400000000
+x2apic enabled by BIOS, switching to x2apic ops
+last_pfn = 0x100000 max_arch_pfn = 0x400000000
+initial memory mapped : 0 - 20000000
+init_memory_mapping: 0000000000000000-0000000100000000
+ 0000000000 - 0100000000 page 4k
+kernel direct mapping tables up to 100000000 @ 100000-905000
+Use unified mapping for non-reserved e820 regions.
+init_memory_mapping: 0000000100000000-0000000180000000
+ 0100000000 - 0180000000 page 4k
+kernel direct mapping tables up to 180000000 @ 8d3000-cd6000
+RAMDISK: 02041000 - 048a5000
+No NUMA configuration found
+Faking a node at 0000000000000000-0000000180000000
+Bootmem setup node 0 0000000000000000-0000000180000000
+  NODE_DATA [0000000000008000 - 000000000003bfff]
+  bootmap [000000000003c000 -  000000000006bfff] pages 30
+(8 early reservations) ==> bootmem [0000000000 - 0180000000]
+  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+  #1 [00054a8000 - 00054d7000]   XEN PAGETABLES ==> [00054a8000 - 00054d7000]
+  #2 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+  #3 [0001000000 - 0002020aa4]    TEXT DATA BSS ==> [0001000000 - 0002020aa4]
+  #4 [0002041000 - 00048a5000]          RAMDISK ==> [0002041000 - 00048a5000]
+  #5 [00048a5000 - 00054a8000]   XEN START INFO ==> [00048a5000 - 00054a8000]
+  #6 [0000100000 - 00008d3000]          PGTABLE ==> [0000100000 - 00008d3000]
+  #7 [00008d3000 - 0000cd5000]          PGTABLE ==> [00008d3000 - 0000cd5000]
+Reserving 129MB of memory at 96MB for crashkernel (System RAM: 6144MB)
+Zone PFN ranges:
+  DMA      0x00000001 -> 0x00001000
+  DMA32    0x00001000 -> 0x00100000
+  Normal   0x00100000 -> 0x00180000
+Movable zone start PFN for each node
+early_node_map[2] active PFN ranges
+    0: 0x00000001 -> 0x000000a0
+    0: 0x00000100 -> 0x00180000
+On node 0 totalpages: 1572767
+  DMA zone: 56 pages used for memmap
+  DMA zone: 3032 pages reserved
+  DMA zone: 911 pages, LIFO batch:0
+  DMA32 zone: 14280 pages used for memmap
+  DMA32 zone: 1030200 pages, LIFO batch:31
+  Normal zone: 7168 pages used for memmap
+  Normal zone: 517120 pages, LIFO batch:31
+SFI: Simple Firmware Interface v0.7 http://simplefirmware.org
+SMP: Allowing 4 CPUs, 0 hotplug CPUs
+nr_irqs_gsi: 16
+PM: Registered nosave memory: 00000000000a0000 - 0000000000100000
+PCI: Warning: Cannot find a gap in the 32bit address range
+PCI: Unassigned devices with 32bit resource registers may break!
+Allocating PCI resources starting at 180100000 (gap: 180100000:400000)
+Booting paravirtualized kernel on Xen
+Xen version: 3.4.4 (preserve-AD)
+NR_CPUS:4096 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+PERCPU: Embedded 31 pages/cpu @ffff88002804f000 s94872 r8192 d23912 u126976
+pcpu-alloc: s94872 r8192 d23912 u126976 alloc=31*4096
+pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+trying to map vcpu_info 0 at ffff88002805a020, mfn 14128c8, offset 32
+cpu 0 using vcpu_info at ffff88002805a020
+trying to map vcpu_info 1 at ffff880028079020, mfn 14128a9, offset 32
+cpu 1 using vcpu_info at ffff880028079020
+trying to map vcpu_info 2 at ffff880028098020, mfn 141288a, offset 32
+cpu 2 using vcpu_info at ffff880028098020
+trying to map vcpu_info 3 at ffff8800280b7020, mfn 141286b, offset 32
+cpu 3 using vcpu_info at ffff8800280b7020
+Xen: using vcpu_info placement
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1548231
+Policy zone: Normal
+Kernel command line: ro root=/dev/xvda1 rd_NO_LUKS rd_NO_LVM rd_NO_MD rd_NO_DM LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc KEYTABLE=us crashkernel=129M@0M console=tty0 xen_blkfront.sda_is_xvda=1 
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Checking aperture...
+No AGP bridge found
+PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Placing 64MB software IO TLB between ffff880020000000 - ffff880024000000
+software IO TLB at phys 0x20000000 - 0x24000000
+Memory: 5923264k/6291456k available (5329k kernel code, 388k absent, 367804k reserved, 7010k data, 1280k init)
+Hierarchical RCU implementation.
+NR_IRQS:33024 nr_irqs:304
+Console: colour dummy device 80x25
+console [tty0] enabled
+console [hvc0] enabled
+allocated 25165824 bytes of page_cgroup
+please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Xen: using vcpuop timer interface
+installing Xen timer for CPU 0
+  alloc irq_desc for 303 on node 0
+  alloc kstat_irqs on node 0
+TSC: cpu family 6 model 45, tsc initial value = 228adf346cc
+Detected 1999.999 MHz processor.
+Calibrating delay loop (skipped), value calculated using timer frequency.. 3999.99 BogoMIPS (lpj=1999999)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+SELinux:  Initializing.
+SELinux:  Starting in permissive mode
+Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Mount-cache hash table entries: 256
+Initializing cgroup subsys ns
+Initializing cgroup subsys cpuacct
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys net_cls
+Initializing cgroup subsys blkio
+Initializing cgroup subsys perf_event
+Initializing cgroup subsys net_prio
+CPU: CPU feature constant_tsc disabled on xen guest
+CPU: Unsupported number of siblings 32
+alternatives: switching to unfair spinlock
+SMP alternatives: switching to UP code
+ftrace: converting mcount calls to 0f 1f 44 00 00
+ftrace: allocating 21785 entries in 86 pages
+  alloc irq_desc for 302 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 301 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 300 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 299 on node 0
+  alloc kstat_irqs on node 0
+Performance Events: unsupported p6 CPU model 45 no PMU driver, software events only.
+NMI watchdog disabled (cpu0): hardware events not enabled
+installing Xen timer for CPU 1
+  alloc irq_desc for 298 on node 0
+  alloc kstat_irqs on node 0
+SMP alternatives: switching to SMP code
+  alloc irq_desc for 297 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 296 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 295 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 294 on node 0
+  alloc kstat_irqs on node 0
+CPU: CPU feature constant_tsc disabled on xen guest
+CPU: Unsupported number of siblings 32
+installing Xen timer for CPU 2
+  alloc irq_desc for 293 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 292 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 291 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 290 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 289 on node 0
+  alloc kstat_irqs on node 0
+CPU: CPU feature constant_tsc disabled on xen guest
+CPU: Unsupported number of siblings 32
+installing Xen timer for CPU 3
+  alloc irq_desc for 288 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 287 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 286 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 285 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 284 on node 0
+  alloc kstat_irqs on node 0
+CPU: CPU feature constant_tsc disabled on xen guest
+CPU: Unsupported number of siblings 32
+Brought up 4 CPUs
+sizeof(vma)=200 bytes
+sizeof(page)=56 bytes
+sizeof(inode)=592 bytes
+sizeof(dentry)=192 bytes
+sizeof(ext3inode)=800 bytes
+sizeof(buffer_head)=104 bytes
+sizeof(skbuff)=232 bytes
+sizeof(task_struct)=2648 bytes
+devtmpfs: initialized
+Grant table initialized
+regulator: core version 0.5
+NET: Registered protocol family 16
+  alloc irq_desc for 283 on node 0
+  alloc kstat_irqs on node 0
+PCI: Fatal: No config space access function found
+bio: create slab <bio-0> at 0
+ACPI: Interpreter disabled.
+xen_balloon: Initialising balloon driver.
+last_pfn = 0x180000 max_arch_pfn = 0x400000000
+vgaarb: loaded
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+PCI: System does not support PCI
+PCI: System does not support PCI
+NetLabel: Initializing
+NetLabel:  domain hash size = 128
+NetLabel:  protocols = UNLABELED CIPSOv4
+NetLabel:  unlabeled traffic allowed by default
+Switching to clocksource xen
+pnp: PnP ACPI: disabled
+PCI: max bus depth: 0 pci_try_num: 1
+NET: Registered protocol family 2
+IP route cache hash table entries: 262144 (order: 9, 2097152 bytes)
+TCP established hash table entries: 524288 (order: 11, 8388608 bytes)
+TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+TCP: Hash tables configured (established 524288 bind 65536)
+TCP reno registered
+NET: Registered protocol family 1
+Trying to unpack rootfs image as initramfs...
+Freeing initrd memory: 41360k freed
+platform rtc_cmos: registered platform RTC device (no PNP device found)
+audit: initializing netlink socket (disabled)
+type=2000 audit(1474825995.595:1): initialized
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+msgmni has been set to 11649
+SELinux:  Registering netfilter hooks
+alg: No test for stdrng (krng)
+ksign: Installing public key data
+Loading keyring
+- Added public key 5A35DBBA2F61C535
+- User ID: CentOS (Kernel Module GPG key)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+io scheduler noop registered
+io scheduler anticipatory registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+ipmi message handler version 39.2
+IPMI System Interface driver.
+ipmi_si: Adding default-specified kcs state machine
+ipmi_si: Trying default-specified kcs state machine at i/o address 0xca2, slave address 0x0, irq 0
+ipmi_si: Could not set up I/O space
+Trying to free nonexistent resource <0000000000000ca2-0000000000000ca2>
+Trying to free nonexistent resource <0000000000000ca3-0000000000000ca3>
+ipmi_si: Adding default-specified smic state machine
+ipmi_si: Trying default-specified smic state machine at i/o address 0xca9, slave address 0x0, irq 0
+ipmi_si: Could not set up I/O space
+Trying to free nonexistent resource <0000000000000ca9-0000000000000ca9>
+Trying to free nonexistent resource <0000000000000caa-0000000000000caa>
+Trying to free nonexistent resource <0000000000000cab-0000000000000cab>
+ipmi_si: Adding default-specified bt state machine
+ipmi_si: Trying default-specified bt state machine at i/o address 0xe4, slave address 0x0, irq 0
+ipmi_si: Could not set up I/O space
+Trying to free nonexistent resource <00000000000000e4-00000000000000e4>
+Trying to free nonexistent resource <00000000000000e5-00000000000000e5>
+Trying to free nonexistent resource <00000000000000e6-00000000000000e6>
+ipmi_si: Unable to find any System Interface(s)
+  alloc irq_desc for 282 on node 0
+  alloc kstat_irqs on node 0
+Console: switching to colour frame buffer device 100x37
+  alloc irq_desc for 281 on node 0
+  alloc kstat_irqs on node 0
+Non-volatile memory driver v1.3
+Linux agpgart interface v0.103
+crash memory driver: version 1.1
+Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+brd: module loaded
+loop: module loaded
+input: Macintosh mouse button emulation as /devices/virtual/input/input0
+Fixed MDIO Bus: probed
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+uhci_hcd: USB Universal Host Controller Interface driver
+PNP: No PS/2 controller found. Probing ports directly.
+mice: PS/2 mouse device common for all mice
+input: Xen Virtual Keyboard as /devices/virtual/input/input1
+input: Xen Virtual Pointer as /devices/virtual/input/input2
+  alloc irq_desc for 280 on node 0
+  alloc kstat_irqs on node 0
+rtc_cmos: probe of rtc_cmos failed with error -16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+EFI Variables Facility v0.08 2004-May-17
+usbcore: registered new interface driver hiddev
+usbcore: registered new interface driver usbhid
+usbhid: v2.6:USB HID core driver
+GRE over IPv4 demultiplexor driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+registered taskstats version 1
+XENBUS: Device with no driver: device/vbd/2049
+XENBUS: Device with no driver: device/vbd/2050
+XENBUS: Device with no driver: device/vif/0
+XENBUS: Device with no driver: device/vif/1
+XENBUS: Device with no driver: device/console/0
+drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+Initalizing network drop monitor service
+Freeing unused kernel memory: 1280k freed
+Write protecting the kernel read-only data: 10240k
+Freeing unused kernel memory: 796k freed
+Freeing unused kernel memory: 1584k freed
+dracut: dracut-004-336.el6_5.2
+udev: starting version 147
+dracut: Starting plymouth daemon
+xlblk_init: register_blkdev major: 202 
+  alloc irq_desc for 279 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 278 on node 0
+  alloc kstat_irqs on node 0
+blkfront: xvda1: barriers disabled
+blkfront: xvda2: barriers disabled
+EXT3-fs (xvda1): recovery required on readonly filesystem
+EXT3-fs (xvda1): write access will be enabled during recovery
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (xvda1): orphan cleanup on readonly fs
+ext3_orphan_cleanup: deleting unreferenced inode 90128
+ext3_orphan_cleanup: deleting unreferenced inode 90123
+ext3_orphan_cleanup: deleting unreferenced inode 90122
+ext3_orphan_cleanup: deleting unreferenced inode 90121
+ext3_orphan_cleanup: deleting unreferenced inode 90120
+ext3_orphan_cleanup: deleting unreferenced inode 197454
+ext3_orphan_cleanup: deleting unreferenced inode 197438
+EXT3-fs (xvda1): 7 orphan inodes deleted
+EXT3-fs (xvda1): recovery complete
+EXT3-fs (xvda1): mounted filesystem with ordered data mode
+dracut: Mounted root filesystem /dev/xvda1
+SELinux:  Disabled at runtime.
+SELinux:  Unregistering netfilter hooks
+type=1404 audit(1474826009.497:2): selinux=0 auid=4294967295 ses=4294967295
+dracut: /sbin/load_policy: Can't load policy: Success
+dracut: Switching root
+udev: starting version 147
+Initialising Xen virtual ethernet driver.
+  alloc irq_desc for 277 on node 0
+  alloc kstat_irqs on node 0
+  alloc irq_desc for 276 on node 0
+  alloc kstat_irqs on node 0
+device-mapper: uevent: version 1.0.3
+device-mapper: ioctl: 4.24.6-ioctl (2013-01-15) initialised: dm-devel@redhat.com
+EXT3-fs (xvda1): using internal journal
+Adding 1048568k swap on /dev/xvda2.  Priority:-1 extents:1 across:1048568k SS

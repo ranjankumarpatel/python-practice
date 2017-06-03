@@ -1,0 +1,160 @@
+INFO   | jvm 1    | 2017/03/22 00:27:28 | 18:57:28,778 INFO  [stdout] (ajp--0.0.0.0-8009-11) post Handle---------------------------------------------@@@@---1  org.apache.catalina.connector.ResponseFacade@5037184f
+INFO   | jvm 1    | 2017/03/22 00:27:28 | 18:57:28,780 INFO  [stdout] (ajp--0.0.0.0-8009-11) 302
+INFO   | jvm 1    | 2017/03/22 00:27:28 | 18:57:28,780 INFO  [stdout] (ajp--0.0.0.0-8009-11) null
+INFO   | jvm 1    | 2017/03/22 00:29:01 | 18:59:01,495 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:29:01 | 18:59:01,542 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,028 ERROR [stderr] (ajp--0.0.0.0-8009-9) com.ttn.survey.commons.exception.InvalidUserException: User Name or password is invalid
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,030 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at com.ttn.survey.commons.core.service.core.impl.login.DeligateLogin.validateUserSession(DeligateLogin.java:210)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,032 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at com.ttn.survey.commons.controller.download.ClientLogoController.downloadUserClientLogo(ClientLogoController.java:147)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,034 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,035 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,036 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,038 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at java.lang.reflect.Method.invoke(Method.java:606)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,039 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,040 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,042 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,044 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,045 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,047 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,048 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,049 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,050 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,051 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,053 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,054 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,054 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,055 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,056 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,058 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:178)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,059 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,060 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,062 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,063 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,065 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,066 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.jboss.as.jpa.interceptor.WebNonTxEmCloserValve.invoke(WebNonTxEmCloserValve.java:50)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,067 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,069 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,071 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,072 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,073 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,075 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,076 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,077 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/22 00:29:02 | 18:59:02,078 ERROR [stderr] (ajp--0.0.0.0-8009-9) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/22 00:33:19 | 19:03:18,930 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:33:19 | 19:03:18,931 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:08 | 19:05:08,400 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:35:08 | 19:05:08,401 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:08 | 19:05:08,406 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:35:08 | 19:05:08,407 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:36 | 19:05:36,337 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:35:36 | 19:05:36,337 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:36 | 19:05:36,341 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:35:36 | 19:05:36,342 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:45 | 19:05:45,128 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/03/22 00:35:45 | 19:05:45,129 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 00:35:50 | 19:05:50,839 INFO  [stdout] (ajp--0.0.0.0-8009-16) 
+INFO   | jvm 1    | 2017/03/22 00:36:51 | 19:06:51,527 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Wed Mar 22 00:36:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:37:51 | 19:07:51,474 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Wed Mar 22 00:37:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:38:51 | 19:08:51,507 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Wed Mar 22 00:38:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:39:51 | 19:09:51,477 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Wed Mar 22 00:39:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:40:51 | 19:10:51,483 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Wed Mar 22 00:40:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:40:57 | 19:10:57,622 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-16) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:40:57 | 19:10:57,667 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-16) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:41:47 | 19:11:47,520 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-17) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:41:47 | 19:11:47,576 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-17) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:41:52 | 19:11:52,944 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Wed Mar 22 00:41:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:42:51 | 19:12:51,524 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Wed Mar 22 00:42:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:43:52 | 19:13:52,491 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Wed Mar 22 00:43:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:44:51 | 19:14:51,515 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Wed Mar 22 00:44:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:45:51 | 19:15:51,724 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Wed Mar 22 00:45:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:46:48 | 19:16:48,160 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-5) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:46:48 | 19:16:48,204 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-5) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:46:51 | 19:16:51,550 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Wed Mar 22 00:46:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:46:59 | 19:16:59,103 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-16) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:46:59 | 19:16:59,139 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-16) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/22 00:47:51 | 19:17:51,530 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Wed Mar 22 00:47:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:48:51 | 19:18:51,571 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Wed Mar 22 00:48:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:49:51 | 19:19:51,669 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Wed Mar 22 00:49:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:50:52 | 19:20:52,205 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Wed Mar 22 00:50:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:51:51 | 19:21:51,554 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Wed Mar 22 00:51:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:52:51 | 19:22:51,611 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Wed Mar 22 00:52:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:53:51 | 19:23:51,560 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Wed Mar 22 00:53:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:54:51 | 19:24:51,883 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Wed Mar 22 00:54:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:55:51 | 19:25:51,869 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Wed Mar 22 00:55:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:56:51 | 19:26:51,560 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Wed Mar 22 00:56:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:57:52 | 19:27:52,309 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Wed Mar 22 00:57:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:58:51 | 19:28:51,551 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Wed Mar 22 00:58:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 00:59:51 | 19:29:51,547 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Wed Mar 22 00:59:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,001 INFO  [stdout] (mailScheduler-3) Mail Triggered at Wed Mar 22 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,002 INFO  [stdout] (mailScheduler-4) Mail Triggered at Wed Mar 22 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,857 INFO  [stdout] (mailScheduler-4) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,858 INFO  [stdout] (mailScheduler-3) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,859 INFO  [stdout] (mailScheduler-4) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,860 INFO  [stdout] (mailScheduler-3) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,860 INFO  [stdout] (mailScheduler-4) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,861 INFO  [stdout] (mailScheduler-3) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,862 INFO  [stdout] (mailScheduler-4) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:00 | 19:30:00,863 INFO  [stdout] (mailScheduler-3) 2017-03-22 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/22 01:00:51 | 19:30:51,529 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Wed Mar 22 01:00:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:01:51 | 19:31:51,555 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Wed Mar 22 01:01:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:02:51 | 19:32:51,854 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Wed Mar 22 01:02:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:03:52 | 19:33:52,547 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Wed Mar 22 01:03:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:04:51 | 19:34:51,888 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Wed Mar 22 01:04:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:05:51 | 19:35:51,580 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Wed Mar 22 01:05:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:06:51 | 19:36:51,578 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Wed Mar 22 01:06:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:07:51 | 19:37:51,576 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Wed Mar 22 01:07:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:08:51 | 19:38:51,640 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Wed Mar 22 01:08:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:09:51 | 19:39:51,828 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Wed Mar 22 01:09:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:10:51 | 19:40:51,827 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Wed Mar 22 01:10:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:11:51 | 19:41:51,781 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Wed Mar 22 01:11:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:12:51 | 19:42:51,812 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Wed Mar 22 01:12:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:13:51 | 19:43:51,808 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Wed Mar 22 01:13:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:14:52 | 19:44:52,031 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Wed Mar 22 01:14:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:15:51 | 19:45:51,819 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Wed Mar 22 01:15:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:16:51 | 19:46:51,561 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Wed Mar 22 01:16:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:17:51 | 19:47:51,558 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Wed Mar 22 01:17:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:18:51 | 19:48:51,564 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Wed Mar 22 01:18:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:19:51 | 19:49:51,586 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Wed Mar 22 01:19:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:20:51 | 19:50:51,609 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Wed Mar 22 01:20:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:21:51 | 19:51:51,808 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Wed Mar 22 01:21:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:22:52 | 19:52:52,155 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Wed Mar 22 01:22:52 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:23:51 | 19:53:51,591 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Wed Mar 22 01:23:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:24:51 | 19:54:51,877 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Wed Mar 22 01:24:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:25:51 | 19:55:51,580 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Wed Mar 22 01:25:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:26:51 | 19:56:51,586 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Wed Mar 22 01:26:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:27:51 | 19:57:51,923 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Wed Mar 22 01:27:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:28:51 | 19:58:51,840 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Wed Mar 22 01:28:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:29:51 | 19:59:51,873 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Wed Mar 22 01:29:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:30:51 | 20:00:51,853 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Wed Mar 22 01:30:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:31:51 | 20:01:51,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Wed Mar 22 01:31:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:32:51 | 20:02:51,642 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Wed Mar 22 01:32:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:33:51 | 20:03:51,614 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Wed Mar 22 01:33:51 IST 2017
+INFO   | jvm 1    | 2017/03/22 01:34:23 | 20:04:23,625 ERROR [stderr] (ajp--0.0.0.0-8009-16) testDuration :3600
+INFO   | jvm 1    | 2017/03/22 01:34:23 | 20:04:23,625 ERROR [stderr] (ajp--0.0.0.0-8009-16) totalQuesTime :3501
+INFO   | jvm 1    | 2017/03/22 01:34:25 | 20:04:25,557 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/22 01:34:25 | 20:04:25,558 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/22 03:13:12 | 21:43:11,962 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Connection reset by peer
+INFO   | jvm 1    | 2017/03/22 03:19:39 | 21:49:39,478 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,266 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,270 ERROR [stderr] (ajp--0.0.0.0-8009-21) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,272 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,273 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,274 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,275 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,276 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,277 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,279 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,280 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,281 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,282 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,283 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,285 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,286 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,287 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,289 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,291 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,292 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,296 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/22 03:19:41 | 21:49:41,303 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/22 05:04:29 | 23:34:29,063 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

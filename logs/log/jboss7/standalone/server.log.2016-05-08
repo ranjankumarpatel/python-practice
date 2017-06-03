@@ -1,0 +1,222 @@
+01:49:43,898 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+01:49:43,899 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+01:49:43,900 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+01:49:43,901 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+01:49:43,911 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+01:49:43,913 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet TestEligibilityControlServlet threw exception: java.lang.NullPointerException
+	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+01:49:43,945 ERROR [stderr] (ajp--0.0.0.0-8009-21) java.lang.NullPointerException
+01:49:43,946 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78)
+01:49:43,947 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389)
+01:49:43,948 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77)
+01:49:43,950 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+01:49:43,951 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+01:49:43,952 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+01:49:43,954 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:49:43,955 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,898 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,899 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,900 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,901 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,911 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,913 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet TestEligibilityControlServlet threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+01:4INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+9:43,957 ERROR [stderr] (ajp--0.0.0.0-8009-21)INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+ 	at org.apache.INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+catalina.core.INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+ApplicationDiINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+spatcher.procesINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+sRequest(ApplicINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+ationDispatcheINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+r.java:622)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+01:49:43,960 ERROR [stdINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+err] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.coreINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+.ApplicationDispINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+atcher.doForward(ApplicatioINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+nDispatcher.javaINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+:560)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+01:49:43,962 ERROR [stderr] (ajp--0INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+.0.0.0-8009-21) 	at orgINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+01:49:43,964 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.weINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+b.filters.urlreINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+write.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.javaINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+:213)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+01:49:4INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+3,966 ERROR [stINFO   | jvm 1    | 2016/05/08 07:19:43 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+derr] (ajp--0INFO   | jvm 1    | 2016/05/08 07:19:43 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+.0.0.0-8009-21) 	at orINFO   | jvm 1    | 2016/05/08 07:19:43 | 
+g.tuckey.web.fiINFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,945 ERROR [stderr] (ajp--0.0.0.0-8009-21) java.lang.NullPointerException
+lters.urlrewrite.RuleChainINFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,946 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78)
+.handleRewrite(INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,947 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389)
+RuleChain.java:171)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,948 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,950 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+01:INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,951 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+49:43,967 ERINFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,952 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+ROR [stderr] (INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,954 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+ajp--0.0.0.0-INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,955 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,957 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622)
+INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,960 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560)
+01:49:INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,962 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488)
+43,969 ERROR [stderr] (ajp--0.0.0.0-8009-INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,964 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213)
+21) 	at org.tuckey.wINFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,966 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171)
+eb.filters.urlrewINFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,967 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+rite.INFO   | jvm 1    | 2016/05/08 07:19:43 | 01:49:43,969 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+UrlRewriter.processRequest(UrlRewriter.java:92)
+01:49:43,970 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+01:49:43,971 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+01:49:43,973 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:49:43,974 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84)
+01:49:43,975 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+01:49:43,976 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:49:43,977 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+01:49:43,978 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+01:49:43,979 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+01:49:43,980 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+01:49:43,987 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+01:49:43,990 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+01:49:43,994 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+01:49:43,996 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+01:49:43,997 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+01:49:43,999 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+01:49:44,000 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,970 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,971 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,973 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,974 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,975 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,976 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,977 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,978 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,979 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,980 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,987 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,990 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,994 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,996 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,997 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:43,999 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/05/08 07:19:44 | 01:49:44,000 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+01:49:45,137 INFO  [stdout] (Finalizer) Connection Count 1
+01:49:45,139 INFO  [stdout] (Finalizer) Releasing connection back to pool
+01:49:45,137 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet default threw exception: java.lang.NullPointerException
+	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 01:49:45,137 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 01:49:45,139 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 01:49:45,137 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet default threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/05/08 07:19:45 | 
+05:51:29,262 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+05:51:29,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/05/08 11:21:29 | 05:51:29,262 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2016/05/08 11:21:29 | 05:51:29,263 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+07:58:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/05/08 13:28:06 | 07:58:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind

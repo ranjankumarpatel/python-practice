@@ -1,0 +1,72 @@
+05:17:12,291 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2016/12/26 10:47:12 | 05:17:12,291 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+13:13:38,091 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Connection reset by peer
+INFO   | jvm 1    | 2016/12/26 18:43:38 | 13:13:38,091 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Connection reset by peer
+18:45:00,000 INFO  [stdout] (mailScheduler-12) Mail Triggered at Tue Dec 27 00:15:00 IST 2016
+18:45:00,003 INFO  [stdout] (mailScheduler-23) Mail Triggered at Tue Dec 27 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-12) Mail Triggered at Tue Dec 27 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,003 INFO  [stdout] (mailScheduler-23) Mail Triggered at Tue Dec 27 00:15:00 IST 2016
+18:45:00,106 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+18:45:00,107 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+18:45:00,108 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+18:45:00,109 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+18:45:00,110 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+18:45:00,111 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+18:45:00,112 INFO  [stdout] (mailScheduler-23) 2016-12-24 00:15:00.0check date1
+18:45:00,113 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+18:45:00,114 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+18:45:00,116 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+18:45:00,119 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+18:45:00,120 INFO  [stdout] (mailScheduler-12) 2016-12-24 00:15:00.0check date1
+18:45:00,129 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-23) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,133 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-12) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,106 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,107 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,108 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,109 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,110 INFO  [stdout] (mailScheduler-23) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,111 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,112 INFO  [stdout] (mailScheduler-23) 2016-12-24 00:15:00.0check date1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,113 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,114 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,116 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,119 INFO  [stdout] (mailScheduler-12) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,120 INFO  [stdout] (mailScheduler-12) 2016-12-24 00:15:00.0check date1
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,129 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-23) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,133 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-12) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,484 INFO  [stdout] (mailScheduler-23) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,485 INFO  [stdout] (mailScheduler-23) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Tue Dec 27 00:15:00 IST 2016
+18:45:00,507 INFO  [stdout] (mailScheduler-12) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,508 INFO  [stdout] (mailScheduler-12) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Tue Dec 27 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,484 INFO  [stdout] (mailScheduler-23) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,485 INFO  [stdout] (mailScheduler-23) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Tue Dec 27 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,507 INFO  [stdout] (mailScheduler-12) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/27 00:15:00 | 18:45:00,508 INFO  [stdout] (mailScheduler-12) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Tue Dec 27 00:15:00 IST 2016
+19:30:00,000 INFO  [stdout] (mailScheduler-6) Mail Triggered at Tue Dec 27 01:00:00 IST 2016
+19:30:00,012 INFO  [stdout] (mailScheduler-24) Mail Triggered at Tue Dec 27 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-6) Mail Triggered at Tue Dec 27 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,012 INFO  [stdout] (mailScheduler-24) Mail Triggered at Tue Dec 27 01:00:00 IST 2016
+19:30:00,128 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+19:30:00,129 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+19:30:00,130 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+19:30:00,130 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+19:30:00,131 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+19:30:00,132 INFO  [stdout] (mailScheduler-24) 2016-12-27 00:15:00.0check date-1
+19:30:00,140 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+19:30:00,141 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+19:30:00,142 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+19:30:00,143 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+19:30:00,144 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+19:30:00,146 INFO  [stdout] (mailScheduler-6) 2016-12-27 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,128 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,129 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,130 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,130 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,131 INFO  [stdout] (mailScheduler-24) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,132 INFO  [stdout] (mailScheduler-24) 2016-12-27 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,140 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,141 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,142 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,143 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,144 INFO  [stdout] (mailScheduler-6) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/27 01:00:00 | 19:30:00,146 INFO  [stdout] (mailScheduler-6) 2016-12-27 00:15:00.0check date-1

@@ -1,0 +1,356 @@
+05:24:30,269 INFO  [stdout] (ajp--0.0.0.0-8009-5) /adminLogin.jsp
+05:24:30,271 INFO  [stdout] (ajp--0.0.0.0-8009-5) 5
+05:24:30,292 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 10:54:30 | 05:24:30,269 INFO  [stdout] (ajp--0.0.0.0-8009-5) /adminLogin.jsp
+INFO   | jvm 1    | 2015/01/31 10:54:30 | 05:24:30,271 INFO  [stdout] (ajp--0.0.0.0-8009-5) 5
+INFO   | jvm 1    | 2015/01/31 10:54:30 | 05:24:30,292 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:24:31,145 WARN  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) InvalidLoginException: Authentication failed from Portal
+05:24:31,147 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.fs360.exception.InvalidLoginException: Authentication failed from Portal
+05:24:31,149 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.login.AutoLoginServlet.doGet(AutoLoginServlet.java:110)
+05:24:31,150 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.login.AutoLoginServlet.doPost(AutoLoginServlet.java:150)
+05:24:31,151 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.serviINFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,145 WARN  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) InvalidLoginException: Authentication failed from Portal
+ce(HttpServINFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,147 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.fs360.exception.InvalidLoginException: Authentication failed from Portal
+let.java:7INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,149 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.login.AutoLoginServlet.doGet(AutoLoginServlet.java:110)
+54)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,150 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.login.AutoLoginServlet.doPost(AutoLoginServlet.java:150)
+05:24:31,152 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:24:31,153 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:24:31,154 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:24:31,155 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:79)
+05:24:31,156 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:24:31,158 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:24:31,159 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:24:31,160 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:24:31,161 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:24:31,162 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:24:31,163 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:24:31,164 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:24:31,165 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:24:31,167 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:24:31,168 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:24:31,169 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:24:31,171 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)
+05:24:31,172 ERROR [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) Authentication failed from Portal: com.fs360.exception.InvalidLoginException: Authentication failed from Portal
+	at com.fs360.login.AutoLoginServlet.doGet(AutoLoginServlet.java:110) [classes:]
+	at com.fs360.login.AutoLoginServlet.doPost(AutoLoginServlet.java:150) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:79) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,151 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,152 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,153 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,154 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,155 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:79)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,156 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,158 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,159 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,160 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,161 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,162 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,163 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,164 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,165 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,167 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,168 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,169 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,171 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 05:24:31,172 ERROR [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) Authentication failed from Portal: com.fs360.exception.InvalidLoginException: Authentication failed from Portal
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at com.fs360.login.AutoLoginServlet.doGet(AutoLoginServlet.java:110) [classes:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at com.fs360.login.AutoLoginServlet.doPost(AutoLoginServlet.java:150) [classes:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:79) [classes:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/31 10:54:31 | 
+05:26:09,902 INFO  [stdout] (ajp--0.0.0.0-8009-7) /adminLogin.jsp
+05:26:09,904 INFO  [stdout] (ajp--0.0.0.0-8009-7) 6
+INFO   | jvm 1    | 2015/01/31 10:56:09 | 05:26:09,902 INFO  [stdout] (ajp--0.0.0.0-8009-7) /adminLogin.jsp
+INFO   | jvm 1    | 2015/01/31 10:56:09 | 05:26:09,904 INFO  [stdout] (ajp--0.0.0.0-8009-7) 6
+05:26:09,927 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 10:56:10 | 05:26:09,927 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+05:26:10,816 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) username :suraj.chaudhry@thinktalentindia.com
+05:26:10,817 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-7) LoginActionServlet Sessioncom.pojos.Client@358e726e
+INFO   | jvm 1    | 2015/01/31 10:56:10 | 05:26:10,816 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) username :suraj.chaudhry@thinktalentindia.com
+INFO   | jvm 1    | 2015/01/31 10:56:10 | 05:26:10,817 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-7) LoginActionServlet Sessioncom.pojos.Client@358e726e
+05:26:11,154 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) com.pojos.Client@358e726e
+05:26:11,155 INFO  [stdout] (ajp--0.0.0.0-8009-4) 7
+05:26:11,169 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 10:56:11 | 05:26:11,154 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) com.pojos.Client@358e726e
+INFO   | jvm 1    | 2015/01/31 10:56:11 | 05:26:11,155 INFO  [stdout] (ajp--0.0.0.0-8009-4) 7
+INFO   | jvm 1    | 2015/01/31 10:56:11 | 05:26:11,169 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:26:31,714 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-14) com.pojos.Client@358e726e
+05:26:31,715 INFO  [stdout] (ajp--0.0.0.0-8009-14) 8
+05:26:31,734 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 10:56:31 | 05:26:31,714 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-14) com.pojos.Client@358e726e
+INFO   | jvm 1    | 2015/01/31 10:56:31 | 05:26:31,715 INFO  [stdout] (ajp--0.0.0.0-8009-14) 8
+INFO   | jvm 1    | 2015/01/31 10:56:31 | 05:26:31,734 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+05:52:57,737 INFO  [stdout] (Finalizer) Connection Count 1
+05:52:57,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:52:57,738 INFO  [stdout] (Finalizer) Connection Count 1
+05:52:57,738 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:52:57,739 INFO  [stdout] (Finalizer) Connection Count 1
+05:52:57,740 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,737 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,738 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,738 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,739 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 11:22:57 | 05:52:57,740 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:04,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) 2
+09:59:04,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+09:59:04,991 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+09:59:04,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+09:59:05,006 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:04,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) 2
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:04,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:04,991 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:04,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,006 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+09:59:05,846 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,846 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,847 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,848 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,848 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,849 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,850 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,850 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,851 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,851 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,852 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,852 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:05,853 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:05,8INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,846 INFO  [stdout] (Finalizer) Connection Count 1
+53 INFO  [stINFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,846 INFO  [stdout] (Finalizer) Releasing connection back to pool
+dout] (FinalINFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,847 INFO  [stdout] (Finalizer) Connection Count 1
+izer) ReleasINFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,848 INFO  [stdout] (Finalizer) Releasing connection back to pool
+ing connectiINFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,848 INFO  [stdout] (Finalizer) Connection Count 1
+on back to INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,849 INFO  [stdout] (Finalizer) Releasing connection back to pool
+pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,850 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,850 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,851 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,851 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,852 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,852 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,853 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 15:29:05 | 09:59:05,853 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:59:06,012 INFO  [stdout] (ajp--0.0.0.0-8009-16) 2
+09:59:06,013 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+09:59:06,015 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+09:59:06,016 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+09:59:06,034 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,012 INFO  [stdout] (ajp--0.0.0.0-8009-16) 2
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,013 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,015 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,016 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,034 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+09:59:06,777 INFO  [stdout] (Finalizer) Connection Count 1
+09:59:06,778 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,777 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 15:29:06 | 09:59:06,778 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:33:52,143 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+12:33:52,144 INFO  [stdout] (ajp--0.0.0.0-8009-11) 2
+12:33:52,145 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+12:33:52,146 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+12:33:52,147 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+12:33:52,166 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,143 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,144 INFO  [stdout] (ajp--0.0.0.0-8009-11) 2
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,145 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,146 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,147 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,166 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+12:33:52,525 INFO  [stdout] (Finalizer) Connection Count 1
+12:33:52,525 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,525 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,525 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:33:52,824 INFO  [stdout] (ajp--0.0.0.0-8009-5) 2
+12:33:52,825 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+12:33:52,825 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,824 INFO  [stdout] (ajp--0.0.0.0-8009-5) 2
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,825 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,825 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+12:33:52,877 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+12:33:52,897 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,877 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 18:03:52 | 12:33:52,897 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+12:33:53,575 INFO  [stdout] (Finalizer) Connection Count 1
+12:33:53,576 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 18:03:53 | 12:33:53,575 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 18:03:53 | 12:33:53,576 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:33:56,733 INFO  [stdout] (ajp--0.0.0.0-8009-15) 2
+12:33:56,733 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+12:33:56,734 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+12:33:56,735 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+12:33:56,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 18:03:56 | 12:33:56,733 INFO  [stdout] (ajp--0.0.0.0-8009-15) 2
+INFO   | jvm 1    | 2015/01/31 18:03:56 | 12:33:56,733 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/31 18:03:56 | 12:33:56,734 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/01/31 18:03:56 | 12:33:56,735 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 18:03:56 | 12:33:56,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+12:33:57,243 INFO  [stdout] (Finalizer) Connection Count 1
+12:33:57,244 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/31 18:03:57 | 12:33:57,243 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/31 18:03:57 | 12:33:57,244 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:00:00,004 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 2
+17:00:00,005 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) connection is idle true connection release count 2
+17:00:00,014 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 134,206,084 milliseconds ago.  The last packet sent successfully to the server was 134,206,087 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+17:00:00,018 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+17:00:00,019 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+17:00:00,020 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+17:00:00,021 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+17:00:00,022 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+17:00:00,022 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+17:00:00,023 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+17:00:00,024 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+17:00:00,025 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+17:00:00,026 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+17:00:00,027 ERROR INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,004 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 2
+[stderr] (DefauINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,005 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) connection is idle true connection release count 2
+ltQuartzSINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,014 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 134,206,084 milliseconds ago.  The last packet sent successfully to the server was 134,206,087 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+cheduler_WorkINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,018 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+er-2) 	at com.mysql.jINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,019 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+dbc.ConnectionImpl.execSQL(CINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,020 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+onnectionImpl.java:2INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,021 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+627)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,022 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,022 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+17:00:00,0INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,023 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+28 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,024 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+17:00:00,029 ERROR INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,025 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+[stderr] (DefaultQuaINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,026 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+rtzScheduler_Worker-INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,027 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+2) 	at cINFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,028 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+onnectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+17:00:00,030 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+17:00:00,032 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+17:00:00,033 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+17:00:00,034 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+17:00:00,036 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+17:00:00,037 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+17:00:00,038 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+17:00:00,039 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+17:00:00,041 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+17:00:00,042 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1392)
+17:00:00,043 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:49)
+17:00:00,044 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+17:00:00,046 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+17:00:00,047 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) Caused by: java.net.SocketException: Broken pipe
+17:00:00,049 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+17:00:00,050 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+17:00:00,051 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+17:00:00,053 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+17:00:00,054 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+17:00:00,055 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+17:00:00,055 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	... 19 more
+17:00:00,059 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Error while closing
+17:00:00,059 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Remove connection from pool
+17:00:00,078 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) New connection added in pool
+17:00:00,079 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) schedule on check at Sat Jan 31 17:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,029 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,030 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,032 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,033 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,034 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,036 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,037 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,038 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,039 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,041 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,042 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1392)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,043 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:49)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,044 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,046 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,047 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) Caused by: java.net.SocketException: Broken pipe
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,049 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,050 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,051 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,053 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,054 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,055 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,055 ERROR [stderr] (DefaultQuartzScheduler_Worker-2) 	... 19 more
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,059 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,059 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,078 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,079 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) schedule on check at Sat Jan 31 17:00:00 UTC 2015
+17:00:00,885 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Response: 250 Great success
+17:00:00,886 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 
+17:00:00,926 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) mail sent successfully... 
+17:00:00,930 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where'
+17:00:00,932 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where': line 1INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,885 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,886 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,926 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/01/31 22:30:00 | 17:00:00,930 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where'
+:37: expecting "set", found 'where'
+	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 17:00:00,932 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/31 22:30:01 | 
+23:53:44,544 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-20) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/02/01 05:23:44 | 23:53:44,544 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-20) Invalid message received with signature 18245

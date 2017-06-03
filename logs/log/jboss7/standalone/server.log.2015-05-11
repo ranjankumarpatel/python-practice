@@ -1,0 +1,675 @@
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,994 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.ADMIN_ID as ADMIN6_17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,995 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.PS_ID as PS7_17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,995 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.ST_TITLE as ST2_17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,996 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.ST_VISIBILITY_STATUS as ST3_17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,997 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.status as status17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,998 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.timestamp as timestamp17_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:53,999 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.ADMIN_ID as ADMIN1_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,000 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.ADMIN_PASSWORD as ADMIN2_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,001 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.ADMIN_TYPE as ADMIN3_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,002 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.EMAIL_ID as EMAIL4_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,004 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.LOGIN_IP as LOGIN5_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,006 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.LOGIN_STAMP as LOGIN6_0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,008 INFO  [stdout] (ajp--0.0.0.0-8009-9)         adminview1_.status as status0_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,010 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.ID as ID1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,010 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.AUTHOR_STATUS as AUTHOR2_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,011 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CLIENT_EMAIL as CLIENT3_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,012 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CLIENT_GEN_TIME_STAMP as CLIENT4_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,013 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CLIENT_LOGIN_IP as CLIENT5_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,014 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CLIENT_LOGIN_STAMP as CLIENT6_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,016 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CLIENT_NAME as CLIENT7_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,016 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.CUSTOMIZATION_STATUS as CUSTOMIZ8_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,018 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.EMAIL_STATUS as EMAIL9_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,018 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.logo as logo1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,019 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.LOGO_IMG as LOGO11_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,020 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.PARENT_ID as PARENT12_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,021 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.PLAN_ID as PLAN13_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,022 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.PLAN_NAME as PLAN14_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,023 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.PLAN_STATUS as PLAN15_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,024 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.status as status1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,025 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.TEMP_COLOR as TEMP17_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,026 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.UNUSED_LICENCE as UNUSED18_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,027 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.USED_LICENCE as USED19_1_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,028 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli2_.WEBSITE_URL as WEBSITE20_1_1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,029 INFO  [stdout] (ajp--0.0.0.0-8009-9)     from
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,029 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_survey_template surveytemp0_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,030 INFO  [stdout] (ajp--0.0.0.0-8009-9)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,031 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_admin_view adminview1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,032 INFO  [stdout] (ajp--0.0.0.0-8009-9)             on surveytemp0_.ADMIN_ID=adminview1_.ADMIN_ID 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,033 INFO  [stdout] (ajp--0.0.0.0-8009-9)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,034 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_product_client_info_view productcli2_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,035 INFO  [stdout] (ajp--0.0.0.0-8009-9)             on surveytemp0_.PS_ID=productcli2_.ID 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,036 INFO  [stdout] (ajp--0.0.0.0-8009-9)     where
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,036 INFO  [stdout] (ajp--0.0.0.0-8009-9)         surveytemp0_.ST_ID=?
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,044 INFO  [stdout] (ajp--0.0.0.0-8009-9) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,045 INFO  [stdout] (ajp--0.0.0.0-8009-9)     /* load com.pojos.UserClientMapperView */ select
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,046 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userclient0_.UCM_ID as UCM1_3_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,047 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userclient0_.ACCESS_STATUS as ACCESS2_3_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,048 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userclient0_.PS_ID as PS3_3_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,048 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userclient0_.USER_ID as USER4_3_2_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,049 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.ID as ID1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,056 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.AUTHOR_STATUS as AUTHOR2_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,057 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CLIENT_EMAIL as CLIENT3_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,058 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CLIENT_GEN_TIME_STAMP as CLIENT4_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,059 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CLIENT_LOGIN_IP as CLIENT5_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,060 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CLIENT_LOGIN_STAMP as CLIENT6_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,061 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CLIENT_NAME as CLIENT7_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,062 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.CUSTOMIZATION_STATUS as CUSTOMIZ8_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,063 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.EMAIL_STATUS as EMAIL9_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,063 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.logo as logo1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,064 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.LOGO_IMG as LOGO11_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,065 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.PARENT_ID as PARENT12_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,066 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.PLAN_ID as PLAN13_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,067 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.PLAN_NAME as PLAN14_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,068 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.PLAN_STATUS as PLAN15_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,069 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.status as status1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,070 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.TEMP_COLOR as TEMP17_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,071 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.UNUSED_LICENCE as UNUSED18_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,072 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.USED_LICENCE as USED19_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,073 INFO  [stdout] (ajp--0.0.0.0-8009-9)         productcli1_.WEBSITE_URL as WEBSITE20_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,074 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.USER_ID as USER1_2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,075 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.email as email2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,075 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.LOGIN_PASSWORD as LOGIN3_2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,076 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.LOGIN_STAMP as LOGIN4_2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,077 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.LOGIN_STATUS as LOGIN5_2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,078 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.name as name2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,079 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.REMINDER_STATUS as REMINDER7_2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,079 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.status as status2_1_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,080 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userinfo2_.USER_GEN_TIME_STAMP as USER9_2_1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,081 INFO  [stdout] (ajp--0.0.0.0-8009-9)     from
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,081 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_user_client_mapper_view userclient0_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,082 INFO  [stdout] (ajp--0.0.0.0-8009-9)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,083 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_product_client_info_view productcli1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,084 INFO  [stdout] (ajp--0.0.0.0-8009-9)             on userclient0_.PS_ID=productcli1_.ID 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,085 INFO  [stdout] (ajp--0.0.0.0-8009-9)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,086 INFO  [stdout] (ajp--0.0.0.0-8009-9)         user_info userinfo2_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,087 INFO  [stdout] (ajp--0.0.0.0-8009-9)             on userclient0_.USER_ID=userinfo2_.USER_ID 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,088 INFO  [stdout] (ajp--0.0.0.0-8009-9)     where
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,089 INFO  [stdout] (ajp--0.0.0.0-8009-9)         userclient0_.UCM_ID=?
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,099 INFO  [stdout] (ajp--0.0.0.0-8009-9) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,100 INFO  [stdout] (ajp--0.0.0.0-8009-9)     /* criteria query */ select
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,100 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID as y0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,101 INFO  [stdout] (ajp--0.0.0.0-8009-9)         count(this_.RFRM_ID) as y1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,102 INFO  [stdout] (ajp--0.0.0.0-8009-9)     from
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,103 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_respondent_fs_rel_mapper this_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,104 INFO  [stdout] (ajp--0.0.0.0-8009-9)     where
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,104 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID in (
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,105 INFO  [stdout] (ajp--0.0.0.0-8009-9)             ?
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,106 INFO  [stdout] (ajp--0.0.0.0-8009-9)         ) 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,106 INFO  [stdout] (ajp--0.0.0.0-8009-9)         and this_.RFRM_SUBMIT_STATUS=? 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,107 INFO  [stdout] (ajp--0.0.0.0-8009-9)     group by
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,108 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,114 INFO  [stdout] (ajp--0.0.0.0-8009-9) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,115 INFO  [stdout] (ajp--0.0.0.0-8009-9)     /* criteria query */ select
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,116 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID as y0_,
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,117 INFO  [stdout] (ajp--0.0.0.0-8009-9)         count(this_.RFRM_ID) as y1_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,118 INFO  [stdout] (ajp--0.0.0.0-8009-9)     from
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,119 INFO  [stdout] (ajp--0.0.0.0-8009-9)         360_v1_respondent_fs_rel_mapper this_ 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,120 INFO  [stdout] (ajp--0.0.0.0-8009-9)     where
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,120 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID in (
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,121 INFO  [stdout] (ajp--0.0.0.0-8009-9)             ?
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,122 INFO  [stdout] (ajp--0.0.0.0-8009-9)         ) 
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,122 INFO  [stdout] (ajp--0.0.0.0-8009-9)     group by
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,123 INFO  [stdout] (ajp--0.0.0.0-8009-9)         this_.PROJ_ID
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,365 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:24:54 | 09:54:54,366 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,697 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,698 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,699 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,700 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,709 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,710 INFO  [stdout] (ajp--0.0.0.0-8009-4) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,711 INFO  [stdout] (ajp--0.0.0.0-8009-4)     /* load com.pojos.ProductClientInfoView */ select
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,711 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.ID as ID1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,712 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.AUTHOR_STATUS as AUTHOR2_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,712 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CLIENT_EMAIL as CLIENT3_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,713 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CLIENT_GEN_TIME_STAMP as CLIENT4_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,713 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CLIENT_LOGIN_IP as CLIENT5_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,714 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CLIENT_LOGIN_STAMP as CLIENT6_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,715 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CLIENT_NAME as CLIENT7_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,715 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.CUSTOMIZATION_STATUS as CUSTOMIZ8_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,716 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.EMAIL_STATUS as EMAIL9_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,717 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.logo as logo1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,717 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.LOGO_IMG as LOGO11_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,718 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.PARENT_ID as PARENT12_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,718 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.PLAN_ID as PLAN13_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,719 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.PLAN_NAME as PLAN14_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,719 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.PLAN_STATUS as PLAN15_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,720 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.status as status1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,720 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.TEMP_COLOR as TEMP17_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,721 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.UNUSED_LICENCE as UNUSED18_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,722 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.USED_LICENCE as USED19_1_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,722 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.WEBSITE_URL as WEBSITE20_1_0_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,723 INFO  [stdout] (ajp--0.0.0.0-8009-4)     from
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,723 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_product_client_info_view productcli0_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,724 INFO  [stdout] (ajp--0.0.0.0-8009-4)     where
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,724 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli0_.ID=?
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,729 INFO  [stdout] (ajp--0.0.0.0-8009-4) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,734 INFO  [stdout] (ajp--0.0.0.0-8009-4)     /* load com.pojos.Project */ select
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,735 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_ID as PROJ1_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,736 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.EMAIL_TEMPLATE as EMAIL2_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,737 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_END_DATE as PROJ3_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,738 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_NAME as PROJ4_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,739 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_START_DATE as PROJ5_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,740 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_STATUS as PROJ6_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,740 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.REL_VISIBILITY_STATUS as REL7_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,741 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.REPORT_STATUS as REPORT8_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,742 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.REPORT_TYPE as REPORT9_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,743 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.ST_ID as ST10_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,744 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.UCM_ID as UCM11_6_6_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,745 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.ST_ID as ST1_17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,746 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.ADMIN_ID as ADMIN6_17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,747 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.PS_ID as PS7_17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,747 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.ST_TITLE as ST2_17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,748 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.ST_VISIBILITY_STATUS as ST3_17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,749 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.status as status17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,749 INFO  [stdout] (ajp--0.0.0.0-8009-4)         surveytemp1_.timestamp as timestamp17_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,750 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.ADMIN_ID as ADMIN1_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,751 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.ADMIN_PASSWORD as ADMIN2_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,751 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.ADMIN_TYPE as ADMIN3_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,752 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.EMAIL_ID as EMAIL4_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,753 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.LOGIN_IP as LOGIN5_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,753 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.LOGIN_STAMP as LOGIN6_0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,754 INFO  [stdout] (ajp--0.0.0.0-8009-4)         adminview2_.status as status0_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,754 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.ID as ID1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,755 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.AUTHOR_STATUS as AUTHOR2_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,755 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CLIENT_EMAIL as CLIENT3_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,756 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CLIENT_GEN_TIME_STAMP as CLIENT4_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,757 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CLIENT_LOGIN_IP as CLIENT5_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,757 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CLIENT_LOGIN_STAMP as CLIENT6_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,758 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CLIENT_NAME as CLIENT7_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,758 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.CUSTOMIZATION_STATUS as CUSTOMIZ8_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,759 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.EMAIL_STATUS as EMAIL9_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,760 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.logo as logo1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,760 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.LOGO_IMG as LOGO11_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,761 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.PARENT_ID as PARENT12_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,761 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.PLAN_ID as PLAN13_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,762 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.PLAN_NAME as PLAN14_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,762 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.PLAN_STATUS as PLAN15_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,763 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.status as status1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,763 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.TEMP_COLOR as TEMP17_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,764 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.UNUSED_LICENCE as UNUSED18_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,764 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.USED_LICENCE as USED19_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,765 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli3_.WEBSITE_URL as WEBSITE20_1_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,766 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userclient4_.UCM_ID as UCM1_3_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,766 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userclient4_.ACCESS_STATUS as ACCESS2_3_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,767 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userclient4_.PS_ID as PS3_3_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,767 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userclient4_.USER_ID as USER4_3_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,768 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.ID as ID1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,768 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.AUTHOR_STATUS as AUTHOR2_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,769 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CLIENT_EMAIL as CLIENT3_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,769 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CLIENT_GEN_TIME_STAMP as CLIENT4_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,770 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CLIENT_LOGIN_IP as CLIENT5_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,771 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CLIENT_LOGIN_STAMP as CLIENT6_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,771 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CLIENT_NAME as CLIENT7_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,772 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.CUSTOMIZATION_STATUS as CUSTOMIZ8_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,772 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.EMAIL_STATUS as EMAIL9_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,773 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.logo as logo1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,774 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.LOGO_IMG as LOGO11_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,774 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.PARENT_ID as PARENT12_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,775 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.PLAN_ID as PLAN13_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,775 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.PLAN_NAME as PLAN14_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,776 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.PLAN_STATUS as PLAN15_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,776 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.status as status1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,777 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.TEMP_COLOR as TEMP17_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,777 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.UNUSED_LICENCE as UNUSED18_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,778 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.USED_LICENCE as USED19_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,779 INFO  [stdout] (ajp--0.0.0.0-8009-4)         productcli5_.WEBSITE_URL as WEBSITE20_1_4_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,779 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.USER_ID as USER1_2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,780 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.email as email2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,780 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.LOGIN_PASSWORD as LOGIN3_2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,781 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.LOGIN_STAMP as LOGIN4_2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,781 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.LOGIN_STATUS as LOGIN5_2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,782 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.name as name2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,783 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.REMINDER_STATUS as REMINDER7_2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,783 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.status as status2_5_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,784 INFO  [stdout] (ajp--0.0.0.0-8009-4)         userinfo6_.USER_GEN_TIME_STAMP as USER9_2_5_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,784 INFO  [stdout] (ajp--0.0.0.0-8009-4)     from
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,785 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_project project0_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,785 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,786 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_survey_template surveytemp1_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,786 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on project0_.ST_ID=surveytemp1_.ST_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,787 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,787 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_admin_view adminview2_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,788 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on surveytemp1_.ADMIN_ID=adminview2_.ADMIN_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,788 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,789 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_product_client_info_view productcli3_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,789 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on surveytemp1_.PS_ID=productcli3_.ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,790 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,790 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_user_client_mapper_view userclient4_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,791 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on project0_.UCM_ID=userclient4_.UCM_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,792 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,792 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_product_client_info_view productcli5_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,793 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on userclient4_.PS_ID=productcli5_.ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,793 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,794 INFO  [stdout] (ajp--0.0.0.0-8009-4)         user_info userinfo6_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,794 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on userclient4_.USER_ID=userinfo6_.USER_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,795 INFO  [stdout] (ajp--0.0.0.0-8009-4)     where
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,795 INFO  [stdout] (ajp--0.0.0.0-8009-4)         project0_.PROJ_ID=?
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,818 INFO  [stdout] (ajp--0.0.0.0-8009-4) Hibernate: 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,818 INFO  [stdout] (ajp--0.0.0.0-8009-4)     /* load one-to-many com.pojos.Project.respondentFsRelMappers */ select
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,819 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.PROJ_ID as PROJ5_6_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,819 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RFRM_ID as RFRM1_10_3_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,820 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RFRM_ID as RFRM1_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,820 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.PROJ_ID as PROJ5_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,821 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.REL_ID as REL6_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,821 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RES_ID as RES7_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,822 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RFRM_INVITATION_DTSTAMP as RFRM2_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,823 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RFRM_INVITATION_STATUS as RFRM3_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,823 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.RFRM_SUBMIT_STATUS as RFRM4_10_2_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,824 INFO  [stdout] (ajp--0.0.0.0-8009-4)         relation1_.REL_ID as REL1_7_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,824 INFO  [stdout] (ajp--0.0.0.0-8009-4)         relation1_.REL_NAME as REL2_7_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,825 INFO  [stdout] (ajp--0.0.0.0-8009-4)         relation1_.REL_VISIBILITY_STATUS as REL3_7_0_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,826 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent2_.RES_ID as RES1_8_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,826 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent2_.AUTO_REMINDER_STATUSC as AUTO2_8_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,827 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent2_.RES_EMAIL as RES3_8_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,827 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent2_.RES_NAME as RES4_8_1_,
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,828 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent2_.RES_PASSWORD as RES5_8_1_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,828 INFO  [stdout] (ajp--0.0.0.0-8009-4)     from
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,829 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_respondent_fs_rel_mapper respondent0_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,829 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,830 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_relation relation1_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,830 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on respondent0_.REL_ID=relation1_.REL_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,831 INFO  [stdout] (ajp--0.0.0.0-8009-4)     left outer join
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,831 INFO  [stdout] (ajp--0.0.0.0-8009-4)         360_v1_respondent respondent2_ 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,832 INFO  [stdout] (ajp--0.0.0.0-8009-4)             on respondent0_.RES_ID=respondent2_.RES_ID 
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,833 INFO  [stdout] (ajp--0.0.0.0-8009-4)     where
+INFO   | jvm 1    | 2015/05/11 15:25:37 | 09:55:37,833 INFO  [stdout] (ajp--0.0.0.0-8009-4)         respondent0_.PROJ_ID=?
+INFO   | jvm 1    | 2015/05/11 15:25:38 | 09:55:38,109 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:25:38 | 09:55:38,109 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:29:00 | 09:59:00,595 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/next360.war. Deployment changes will not be processed until all content is complete.
+INFO   | jvm 1    | 2015/05/11 15:33:24 | 10:03:24,733 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-5) Scheduler 360_MailQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO   | jvm 1    | 2015/05/11 15:33:24 | 10:03:24,734 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-5) Scheduler 360_MailQuartzScheduler_$_NON_CLUSTERED paused.
+INFO   | jvm 1    | 2015/05/11 15:33:24 | 10:03:24,737 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-5) Scheduler 360_MailQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO   | jvm 1    | 2015/05/11 15:33:24 | 10:03:24,878 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment next360.war in 160ms
+INFO   | jvm 1    | 2015/05/11 15:33:24 | 10:03:24,881 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "next360.war"
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:27,574 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.javassist:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,029 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.javassist:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,032 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.antlr:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,037 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.antlr:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,041 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,045 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,055 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,058 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,062 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,067 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,071 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,075 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,079 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) JBAS018567: Deployment "deployment.next360.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,219 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,309 INFO  [stdout] (MSC service thread 1-4) Log4J Logging started for application: /opt/jboss7/standalone/tmp/vfs/tempb221536dff5186d5/next360.war-dcac64c12e7a8bad/WEB-INF/classes/log4j.properties
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,505 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-4) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,517 INFO  [org.hibernate.Version] (MSC service thread 1-4) HHH000412: Hibernate Core {4.1.7.Final}
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,522 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000206: hibernate.properties not found
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,526 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000021: Bytecode provider name : javassist
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,559 INFO  [org.hibernate.cfg.Configuration] (MSC service thread 1-4) HHH000043: Configuring from resource: /hibernate.cfg.xml
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,560 INFO  [org.hibernate.cfg.Configuration] (MSC service thread 1-4) HHH000040: Configuration resource: /hibernate.cfg.xml
+INFO   | jvm 1    | 2015/05/11 15:33:28 | 10:03:28,568 INFO  [org.hibernate.cfg.Configuration] (MSC service thread 1-4) HHH000041: Configured SessionFactory: null
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:28,935 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH000130: Instantiating explicit connection provider: connectionManager.hibernate.ManagerConnectionProvider
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:28,969 INFO  [stdout] (MSC service thread 1-4) 0
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,288 INFO  [stdout] (MSC service thread 1-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,309 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,352 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,360 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH000397: Using ASTQueryTranslatorFactory
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,434 WARN  [net.sf.ehcache.config.ConfigurationFactory] (MSC service thread 1-4) No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: vfs:/content/next360.war/WEB-INF/lib/ehcache-2.8.3.jar/ehcache-failsafe.xml
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,582 INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] (MSC service thread 1-4) HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,585 WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] (MSC service thread 1-4) HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,720 INFO  [org.hibernate.cache.internal.StandardQueryCache] (MSC service thread 1-4) HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+INFO   | jvm 1    | 2015/05/11 15:33:29 | 10:03:29,722 WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] (MSC service thread 1-4) HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,500 INFO  [stdout] (MSC service thread 1-4) 1
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,516 INFO  [stdout] (MSC service thread 1-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,653 INFO  [org.quartz.impl.StdSchedulerFactory] (MSC service thread 1-4) Using default implementation for ThreadExecutor
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,657 INFO  [org.quartz.simpl.SimpleThreadPool] (MSC service thread 1-4) Job execution threads will use class loader of thread: MSC service thread 1-4
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,673 INFO  [org.quartz.core.SchedulerSignalerImpl] (MSC service thread 1-4) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,674 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-4) Quartz Scheduler v.2.2.1 created.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,676 INFO  [org.quartz.simpl.RAMJobStore] (MSC service thread 1-4) RAMJobStore initialized.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,677 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-4) Scheduler meta-data: Quartz Scheduler (v2.2.1) '360_MailQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   NOT STARTED.
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   Currently in standby mode.
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   Number of jobs executed: 0
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+INFO   | jvm 1    | 2015/05/11 15:33:30 |   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,680 INFO  [org.quartz.impl.StdSchedulerFactory] (MSC service thread 1-4) Quartz scheduler '360_MailQuartzScheduler' initialized from an externally provided properties instance.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,681 INFO  [org.quartz.impl.StdSchedulerFactory] (MSC service thread 1-4) Quartz scheduler version: 2.2.1
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,682 INFO  [org.quartz.core.QuartzScheduler] (MSC service thread 1-4) Scheduler 360_MailQuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,686 INFO  [org.jboss.web] (MSC service thread 1-4) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2015/05/11 15:33:30 | 10:03:30,713 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "next360.war" with deployment "next360.war"
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,282 INFO  [stdout] (ajp--0.0.0.0-8009-2) 2
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,301 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,310 ERROR [stderr] (ajp--0.0.0.0-8009-2) com.fs360.exception.InvalidLoginException: Invalid User session
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,311 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:411)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,312 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:88)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,313 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,314 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,315 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,316 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,317 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,318 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,319 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,320 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,320 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,322 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,323 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,324 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,325 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,326 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,327 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,327 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,328 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/05/11 15:35:22 | 10:05:22,329 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/05/11 15:35:23 | 10:05:23,039 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:35:23 | 10:05:23,040 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:35:23 | 10:05:23,041 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:35:23 | 10:05:23,041 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:36:07 | 10:06:07,308 INFO  [stdout] (ajp--0.0.0.0-8009-4) /clientLogin.jsp
+INFO   | jvm 1    | 2015/05/11 15:36:07 | 10:06:07,309 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/05/11 15:36:07 | 10:06:07,310 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:36:08 | 10:06:08,748 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:36:08 | 10:06:08,748 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:36:09 | 10:06:09,811 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/05/11 15:36:09 | 10:06:09,811 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:36:09 | 10:06:09,812 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:36:09 | 10:06:09,812 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:36:09 | 10:06:09,836 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:36:10 | 10:06:10,786 INFO  [stdout] (Finalizer) Connection Count 2
+INFO   | jvm 1    | 2015/05/11 15:36:10 | 10:06:10,786 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:36:35 | 10:06:35,533 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/05/11 15:36:35 | 10:06:35,534 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 3
+INFO   | jvm 1    | 2015/05/11 15:36:35 | 10:06:35,535 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:36:35 | 10:06:35,536 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:36:35 | 10:06:35,557 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:36:36 | 10:06:36,321 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:36:36 | 10:06:36,322 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:06,925 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:06,925 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:06,926 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:06,927 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:06,948 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:07,331 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:37:07 | 10:07:07,331 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:37:11 | 10:07:11,787 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+INFO   | jvm 1    | 2015/05/11 15:37:11 | 10:07:11,788 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:37:11 | 10:07:11,789 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:37:11 | 10:07:11,789 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:37:11 | 10:07:11,808 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,113 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,113 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,114 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,114 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,129 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,577 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,578 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,578 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:37:14 | 10:07:14,579 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,335 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,336 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,336 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,337 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,350 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,960 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:38:41 | 10:08:41,961 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,362 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,363 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,364 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,365 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,388 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,738 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:38:43 | 10:08:43,738 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,029 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,030 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,031 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,050 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,490 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:38:55 | 10:08:55,491 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:40:52 | 10:10:52,868 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/05/11 15:40:52 | 10:10:52,868 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:40:52 | 10:10:52,869 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:40:52 | 10:10:52,870 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:40:52 | 10:10:52,884 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:40:53 | 10:10:53,237 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:40:53 | 10:10:53,237 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,355 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,355 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,356 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,357 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,372 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,765 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:40:56 | 10:10:56,765 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,342 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,343 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,344 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,345 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,364 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,781 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:41:23 | 10:11:23,782 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,367 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,368 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,368 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,369 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,383 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,731 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:41:36 | 10:11:36,732 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:42:01 | 10:12:01,768 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/05/11 15:42:01 | 10:12:01,768 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:42:01 | 10:12:01,769 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:42:01 | 10:12:01,770 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:42:01 | 10:12:01,783 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,130 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,130 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,790 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,791 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,792 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,793 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:42:02 | 10:12:02,808 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:42:03 | 10:12:03,128 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:42:03 | 10:12:03,129 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:08,924 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:08,924 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:08,926 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:08,926 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:08,945 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:09,362 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:42:09 | 10:12:09,363 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:42:15 | 10:12:15,134 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/05/11 15:42:15 | 10:12:15,135 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:42:15 | 10:12:15,136 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:42:15 | 10:12:15,137 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:42:15 | 10:12:15,156 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:42:18 | 10:12:18,519 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/05/11 15:42:18 | 10:12:18,520 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:42:18 | 10:12:18,521 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:42:18 | 10:12:18,521 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:42:18 | 10:12:18,538 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:42:19 | 10:12:18,956 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:42:19 | 10:12:18,956 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:42:19 | 10:12:18,957 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:42:19 | 10:12:18,958 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:43:02 | 10:13:02,528 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2015/05/11 15:43:02 | 10:13:02,528 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:43:02 | 10:13:02,529 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:43:02 | 10:13:02,529 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:43:02 | 10:13:02,541 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:43:03 | 10:13:03,034 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:43:03 | 10:13:03,034 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,449 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,450 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,451 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,452 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,468 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,768 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:43:04 | 10:13:04,768 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,477 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,478 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,478 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,479 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,490 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,808 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:43:33 | 10:13:33,809 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:43:50 | 10:13:50,685 INFO  [stdout] (ajp--0.0.0.0-8009-11) 3
+INFO   | jvm 1    | 2015/05/11 15:43:50 | 10:13:50,685 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:43:50 | 10:13:50,686 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:43:50 | 10:13:50,686 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:43:50 | 10:13:50,699 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:43:51 | 10:13:51,094 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:43:51 | 10:13:51,095 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,196 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,197 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,198 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,199 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,219 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,617 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:43:54 | 10:13:54,617 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,388 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,389 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,390 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,390 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,404 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,745 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:44:07 | 10:14:07,746 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,321 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,322 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,322 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,323 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,335 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,654 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:45:12 | 10:15:12,655 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:45:15 | 10:15:15,911 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/05/11 15:45:15 | 10:15:15,912 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:45:15 | 10:15:15,914 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:45:15 | 10:15:15,915 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:45:15 | 10:15:15,930 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:45:16 | 10:15:16,245 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:45:16 | 10:15:16,246 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,063 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,063 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,065 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,065 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,084 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,549 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:45:36 | 10:15:36,550 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:47:48 | 10:17:48,787 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/05/11 15:47:48 | 10:17:48,788 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:47:48 | 10:17:48,789 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:47:48 | 10:17:48,791 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:47:48 | 10:17:48,806 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:47:49 | 10:17:49,182 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:47:49 | 10:17:49,183 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:48:24 | 10:18:24,901 INFO  [stdout] (ajp--0.0.0.0-8009-11) 3
+INFO   | jvm 1    | 2015/05/11 15:48:24 | 10:18:24,902 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:48:24 | 10:18:24,903 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:48:24 | 10:18:24,903 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:48:24 | 10:18:24,919 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,045 INFO  [stdout] (ajp--0.0.0.0-8009-11) Response: 250 Great success
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,046 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,064 INFO  [stdout] (ajp--0.0.0.0-8009-11) mail sent successfully... 
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,343 INFO  [stdout] (ajp--0.0.0.0-8009-11) Response: 250 Great success
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,344 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2015/05/11 15:48:26 | 10:18:26,360 INFO  [stdout] (ajp--0.0.0.0-8009-11) mail sent successfully... 
+INFO   | jvm 1    | 2015/05/11 15:48:27 | 10:18:27,002 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:48:27 | 10:18:27,003 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:48:31 | 10:18:31,830 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/05/11 15:48:31 | 10:18:31,830 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:48:31 | 10:18:31,832 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:48:31 | 10:18:31,832 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:48:31 | 10:18:31,849 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:48:32 | 10:18:32,230 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:48:32 | 10:18:32,231 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,417 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,431 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,432 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,433 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,448 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,923 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:48:37 | 10:18:37,924 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,937 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,938 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,939 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,940 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,955 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,957 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.fs360.exception.InvalidLoginException: Invalid User session
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,958 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:411)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,959 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:88)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,961 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,962 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,963 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,964 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,966 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,967 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,969 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,971 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,972 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,973 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,975 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,976 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,977 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,979 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,980 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,981 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,983 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:48,984 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:49,487 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:51:49 | 10:21:49,488 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,127 INFO  [stdout] (ajp--0.0.0.0-8009-4) /clientLogin.jsp
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,128 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,128 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,129 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,130 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:52:26 | 10:22:26,140 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:52:27 | 10:22:27,499 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:52:27 | 10:22:27,500 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,418 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,418 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,419 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,420 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,429 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,788 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 15:52:29 | 10:22:29,788 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,690 INFO  [stdout] (ajp--0.0.0.0-8009-20) /adminLogin.jsp
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,690 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,691 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,691 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,692 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 16:38:47 | 11:08:47,715 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 16:38:48 | 11:08:48,172 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 16:38:48 | 11:08:48,221 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,725 INFO  [stdout] (ajp--0.0.0.0-8009-11) 3
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,726 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,726 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,727 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,739 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 16:38:49 | 11:08:49,740 INFO  [stdout] (ajp--0.0.0.0-8009-11) true
+INFO   | jvm 1    | 2015/05/11 16:38:50 | 11:08:50,404 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 16:38:50 | 11:08:50,405 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,538 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,539 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,540 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,541 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,554 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,556 INFO  [stdout] (ajp--0.0.0.0-8009-5) true
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,918 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 16:39:03 | 11:09:03,919 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,036 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,037 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,038 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,038 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,062 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,461 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/05/11 16:39:05 | 11:09:05,461 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) 3
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,015 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,017 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,027 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/05/11 23:00:00 | 17:30:00,029 INFO  [stdout] (360_MailQuartzScheduler_Worker-1) schedule on check at Mon May 11 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,017 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) 2
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,018 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,019 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,020 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,040 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,044 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) schedule on check at Tue May 12 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,112 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) Tue May 12 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/05/12 04:30:00 | 23:00:00,113 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-1) Wed May 13 04:30:00 IST 2015

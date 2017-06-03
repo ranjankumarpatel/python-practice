@@ -1,0 +1,389 @@
+INFO   | jvm 1    | 2015/04/13 18:15:18 | 12:45:18,822 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,235 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,236 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,237 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,238 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,249 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,701 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:15:29 | 12:45:29,702 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,085 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,086 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,086 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,087 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,094 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,171 INFO  [stdout] (ajp--0.0.0.0-8009-8) {14={TOTALCOUNT=3, SUBMITCOUNT=1}, 15={TOTALCOUNT=10, SUBMITCOUNT=5}}
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,519 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:18:42 | 12:48:42,520 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,463 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,464 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,465 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,466 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,477 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,870 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:19:31 | 12:49:31,870 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,761 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,762 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,763 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,764 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,777 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,778 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.fs360.exception.InvalidLoginException: Invalid User session
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,779 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:411)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,780 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:86)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,781 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,782 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,783 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,784 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,785 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,786 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,787 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,788 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,789 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,789 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,790 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,792 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,792 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,794 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,795 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,796 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,798 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/04/13 18:55:09 | 13:25:09,799 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/04/13 18:55:10 | 13:25:10,106 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:55:10 | 13:25:10,107 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,600 INFO  [stdout] (ajp--0.0.0.0-8009-5) /clientLogin.jsp
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,601 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,602 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,602 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,603 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:55:55 | 13:25:55,614 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:55:56 | 13:25:56,819 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:55:56 | 13:25:56,819 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,399 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,399 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,400 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,401 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,412 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,805 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 18:56:01 | 13:26:01,806 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 19:14:43 | 13:44:43,587 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/04/13 19:14:43 | 13:44:43,588 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 19:14:43 | 13:44:43,588 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/04/13 19:14:43 | 13:44:43,589 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 19:14:43 | 13:44:43,599 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 19:14:44 | 13:44:44,019 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 19:14:44 | 13:44:44,020 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 19:17:52 | 13:47:52,821 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/04/13 19:17:52 | 13:47:52,822 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 19:17:52 | 13:47:52,823 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/04/13 19:17:52 | 13:47:52,823 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 19:17:52 | 13:47:52,834 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 19:17:53 | 13:47:53,148 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/13 19:17:53 | 13:47:53,148 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 3
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,015 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/04/13 23:00:00 | 17:30:00,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) schedule on check at Mon Apr 13 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/13 23:00:01 | 17:30:01,098 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:01 | 17:30:01,099 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:01 | 17:30:01,154 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:02 | 17:30:02,145 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:02 | 17:30:02,146 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:02 | 17:30:02,196 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:03 | 17:30:03,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:03 | 17:30:03,087 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:03 | 17:30:03,140 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:03 | 17:30:03,962 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:03 | 17:30:03,965 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:04 | 17:30:04,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:04 | 17:30:04,760 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:04 | 17:30:04,761 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:04 | 17:30:04,814 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:05 | 17:30:05,652 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:05 | 17:30:05,653 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:05 | 17:30:05,707 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:06 | 17:30:06,538 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:06 | 17:30:06,538 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:06 | 17:30:06,597 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:07 | 17:30:07,319 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:07 | 17:30:07,320 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:07 | 17:30:07,374 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:08 | 17:30:08,168 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:08 | 17:30:08,170 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:08 | 17:30:08,223 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:09 | 17:30:09,032 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:09 | 17:30:09,033 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:09 | 17:30:09,085 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:10 | 17:30:10,029 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:10 | 17:30:10,034 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:10 | 17:30:10,090 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:10 | 17:30:10,854 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:10 | 17:30:10,855 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:11 | 17:30:10,921 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:12 | 17:30:12,030 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:12 | 17:30:12,031 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:12 | 17:30:12,083 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:12 | 17:30:12,881 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:12 | 17:30:12,882 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:13 | 17:30:12,936 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:13 | 17:30:13,824 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:13 | 17:30:13,825 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:13 | 17:30:13,886 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:14 | 17:30:14,776 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:14 | 17:30:14,777 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:14 | 17:30:14,842 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:15 | 17:30:15,818 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:15 | 17:30:15,818 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:15 | 17:30:15,874 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:16 | 17:30:16,590 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:16 | 17:30:16,592 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:16 | 17:30:16,644 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:17 | 17:30:17,495 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:17 | 17:30:17,496 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:17 | 17:30:17,553 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:18 | 17:30:18,413 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:18 | 17:30:18,414 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:18 | 17:30:18,470 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:19 | 17:30:19,549 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:19 | 17:30:19,550 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:19 | 17:30:19,607 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:20 | 17:30:20,349 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:20 | 17:30:20,349 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:20 | 17:30:20,403 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:21 | 17:30:21,271 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:21 | 17:30:21,272 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:21 | 17:30:21,335 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:22 | 17:30:22,414 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:22 | 17:30:22,416 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:22 | 17:30:22,475 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:23 | 17:30:23,385 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:23 | 17:30:23,387 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:23 | 17:30:23,444 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:24 | 17:30:24,352 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:24 | 17:30:24,353 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:24 | 17:30:24,408 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:25 | 17:30:25,192 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:25 | 17:30:25,193 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:25 | 17:30:25,245 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:26 | 17:30:26,070 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:26 | 17:30:26,072 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:26 | 17:30:26,134 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:27 | 17:30:27,214 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:27 | 17:30:27,215 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:27 | 17:30:27,273 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:28 | 17:30:28,087 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:28 | 17:30:28,088 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:28 | 17:30:28,145 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:28 | 17:30:28,935 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:28 | 17:30:28,936 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:29 | 17:30:28,987 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:29 | 17:30:29,838 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:29 | 17:30:29,839 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:29 | 17:30:29,899 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:30 | 17:30:30,764 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:30 | 17:30:30,765 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:30 | 17:30:30,821 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,243 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,244 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,261 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,591 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,592 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,608 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,917 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,918 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:31 | 17:30:31,936 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,252 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,257 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,274 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,604 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,605 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,622 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,969 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,970 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:32 | 17:30:32,986 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,344 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,345 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,362 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,689 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,690 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:33 | 17:30:33,708 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,038 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,039 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,057 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,347 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,348 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,364 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,733 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,734 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:34 | 17:30:34,751 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,192 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,194 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,211 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,486 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,487 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,503 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,799 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,800 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:35 | 17:30:35,816 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,138 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,138 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,154 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,457 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,458 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,478 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,801 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,802 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:36 | 17:30:36,824 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,195 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,196 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,219 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,605 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,606 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:37 | 17:30:37,624 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:38 | 17:30:37,935 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:38 | 17:30:37,937 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:38 | 17:30:37,955 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,314 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,314 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,333 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,625 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,626 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:39 | 17:30:39,646 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:39,928 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:39,929 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:39,947 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,271 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,272 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,292 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,621 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,623 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:40 | 17:30:40,639 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,002 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,032 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,556 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,557 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,574 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,907 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,908 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:41 | 17:30:41,927 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/13 23:00:42 | 17:30:42,263 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/13 23:00:42 | 17:30:42,263 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/13 23:00:42 | 17:30:42,286 INFO  [stdout] (360_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,106 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,107 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,121 ERROR [stderr] (ajp--0.0.0.0-8009-1) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 221,147,276 milliseconds ago.  The last packet sent successfully to the server was 221,147,277 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,126 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,128 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,129 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,131 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,132 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,134 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,136 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,137 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,138 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,139 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,140 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,142 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,143 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.connectionmanager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,144 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.connectionmanager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,146 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.connectionmanager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,147 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.connectionmanager.CentralPage.init(CentralPage.java:32)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,148 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.connectionmanager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:59)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,150 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:276)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,152 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,154 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,155 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,157 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,158 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1263)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,160 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.ttn.shieldservice.login.AuthenticateLoginServlet.doGet(AuthenticateLoginServlet.java:59)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,161 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,162 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,163 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,165 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,167 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,168 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,169 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,171 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,172 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,174 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,175 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,176 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,177 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,178 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,178 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,179 ERROR [stderr] (ajp--0.0.0.0-8009-1) Caused by: java.net.SocketException: Broken pipe
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,180 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,181 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,181 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,182 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,183 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,184 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,184 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	... 32 more
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,188 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,189 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,202 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 22:41:47,204 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[ds-shield.thinktalentnext.net].[/].[AuthenticateLoginServlet]] (ajp--0.0.0.0-8009-1) Servlet.service() for servlet AuthenticateLoginServlet threw exception: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 1 column 2 path $.
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.Gson.fromJson(Gson.java:825) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.Gson.fromJson(Gson.java:775) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.Gson.fromJson(Gson.java:724) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.Gson.fromJson(Gson.java:696) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.ttn.shieldservice.login.AuthenticateLoginServlet.doGet(AuthenticateLoginServlet.java:62) [classes:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 1 column 2 path $.
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1573) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:517) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:418) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:190) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	at com.google.gson.Gson.fromJson(Gson.java:810) [gson-2.3.1.jar:]
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 	... 19 more
+INFO   | jvm 1    | 2015/04/14 04:11:47 | 
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,004 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 3
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,007 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,008 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,021 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/04/14 04:30:00 | 23:00:00,023 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) schedule on check at Tue Apr 14 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,463 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,464 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,481 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,868 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,869 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:02 | 23:00:02,885 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,132 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,133 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,148 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,486 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,487 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,503 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,820 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,821 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:03 | 23:00:03,838 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,170 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,170 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,211 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,536 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,537 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,555 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,570 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Tue Apr 14 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/14 04:30:04 | 23:00:04,571 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Wed Apr 15 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,511 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,511 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,512 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,512 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,513 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/04/14 04:30:51 | 23:00:51,514 INFO  [stdout] (Finalizer) Releasing connection back to pool

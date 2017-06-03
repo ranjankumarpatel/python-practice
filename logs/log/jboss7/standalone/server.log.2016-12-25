@@ -1,0 +1,96 @@
+18:45:00,000 INFO  [stdout] (mailScheduler-11) Mail Triggered at Mon Dec 26 00:15:00 IST 2016
+18:45:00,002 INFO  [stdout] (mailScheduler-21) Mail Triggered at Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-11) Mail Triggered at Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,002 INFO  [stdout] (mailScheduler-21) Mail Triggered at Mon Dec 26 00:15:00 IST 2016
+18:45:00,148 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,148 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,148 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,148 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,648 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,649 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Nikhil.Salian@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+18:45:00,652 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,654 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Nikhil.Salian@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+18:45:00,664 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,666 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,648 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,649 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Nikhil.Salian@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,652 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,654 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Nikhil.Salian@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,664 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:00 | 18:45:00,666 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,968 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,969 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Shankaran.Ka@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+18:45:00,978 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,989 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,991 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Shankaran.Ka@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+18:45:01,001 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:00,968 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:00,969 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Shankaran.Ka@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:00,978 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:00,989 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:00,991 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Shankaran.Ka@dbschenker.comat Mon Dec 26 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,001 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,375 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,377 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to oliver.cierocki@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+18:45:01,393 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,406 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,408 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to oliver.cierocki@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+18:45:01,422 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,375 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,377 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to oliver.cierocki@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,393 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,406 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,408 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to oliver.cierocki@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:01 | 18:45:01,422 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,975 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,977 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Harish.RA@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+18:45:01,990 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:01,975 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:01,977 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Harish.RA@dbschenker.comat Mon Dec 26 00:15:01 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:01,990 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:02,027 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:02,029 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Harish.RA@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+18:45:02,056 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,027 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,029 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Harish.RA@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,056 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:02,480 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:02,481 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Rushikesh.Kadam@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+18:45:02,484 INFO  [stdout] (mailScheduler-11) 2016-12-24 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,480 INFO  [stdout] (mailScheduler-11) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,481 INFO  [stdout] (mailScheduler-11) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Rushikesh.Kadam@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,484 INFO  [stdout] (mailScheduler-11) 2016-12-24 00:15:00.0check date-1
+18:45:02,531 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:02,532 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Rushikesh.Kadam@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+18:45:02,535 INFO  [stdout] (mailScheduler-21) 2016-12-24 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,531 INFO  [stdout] (mailScheduler-21) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,532 INFO  [stdout] (mailScheduler-21) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Rushikesh.Kadam@dbschenker.comat Mon Dec 26 00:15:02 IST 2016
+INFO   | jvm 1    | 2016/12/26 00:15:02 | 18:45:02,535 INFO  [stdout] (mailScheduler-21) 2016-12-24 00:15:00.0check date-1
+19:30:00,000 INFO  [stdout] (mailScheduler-5) Mail Triggered at Mon Dec 26 01:00:00 IST 2016
+19:30:00,002 INFO  [stdout] (mailScheduler-22) Mail Triggered at Mon Dec 26 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-5) Mail Triggered at Mon Dec 26 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,002 INFO  [stdout] (mailScheduler-22) Mail Triggered at Mon Dec 26 01:00:00 IST 2016
+19:30:00,157 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+19:30:00,158 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+19:30:00,159 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+19:30:00,160 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+19:30:00,160 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,157 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+15:00.0check dINFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,158 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+ate-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,159 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,160 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,160 INFO  [stdout] (mailScheduler-5) 2016-12-26 00:15:00.0check date-1
+19:30:00,162 INFO  [stdout] (mailScheduler-5) 2016-12-24 00:15:00.0check date-1
+19:30:00,168 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+19:30:00,173 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+19:30:00,174 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+19:30:00,175 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+19:30:00,176 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+19:30:00,177 INFO  [stdout] (mailScheduler-22) 2016-12-24 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,162 INFO  [stdout] (mailScheduler-5) 2016-12-24 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,168 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,173 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,174 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,175 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,176 INFO  [stdout] (mailScheduler-22) 2016-12-26 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/26 01:00:00 | 19:30:00,177 INFO  [stdout] (mailScheduler-22) 2016-12-24 00:15:00.0check date-1

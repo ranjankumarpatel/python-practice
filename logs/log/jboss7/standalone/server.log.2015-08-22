@@ -1,0 +1,10 @@
+INFO   | jvm 1    | 2015/08/22 19:55:53 | 14:25:53,626 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,002 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 2
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,013 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Error while closing
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,015 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Remove connection from pool
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,036 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,037 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) schedule on check at Sun Aug 23 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,440 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,441 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) 
+INFO   | jvm 1    | 2015/08/23 04:30:00 | 23:00:00,456 INFO  [stdout] (360_MailQuartzScheduler_Worker-6) mail sent successfully... 

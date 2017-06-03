@@ -1,0 +1,1826 @@
+05:16:12,973 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:16:12,974 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+05:16:12,976 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+05:16:12,976 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+05:16:12,987 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:46:13 | 05:16:12,973 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 10:46:13 | 05:16:12,974 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:46:13 | 05:16:12,976 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:46:13 | 05:16:12,976 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:46:13 | 05:16:12,987 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:46:14 | 05:16:14,323 INFO  [stdout] (Finalizer) Connection Count 1
+05:16:14,323 INFO  [stdout] (Finalizer) Connection Count 1
+05:16:14,328 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:46:14 | 05:16:14,328 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:16:15,452 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+05:16:15,453 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+05:16:15,453 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+05:16:15,454 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+05:16:15,461 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:46:15 | 05:16:15,452 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 10:46:15 | 05:16:15,453 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:46:15 | 05:16:15,453 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:46:15 | 05:16:15,454 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:46:15 | 05:16:15,461 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+05:16:16,019 INFO  [stdout] (ajp--0.0.0.0-8009-2) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=46, SUBMITCOUNT=44}}
+INFO   | jvm 1    | 2015/10/11 10:46:16 | 05:16:16,019 INFO  [stdout] (ajp--0.0.0.0-8009-2) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=46, SUBMITCOUNT=44}}
+05:16:16,533 INFO  [stdout] (Finalizer) Connection Count 1
+05:16:16,534 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:46:16 | 05:16:16,533 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:46:16 | 05:16:16,534 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:16:26,076 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+05:16:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+05:16:26,078 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+05:16:26,079 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+05:16:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,076 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,077 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,078 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,079 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:16:26,893 INFO  [stdout] (Finalizer) Connection Count 1
+05:16:26,893 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,893 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:46:26 | 05:16:26,893 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:18:21,722 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+05:18:21,722 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+05:18:21,723 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+05:18:21,724 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+05:18:21,732 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:48:21 | 05:18:21,722 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 10:48:21 | 05:18:21,722 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:48:21 | 05:18:21,723 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:48:21 | 05:18:21,724 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:48:21 | 05:18:21,732 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+05:18:22,288 INFO  [stdout] (Finalizer) Connection Count 1
+05:18:22,289 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:48:22 | 05:18:22,288 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:48:22 | 05:18:22,289 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:18:23,380 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+05:18:23,380 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+05:18:23,381 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+05:18:23,381 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+05:18:23,388 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:48:23 | 05:18:23,380 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/11 10:48:23 | 05:18:23,380 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:48:23 | 05:18:23,381 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:48:23 | 05:18:23,381 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:48:23 | 05:18:23,388 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:18:24,146 INFO  [stdout] (Finalizer) Connection Count 1
+05:18:24,147 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:48:24 | 05:18:24,146 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:48:24 | 05:18:24,147 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:13,320 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+05:19:13,321 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+05:19:13,322 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+05:19:13,322 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+05:19:13,330 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,320 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,321 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,322 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,322 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,330 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+05:19:13,874 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:13,874 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,874 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:13 | 05:19:13,874 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:14,955 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+05:19:14,955 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+05:19:14,956 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+05:19:14,956 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+05:19:14,963 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:14,955 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:14,955 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:14,956 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:14,956 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:14,963 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+05:19:15,774 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:15,775 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:15,774 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:15 | 05:19:15,775 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:49,071 INFO  [stdout] (ajp--0.0.0.0-8009-21) 4
+05:19:49,072 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+05:19:49,073 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+05:19:49,074 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+05:19:49,082 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,071 INFO  [stdout] (ajp--0.0.0.0-8009-21) 4
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,072 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,073 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,074 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,082 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+05:19:49,621 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:49,622 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,621 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,622 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:49,810 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:19:49,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+05:19:49,812 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+05:19:49,812 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+05:19:49,819 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,810 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,812 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,812 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:49 | 05:19:49,819 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+05:19:50,372 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:50,373 INFO  [stdout] (ajp--0.0.0.0-8009-19) 4
+05:19:50,373 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+05:19:50,374 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:50,375 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+05:19:50,376 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+05:19:50,385 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,372 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,373 INFO  [stdout] (ajp--0.0.0.0-8009-19) 4
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,373 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,374 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,375 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,376 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:50 | 05:19:50,385 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+05:19:51,242 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:51,243 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,242 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,243 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:51,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+05:19:51,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+05:19:51,637 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+05:19:51,638 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+05:19:51,646 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,635 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,637 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,638 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:49:51 | 05:19:51,646 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+05:19:52,517 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:52,518 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:49:52 | 05:19:52,517 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:49:52 | 05:19:52,518 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:20:30,186 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+05:20:30,187 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+05:20:30,188 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+05:20:30,189 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+05:20:30,200 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,186 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,187 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,188 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,189 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,200 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+05:20:30,736 INFO  [stdout] (Finalizer) Connection Count 1
+05:20:30,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,736 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:50:30 | 05:20:30,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:20:43,179 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+05:20:43,180 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+05:20:43,182 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+05:20:43,183 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+05:20:43,192 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,179 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,180 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,182 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,183 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,192 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+05:20:43,648 INFO  [stdout] (Finalizer) Connection Count 1
+05:20:43,649 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,648 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:50:43 | 05:20:43,649 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:20:49,225 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+05:20:49,226 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+05:20:49,227 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+05:20:49,228 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+05:20:49,239 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,225 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,226 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,227 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,228 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,239 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+05:20:49,670 INFO  [stdout] (Finalizer) Connection Count 1
+05:20:49,670 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,670 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:50:49 | 05:20:49,670 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:23:01,411 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+05:23:01,412 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+05:23:01,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+05:23:01,414 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+05:23:01,425 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:53:01 | 05:23:01,411 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 10:53:01 | 05:23:01,412 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:53:01 | 05:23:01,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:53:01 | 05:23:01,414 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:53:01 | 05:23:01,425 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+05:23:02,583 INFO  [stdout] (Finalizer) Connection Count 1
+05:23:02,584 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:53:02 | 05:23:02,583 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:53:02 | 05:23:02,584 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:23:03,622 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+05:23:03,622 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+05:23:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+05:23:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:53:03 | 05:23:03,622 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 10:53:03 | 05:23:03,622 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:53:03 | 05:23:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:53:03 | 05:23:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+05:23:03,638 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:53:03 | 05:23:03,638 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+05:23:04,335 INFO  [stdout] (ajp-INFO   | jvm 1    | 2015/10/11 10:53:04 | 05:23:04,335 INFO  [stdout] (ajp--0.0.0.0-8009-21) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=49, SUBMITCOUNT=44}}
+-0.0.0.0-8009-21) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=49, SUBMITCOUNT=44}}
+05:23:04,840 INFO  [stdout] (Finalizer) Connection Count 1
+05:23:04,841 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:53:04 | 05:23:04,840 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:53:04 | 05:23:04,841 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:23:12,077 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+05:23:12,078 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+05:23:12,079 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+05:23:12,080 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+05:23:12,090 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,077 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,078 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,079 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,080 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,090 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+05:23:12,924 INFO  [stdout] (Finalizer) Connection Count 1
+05:23:12,924 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,924 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 10:53:12 | 05:23:12,924 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:38:50,761 INFO  [stdout] (ajp--0.0.0.0-8009-21) 9
+05:38:50,762 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+05:38:50,765 ERROR [stderr] (ajp--0.0.0.0-8009-21) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 83,071,745 milliseconds ago.  The last packet sent successfully to the server was 83,071,746 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+05:38:50,769 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+05:38:50,770 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+05:38:50,771 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+05:38:50,771 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+05:38:50,772 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+05:38:50,773 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+05:38:50,774 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+05:38:50,774 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+05:38:50,775 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+05:38:50,776 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+05:38:50,777 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+05:38:50,778 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+05:38:50,778 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:96)
+05:38:50,779 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:46)
+05:38:50,780 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:25)
+05:38:50,781 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.CentralPage.init(CentralPage.java:23)
+05:38:50,783 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.hibernate.config.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:62)
+05:38:50,784 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+05:38:50,786 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+05:38:50,788 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+05:38:50,789 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+05:38:50,791 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+05:38:50,792 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.ttn.survey.view.user.PrepareNewHireSurveyController.doGet(PrepareNewHireSurveyController.java:80)
+05:38:50,794 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+05:38:50,795 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:38:50,797 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:38:50,798 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:38:50,800 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+05:38:50,801 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622)
+05:38:50,803 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560)
+05:38:50,804 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488)
+05:38:50,805 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213)
+05:38:50,806 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171)
+05:38:50,808 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+05:38:50,809 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+05:38:50,810 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+05:38:50,811 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:38:50,813 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:38:50,814 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:38:50,816 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:38:50,817 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:38:50,819 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:38:50,820 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.iINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,761 INFO  [stdout] (ajp--0.0.0.0-8009-21) 9
+nvoke(ErrorReporINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,762 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+tValve.java:102)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,765 ERROR [stderr] (ajp--0.0.0.0-8009-21) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 83,071,745 milliseconds ago.  The last packet sent successfully to the server was 83,071,746 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,769 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,770 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+05:38:50,821 ERINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,771 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+ROR [stderrINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,771 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+] (ajp--0.0.INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,772 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+0.0-8009-21)INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,773 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+ 	at org.apaINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,774 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+che.catalina.core.StandardEngineValve.INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,774 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+invoke(StandarINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,775 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+dEngineValve.jINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,776 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+ava:109)
+05:38:50,8INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,777 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+22 ERROR [stderINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,778 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+r] (ajp--0.0.0.0-8INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,778 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:96)
+009-21) 	at oINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,779 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:46)
+rg.apache.caINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,780 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:25)
+talina.conneINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,781 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.CentralPage.init(CentralPage.java:23)
+ctor.CoyoteAdaINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,783 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.connection.manager.hibernate.config.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:62)
+pter.service(INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,784 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+CoyoteAdapteINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,786 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+r.java:368)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,788 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,789 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+05:38:50,823 ERROR [stderr] (ajpINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,791 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+--0.0.0.0-800INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,792 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.ttn.survey.view.user.PrepareNewHireSurveyController.doGet(PrepareNewHireSurveyController.java:80)
+9-21) 	at orgINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,794 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+.apache.coyotINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,795 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+e.ajp.AjpProINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,797 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+cessor.proceINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,798 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+ss(AjpProceINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,800 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+ssor.java:505)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,801 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,803 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560)
+05:INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,804 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488)
+38:50,824 ERRORINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,805 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213)
+ [stderr] (ajpINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,806 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171)
+--0.0.0.0-INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,808 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+8009-21) 	atINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,809 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+ org.apachINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,810 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+e.coyote.ajp.INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,811 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+AjpProtocol$AjINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,813 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+pConnectionHaINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,814 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+ndler.procesINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,816 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+s(AjpProtocoINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,817 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+l.java:445)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,819 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,820 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,821 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:38:50,825 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	aINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,822 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+t org.apache.tomcat.util.net.JIoEndpoiINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,823 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+nt$Worker.run(JIoEndpoint.jaINFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,824 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+va:930INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,825 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+)
+05:38:50,831 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+05:38:50,832 ERROR [stderr] (ajp--0.0.0.0-8009-21) Caused by: java.net.SocketException: Broken pipe
+05:38:50,832 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+05:38:50,833 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+05:38:50,834 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+05:38:50,835 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+05:38:50,835 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+05:38:50,836 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+05:38:50,837 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	... 42 more
+05:38:50,840 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+05:38:50,841 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+05:38:50,860 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+05:38:50,861 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:50,922 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,831 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,832 ERROR [stderr] (ajp--0.0.0.0-8009-21) Caused by: java.net.SocketException: Broken pipe
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,832 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,833 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,834 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,835 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,835 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,836 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,837 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	... 42 more
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,840 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,841 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,860 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,861 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:50 | 05:38:50,922 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:51,160 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:51 | 05:38:51,160 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:52,073 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:38:52,074 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:52,092 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:38:52,093 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:52,097 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:38:52,098 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+05:38:52,101 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:38:52,102 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,073 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,074 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,092 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,093 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,097 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,098 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,101 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2015/10/11 11:08:52 | 05:38:52,102 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/engage
+08:09:49,865 INFO  [stdout] (ajp--0.0.0.0-8009-17) 4
+08:09:49,866 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+08:09:49,867 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+08:09:49,868 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 13:39:49 | 08:09:49,865 INFO  [stdout] (ajp--0.0.0.0-8009-17) 4
+INFO   | jvm 1    | 2015/10/11 13:39:49 | 08:09:49,866 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 13:39:49 | 08:09:49,867 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/10/11 13:39:49 | 08:09:49,868 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+08:09:49,879 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 13:39:49 | 08:09:49,879 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+08:09:50,3INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,372 INFO  [stdout] (Finalizer) Connection Count 1
+72 INFO  [stdout] (Finalizer) Connection Count 1
+08:09:50,580 INFO  [stdout] (Finalizer) Releasing connection back to pool
+08:09:50,581 INFO  [stdout] (Finalizer) Connection Count 1
+08:09:50,581 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,580 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,581 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,581 INFO  [stdout] (Finalizer) Releasing connection back to pool
+08:09:50,770 INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,770 INFO  [stdout] (ajp--0.0.0.0-8009-21) 4
+INFO  [stdout] (ajp--0.0.0.0-8009-21) 4
+08:09:50,828 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+08:09:50,828 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+08:09:50,829 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+08:09:50,836 INFO  [stdout] (ajp--0INFO   | jvm 1    | 2015/10/11 13:39:50 | 08:09:50,828 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+.0.0.0-8009-21INFO   | jvm 1    | 2015/10/11 13:39:51 | 08:09:50,828 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+) New connectINFO   | jvm 1    | 2015/10/11 13:39:51 | 08:09:50,829 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+ion adINFO   | jvm 1    | 2015/10/11 13:39:51 | 08:09:50,836 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+ded in pool
+08:09:51,621 INFO  [stdout] (Finalizer) Connection Count 1
+08:09:51,622 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 13:39:51 | 08:09:51,621 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 13:39:51 | 08:09:51,622 INFO  [stdout] (Finalizer) Releasing connection back to pool
+08:17:44,723 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+08:17:44,724 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+08:17:44,724 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+08:17:44,725 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+08:17:44,735 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+08:17:44,748 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,749 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,723 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,724 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,724 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,725 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,735 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,748 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:44 | 08:17:44,749 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,930 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,931 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,934 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,935 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,938 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,938 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,941 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,942 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,945 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 1
+08:17:44,946 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,949 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,949 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,952 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:44,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,957 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,957 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,959 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:44,959 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,961 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+08:17:44,962 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,964 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,964 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:44,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,968 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 1
+08:17:44,969 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,970 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:44,971 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,973 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,973 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,976 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+08:17:44,976 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,978 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+08:17:44,979 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,980 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+08:17:44,981 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,983 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+08:17:44,983 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,985 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,985 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,987 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,988 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+08:17:44,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,994 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,995 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,997 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,997 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:44,999 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:44,999 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,001 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:45,002 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,004 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:45,004 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,006 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+08:17:45,007 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,930 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,931 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,934 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,935 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,938 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,938 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,941 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+17:45,008 INFO  [sINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,942 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+tdout] (ajp--0.0.0INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,945 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 1
+.0-8009-14) RatINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,946 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+e : 1
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,949 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,949 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+45,009 INFO  [stdoINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,952 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+ut] (ajp--0.0.0.0-INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+8009-14) Subjective :INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,957 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+ null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,957 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,959 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,959 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,961 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,962 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,964 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,964 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,968 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 1
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,969 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,970 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:45,012 INFO  INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,971 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+[stdout] (ajp--0.0.0.0-8009-INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,973 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+14) Rate : 2
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,973 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,012 INFINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,976 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+O  [stdout] (ajp--0.0.0.0-800INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,976 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+9-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,978 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,979 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,980 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,981 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,983 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,983 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,985 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,985 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,987 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,988 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,01INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+5 INFO  [stdout] (ajp--0.0.INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,994 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:45,0INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,995 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+16 INFO  [stdout] (ajp--0.0INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,997 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+.0.0-8009-14) Subjective : nuINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,997 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+ll
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,999 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:44,999 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,001 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,002 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,004 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,004 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,006 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,007 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,008 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 1
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,009 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,012 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:1INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,012 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+7:45,019 INFO  [stdout] (ajp--0.INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,015 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,016 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,019 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:45,019 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,021 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+08:17:45,022 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,024 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+08:17:45,024 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,026 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+08:17:45,026 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,028 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+08:17:45,029 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+08:17:45,031 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+08:17:45,031 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : He has excellent technical skills and should take more people under his wing and try to be more constructive in his criticism for those people
+08:17:45,034 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+08:17:45,035 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Not be so critical of peers. He is a fantastic person but other people get intimidated by him because of his critical nature. Needs to soften up a bit.
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,019 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,021 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,022 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,024 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,024 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,026 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 2
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,026 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,028 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,029 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,031 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,031 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : He has excellent technical skills and should take more people under his wing and try to be more constructive in his criticism for those people
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,034 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,035 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Not be so critical of peers. He is a fantastic person but other people get intimidated by him because of his critical nature. Needs to soften up a bit.
+08:17:45,310 INFO  [stdout] (ajINFO   | jvm 1    | 2015/10/11 13:47:45 | 08:17:45,310 INFO  [stdout] (ajp--0.0.0.0-8009-14) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+p--0.0.0.0-8009-14) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+08:17:46,447 INFO  [stdout] (Finalizer) Connection Count 1
+08:17:46,448 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 13:47:46 | 08:17:46,447 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 13:47:46 | 08:17:46,448 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:54:31,505 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+10:54:31,505 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+10:54:31,506 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+10:54:31,507 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+10:54:31,515 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:24:31 | 10:54:31,505 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 16:24:31 | 10:54:31,505 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:24:31 | 10:54:31,506 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:24:31 | 10:54:31,507 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:24:31 | 10:54:31,515 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+10:54:32,656 INFO  [stdout] (Finalizer) Connection Count 1
+10:54:32,657 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:24:32 | 10:54:32,656 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:24:32 | 10:54:32,657 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:54:33,693 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+10:54:33,693 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+10:54:33,695 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+10:54:33,695 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+10:54:33,705 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:24:33 | 10:54:33,693 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 16:24:33 | 10:54:33,693 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:24:33 | 10:54:33,695 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:24:33 | 10:54:33,695 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:24:33 | 10:54:33,705 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+10:54:34,293 INFO  [stdout] (ajp--0.0.0.0-8009-15) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=49, SUBMITCOUNT=44}}
+INFO   | jvm 1    | 2015/10/11 16:24:34 | 10:54:34,293 INFO  [stdout] (ajp--0.0.0.0-8009-15) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=49, SUBMITCOUNT=44}}
+10:54:34,729 INFO  [stdout] (Finalizer) Connection Count 1
+10:54:34,730 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:24:34 | 10:54:34,729 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:24:34 | 10:54:34,730 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:56:44,853 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+10:56:44,854 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+10:56:44,855 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+10:56:44,856 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+10:56:44,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:26:44 | 10:56:44,853 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 16:26:44 | 10:56:44,854 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:26:44 | 10:56:44,855 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:26:44 | 10:56:44,856 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:26:44 | 10:56:44,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+10:56:45,765 INFO  [stdout] (Finalizer) Connection Count 1
+10:56:45,766 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:26:45 | 10:56:45,765 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:26:45 | 10:56:45,766 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:57:23,386 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+10:57:23,387 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+10:57:23,388 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+10:57:23,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+10:57:23,400 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:27:23 | 10:57:23,386 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 16:27:23 | 10:57:23,387 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:27:23 | 10:57:23,388 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:27:23 | 10:57:23,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:27:23 | 10:57:23,400 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+10:57:24,160 INFO  [stdout] (Finalizer) Connection Count 1
+10:57:24,160 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:27:24 | 10:57:24,160 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:27:24 | 10:57:24,160 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:57:25,220 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+10:57:25,221 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+10:57:25,222 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+10:57:25,223 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+10:57:25,233 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:27:25 | 10:57:25,220 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 16:27:25 | 10:57:25,221 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:27:25 | 10:57:25,222 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:27:25 | 10:57:25,223 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:27:25 | 10:57:25,233 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+10:57:25,995 INFO  [stdout] (Finalizer) Connection Count 1
+10:57:25,996 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:27:26 | 10:57:25,995 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:27:26 | 10:57:25,996 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:57:39,317 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+10:57:39,318 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+10:57:39,319 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+10:57:39,320 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+10:57:39,331 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,317 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,318 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,319 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,320 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,331 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+10:57:39,835 INFO  [stdout] (Finalizer) Connection Count 1
+10:57:39,835 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,835 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:27:39 | 10:57:39,835 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:11,052 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:02:11,053 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:02:11,053 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:02:11,054 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:02:11,062 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,052 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,053 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,053 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,054 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,062 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:02:11,477 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:13,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:11 | 11:02:11,477 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:13,591 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+11:02:13,591 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+11:02:13,592 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+11:02:13,593 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+11:02:13,601 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,591 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,591 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,592 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,593 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:13 | 11:02:13,601 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+11:02:14,183 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:14,183 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:14 | 11:02:14,183 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:14 | 11:02:14,183 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:26,811 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+11:02:26,811 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+11:02:26,813 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+11:02:26,813 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+11:02:26,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:26 | 11:02:26,811 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 16:32:26 | 11:02:26,811 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:32:26 | 11:02:26,813 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:26 | 11:02:26,813 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:26 | 11:02:26,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+11:02:27,309 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:27,310 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:27 | 11:02:27,309 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:27 | 11:02:27,310 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:41,174 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+11:02:41,175 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+11:02:41,176 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+11:02:41,177 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+11:02:41,190 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:41 | 11:02:41,174 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 16:32:41 | 11:02:41,175 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:32:41 | 11:02:41,176 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:41 | 11:02:41,177 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:41 | 11:02:41,190 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+11:02:42,967 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:42,968 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:43 | 11:02:42,967 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:43 | 11:02:42,968 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:44,114 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+11:02:44,114 INFO  [stdout] (ajp--0INFO   | jvm 1    | 2015/10/11 16:32:44 | 11:02:44,114 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/11 16:32:44 | 11:02:44,114 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+.0.0.0-8009-14) connection is idle true connection release count 2
+11:02:44,590 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+11:02:44,591 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+11:02:44,598 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:44 | 11:02:44,590 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:44 | 11:02:44,591 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:44 | 11:02:44,598 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+11:02:45,143 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:45 | 11:02:45,143 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:45,144 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:45 | 11:02:45,144 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:02:47,708 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+11:02:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+11:02:47,710 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+11:02:47,711 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+11:02:47,722 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+11:02:47,726 INFO  [stdout] (ajp--0.0.0.0-8009-9) 
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,708 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,710 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,711 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,722 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:32:47 | 11:02:47,726 INFO  [stdout] (ajp--0.0.0.0-8009-9) 
+11:02:48,247 INFO  [stdout] (Finalizer) Connection Count 1
+11:02:48,248 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:32:48 | 11:02:48,247 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:32:48 | 11:02:48,248 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:03:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:03:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:03:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:03:47,859 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:03:47,866 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:33:47 | 11:03:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 16:33:47 | 11:03:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:33:47 | 11:03:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:33:47 | 11:03:47,859 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:33:47 | 11:03:47,866 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:03:48,006 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:33:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:33:48 | 11:03:48,006 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:33:48 IST 2015
+11:03:48,780 INFO  [stdout] (FinalizINFO   | jvm 1    | 2015/10/11 16:33:48 | 11:03:48,780 INFO  [stdout] (Finalizer) Connection Count 1
+er) Connection Count 1
+11:03:48,807 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:33:48 | 11:03:48,807 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:04:48,194 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+11:04:48,195 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+11:04:48,197 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+11:04:48,197 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+11:04:48,209 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+11:04:48,215 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 16:34:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,194 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,195 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,197 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,197 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,209 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,215 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 16:34:48 IST 2015
+11:04:48,733 INFO  [stdout] (Finalizer) Connection Count 1
+11:04:49,523 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:34:48 | 11:04:48,733 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:34:49 | 11:04:49,523 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:05:48,158 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+11:05:48,159 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+11:05:48,159 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+11:05:48,160 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+11:05:48,167 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+11:05:48,170 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 16:35:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,158 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,159 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,159 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,160 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,167 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,170 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 16:35:48 IST 2015
+11:05:48,617 INFO  [stdout] (Finalizer) Connection Count 1
+11:05:48,618 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,617 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:35:48 | 11:05:48,618 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:06:47,945 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+11:06:47,946 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+11:06:47,946 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+11:06:47,947 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+11:06:47,956 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+11:06:47,961 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 16:36:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,945 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,946 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,946 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,947 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,956 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:47,961 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 16:36:47 IST 2015
+11:06:48,482 INFO  [stdout] (Finalizer) Connection Count 1
+11:06:48,483 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:48,482 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:36:48 | 11:06:48,483 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:07:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+11:07:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+11:07:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+11:07:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:37:47 | 11:07:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 16:37:47 | 11:07:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:37:47 | 11:07:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:37:47 | 11:07:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+1INFO   | jvm 1    | 2015/10/11 16:37:47 | 11:07:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+1:07:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+11:07:48,038 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 16:37:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:37:48 | 11:07:48,038 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 16:37:48 IST 2015
+11:07:48,495 INFO  [stdout] (Finalizer) Connection Count 1
+11:07:48,496 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:37:48 | 11:07:48,495 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:37:48 | 11:07:48,496 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:08:47,835 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+11:08:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+11:08:47,837 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+11:08:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+11:08:47,848 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+11:08:47,854 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 16:38:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,835 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,837 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,848 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:38:47 | 11:08:47,854 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 16:38:47 IST 2015
+11:08:48,386 INFO  [stdout] (Finalizer) Connection Count 1
+11:08:48,386 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:38:48 | 11:08:48,386 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:38:48 | 11:08:48,386 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:09:47,874 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+11:09:47,876 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+11:09:47,877 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+11:09:47,879 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+11:09:47,890 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+11:09:47,894 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 16:39:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,874 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,876 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,877 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,879 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,890 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:39:47 | 11:09:47,894 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 16:39:47 IST 2015
+11:09:48,411 INFO  [stdout] (Finalizer) Connection Count 1
+11:09:48,412 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:39:48 | 11:09:48,411 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:39:48 | 11:09:48,412 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:10:48,268 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+11:10:48,269 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+11:10:48,269 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+11:10:48,270 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+11:10:48,278 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+11:10:48,282 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 16:40:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,268 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,269 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,269 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,270 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,278 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,282 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 16:40:48 IST 2015
+11:10:48,711 INFO  [stdout] (Finalizer) Connection Count 1
+11:10:48,712 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,711 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:40:48 | 11:10:48,712 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:11:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+11:11:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+11:11:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+11:11:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+11:11:47,850 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+11:11:47,854 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 16:41:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,850 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:41:47 | 11:11:47,854 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 16:41:47 IST 2015
+11:11:48,282 INFO  [stdout] (Finalizer) Connection Count 1
+11:11:48,282 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:41:48 | 11:11:48,282 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:41:48 | 11:11:48,282 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:12:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+11:12:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+11:12:47,874 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+11:12:47,875 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+11:12:47,882 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+11:12:47,885 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 16:42:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,874 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,875 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,882 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:42:47 | 11:12:47,885 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 16:42:47 IST 2015
+11:12:48,319 INFO  [stdout] (Finalizer) Connection Count 1
+11:12:48,319 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:42:48 | 11:12:48,319 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:42:48 | 11:12:48,319 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:13:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+11:13:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+11:13:47,837 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+11:13:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+11:13:47,848 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+11:13:47,853 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 16:43:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,836 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,837 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,848 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:43:47 | 11:13:47,853 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 16:43:47 IST 2015
+11:13:48,363 INFO  [stdout] (Finalizer) Connection Count 1
+11:13:48,364 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:43:48 | 11:13:48,363 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:43:48 | 11:13:48,364 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:14:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+11:14:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+11:14:47,829 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+11:14:47,829 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+11:14:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+11:14:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 16:44:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,829 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,829 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:44:47 | 11:14:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 16:44:47 IST 2015
+11:14:48,259 INFO  [stdout] (Finalizer) Connection Count 1
+11:14:48,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:44:48 | 11:14:48,259 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:44:48 | 11:14:48,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:15:48,488 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+11:15:48,489 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+11:15:48,489 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+11:15:48,490 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+11:15:48,500 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+11:15:48,505 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 16:45:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,488 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,489 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,489 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,490 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,500 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:45:48 | 11:15:48,505 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 16:45:48 IST 2015
+11:15:48,982 INFO  [stdout] (Finalizer) Connection Count 1
+11:15:48,983 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:45:49 | 11:15:48,982 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:45:49 | 11:15:48,983 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:16:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:16:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:16:47,849 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:16:47,850 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:16:47,859 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:16:47,862 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:46:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,849 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,850 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,859 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:46:47 | 11:16:47,862 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:46:47 IST 2015
+11:16:48,354 INFO  [stdout] (Finalizer) Connection Count 1
+11:16:48,355 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:46:48 | 11:16:48,354 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:46:48 | 11:16:48,355 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:17:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+11:17:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+11:17:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+11:17:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+11:17:47,839 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+11:17:47,845 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 16:47:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,827 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,839 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:47:47 | 11:17:47,845 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 16:47:47 IST 2015
+11:17:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+11:17:48,304 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:47:48 | 11:17:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:47:48 | 11:17:48,304 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:18:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+11:18:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+11:18:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+11:18:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+11:18:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+11:18:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 16:48:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:48:47 | 11:18:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 16:48:47 IST 2015
+11:18:48,254 INFO  [stdout] (Finalizer) Connection Count 1
+11:18:48,255 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:48:48 | 11:18:48,254 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:48:48 | 11:18:48,255 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:19:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+11:19:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+11:19:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+11:19:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+11:19:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+11:19:47,846 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 16:49:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:49:47 | 11:19:47,846 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 16:49:47 IST 2015
+11:19:48,355 INFO  [stdout] (Finalizer) Connection Count 1
+11:19:48,356 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:49:48 | 11:19:48,355 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:49:48 | 11:19:48,356 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:20:47,844 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+11:20:47,845 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+11:20:47,846 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+11:20:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+11:20:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+11:20:47,863 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 16:50:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,844 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,845 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,846 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,847 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:50:47 | 11:20:47,863 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 16:50:47 IST 2015
+11:20:48,321 INFO  [stdout] (Finalizer) Connection Count 1
+11:20:48,321 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:50:48 | 11:20:48,321 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:50:48 | 11:20:48,321 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:21:48,256 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+11:21:48,257 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+11:21:48,259 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+11:21:48,259 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+11:21:48,271 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+11:21:48,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 16:51:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,256 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,257 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,259 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,259 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,271 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 16:51:48 IST 2015
+11:21:48,727 INFO  [stdout] (Finalizer) Connection Count 1
+11:21:48,727 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,727 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:51:48 | 11:21:48,727 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:22:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+11:22:47,819 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+11:22:47,820 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+11:22:47,821 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+11:22:47,834 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+11:22:47,840 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 16:52:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,819 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,820 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,821 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,834 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:52:47 | 11:22:47,840 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 16:52:47 IST 2015
+11:22:48,273 INFO  [stdout] (Finalizer) Connection Count 1
+11:22:48,274 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:52:48 | 11:22:48,273 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:52:48 | 11:22:48,274 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:23:47,817 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+11:23:47,817 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+11:23:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+11:23:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+11:23:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+11:23:47,831 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 16:53:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,817 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,817 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,818 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,826 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:53:47 | 11:23:47,831 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 16:53:47 IST 2015
+11:23:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+11:23:48,304 INFO  [stdouINFO   | jvm 1    | 2015/10/11 16:53:48 | 11:23:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+t] (FINFO   | jvm 1    | 2015/10/11 16:53:48 | 11:23:48,304 INFO  [stdout] (Finalizer) Releasing connection back to pool
+inalizer) Releasing connection back to pool
+11:24:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+11:24:47,792 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+11:24:47,793 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+11:24:47,794 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:54:47 | 11:24:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/11 16:54:47 | 11:24:47,792 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:54:47 | 11:24:47,793 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:54:47 | 11:24:47,794 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+11:24:47,803 ININFO   | jvm 1    | 2015/10/11 16:54:47 | 11:24:47,803 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+FO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+11:24INFO   | jvm 1    | 2015/10/11 16:54:48 | 11:24:48,177 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 16:54:48 IST 2015
+:48,177 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 16:54:48 IST 2015
+11:24:49,292 INFO  [stdout] (Finalizer) Connection Count 1
+11:24:49,292 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:54:49 | 11:24:49,292 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:54:49 | 11:24:49,292 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:25:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+11:25:47,839 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+11:25:47,840 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+11:25:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+11:25:47,852 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+11:25:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 16:55:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,839 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,840 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,852 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:55:47 | 11:25:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 16:55:47 IST 2015
+11:25:48,296 INFO  [stdout] (Finalizer) Connection Count 1
+11:25:48,333 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:55:48 | 11:25:48,296 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:55:48 | 11:25:48,333 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:26:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+11:26:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+11:26:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+11:26:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+11:26:48,653 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+11:26:48,657 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 16:56:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,653 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:56:48 | 11:26:48,657 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 16:56:48 IST 2015
+11:26:49,101 INFINFO   | jvm 1    | 2015/10/11 16:56:49 | 11:26:49,101 INFO  [stdout] (Finalizer) Connection Count 1
+O  [stdout] (Finalizer) Connection Count 1
+11:26:49,232 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:56:49 | 11:26:49,232 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:27:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+11:27:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+11:27:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+11:27:48,170 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+11:27:48,178 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+11:27:48,181 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 16:57:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,170 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,178 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,181 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 16:57:48 IST 2015
+11:27:48,611 INFO  [stdout] (Finalizer) Connection Count 1
+11:27:48,611 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,611 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:57:48 | 11:27:48,611 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:28:48,055 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+11:28:48,055 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+11:28:48,056 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+11:28:48,057 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+11:28:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+11:28:48,073 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 16:58:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,055 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,055 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,056 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,057 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,068 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,073 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 16:58:48 IST 2015
+11:28:48,571 INFO INFO   | jvm 1    | 2015/10/11 16:58:48 | 11:28:48,571 INFO  [stdout] (Finalizer) Connection Count 1
+ [stdout] (Finalizer) Connection Count 1
+11:28:48,922 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:58:49 | 11:28:48,922 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:29:47,794 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:29:47,795 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:29:47,795 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:29:47,796 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:29:47,804 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:29:47,807 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:59:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,794 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,795 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,795 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,796 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,804 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 16:59:47 | 11:29:47,807 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 16:59:47 IST 2015
+11:29:48,307 INFO  [stdout] (Finalizer) Connection Count 1
+11:29:48,308 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 16:59:48 | 11:29:48,307 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 16:59:48 | 11:29:48,308 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:30:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+11:30:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+11:30:47,860 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+11:30:47,861 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+11:30:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+11:30:47,878 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 17:00:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,857 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,858 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,860 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,861 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,873 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:00:47 | 11:30:47,878 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 17:00:47 IST 2015
+11:30:48,378 INFO  [stdout] (Finalizer) Connection Count 1
+11:30:48,379 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:00:48 | 11:30:48,378 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:00:48 | 11:30:48,379 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:31:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+11:31:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+11:31:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+11:31:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+11:31:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+11:31:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 17:01:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,838 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:01:47 | 11:31:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 17:01:47 IST 2015
+11:31:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+11:31:48,304 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:01:48 | 11:31:48,303 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:01:48 | 11:31:48,304 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:32:48,167 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+11:32:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+11:32:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+11:32:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+11:32:48,176 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+11:32:48,179 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Oct 11 17:02:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,167 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,168 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,169 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,176 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,179 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Oct 11 17:02:48 IST 2015
+11:32:48,634 INFO  [stdout] (Finalizer) Connection Count 1
+11:32:48,635 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,634 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:02:48 | 11:32:48,635 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:33:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+11:33:47,784 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+11:33:47,785 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+11:33:47,786 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+11:33:47,797 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+11:33:47,801 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 17:03:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,784 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,785 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,786 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,797 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:03:47 | 11:33:47,801 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 17:03:47 IST 2015
+11:33:48,239 INFO  [stdout] (Finalizer) Connection Count 1
+11:33:48,240 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:03:48 | 11:33:48,239 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:03:48 | 11:33:48,240 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:34:47,809 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+11:34:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+11:34:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+11:34:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+11:34:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+11:34:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 17:04:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,809 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,810 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,811 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:04:47 | 11:34:47,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 17:04:47 IST 2015
+11:34:48,290 INFO  [stdout] (Finalizer) Connection Count 1
+11:34:48,291 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:04:48 | 11:34:48,290 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:04:48 | 11:34:48,291 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:35:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+11:35:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+11:35:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+11:35:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+11:35:47,831 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+11:35:47,835 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 17:05:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,822 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,823 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,831 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:05:47 | 11:35:47,835 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 17:05:47 IST 2015
+11:35:48,272 INFO  [stdout] (Finalizer) Connection Count 1
+11:35:48,272 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:05:48 | 11:35:48,272 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:05:48 | 11:35:48,272 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:36:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+11:36:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+11:36:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+11:36:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+11:36:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+11:36:47,788 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 17:06:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:06:47 | 11:36:47,788 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 17:06:47 IST 2015
+11:36:48,322 INFO  [stdout] (Finalizer) Connection Count 1
+11:36:48,322 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:06:48 | 11:36:48,322 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:06:48 | 11:36:48,322 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:37:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+11:37:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+11:37:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+11:37:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+11:37:48,656 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+11:37:48,661 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 17:07:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,656 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:07:48 | 11:37:48,661 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 17:07:48 IST 2015
+11:37:49,144 INFO  [stdout] (Finalizer) Connection Count 1
+11:37:49,145 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:07:49 | 11:37:49,144 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:07:49 | 11:37:49,145 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:38:47,745 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+11:38:47,746 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+11:38:47,746 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+11:38:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+11:38:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+11:38:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 17:08:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,745 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,746 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,746 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:08:47 | 11:38:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 17:08:47 IST 2015
+11:38:48,240 INFO  [stdout] (Finalizer) Connection Count 1
+11:38:48,241 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:08:48 | 11:38:48,240 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:08:48 | 11:38:48,241 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:39:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+11:39:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+11:39:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+11:39:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+11:39:47,780 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+11:39:47,785 INFO  [stdouINFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+t] (ajINFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+p--0.0.0INFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+.0-8009INFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+-14) Data bacINFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,780 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+kup INFO   | jvm 1    | 2015/10/11 17:09:47 | 11:39:47,785 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 17:09:47 IST 2015
+at Sun Oct 11 17:09:47 IST 2015
+11:39:48,259 INFO  [stdout] (Finalizer) Connection Count 1
+11:39:48,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:09:48 | 11:39:48,259 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:09:48 | 11:39:48,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:40:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+11:40:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+11:40:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+11:40:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+11:40:47,764 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+11:40:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 17:10:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,764 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:10:47 | 11:40:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 17:10:47 IST 2015
+11:40:48,206 INFO  [stdout] (Finalizer) Connection Count 1
+11:40:48,206 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:10:48 | 11:40:48,206 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:10:48 | 11:40:48,206 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:41:47,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+11:41:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+11:41:47,779 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+11:41:47,780 INFO  INFO   | jvm 1    | 2015/10/11 17:11:47 | 11:41:47,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 17:11:47 | 11:41:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:11:47 | 11:41:47,779 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:11:47 | 11:41:47,780 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+[stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+11:41:47,792 INFO  [stdout] (ajINFO   | jvm 1    | 2015/10/11 17:11:47 | 11:41:47,792 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+p--0.0.0.0-8009-16) New connection added in pool
+11:41:48,079 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 17:11:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:11:48 | 11:41:48,079 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 17:11:48 IST 2015
+11:41:48,604 INFO  [stdout] (Finalizer) Connection Count 1
+11:41:48,604 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:11:48 | 11:41:48,604 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:11:48 | 11:41:48,604 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:42:47,759 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+11:42:47,760 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+11:42:47,761 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+11:42:47,761 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+11:42:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+11:42:47,772 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 17:12:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,759 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,760 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,761 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,761 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:12:47 | 11:42:47,772 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 17:12:47 IST 2015
+11:42:48,265 INFO  [stdout] (Finalizer) Connection Count 1
+11:42:48,266 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:12:48 | 11:42:48,265 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:12:48 | 11:42:48,266 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:43:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+11:43:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+11:43:48,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+11:43:48,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+11:43:48,118 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+11:43:48,123 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 17:13:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,106 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,118 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,123 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 17:13:48 IST 2015
+11:43:48,673 INFO  [stdout] (Finalizer) ConnectiINFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,673 INFO  [stdout] (Finalizer) Connection Count 1
+on Count 1
+11:43:48,772 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:13:48 | 11:43:48,772 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:44:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:44:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:44:47,773 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:44:47,773 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:44:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:44:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 17:14:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,773 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,773 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,783 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:14:47 | 11:44:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 17:14:47 IST 2015
+11:44:48,228 INFO  [stdout] (Finalizer) Connection Count 1
+11:44:48,582 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:14:48 | 11:44:48,228 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:14:48 | 11:44:48,582 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:45:47,762 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+11:45:47,762 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+11:45:47,763 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+11:45:47,763 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+11:45:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+11:45:47,775 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 17:15:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,762 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,762 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,763 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,763 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:15:47 | 11:45:47,775 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Oct 11 17:15:47 IST 2015
+11:45:48,314 INFO  [stdout] (Finalizer) Connection Count 1
+11:45:48,314 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:15:48 | 11:45:48,314 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:15:48 | 11:45:48,314 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:46:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+11:46:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+11:46:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+11:46:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,769 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,771 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+11:46:47,784 INFO  [stdout] (ajp--0.0.0.0-8009-21) NewINFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,784 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+ connection added in pool
+11:46:47,905INFO   | jvm 1    | 2015/10/11 17:16:47 | 11:46:47,905 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 17:16:47 IST 2015
+ INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Oct 11 17:16:47 IST 2015
+11:46:48,601 INFO  [stdout] (Finalizer) Connection Count 1
+11:46:48,602 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:16:48 | 11:46:48,601 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:16:48 | 11:46:48,602 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:47:47,868 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+11:47:47,869 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+11:47:47,870 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+11:47:47,870 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+11:47:47,881 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+11:47:47,885 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Oct 11 17:17:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,868 INFO  [stdout] (ajp--0.0.0.0-8009-19) 3
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,869 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,870 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,870 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,881 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:17:47 | 11:47:47,885 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Oct 11 17:17:47 IST 2015
+11:47:48,332 INFO  [stdout] (Finalizer) Connection Count 1
+11:47:48,332 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:17:48 | 11:47:48,332 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:17:48 | 11:47:48,332 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:48:48,755 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+11:48:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+11:48:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+11:48:48,757 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+11:48:48,764 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+11:48:48,770 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 17:18:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,755 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,756 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,757 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,764 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:18:48 | 11:48:48,770 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Oct 11 17:18:48 IST 2015
+11:48:49,267 INFO  [stdout] (Finalizer) Connection Count 1
+11:48:49,268 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:18:49 | 11:48:49,267 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:18:49 | 11:48:49,268 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:49:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+11:49:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+11:49:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+11:49:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+11:49:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+11:49:47,772 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 17:19:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:19:47 | 11:49:47,772 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Oct 11 17:19:47 IST 2015
+11:49:48,253 INFO  [stdout] (Finalizer) Connection Count 1
+11:49:48,254 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:19:48 | 11:49:48,253 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:19:48 | 11:49:48,254 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:50:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+11:50:47,788 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+11:50:47,789 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+11:50:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+11:50:47,798 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+11:50:47,803 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 17:20:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,788 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,789 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,798 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:20:47 | 11:50:47,803 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Oct 11 17:20:47 IST 2015
+11:50:48,264 INFO  [stdout] (Finalizer) Connection Count 1
+11:50:48,265 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:20:48 | 11:50:48,264 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:20:48 | 11:50:48,265 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:51:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+11:51:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+11:51:47,736 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+11:51:47,736 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+11:51:47,743 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+11:51:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 17:21:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,736 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,736 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,743 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:21:47 | 11:51:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Oct 11 17:21:47 IST 2015
+11:51:48,201 INFO  [stdout] (Finalizer) Connection Count 1
+11:51:48,202 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:21:48 | 11:51:48,201 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:21:48 | 11:51:48,202 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:52:47,781 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+11:52:47,781 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+11:52:47,782 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+11:52:47,782 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+11:52:47,789 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+11:52:47,793 INFO  [stdout] (ajp--0.0.0.0-8009-INFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,781 INFO  [stdout] (ajp--0.0.0.0-8009-20) 3
+20) Data backup at Sun OINFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,781 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+ct 11 17:22:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,782 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,782 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,789 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:22:47 | 11:52:47,793 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Oct 11 17:22:47 IST 2015
+11:52:48,300 INFO  [stdout] (Finalizer) Connection Count 1
+11:52:48,325 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:22:48 | 11:52:48,300 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:22:48 | 11:52:48,325 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:53:47,732 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+11:53:47,733 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+11:53:47,734 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+11:53:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+11:53:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+11:53:47,752 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 17:23:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,732 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,733 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,734 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,735 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,747 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:23:47 | 11:53:47,752 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Oct 11 17:23:47 IST 2015
+11:53:48,305 INFO  [stdout] (Finalizer) Connection Count 1
+11:53:48,306 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:23:48 | 11:53:48,305 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:23:48 | 11:53:48,306 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:54:48,088 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+11:54:48,088 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+11:54:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+11:54:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,088 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,088 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+11:54:48,100 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+11:54:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 17:24:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,100 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,104 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Oct 11 17:24:48 IST 2015
+11:54:48,609 INFO  [stdout] (Finalizer) Connection Count 1
+11:54:48,609 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,609 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:24:48 | 11:54:48,609 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:55:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+11:55:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+11:55:47,710 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+11:55:47,711 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+11:55:47,718 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+11:55:47,724 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 17:25:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,709 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,710 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,711 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,718 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:25:47 | 11:55:47,724 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Oct 11 17:25:47 IST 2015
+11:55:48,221 INFO  [stdout] (Finalizer) Connection Count 1
+11:55:48,223 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:25:48 | 11:55:48,221 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:25:48 | 11:55:48,223 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:56:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+11:56:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+11:56:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+11:56:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+11:56:47,764 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+11:56:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 17:26:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,756 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,764 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:26:47 | 11:56:47,768 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Oct 11 17:26:47 IST 2015
+11:56:48,207 INFO  [stdout] (Finalizer) Connection Count 1
+11:56:48,207 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:26:48 | 11:56:48,207 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:26:48 | 11:56:48,207 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:57:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+11:57:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+11:57:47,779 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+11:57:47,780 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+11:57:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+11:57:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 17:27:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,778 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,779 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,780 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,787 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:27:47 | 11:57:47,790 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Oct 11 17:27:47 IST 2015
+11:57:48,226 INFO  [stdout] (Finalizer) Connection Count 1
+11:57:48,227 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:27:48 | 11:57:48,226 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:27:48 | 11:57:48,227 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:58:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+11:58:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+11:58:47,759 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+11:58:47,760 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+11:58:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+11:58:47,777 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 17:28:47 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,759 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,760 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:28:47 | 11:58:47,777 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Oct 11 17:28:47 IST 2015
+11:58:48,286INFO   | jvm 1    | 2015/10/11 17:28:48 | 11:58:48,286 INFO  [stdout] (Finalizer) Connection Count 1
+ INFO  [stdout] (Finalizer) Connection Count 1
+11:58:48,353 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:28:48 | 11:58:48,353 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:59:48,465 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+11:59:48,466 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+11:59:48,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+11:59:48,468 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+11:59:48,479 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+11:59:48,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 17:29:48 IST 2015
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,465 INFO  [stdout] (ajp--0.0.0.0-8009-23) 3
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,466 INFO  [stdout] (ajp--0.0.0.0-8009-23) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,468 INFO  [stdout] (ajp--0.0.0.0-8009-23) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,479 INFO  [stdout] (ajp--0.0.0.0-8009-23) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Data backup at Sun Oct 11 17:29:48 IST 2015
+11:59:48,874 INFO  [stdout] (Finalizer) Connection Count 1
+11:59:49,107 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:29:48 | 11:59:48,874 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:29:49 | 11:59:49,107 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:00:34,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+12:00:34,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+12:00:34,088 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+12:00:34,089 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+12:00:34,095 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+12:00:34,114 ERROR [stderr] (ajp--0.0.0.0-8009-3) testDuration :3600
+12:00:34,114 ERROR [stderr] (ajp--0.0.0.0-8009-3) totalQuesTime :3459
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,087 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,088 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,089 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,095 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,114 ERROR [stderr] (ajp--0.0.0.0-8009-3) testDuration :3600
+INFO   | jvm 1    | 2015/10/11 17:30:34 | 12:00:34,114 ERROR [stderr] (ajp--0.0.0.0-8009-3) totalQuesTime :3459
+12:00:35,231 INFO  [stdout] (Finalizer) Connection Count 1
+12:00:35,231 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:30:35 | 12:00:35,231 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:30:35 | 12:00:35,231 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:01:31,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+12:01:31,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+12:01:31,254 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+12:01:31,255 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:31:31 | 12:01:31,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2015/10/11 17:31:31 | 12:01:31,253 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:31:31 | 12:01:31,254 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:31:31 | 12:01:31,255 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+12:01:31,262 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:31:31 | 12:01:31,262 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+12:01:32,744 INFO  [stdout] (Finalizer) Connection Count 1
+12:01:32,745 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:31:32 | 12:01:32,744 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:31:32 | 12:01:32,745 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:01:33,808 INFO  [stdoINFO   | jvm 1    | 2015/10/11 17:31:33 | 12:01:33,808 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+ut] (ajp--0.0.0.0-8009-5) 3
+12:01:33,924 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+12:01:33,925 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+12:01:33,925 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+12:01:33,936 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:31:34 | 12:01:33,924 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:31:34 | 12:01:33,925 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:31:34 | 12:01:33,925 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:31:34 | 12:01:33,936 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+12:01:35,326 INFO  [stdout] (ajp--0.0.0.0-8009-5) {68=INFO   | jvm 1    | 2015/10/11 17:31:35 | 12:01:35,326 INFO  [stdout] (ajp--0.0.0.0-8009-5) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=50, SUBMITCOUNT=45}}
+{TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=31, SUBMITCOUNT=30}, 52={TOTALCOUNT=50, SUBMITCOUNT=49}, 59={TOTALCOUNT=36, SUBMITCOUNT=34}, 58={TOTALCOUNT=42, SUBMITCOUNT=41}, 60={TOTALCOUNT=50, SUBMITCOUNT=45}}
+12:01:35,851 INFO  [stdout] (Finalizer) ConneINFO   | jvm 1    | 2015/10/11 17:31:35 | 12:01:35,851 INFO  [stdout] (Finalizer) Connection Count 1
+ction Count 1
+12:01:36,322 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:31:36 | 12:01:36,322 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:01:43,617 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+12:01:43,618 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+12:01:43,618 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+12:01:43,619 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+12:01:43,629 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:31:43 | 12:01:43,617 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2015/10/11 17:31:43 | 12:01:43,618 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:31:43 | 12:01:43,618 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:31:43 | 12:01:43,619 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:31:43 | 12:01:43,629 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+12:01:44,357 INFO  [stdout] (Finalizer) Connection Count 1
+12:01:44,358 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:31:44 | 12:01:44,357 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:31:44 | 12:01:44,358 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:27:56,742 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+12:27:56,742 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+12:27:56,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+12:27:56,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+12:27:56,755 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 17:57:56 | 12:27:56,742 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/10/11 17:57:56 | 12:27:56,742 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 17:57:56 | 12:27:56,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/10/11 17:57:56 | 12:27:56,744 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 17:57:56 | 12:27:56,755 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+12:27:57,441 INFO  [stdout] (Finalizer) Connection Count 1
+12:27:57,442 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 17:57:57 | 12:27:57,441 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 17:57:57 | 12:27:57,442 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:35:35,309 INFO  [stdout] (ajp--0.0.0.0-8009-16) clientLogin.jsp
+17:35:35,310 INFO  [stdout] (ajp--0.0.0.0-8009-16) 4
+17:35:35,311 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+17:35:35,312 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+17:35:35,313 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,309 INFO  [stdout] (ajp--0.0.0.0-8009-16) clientLogin.jsp
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,310 INFO  [stdout] (ajp--0.0.0.0-8009-16) 4
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,311 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,312 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,313 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+17:35:35,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 23:05:35 | 17:35:35,326 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+17:35:36,503 INFO  [stdout] (Finalizer) Connection Count 1
+17:35:36,504 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 23:05:36 | 17:35:36,503 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 23:05:36 | 17:35:36,504 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:35:37,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+17:35:37,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+17:35:37,134 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+17:35:37,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+17:35:37,146 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,132 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,134 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,135 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,146 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+17:35:37,842 INFO  [stdout] (Finalizer) Connection Count 1
+17:35:37,843 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,842 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/10/11 23:05:37 | 17:35:37,843 INFO  [stdout] (Finalizer) Releasing connection back to pool
+STATUS | wrapper  | 2015/10/12 08:14:38 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,827 INFO  [org.jboss.as.osgi] (MSC service thread 1-3) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,841 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Pausing Coyote HTTP/1.1 on http--0.0.0.0-8080
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,844 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) Stopping Coyote HTTP/1.1 on http--0.0.0.0-8080
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,849 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-3) Pausing Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,872 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,903 INFO  [org.apache.catalina.core.StandardContext] Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,894 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:138) [classes:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	... 8 more
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,902 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[next360.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at com.fs360.login.LoginActionServlet.destroy(LoginActionServlet.java:150) [classes:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 	... 8 more
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 
+INFO   | jvm 1    | 2015/10/12 08:14:38 | 02:44:38,935 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called

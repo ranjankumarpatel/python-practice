@@ -1,0 +1,147 @@
+09:52:22,079 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+INFO   | jvm 1    | 2014/08/26 09:52:22 | 09:52:22,079 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+09:55:21,544 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "azure.war"
+INFO   | jvm 1    | 2014/08/26 09:55:21 | 09:55:21,544 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "azure.war"
+09:55:23,315 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/08/26 09:55:23 | 09:55:23,315 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+09:55:23,566 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}
+INFO   | jvm 1    | 2014/08/26 09:55:23 | 09:55:23,566 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}
+09:55:23,706 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment azure.war in 140ms
+09:55:23,709 INFO  [org.jboss.as.controller] (DeploymentScanner-threads -INFO   | jvm 1    | 2014/08/26 09:55:23 | 09:55:23,706 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment azure.war in 140ms
+ 1) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.web.host."azure.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azure.thinktalentnext.net"./] 
+
+09:55:23,713 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}}}
+INFO   | jvm 1    | 2014/08/26 09:55:23 | 09:55:23,709 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+INFO   | jvm 1    | 2014/08/26 09:55:23 | JBAS014775:    New missing/unsatisfied dependencies:
+INFO   | jvm 1    | 2014/08/26 09:55:23 |       service jboss.web.host."azure.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azure.thinktalentnext.net"./] 
+INFO   | jvm 1    | 2014/08/26 09:55:23 | 
+INFO   | jvm 1    | 2014/08/26 09:55:23 | 09:55:23,713 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}}}
+10:00:53,940 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+INFO   | jvm 1    | 2014/08/26 10:00:53 | 10:00:53,940 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+10:05:17,353 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015052: Did not receive a response to the deployment operation within the allowed timeout period [60 seconds]. Check the server configuration file and the server logs to find more about the status of the deployment.
+INFO   | jvm 1    | 2014/08/26 10:05:17 | 10:05:17,353 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015052: Did not receive a response to the deployment operation within the allowed timeout period [60 seconds]. Check the server configuration file and the server logs to find more about the status of the deployment.
+10:59:42,997 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+INFO   | jvm 1    | 2014/08/26 10:59:43 | 10:59:42,997 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+11:03:48,249 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015052: Did not receive a response to the deployment operation within the allowed timeout period [60 seconds]. Check the server configuration file and the server logs to find more about the status of the deployment.
+INFO   | jvm 1    | 2014/08/26 11:03:48 | 11:03:48,249 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015052: Did not receive a response to the deployment operation within the allowed timeout period [60 seconds]. Check the server configuration file and the server logs to find more about the status of the deployment.
+STATUS | wrapper  | 2014/08/26 11:08:32 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,071 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,070 INFO  [org.apache.coyote.ajp.AjpProtocol] Pausing Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,074 INFO  [org.apache.coyote.ajp.AjpProtocol] Stopping Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,168 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,184 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,774 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abcengg.war in 795ms
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,775 INFO  [org.jboss.as.controller] JBAS014774: Service status report
+INFO   | jvm 1    | 2014/08/26 11:08:33 | JBAS014776:    Newly corrected services:
+INFO   | jvm 1    | 2014/08/26 11:08:33 |       service jboss.web.host."azure.thinktalentnext.net" (new available)
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 
+INFO   | jvm 1    | 2014/08/26 11:08:33 | 11:08:33,778 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 734ms
+STATUS | wrapper  | 2014/08/26 11:08:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2014/08/26 11:08:35 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/08/26 11:08:35 | Java Service Wrapper Community Edition 64-bit 3.5.13
+STATUS | wrapper  | 2014/08/26 11:08:35 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2014/08/26 11:08:35 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2014/08/26 11:08:35 | 
+STATUS | wrapper  | 2014/08/26 11:08:35 | Launching a JVM...
+INFO   | jvm 1    | 2014/08/26 11:08:36 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2014/08/26 11:08:36 | WARNING: -logmodule is deprecated. Please use the system property 'java.util.logging.manager' or the 'java.util.logging.LogManager' service loader.
+INFO   | jvm 1    | 2014/08/26 11:08:36 | 11:08:36,930 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+INFO   | jvm 1    | 2014/08/26 11:08:37 | 11:08:37,484 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+INFO   | jvm 1    | 2014/08/26 11:08:37 | 11:08:37,647 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,011 INFO  [org.xnio] XNIO Version 3.0.3.GA
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,025 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,033 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,052 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,150 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+11:08:40,273 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+11:08:40,300 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+11:08:40,276 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,273 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,300 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,276 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+11:08:40,392 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+11:08:40,438 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013100: Current PicketBox version=4.0.7.Final
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,392 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,438 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013100: Current PicketBox version=4.0.7.Final
+11:08:40,515 INFO  [org.jboss.as.connector] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,515 INFO  [org.jboss.as.connector] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+11:08:40,595 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+11:08:40,658 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,595 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,658 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+11:08:40,784 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+INFO   | jvm 1    | 2014/08/26 11:08:40 | 11:08:40,784 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+11:08:41,041 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+INFO   | jvm 1    | 2014/08/26 11:08:41 | 11:08:41,041 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+11:08:41,182 INFO  [org.apache.coyoteINFO   | jvm 1    | 2014/08/26 11:08:41 | 11:08:41,182 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+11:08:41,213 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-4) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2014/08/26 11:08:41 | 11:08:41,213 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-4) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+11:08:42,258 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,258 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+11:08:42,390 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:9999
+11:08:42,391 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /0.0.0.0:4447
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,390 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:9999
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,391 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /0.0.0.0:4447
+11:08:42,407 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+11:08:42,412 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment azure.war
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,407 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,412 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment azure.war
+11:08:42,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "abcengg.war"
+11:08:42,568 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "azure.war"
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "abcengg.war"
+INFO   | jvm 1    | 2014/08/26 11:08:42 | 11:08:42,568 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "azure.war"
+11:08:46,960 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/08/26 11:08:47 | 11:08:46,960 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+11:08:47,INFO   | jvm 1    | 2014/08/26 11:08:47 | 11:08:47,847 INFO  [org.jboss.web] (MSC service thread 1-3) JBAS018210: Registering web context: 
+847 INFO  [org.jboss.web] (MSC service thread 1-3) JBAS018210: Registering web context: 
+11:08:47,966 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015951: Admin console listening on http://0.0.0.0:9990
+11:08:47,967 ERROR [org.jboss.as] (MSC service thread 1-4) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 11770ms - Started 555 of 636 services (2 services failed or missing dependencies, 78 services are passive or on-demand)
+INFO   | jvm 1    | 2014/08/26 11:08:48 | 11:08:47,966 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015951: Admin console listening on http://0.0.0.0:9990
+INFO   | jvm 1    | 2014/08/26 11:08:48 | 11:08:47,967 ERROR [org.jboss.as] (MSC service thread 1-4) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 11770ms - Started 555 of 636 services (2 services failed or missing dependencies, 78 services are passive or on-demand)
+11:08:48,168 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015871: Deploy of deployment "abcengg.war" was rolled back with no failure message
+11:08:48,170 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}
+INFO   | jvm 1    | 2014/08/26 11:08:48 | 11:08:48,168 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015871: Deploy of deployment "abcengg.war" was rolled back with no failure message
+INFO   | jvm 1    | 2014/08/26 11:08:48 | 11:08:48,170 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}
+11:08:48,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment azure.war in 246ms
+INFO   | jvm 1    | 2014/08/26 11:08:48 | 11:08:48,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment azure.war in 246ms
+11:08:49,318 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment abcengg.war in 1148ms
+11:08:49,321 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.web.host."azure.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azure.thinktalentnext.net"./] 
+
+11:08:49,332 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}}}
+11:08:49,337 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS014654: Composite operation was rolled back
+INFO   | jvm 1    | 2014/08/26 11:08:49 | 11:08:49,318 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment abcengg.war in 1148ms
+INFO   | jvm 1    | 2014/08/26 11:08:49 | 11:08:49,321 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+INFO   | jvm 1    | 2014/08/26 11:08:49 | JBAS014775:    New missing/unsatisfied dependencies:
+INFO   | jvm 1    | 2014/08/26 11:08:49 |       service jboss.web.host."azure.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azure.thinktalentnext.net"./] 
+INFO   | jvm 1    | 2014/08/26 11:08:49 | 
+INFO   | jvm 1    | 2014/08/26 11:08:49 | 11:08:49,332 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"Missing[jboss.web.deployment.\"azure.thinktalentnext.net\"./jboss.web.host.\"azure.thinktalentnext.net\"]"]}}}
+INFO   | jvm 1    | 2014/08/26 11:08:49 | 11:08:49,337 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS014654: Composite operation was rolled back
+12:01:50,566 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+INFO   | jvm 1    | 2014/08/26 12:01:50 | 12:01:50,566 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015009: Scan found incompletely copied file content for deployment /opt/jboss7/standalone/deployments/azure.war. Deployment changes will not be processed until all content is complete.
+12:05:48,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "azure.war"
+INFO   | jvm 1    | 2014/08/26 12:05:48 | 12:05:48,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "azure.war"
+12:05:49,706 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/08/26 12:05:49 | 12:05:49,706 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+12:05:49,959 INFO  [org.jboss.as.serINFO   | jvm 1    | 2014/08/26 12:05:49 | 12:05:49,959 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"Missing[jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"]"]}
+ver] (DeploymentScanner-threads - 1) JBAS015870: Deploy of deployment "azure.war" was rolled back with failure message {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"Missing[jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"]"]}
+12:05:50,070 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment azure.war in 108ms
+12:05:50,088 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.web.host."azurepower.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azurepower.thinktalentnext.net"./] 
+JBAS014776:    Newly corrected services:
+      service jboss.web.host."azure.thinktalentnext.net" (new available)
+
+12:05:50,093 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"Missing[jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"]"]}}}
+INFO   | jvm 1    | 2014/08/26 12:05:50 | 12:05:50,070 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment azure.war in 108ms
+INFO   | jvm 1    | 2014/08/26 12:05:50 | 12:05:50,088 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+INFO   | jvm 1    | 2014/08/26 12:05:50 | JBAS014775:    New missing/unsatisfied dependencies:
+INFO   | jvm 1    | 2014/08/26 12:05:50 |       service jboss.web.host."azurepower.thinktalentnext.net" (missing) dependents: [service jboss.web.deployment."azurepower.thinktalentnext.net"./] 
+INFO   | jvm 1    | 2014/08/26 12:05:50 | JBAS014776:    Newly corrected services:
+INFO   | jvm 1    | 2014/08/26 12:05:50 |       service jboss.web.host."azure.thinktalentnext.net" (new available)
+INFO   | jvm 1    | 2014/08/26 12:05:50 | 
+INFO   | jvm 1    | 2014/08/26 12:05:50 | 12:05:50,093 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"Missing[jboss.web.deployment.\"azurepower.thinktalentnext.net\"./jboss.web.host.\"azurepower.thinktalentnext.net\"]"]}}}

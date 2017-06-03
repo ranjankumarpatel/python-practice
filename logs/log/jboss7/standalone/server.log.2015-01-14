@@ -1,0 +1,1381 @@
+INFO   | jvm 1    | 2015/01/14 16:42:32 | 11:12:32,212 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:42:32 | 11:12:32,213 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:42:32 | 11:12:32,227 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:42:32 | 11:12:32,638 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:42:32 | 11:12:32,639 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:46:01 | 11:16:01,519 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2015/01/14 16:46:01 | 11:16:01,520 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:46:01 | 11:16:01,521 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:46:01 | 11:16:01,523 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:46:01 | 11:16:01,536 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:46:02 | 11:16:02,081 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:46:02 | 11:16:02,089 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:27 | 11:17:27,829 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/01/14 16:47:27 | 11:17:27,830 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:27 | 11:17:27,831 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:27 | 11:17:27,832 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:27 | 11:17:27,845 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,133 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,134 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,762 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,763 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,764 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,765 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,778 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:28 | 11:17:28,834 INFO  [stdout] (ajp--0.0.0.0-8009-6) {1={TOTALCOUNT=3, SUBMITCOUNT=1}}
+INFO   | jvm 1    | 2015/01/14 16:47:29 | 11:17:29,262 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:29 | 11:17:29,263 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,321 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,321 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,322 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,322 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,331 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,710 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:38 | 11:17:38,711 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,029 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,030 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,031 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,045 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,429 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:43 | 11:17:43,429 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:47 | 11:17:47,705 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2015/01/14 16:47:47 | 11:17:47,706 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:47 | 11:17:47,707 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:47 | 11:17:47,708 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:47 | 11:17:47,720 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:48 | 11:17:48,065 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:48 | 11:17:48,066 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,189 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,190 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,192 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,193 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,207 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,627 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:47:51 | 11:17:51,628 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:50:04 | 11:20:04,892 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2015/01/14 16:50:04 | 11:20:04,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:50:04 | 11:20:04,894 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:50:04 | 11:20:04,895 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:50:04 | 11:20:04,909 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:50:05 | 11:20:05,328 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:50:05 | 11:20:05,329 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,272 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,273 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,274 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,276 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,288 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,717 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:50:06 | 11:20:06,718 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:52:34 | 11:22:34,650 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2015/01/14 16:52:34 | 11:22:34,650 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:52:34 | 11:22:34,651 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:52:34 | 11:22:34,652 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:52:34 | 11:22:34,660 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:34,994 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:34,994 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:35,654 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:35,654 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:35,655 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:35,656 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:52:35 | 11:22:35,666 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:52:36 | 11:22:36,053 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:52:36 | 11:22:36,053 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,390 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,391 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,392 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,393 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,401 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,776 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:52:42 | 11:22:42,777 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,688 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,689 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,689 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,690 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,698 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 11:22:45,711 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-1) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBTCPConnector.isMongosConnection(DBTCPConnector.java:369) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.Mongo.isMongosConnection(Mongo.java:607) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:706) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:84) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:52:45 | 
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 11:22:48,732 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-1) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBTCPConnector.checkMaster(DBTCPConnector.java:523) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:84) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:52:48 | 
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 11:22:55,758 WARNING [com.mongodb] (ajp--0.0.0.0-8009-1) emptying DBPortPool to /192.168.1.245:27017 b/c of error: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBPort.call(DBPort.java:74) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:283) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:84) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:52:55 | 
+INFO   | jvm 1    | 2015/01/14 16:52:56 | 11:22:56,170 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:52:56 | 11:22:56,171 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,805 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,808 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,809 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,810 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,821 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 11:23:00,842 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-9) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBTCPConnector.isMongosConnection(DBTCPConnector.java:369) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.Mongo.isMongosConnection(Mongo.java:607) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:706) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:97) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:00 | 
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 11:23:01,876 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-9) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBTCPConnector.checkMaster(DBTCPConnector.java:523) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:97) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:01 | 
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 11:23:11,921 WARNING [com.mongodb] (ajp--0.0.0.0-8009-9) emptying DBPortPool to /192.168.1.245:27017 b/c of error: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketTimeoutException: connect timed out
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBPort.call(DBPort.java:74) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:283) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:97) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:11 | 
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 11:23:21,966 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-9) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketTimeoutException: connect timed out
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBTCPConnector.isMongosConnection(DBTCPConnector.java:369) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.Mongo.isMongosConnection(Mongo.java:607) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:706) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:114) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:21 | 
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 11:23:23,012 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-9) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBTCPConnector.checkMaster(DBTCPConnector.java:523) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:114) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:23 | 
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 11:23:33,043 WARNING [com.mongodb] (ajp--0.0.0.0-8009-9) emptying DBPortPool to /192.168.1.245:27017 b/c of error: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketTimeoutException: connect timed out
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBPort.call(DBPort.java:74) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:283) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.assess.controller.logic.testcontrol.TestController.getTestDuration(TestController.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:114) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 11:23:33,511 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:53:33 | 11:23:33,512 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:53:40 | 11:23:40,478 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2015/01/14 16:53:40 | 11:23:40,479 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/14 16:53:40 | 11:23:40,480 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2015/01/14 16:53:40 | 11:23:40,481 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2015/01/14 16:53:40 | 11:23:40,493 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 11:23:43,497 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-17) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBTCPConnector.isMongosConnection(DBTCPConnector.java:369) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.Mongo.isMongosConnection(Mongo.java:607) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:706) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.assess.questionnaire.QuestionnnaireBackupControlSerlvet.doGet(QuestionnnaireBackupControlSerlvet.java:105) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:43 | 
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 11:23:46,518 WARNING [com.mongodb.tcp] (ajp--0.0.0.0-8009-17) Exception executing isMaster command on /192.168.1.245:27017: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketException: Network is unreachable
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBPort.go(DBPort.java:88) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBPort.findOne(DBPort.java:143) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBPort.runCommand(DBPort.java:148) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBTCPConnector.initDirectConnection(DBTCPConnector.java:544) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBTCPConnector.checkMaster(DBTCPConnector.java:523) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.assess.questionnaire.QuestionnnaireBackupControlSerlvet.doGet(QuestionnnaireBackupControlSerlvet.java:105) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:46 | 
+INFO   | jvm 1    | 2015/01/14 16:53:48 | 11:23:47,998 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/01/14 16:53:48 | 11:23:47,999 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,562 WARNING [com.mongodb] (ajp--0.0.0.0-8009-17) emptying DBPortPool to /192.168.1.245:27017 b/c of error: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketTimeoutException: connect timed out
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBPort._open(DBPort.java:214) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBPort.go(DBPort.java:107) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBPort.call(DBPort.java:74) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:283) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:710) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.mongodb.DBCollection.findOne(DBCollection.java:652) [mongo-java-driver-2.9.3.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.assess.questionnaire.QuestionnnaireBackupControlSerlvet.doGet(QuestionnnaireBackupControlSerlvet.java:105) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80) [classes:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,587 ERROR [stderr] (ajp--0.0.0.0-8009-17) com.mongodb.MongoException$Network: can't call something : /192.168.1.245:27017/assessment
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,588 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:292)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,589 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBTCPConnector.call(DBTCPConnector.java:256)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,590 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:289)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,591 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:274)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,592 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBCollection.findOne(DBCollection.java:710)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,593 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBCollection.findOne(DBCollection.java:652)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,593 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.assess.mongodb.TimeBackupDB.getTimeBackupCollection(TimeBackupDB.java:52)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,594 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.assess.questionnaire.QuestionnnaireBackupControlSerlvet.doGet(QuestionnnaireBackupControlSerlvet.java:105)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,596 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,597 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,597 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,599 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,600 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:80)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,601 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,602 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,603 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,604 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,605 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,606 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,607 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,608 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,609 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,610 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,611 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,612 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,613 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,614 ERROR [stderr] (ajp--0.0.0.0-8009-17) Caused by: java.io.IOException: couldn't connect to [/192.168.1.245:27017] bc:java.net.SocketTimeoutException: connect timed out
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,615 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBPort._open(DBPort.java:214)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,616 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBPort.go(DBPort.java:107)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,617 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBPort.call(DBPort.java:74)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,618 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:283)
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,619 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	... 25 more
+INFO   | jvm 1    | 2015/01/14 16:53:56 | 11:23:56,620 INFO  [stdout] (ajp--0.0.0.0-8009-17) 
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,015 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) 3
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,034 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,035 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,036 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 2
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,044 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,048 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,130 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,131 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,138 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 2
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,172 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,179 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,190 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 3
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,213 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,215 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,229 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,230 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,231 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 4
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,254 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,261 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,273 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 5
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,296 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,298 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,312 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,313 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,315 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 6
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,336 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,342 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,347 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 7
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,368 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,370 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,389 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,390 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,392 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 8
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,414 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,420 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,425 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 9
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,445 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,447 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,467 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,468 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,469 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 10
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,482 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,485 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,490 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 11
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,512 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,514 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,529 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,530 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,532 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 12
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,551 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,554 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,560 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 13
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,574 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,576 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,588 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,590 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,592 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 14
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,616 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,621 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,626 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 15
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,638 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,639 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,652 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,654 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,656 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 16
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,676 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,680 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,686 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 17
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,703 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,705 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,715 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,716 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,717 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 18
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,737 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,741 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,746 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 19
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,764 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,765 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,778 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,779 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,781 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 20
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,797 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,800 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,803 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 21
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,820 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,821 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) Response: 250 Great success
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,822 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) 
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,822 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,831 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,832 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,834 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 22
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,848 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,851 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,854 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 23
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,860 INFO  [stdout] (DefaultQuartzScheduler_Worker-1) mail sent successfully... 
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,873 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,874 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,885 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,886 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,888 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 24
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,901 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,904 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,907 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 25
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,919 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,920 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,924 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-1) line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,926 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-1) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,930 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,943 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:00 | 22:00:00,945 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 26
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:00,963 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:00,968 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:00,973 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 27
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:00,990 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:00,991 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:01,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:01,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:01,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 28
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:01,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 03:30:01 | 22:00:01,020 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 29
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,007 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 3
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,007 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,008 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,009 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,019 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,021 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 30
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,060 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 31
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,132 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,136 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 32
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,154 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,157 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,161 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 33
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,177 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,179 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,190 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,192 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,194 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 34
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,210 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,213 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,218 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 35
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,228 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,229 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,238 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,239 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,244 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 36
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,263 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,267 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,272 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 37
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,286 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,288 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,299 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,300 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,301 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 38
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,311 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,313 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,316 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 39
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,338 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,347 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,354 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,355 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,356 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 40
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,365 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,368 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,371 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 41
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,384 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,386 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,398 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,400 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,402 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 42
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,416 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,420 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,423 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 43
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,431 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,432 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,440 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,440 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,442 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 44
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,451 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,454 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,456 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 45
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,468 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,469 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,475 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,476 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,478 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 46
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,491 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,495 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,499 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 47
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,510 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,512 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,523 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,524 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,525 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 48
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,535 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,538 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,541 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 49
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,554 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,555 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,565 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,567 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,569 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 50
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,582 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,586 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,590 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 51
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,598 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,598 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,606 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,607 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,610 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 52
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,624 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,627 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,632 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 53
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,647 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,649 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,657 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,658 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,659 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 54
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,667 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,669 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,672 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 55
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,680 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,681 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,691 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,692 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,693 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 56
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,705 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,709 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,713 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 57
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,723 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,725 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,734 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,736 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,738 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 58
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,750 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,754 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,757 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 59
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,773 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,775 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,786 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,787 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,790 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 60
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,802 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,806 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,810 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 61
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,821 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,823 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,834 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,835 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,837 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 62
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,849 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,853 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,857 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 63
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,865 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,866 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,875 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,876 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,878 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 64
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,885 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,888 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,892 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 65
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,904 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,905 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,913 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,914 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,915 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 66
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,922 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,924 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,928 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 67
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,939 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,941 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,952 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,953 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:00 | 22:30:00,954 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 68
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,963 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,965 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,968 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 69
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,974 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,975 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,982 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,983 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,984 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 70
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,991 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,993 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:00,997 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 71
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,013 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 22:30:01 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,025 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 22:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,026 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 72
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,046 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,175 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,176 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,216 INFO  [stdout] (DefaultQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,219 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 22:30:01,220 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-2) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 04:00:01 | 
+INFO   | jvm 1    | 2015/01/15 04:00:06 | 22:30:06,180 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-16) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 73
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,002 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) 3
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,012 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,013 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,014 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,025 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 74
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,035 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 75
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 76
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,075 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 77
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,087 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,102 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 78
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,114 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,118 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,122 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 79
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,135 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,145 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,146 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,148 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 80
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,156 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,159 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,161 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 81
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,173 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,175 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,186 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,188 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,190 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 82
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,202 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,207 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,210 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 83
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,218 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,219 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,227 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,228 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,230 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 84
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,238 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,241 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,244 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 85
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,251 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,253 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,260 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,261 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,262 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 86
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,270 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,273 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,276 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 87
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,284 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,286 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,293 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,294 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,295 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 88
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,303 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,305 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,308 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 89
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,315 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,317 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,327 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,328 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,330 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 90
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,340 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,343 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,347 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 91
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,354 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,355 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,361 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,362 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,363 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 92
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,370 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,372 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,376 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 93
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,383 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,384 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,390 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,391 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,392 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 94
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,400 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,403 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,406 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 95
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,417 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,418 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,428 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,430 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,432 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 96
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,444 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,448 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,452 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 97
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,461 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,463 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,470 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,471 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,472 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 98
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,479 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,481 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,484 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 99
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,491 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,492 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,498 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,499 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,500 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 100
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,512 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,516 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,520 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 101
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,530 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,531 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,538 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,538 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,540 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 102
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,547 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,550 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,552 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 103
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,561 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,563 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,579 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,580 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,582 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 104
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,589 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,592 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,594 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 105
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,602 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,603 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,612 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,613 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,614 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 106
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,622 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,626 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,629 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 107
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,636 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,637 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,643 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,644 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,645 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 108
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,654 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,658 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,663 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 109
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,672 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,673 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,679 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,680 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,681 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 110
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,688 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,691 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,693 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 111
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,702 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,703 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,713 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,714 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,716 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 112
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,726 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,730 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,733 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 113
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,743 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,744 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,751 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,752 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,753 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 114
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,761 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,763 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,767 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 115
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,774 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,775 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,782 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,782 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,784 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 116
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,790 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,793 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,798 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 117
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,808 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,809 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,817 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,818 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,820 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 118
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,830 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,834 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,839 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 119
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,849 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,851 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,861 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,863 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,865 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 120
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,874 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,877 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,881 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 121
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,893 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,895 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,906 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,907 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,909 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 122
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,920 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,924 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:00 | 23:00:00,928 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 123
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,939 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,941 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,952 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,953 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,955 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 124
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,967 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,970 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,974 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 125
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,984 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,985 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,994 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,995 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:00,997 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 126
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:01,008 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 04:30:01 | 23:00:01,012 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 23:00:02,772 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) Response: 250 Great success
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 23:00:02,773 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) 
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 23:00:02,813 INFO  [stdout] (DefaultQuartzScheduler_Worker-3) mail sent successfully... 
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 23:00:02,814 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-3) line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 23:00:02,815 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-3) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 04:30:02 | 
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 127
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,003 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) 4
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,012 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,013 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,015 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,021 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 128
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,035 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 129
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 130
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,071 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,074 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 131
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,092 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,093 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 132
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,103 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 133
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,121 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,123 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 134
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,136 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,140 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 135
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,149 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,151 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,160 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,161 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,163 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 136
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,172 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,174 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,177 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 137
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,184 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,185 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,192 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,193 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,194 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 138
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,201 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,204 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,206 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 139
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,213 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,215 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,222 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,223 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,225 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 140
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,239 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,245 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,248 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 141
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,261 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,264 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,274 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,276 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,278 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 142
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,290 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,294 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,300 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 143
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,312 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,313 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,324 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,325 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,328 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 144
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,338 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,340 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,343 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 145
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,354 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,355 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,364 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,365 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,366 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 146
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,373 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,376 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,378 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 147
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,385 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,386 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,396 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,397 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,399 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 148
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,407 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,410 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,413 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 149
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,424 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,426 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,436 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,437 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,440 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 150
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,450 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,454 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,458 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 151
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,469 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,471 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,481 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,483 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,485 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 152
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,497 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,501 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,505 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 153
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,515 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,517 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,527 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,528 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,530 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 154
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,541 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,545 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,549 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 155
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,555 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,556 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,562 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,563 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,564 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 156
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,571 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,575 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,578 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 157
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,588 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,590 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,598 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,599 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,600 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 158
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,607 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,609 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,612 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 159
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,623 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,624 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,635 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,636 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,638 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 160
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,648 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,652 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,655 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 161
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,664 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,665 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,675 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,676 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,677 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 162
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,687 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,691 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-1) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,694 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 163
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,702 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,703 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) Response: 250 Great success
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,704 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) 
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,704 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,713 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,714 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,716 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 164
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,725 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,728 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-2) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,731 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 165
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,739 INFO  [stdout] (DefaultQuartzScheduler_Worker-4) mail sent successfully... 
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,740 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,740 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-4) line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,741 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,741 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-4) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,748 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,758 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,759 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 166
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,766 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,768 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-3) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,772 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 167
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,779 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,780 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,787 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,787 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,788 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 168
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,795 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,800 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-4) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,803 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 169
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,811 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,812 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,819 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,819 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,821 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 170
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,828 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,830 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-5) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,833 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 171
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,844 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,845 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,856 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,858 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,860 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 172
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,871 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,875 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-6) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,879 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 173
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,890 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,892 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:00 | 23:30:00,903 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,904 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,906 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) 174
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,918 INFO  [stdout] (Mail360QuartzScheduler_Worker-7) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,921 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-7) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,925 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 175
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,933 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,934 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,941 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,942 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,943 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) 176
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,950 INFO  [stdout] (Mail360QuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,952 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-8) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,955 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 177
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,964 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,965 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) schedule on check at Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,972 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,973 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,975 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) 178
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,987 INFO  [stdout] (Mail360QuartzScheduler_Worker-9) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,990 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-9) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:00,993 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 179
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,000 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,001 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) schedule on check at Wed Jan 14 23:30:01 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,012 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Wed Jan 14 23:30:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,013 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) Thu Jan 15 00:00:00 UTC 2015
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) 180
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-10) New connection added in pool
+INFO   | jvm 1    | 2015/01/15 05:00:01 | 23:30:01,025 INFO  [org.quartz.core.QuartzScheduler] (Mail360QuartzScheduler_Worker-10) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.

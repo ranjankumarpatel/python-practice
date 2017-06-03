@@ -1,0 +1,648 @@
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,590 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,594 ERROR [stderr] (ajp--0.0.0.0-8009-14) com.assess.exception.InvalidLoginException: Session Expired
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,595 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.assess.login.DeligateLogin.validateClientSession(DeligateLogin.java:288)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,595 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.assess.client.UserControlServlet.doGet(UserControlServlet.java:80)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,596 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,597 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,598 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,599 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,600 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,601 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,601 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,602 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,603 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,604 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,605 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,606 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,608 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,609 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,609 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,610 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,611 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,612 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,613 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,614 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,616 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,618 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,618 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,619 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,620 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,621 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,621 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,622 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 17:12:37 | 11:42:37,623 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 17:12:42 | 11:42:42,276 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:12:42 | 11:42:42,277 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:13:46 | 11:43:46,326 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:13:51 | 11:43:51,468 INFO  [stdout] (ajp--0.0.0.0-8009-7) {34={TOTALCOUNT=280, SUBMITCOUNT=265}}
+INFO   | jvm 1    | 2017/04/05 17:13:51 | 11:43:51,485 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:13:51 | 11:43:51,486 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:13:51 | 11:43:51,491 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:13:51 | 11:43:51,493 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:13:58 | 11:43:58,384 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:13:58 | 11:43:58,385 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:13:58 | 11:43:58,389 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:13:58 | 11:43:58,390 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:15:14 | 11:45:14,476 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:15:14 | 11:45:14,477 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:15:14 | 11:45:14,482 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:15:14 | 11:45:14,482 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:15:37 | 11:45:37,591 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:17:17 | 11:47:17,200 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:17:17 | 11:47:17,200 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:17:46 | 11:47:46,884 INFO  [stdout] (ajp--0.0.0.0-8009-7) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/04/05 17:18:00 | 11:48:00,019 INFO  [stdout] (ajp--0.0.0.0-8009-14) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/04/05 17:18:06 | 11:48:06,834 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:18:06 | 11:48:06,853 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:18:06 | 11:48:06,854 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:18:28 | 11:48:28,072 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:18:28 | 11:48:28,145 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:18:28 | 11:48:28,147 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:18:46 | 11:48:46,838 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:18:46 | 11:48:46,838 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,987 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,990 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,992 ERROR [stderr] (ajp--0.0.0.0-8009-1) com.fs360.exception.InvalidLoginException: Invalid User session
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,993 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.fs360.login.core.DeligateLogin.checkValidClient(DeligateLogin.java:409)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,993 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.fs360.project.ProjectControlServlet.doGet(ProjectControlServlet.java:92)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,994 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,995 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,996 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,997 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,998 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,999 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:16,999 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,000 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,001 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,002 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,004 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,005 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,005 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,006 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,007 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,009 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,009 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 17:19:17 | 11:49:17,010 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,902 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,920 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,920 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,930 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,931 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,934 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,935 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,939 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,940 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,943 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,944 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,947 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,947 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,950 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,950 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,955 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,956 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,958 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,959 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,961 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,962 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,965 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,965 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,968 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,968 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,972 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:39 | 12:02:39,972 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,975 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,976 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,979 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,980 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,984 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,984 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,987 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,987 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,990 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,993 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,993 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,996 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:39,997 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,000 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,001 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,003 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,004 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,007 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,007 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,010 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,011 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,018 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,019 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,022 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,026 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,029 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,030 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,032 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,033 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,035 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,036 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,038 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,038 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,040 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,041 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,044 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,044 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,047 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,047 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,050 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,050 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,054 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,055 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,058 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,058 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,061 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,062 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,065 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,065 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,068 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,069 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,071 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,072 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,075 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 3
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,076 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,078 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,079 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,082 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 5
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,083 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,086 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 4
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,086 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : null
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,090 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Humility- at each walk of life
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,091 INFO  [stdout] (ajp--0.0.0.0-8009-14) Deliver the Promise - always strives to deliver result before deadline
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,094 INFO  [stdout] (ajp--0.0.0.0-8009-14) Rate : 0
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,095 INFO  [stdout] (ajp--0.0.0.0-8009-14) Subjective : Social Responsibility - wants to directly involve and contribute more.
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,096 INFO  [stdout] (ajp--0.0.0.0-8009-14) Entrepreneurship - needs to practice more and develop the team accordingly
+INFO   | jvm 1    | 2017/04/05 17:32:40 | 12:02:40,675 INFO  [stdout] (ajp--0.0.0.0-8009-14) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/05 17:32:42 | 12:02:42,553 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:32:42 | 12:02:42,554 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:54 | 12:10:54,381 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:56 | 12:10:56,354 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:56 | 12:10:56,422 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:40:56 | 12:10:56,422 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:57 | 12:10:57,138 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:59 | 12:10:59,142 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:40:59 | 12:10:59,216 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:40:59 | 12:10:59,217 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 17:58:45 | 12:28:45,008 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:58:45 | 12:28:45,009 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 17:59:18 | 12:29:18,492 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/05 17:59:18 | 12:29:18,492 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:00:00 | 12:30:00,134 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:00:07 | 12:30:07,024 INFO  [stdout] (ajp--0.0.0.0-8009-8) {32={TOTALCOUNT=312, SUBMITCOUNT=291}, 64={TOTALCOUNT=1, SUBMITCOUNT=1}, 67={TOTALCOUNT=137, SUBMITCOUNT=135}, 26={TOTALCOUNT=245, SUBMITCOUNT=228}, 63={TOTALCOUNT=1, SUBMITCOUNT=1}, 62={TOTALCOUNT=1, SUBMITCOUNT=1}, 31={TOTALCOUNT=406, SUBMITCOUNT=375}, 44={TOTALCOUNT=636, SUBMITCOUNT=631}}
+INFO   | jvm 1    | 2017/04/05 18:00:07 | 12:30:07,086 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:00:07 | 12:30:07,086 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:00:07 | 12:30:07,090 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:00:07 | 12:30:07,090 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:00:15 | 12:30:15,881 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:00:15 | 12:30:15,882 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:00:15 | 12:30:15,885 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:00:15 | 12:30:15,886 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 18:20:53 | 12:50:53,379 INFO  [net.sf.ehcache.util.UpdateChecker] (net.sf.ehcache.CacheManager@1fb6907d) New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+INFO   | jvm 1    | 2017/04/05 18:29:41 | 12:59:41,649 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:29:41 | 12:59:41,650 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:36:52 | 13:06:52,240 INFO  [stdout] (ajp--0.0.0.0-8009-20) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/04/05 18:36:54 | 13:06:54,243 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:36:54 | 13:06:54,317 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:36:54 | 13:06:54,318 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:38:50 | 13:08:50,532 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:38:50 | 13:08:50,601 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:38:50 | 13:08:50,602 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,721 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,723 ERROR [stderr] (ajp--0.0.0.0-8009-20) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,724 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,725 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.respondent.RespondentSurveyServlet.doPost(RespondentSurveyServlet.java:277)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,726 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,727 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,728 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,729 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,730 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,731 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,731 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,732 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,733 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,734 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,735 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,736 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,737 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,737 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,738 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,739 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,740 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,741 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,742 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:45:26 | 13:15:26,743 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:45:28 | 13:15:28,592 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:45:28 | 13:15:28,593 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,009 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,011 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,012 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,014 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,014 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,015 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,016 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,017 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,018 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,019 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,020 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,021 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,022 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,023 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,024 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,025 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,026 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,027 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,028 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,029 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,029 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,031 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:45:46 | 13:15:46,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,312 INFO  [stdout] (ajp--0.0.0.0-8009-21) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,318 ERROR [stderr] (ajp--0.0.0.0-8009-21) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,320 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,321 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,322 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,323 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,324 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,325 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,326 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,328 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,329 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,330 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,331 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,333 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,334 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,335 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,336 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,337 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,338 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,339 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,341 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,342 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,343 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 18:46:09 | 13:16:09,344 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 18:46:11 | 13:16:11,868 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:46:11 | 13:16:11,869 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:47:46 | 13:17:46,057 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:47:48 | 13:17:48,063 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 18:47:48 | 13:17:48,126 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/04/05 18:47:48 | 13:17:48,127 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,295 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,312 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,313 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,337 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,338 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,346 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,346 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,348 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,349 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,350 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,351 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,353 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,353 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,355 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,356 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,357 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,358 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,360 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,360 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,362 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,363 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,364 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,365 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,367 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,367 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,369 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,370 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,372 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,372 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,374 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,375 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,377 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,377 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,380 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,381 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,383 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,384 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,386 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 4
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,386 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,388 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,389 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,392 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,393 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,396 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,396 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,398 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,399 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,402 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,402 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,404 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,405 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,407 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,408 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,411 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,412 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,415 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,416 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,419 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,420 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,423 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,424 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,431 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,431 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,435 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,435 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,437 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,438 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,440 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,440 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,442 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,448 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,452 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,453 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,461 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,462 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,464 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,465 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,467 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,467 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,470 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,470 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,473 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,474 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,477 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,478 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,481 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,481 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,484 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,485 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,488 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 5
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,489 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : null
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,491 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,492 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : It is observed that the participant demonstrates impeccable Entrepreneurship value of GMR. The participant has a knack and understanding/knowledge base to tap upcoming opportunities which are untapped and are thereafter  identified/driven through the team for accomplishing as ideas/projects , leading to enhancement of revenues for the organization.  The other GMR value which is depicted very well at the workplace by the participant is the Teamwork and relationship value. The participant shows a boundary less behavior wherein any staff of any level can approach him at any time with any issue/matter/problem at hand for which requisite guidance and direction is provided appropriately.
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,501 INFO  [stdout] (ajp--0.0.0.0-8009-16) Rate : 0
+INFO   | jvm 1    | 2017/04/05 19:07:12 | 13:37:12,501 INFO  [stdout] (ajp--0.0.0.0-8009-16) Subjective : I think the participant can demonstrate the social responsibility value somewhat more at the workplace by participating in the social responsibility events and workshops for betterment of the society as a whole.
+INFO   | jvm 1    | 2017/04/05 19:07:13 | 13:37:12,964 INFO  [stdout] (ajp--0.0.0.0-8009-16) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/05 19:07:14 | 13:37:14,878 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:07:14 | 13:37:14,879 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 19:10:14 | 13:40:14,044 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:10:14 | 13:40:14,044 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:10:57 | 13:40:57,446 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:11:02 | 13:41:02,419 INFO  [stdout] (ajp--0.0.0.0-8009-12) {38={TOTALCOUNT=305, SUBMITCOUNT=301}, 39={TOTALCOUNT=165, SUBMITCOUNT=164}, 66={TOTALCOUNT=4, SUBMITCOUNT=3}, 40={TOTALCOUNT=368, SUBMITCOUNT=339}, 41={TOTALCOUNT=301, SUBMITCOUNT=276}, 46={TOTALCOUNT=1, SUBMITCOUNT=1}}
+INFO   | jvm 1    | 2017/04/05 19:11:02 | 13:41:02,467 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:11:02 | 13:41:02,468 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:11:02 | 13:41:02,471 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:11:02 | 13:41:02,472 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:11:24 | 13:41:24,712 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:11:24 | 13:41:24,713 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:11:24 | 13:41:24,716 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:11:24 | 13:41:24,717 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 19:36:37 | 14:06:37,471 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2017/04/05 19:53:21 | 14:23:21,121 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 19:53:23 | 14:23:23,175 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 19:53:23 | 14:23:23,203 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/04/05 19:53:23 | 14:23:23,204 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:45,945 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:45,967 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:45,967 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,048 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,050 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,057 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,058 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,062 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,062 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,065 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,065 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,067 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,068 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,070 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,071 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,073 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,073 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,075 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,076 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,077 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,078 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,080 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,080 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,082 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,083 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,085 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,086 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,089 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,089 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,092 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,093 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,096 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,097 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,100 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,100 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,103 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,103 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,106 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,106 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,108 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,109 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,112 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,112 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,116 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,116 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,119 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,120 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,122 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,123 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,125 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,126 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,129 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,129 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,131 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,132 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,135 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 5
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,135 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : null
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,138 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 0
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,139 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : He is nice gentle man with having good business sense & good management skills.
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,143 INFO  [stdout] (ajp--0.0.0.0-8009-1) Rate : 0
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,144 INFO  [stdout] (ajp--0.0.0.0-8009-1) Subjective : 
+INFO   | jvm 1    | 2017/04/05 20:05:46 | 14:35:46,624 INFO  [stdout] (ajp--0.0.0.0-8009-1) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/05 20:05:48 | 14:35:48,441 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/04/05 20:05:48 | 14:35:48,441 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/05 23:52:37 | 18:22:37,448 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/04/05 23:52:37 | 18:22:37,449 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,907 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,910 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.assess.exception.InvalidLoginException: User Name or Password is invalid
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,911 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.assess.login.DeligateLogin.validateUser(DeligateLogin.java:254)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,912 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:52)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,913 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,914 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.assess.login.LoginActionServlet.doPost(LoginActionServlet.java:121)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,915 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,917 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,918 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,919 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,920 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,922 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,923 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,924 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,925 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,926 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 23:52:57 | 18:22:57,928 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,929 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,930 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,932 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,933 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,934 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,935 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,936 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,937 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,944 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,945 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,947 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,951 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/05 23:52:58 | 18:22:57,952 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/05 23:53:00 | 18:23:00,664 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/04/05 23:53:00 | 18:23:00,665 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:53:17 | 18:23:17,751 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2017/04/05 23:53:17 | 18:23:17,752 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:53:17 | 18:23:17,757 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2017/04/05 23:53:17 | 18:23:17,758 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:58:11 | 18:28:11,129 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/05 23:58:13 | 18:28:13,387 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/04/05 23:58:13 | 18:28:13,387 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-2) Mail Triggered at Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,002 INFO  [stdout] (mailScheduler-17) Mail Triggered at Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,119 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-2) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,119 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-17) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,373 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,375 INFO  [stdout] (mailScheduler-2) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Sachin.Patwardhan@dbschenker.comat Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,380 INFO  [stdout] (mailScheduler-17) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,381 INFO  [stdout] (mailScheduler-17) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Sachin.Patwardhan@dbschenker.comat Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,391 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-2) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,396 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-17) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,747 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,748 INFO  [stdout] (mailScheduler-2) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Prashant.Sharma@dbschenker.comat Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,751 INFO  [stdout] (mailScheduler-17) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,752 INFO  [stdout] (mailScheduler-17) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Prashant.Sharma@dbschenker.comat Thu Apr 06 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,754 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-17) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 18:45:00,756 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-2) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 00:15:00 | 
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-9) Mail Triggered at Thu Apr 06 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,093 INFO  [stdout] (mailScheduler-18) Mail Triggered at Thu Apr 06 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,248 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-18) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,248 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-9) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,957 INFO  [stdout] (mailScheduler-9) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,958 INFO  [stdout] (mailScheduler-9) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Sachin.Patwardhan@dbschenker.comat Thu Apr 06 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,960 INFO  [stdout] (mailScheduler-18) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,961 INFO  [stdout] (mailScheduler-18) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Sachin.Patwardhan@dbschenker.comat Thu Apr 06 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,982 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-18) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 01:00:00 | 19:30:00,987 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-9) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,208 INFO  [stdout] (mailScheduler-18) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,210 INFO  [stdout] (mailScheduler-18) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Prashant.Sharma@dbschenker.comat Thu Apr 06 01:00:01 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,212 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-18) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,253 INFO  [stdout] (mailScheduler-9) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,254 INFO  [stdout] (mailScheduler-9) Email with subject Important: <strong>DB Schenker New Employee Survey</strong> &ndash; Your Access details sent to Prashant.Sharma@dbschenker.comat Thu Apr 06 01:00:01 IST 2017
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 19:30:01,258 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-9) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/06 01:00:01 | 

@@ -1,0 +1,958 @@
+03:43:39,539 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Using default implementation for ThreadExecutor
+03:43:39,547 INFO  [org.quartz.simpl.SimpleThreadPool] (ajp--0.0.0.0-8009-11) Job execution threads will use class loader of thread: ajp--0.0.0.0-8009-11
+03:43:39,579 INFO  [org.quartz.core.SchedulerSignalerImpl] (ajp--0.0.0.0-8009-11) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+03:43:39,581 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Quartz Scheduler v.2.2.1 created.
+03:43:39,583 INFO  [org.quartz.simpl.RAMJobStore] (ajp--0.0.0.0-8009-11) RAMJobStore initialized.
+03:43:39,585 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'Mail360QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+03:43:39,588 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Quartz scheduler 'Mail360QuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+03:43:39,590 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Quartz scheduler version: 2.2.1
+03:43:39,591 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,539 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Using default implementation for ThreadExecutor
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,547 INFO  [org.quartz.simpl.SimpleThreadPool] (ajp--0.0.0.0-8009-11) Job execution threads will use class loader of thread: ajp--0.0.0.0-8009-11
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,579 INFO  [org.quartz.core.SchedulerSignalerImpl] (ajp--0.0.0.0-8009-11) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,581 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Quartz Scheduler v.2.2.1 created.
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,583 INFO  [org.quartz.simpl.RAMJobStore] (ajp--0.0.0.0-8009-11) RAMJobStore initialized.
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,585 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'Mail360QuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   NOT STARTED.
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   Currently in standby mode.
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   Number of jobs executed: 0
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+INFO   | jvm 1    | 2014/12/05 09:13:39 |   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,588 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Quartz scheduler 'Mail360QuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,590 INFO  [org.quartz.impl.StdSchedulerFactory] (ajp--0.0.0.0-8009-11) Quartz scheduler version: 2.2.1
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,591 INFO  [org.quartz.core.QuartzScheduler] (ajp--0.0.0.0-8009-11) Scheduler Mail360QuartzScheduler_$_NON_CLUSTERED started.
+03:43:39,631 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+03:43:39,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+03:43:39,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+03:43:39,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+03:43:39,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+03:43:39,646 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+03:43:39,647 INFO  [com.fs360.hibernate.HiberConnectionProvider] (ajp--0.0.0.0-8009-11) New Connection Provided
+03:43:39,648 INFO  [com.fs360.hibernate.HiberConnectionProvider] (ajp--0.0.0.0-8009-11) ConnectCount 267
+CloseStatementCount 0
+
+03:43:39,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+03:43:39,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+03:43:39,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+03:43:39,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+03:43:39,656 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+03:43:39,659 INFO  [com.fs360.login.LoginActionServlet] (ajp--0.0.0.0-8009-11) LoginActionServlet Sessioncom.pojos.Respondent@61987c7d
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,631 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,646 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,647 INFO  [com.fs360.hibernate.HiberConnectionProvider] (ajp--0.0.0.0-8009-11) New Connection Provided
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,648 INFO  [com.fs360.hibernate.HiberConnectionProvider] (ajp--0.0.0.0-8009-11) ConnectCount 267
+INFO   | jvm 1    | 2014/12/05 09:13:39 | CloseStatementCount 0
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,656 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 09:13:39 | 03:43:39,659 INFO  [com.fs360.login.LoginActionServlet] (ajp--0.0.0.0-8009-11) LoginActionServlet Sessioncom.pojos.Respondent@61987c7d
+03:43:40,488 INFO  [stdout] (ajp--0.0.0.0-8009-2) 128
+03:43:40,490 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+03:43:40,491 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+03:43:40,492 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+03:43:40,502 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 09:13:40 | 03:43:40,488 INFO  [stdout] (ajp--0.0.0.0-8009-2) 128
+INFO   | jvm 1    | 2014/12/05 09:13:40 | 03:43:40,490 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 09:13:40 | 03:43:40,491 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2014/12/05 09:13:40 | 03:43:40,492 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 09:13:40 | 03:43:40,502 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+03:43:47,183 INFO  [stdout] (ajp--0.0.0.0-8009-8) 128
+03:43:47,184 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+03:43:47,186 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+03:43:47,187 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+03:43:47,197 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 09:13:47 | 03:43:47,183 INFO  [stdout] (ajp--0.0.0.0-8009-8) 128
+INFO   | jvm 1    | 2014/12/05 09:13:47 | 03:43:47,184 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 09:13:47 | 03:43:47,186 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2014/12/05 09:13:47 | 03:43:47,187 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 09:13:47 | 03:43:47,197 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+03:49:03,583 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+03:49:03,584 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+03:49:03,585 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+03:49:03,586 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+03:49:03,596 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+03:49:03,599 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+03:49:03,600 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,583 INFO  [stdout] (ajp--0.0.0.0-8009-11) 128
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,584 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,585 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,586 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,596 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,599 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,600 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,620 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+03:49:03,621 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,623 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+03:49:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,626 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+03:49:03,626 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,628 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+03:49:03,629 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,630 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,630 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,632 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+03:49:03,632 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,633 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,635 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,637 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,637 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,640 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,640 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,642 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,642 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,644 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,645 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,646 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,647 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,648 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,651 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,652 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,653 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,654 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,655 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,656 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+03:49:03,657 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,658 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,659 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,660 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,661 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,662 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+03:49:03,663 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,664 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+03:49:03,665 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,666 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+03:49:03,667 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+03:49:03,668 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+03:49:03,669 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : Bring a sharper focus on quality execution. Demonstrate stronger domain knowledge and analytical capability. Engage himself more actively in implementation. Hire and build a more capable team. Set higher standards of performance for self and team
+03:49:03,672 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+03:49:03,672 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : Not be complacent
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,620 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,621 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,623 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,624 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,626 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 1
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,626 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,628 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,629 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,630 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,630 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,632 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,632 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,633 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,634 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,635 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,636 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,637 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,637 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,640 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,640 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,642 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,642 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,644 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,645 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,646 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,647 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,648 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,649 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,650 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,651 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,652 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,653 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,654 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,655 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,656 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,657 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,658 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,659 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,660 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,661 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,662 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 4
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,663 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,664 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 3
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,665 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,666 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 2
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,667 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : null
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,668 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,669 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : Bring a sharper focus on quality execution. Demonstrate stronger domain knowledge and analytical capability. Engage himself more actively in implementation. Hire and build a more capable team. Set higher standards of performance for self and team
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,672 INFO  [stdout] (ajp--0.0.0.0-8009-11) Rate : 0
+INFO   | jvm 1    | 2014/12/05 09:19:03 | 03:49:03,672 INFO  [stdout] (ajp--0.0.0.0-8009-11) Subjective : Not be complacent
+03:49:04,411 INFO  [stdout] (ajp--0.0.0.0-8009-11) Response: 250 Great success
+03:49:04,412 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2014/12/05 09:19:04 | 03:49:04,411 INFO  [stdout] (ajp--0.0.0.0-8009-11) Response: 250 Great success
+INFO   | jvm 1    | 2014/12/05 09:19:04 | 03:49:04,412 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+03:49:04,453 INFO  [stdout] (ajp--0.0.0.0-8009-11) mail sent successfully... 
+INFO   | jvm 1    | 2014/12/05 09:19:04 | 03:49:04,453 INFO  [stdout] (ajp--0.0.0.0-8009-11) mail sent successfully... 
+03:54:27,957 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:27,958 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:27,959 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:27,960 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:27,961 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:27,962 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:27,963 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:27,964 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,957 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,958 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,959 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,960 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,961 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,962 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,963 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 09:24:28 | 03:54:27,964 INFO  [stdout] (Finalizer) Releasing connection back to pool
+04:16:55,371 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-15) Invalid message received with signature 18245
+INFO   | jvm 1    | 2014/12/05 09:46:55 | 04:16:55,371 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-15) Invalid message received with signature 18245
+10:28:10,244 INFO  [stdout] (ajp--0.0.0.0-8009-13) /adminLogin.jsp
+10:28:10,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) 128
+10:28:10,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+10:28:10,246 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+10:28:10,247 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+10:28:10,255 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,244 INFO  [stdout] (ajp--0.0.0.0-8009-13) /adminLogin.jsp
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) 128
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,245 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,246 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,247 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 15:58:10 | 10:28:10,255 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+10:28:11,187 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) username :support@thinktalentnext.com
+10:28:11,188 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-13) LoginActionServlet Sessioncom.pojos.Client@2b4354f1
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,187 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) username :support@thinktalentnext.com
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,188 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-13) LoginActionServlet Sessioncom.pojos.Client@2b4354f1
+10:28:11,476 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@2b4354f1
+10:28:11,477 INFO  [stdout] (ajp--0.0.0.0-8009-6) 128
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,476 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@2b4354f1
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,477 INFO  [stdout] (ajp--0.0.0.0-8009-6) 128
+10:28:11,478 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+10:28:11,479 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+10:28:11,479 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+10:28:11,487 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,478 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,479 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,479 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 15:58:11 | 10:28:11,487 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+10:29:36,959 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@2b4354f1
+10:29:36,960 INFO  [stdout] (ajp--0.0.0.0-8009-15) 128
+10:29:36,961 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+10:29:36,961 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+10:29:36,962 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+10:29:36,970 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,959 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@2b4354f1
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,960 INFO  [stdout] (ajp--0.0.0.0-8009-15) 128
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,961 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,961 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,962 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 15:59:37 | 10:29:36,970 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+10:29:46,728 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@2b4354f1
+10:29:46,729 INFO  [stdout] (ajp--0.0.0.0-8009-7) 128
+10:29:46,730 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+10:2INFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,728 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@2b4354f1
+9:46,731 INFO  [sINFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,729 INFO  [stdout] (ajp--0.0.0.0-8009-7) 128
+tdout] (ajp--0.0.INFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,730 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+0.0-80INFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,731 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+09-7) Error while closing
+10:29:46,732 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+10:29:46,744 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,732 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 15:59:46 | 10:29:46,744 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+10:29:47,840 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@2b4354f1
+10:29:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-15) 128
+10:29:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+10:29:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+10:29:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+10:29:47,851 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,840 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@2b4354f1
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,841 INFO  [stdout] (ajp--0.0.0.0-8009-15) 128
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,842 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2014/12/05 15:59:47 | 10:29:47,851 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+11:49:30,019 INFO  [stdout] (Finalizer) Connection Count 1
+11:49:30,020 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:49:30,021 INFO  [stdout] (Finalizer) Connection Count 1
+11:49:30,021 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:49:30,022 INFO  [stdout] (Finalizer) Connection Count 1
+11:49:30,023 INFO  [stdout] (Finalizer) Releasing connection back to pool
+11:49:30,024 INFO  [stdout] (Finalizer) Connection Count 1
+11:49:30,024 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,019 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,020 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,021 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,021 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,022 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,023 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,024 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/05 17:19:30 | 11:49:30,024 INFO  [stdout] (Finalizer) Releasing connection back to pool
+22:00:00,010 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 128
+22:00:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+22:00:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+22:00:00,012 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+22:00:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+22:00:00,021 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Dec 05 22:00:00 UTC 2014
+22:00:00,022 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Dec 05 22:00:00 UTC 2014
+22:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,074 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,087 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,090 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,092 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,010 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 128
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,011 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,012 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,021 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Dec 05 22:00:00 UTC 2014
+22:00:00,09INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,022 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Dec 05 22:00:00 UTC 2014
+7 INFO  [stdout] (INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+Mail360QuartzSchedINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+uler_Worker-1) datINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+eCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,099 INFO  [stdout] (Mail360QuartzSchedulerINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+_Worker-1) dateCompaINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+re1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00,100 INFO  [stdINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+out] (Mail360QuartINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+zScheduler_WorINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+ker-1) dateCompINFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+are1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,074 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,087 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,090 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,092 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,097 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,108 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,114 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,118 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,119 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,121 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,122 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,122 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+22:00:00,125 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,108 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,114 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,118 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,119 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,121 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,122 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,122 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 22:00:00,125 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 03:30:00 | 
+22:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 128
+22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+22:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+22:30:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+22:30:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Dec 05 22:30:00 UTC 2014
+22:30:00,018 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Dec 05 22:30:00 UTC 2014
+22:30:00,025 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,085 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,086 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,098 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 128
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+22:30:INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+00,100 INFOINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Dec 05 22:30:00 UTC 2014
+  [stdout] INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,018 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Dec 05 22:30:00 UTC 2014
+(Mail360QuINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,025 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+artzScheduleINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,028 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+r_Worker-2) INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+dateCompareINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,032 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,037 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+2INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+2:30:00,10INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+1 INFO  [sINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+tdout] (MaINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+il360QuartzScINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+heduler_Worker-2) daINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+teComparINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+e1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+:00,103 ININFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+FO  [stdouINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+t] (Mail360QuarINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+tzScheduler_INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+Worker-2) INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+dateCompareINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:3INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,085 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+0:00,104 IINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,086 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+NFO  [stdoINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+ut] (Mail3INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+60QuartzScINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+heduler_WoINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+rker-2) dateCoINFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+mpare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,098 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,101 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,103 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,104 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,108 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,114 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+22:30:00,119 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,108 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,111 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,114 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,116 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 22:30:00,119 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 04:00:00 | 
+23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 128
+23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+23:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+23:00:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+23:00:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 05 23:00:00 UTC 2014
+23:00:00,018 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 05 23:00:00 UTC 2014
+23:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 128
+23:00:00INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+,038 INFO  [sINFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+tdout] (Mail3INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+60QuartzSchedINFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,016 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+uler_Worker-3INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 05 23:00:00 UTC 2014
+) dateCompareINFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,018 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 05 23:00:00 UTC 2014
+1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+,039 INFO  [stdINFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+out] (Mail360INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+QuartzINFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+Scheduler_Worker-3) dateCompare1
+23:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,085 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,086 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,087 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,090 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,092 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,093 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,097 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,098 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,101 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,102 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,103 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+23:00:00,109 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,085 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,086 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,087 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,090 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,091 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,092 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,093 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,095 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,097 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,098 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,100 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,101 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,102 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,103 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,106 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 23:00:00,109 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 04:30:00 | 
+23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 128
+23:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+23:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+23:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+23:30:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+23:30:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 05 23:30:00 UTC 2014
+23:30:00,023 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 05 23:30:00 UTC 2014
+23:30:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 128
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+23:3INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+0:00,086 IINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 05 23:30:00 UTC 2014
+NFO  [stdouINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,023 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 05 23:30:00 UTC 2014
+t] (Mail36INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,033 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+0QuartzScINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,038 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+heduler_WoINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+rker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+088 INFO  [stdINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+out] (Mail3INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+60QuartzINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+SchedulerINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+_Worker-4)INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+ dateCompaINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+re1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,075 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,079 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+:00,089 INFINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+O  [stdouINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+t] (Mail3INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,086 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+60QuartzSchINFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,088 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+eduler_INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,089 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+Worker-4) dateCompare1
+23:30:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,097 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,118 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,121 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,126 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,128 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,130 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,131 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,134 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,136 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,137 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,139 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,140 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,142 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,144 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,145 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,147 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,148 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,150 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,151 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,153 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,154 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,156 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,157 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,159 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+23:30:00,162 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,094 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,096 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,097 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,099 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,105 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,107 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,109 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,110 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,113 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,115 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,117 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,118 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,120 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,121 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,126 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,128 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,130 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,131 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,134 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,136 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,137 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,139 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,140 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,142 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,144 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,145 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,147 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,148 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,150 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,151 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,153 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,154 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,156 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,157 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,159 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 23:30:00,162 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/06 05:00:00 | 
+23:59:35,812 INFO  [stdout] (Finalizer) Connection Count 1
+23:59:35,813 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:59:35,814 INFO  [stdout] (Finalizer) Connection Count 1
+23:59:35,815 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/06 05:29:35 | 23:59:35,812 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/06 05:29:35 | 23:59:35,813 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/06 05:29:35 | 23:59:35,814 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/06 05:29:35 | 23:59:35,815 INFO  [stdout] (Finalizer) Releasing connection back to pool

@@ -1,0 +1,14 @@
+182.71.157.42 - - [09/Feb/2015:06:46:16 +0000] "GET / HTTP/1.1" 200 11217
+182.71.157.42 - - [09/Feb/2015:06:46:17 +0000] "GET /tomcat.png HTTP/1.1" 200 5103
+182.71.157.42 - - [09/Feb/2015:06:46:17 +0000] "GET /tomcat.css HTTP/1.1" 200 5576
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /bg-nav.png HTTP/1.1" 200 1401
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /bg-upper.png HTTP/1.1" 200 3103
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /bg-button.png HTTP/1.1" 200 713
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /bg-middle.png HTTP/1.1" 200 1918
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /asf-logo.png HTTP/1.1" 200 17811
+182.71.157.42 - - [09/Feb/2015:06:46:18 +0000] "GET /favicon.ico HTTP/1.1" 200 21630
+182.71.157.42 - - [09/Feb/2015:06:46:19 +0000] "GET /manager/html HTTP/1.1" 401 2486
+182.71.157.42 - admin [09/Feb/2015:06:46:22 +0000] "GET /manager/html HTTP/1.1" 200 19387
+182.71.157.42 - admin [09/Feb/2015:06:46:23 +0000] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+182.71.157.42 - admin [09/Feb/2015:06:46:23 +0000] "GET /manager/images/asf-logo.gif HTTP/1.1" 200 7279
+182.71.157.42 - admin [09/Feb/2015:06:46:28 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=1B73050B2536FFF5A6CC504A18ADDD45 HTTP/1.1" 200 19445

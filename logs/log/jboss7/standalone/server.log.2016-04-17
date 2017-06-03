@@ -1,0 +1,236 @@
+23:00:03,584 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-1) Unexpected error occurred in scheduled task.: java.lang.NullPointerException
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:68) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 23:00:03,584 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-1) Unexpected error occurred in scheduled task.: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:68) [classes:]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 04:30:03 | 
+STATUS | wrapper  | 2016/04/18 08:59:40 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,162 INFO  [org.jboss.as.osgi] (MSC service thread 1-5) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,361 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,425 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."indusind.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,442 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,432 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."quiz.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,439 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."abilitytest.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:55)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,450 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,458 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,448 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.detection.DetectionServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,459 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,458 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,462 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,461 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,464 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,463 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,469 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,466 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,494 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,496 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,497 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,493 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,470 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.assess.login.AutoLoginServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,500 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,498 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,505 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,507 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,508 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,509 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,511 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,504 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,534 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,536 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,502 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,533 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,537 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,541 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,525 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,547 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,542 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,539 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,551 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,550 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.assess.excel.GeneratePositionTrackerServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,548 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Apr 14 12:51:06 IST 2016]; parent: Root WebApplicationContext
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,555 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,560 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,554 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,553 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,564 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,562 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,566 INFO  [org.springframework.web.context.support.GenericWebApplicationContext] Closing org.springframework.web.context.support.GenericWebApplicationContext@7fd51fcb: startup date [Thu Apr 14 12:51:23 IST 2016]; parent: WebApplicationContext for namespace 'dispatcher-servlet'
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,568 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,566 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.rest.client.PositionUserRestServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,576 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,572 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,579 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,578 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,581 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,584 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,585 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,587 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,588 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,580 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,597 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,599 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,600 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,602 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,603 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,605 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,606 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[logs.LoggerActionServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,583 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,617 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,590 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,618 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,632 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,634 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,608 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,637 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,631 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,639 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,642 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,643 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,638 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] Closing Spring root WebApplicationContext
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,644 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,636 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,665 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Closing Root WebApplicationContext: startup date [Thu Apr 14 12:50:49 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,665 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,640 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,666 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,672 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,678 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,680 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,683 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,669 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@7a52e258" of service jboss.web.deployment."indusind.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,677 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,726 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,729 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,731 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,709 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,716 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,738 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,761 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,767 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,768 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,770 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,773 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,771 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@5b225e28" of service jboss.web.deployment."abilitytest.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:55)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,797 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,799 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,800 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,801 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,802 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,805 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,808 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,809 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,810 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,811 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,812 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,814 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.rest.client.ClientServiceInformationServlet] has not been started
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,817 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@1fec053a" of service jboss.web.deployment."quiz.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 
+INFO   | jvm 1    | 2016/04/18 08:59:41 | 03:29:41,887 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] Shutting down ExecutorService 'mailScheduler'
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:41,903 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:41,935 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,203 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment shield.war in 1058ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,322 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abilitytest.war in 1168ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,384 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment next360.war in 1215ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,420 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment quiz.war in 1267ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,435 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment indusindassess.war in 1282ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,537 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment engage.war in 1392ms
+INFO   | jvm 1    | 2016/04/18 08:59:42 | 03:29:42,558 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 1385ms

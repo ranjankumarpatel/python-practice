@@ -1,0 +1,404 @@
+03:56:11,064 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 03:56:11 | 03:56:11,064 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+03:56:11,079 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+03:56:11,094 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+03:56:11,114 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 03:56:11 | 03:56:11,079 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 03:56:11 | 03:56:11,094 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 03:56:11 | 03:56:11,114 INFO  [stdout] (ajp--0.0.0.0-8009-10) Connection back to Pool
+05:32:11,116 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:32:11,117 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+05:32:11,118 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981531115exp date1409981516193expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:32:11 | 05:32:11,116 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:32:11 | 05:32:11,117 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/06 05:32:11 | 05:32:11,118 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981531115exp date1409981516193expirydate<curdatetrue
+05:32:49,196 INFO  [stdout] (ajp--0.0.0.0-8009-1) {}
+05:32:49,197 INFO  [stdout] (ajp--0.0.0.0-8009-1) cur date1409981569196exp date1409981869194expirydate<curdatefalse
+INFO   | jvm 1    | 2014/09/06 05:32:49 | 05:32:49,196 INFO  [stdout] (ajp--0.0.0.0-8009-1) {}
+INFO   | jvm 1    | 2014/09/06 05:32:49 | 05:32:49,197 INFO  [stdout] (ajp--0.0.0.0-8009-1) cur date1409981569196exp date1409981869194expirydate<curdatefalse
+05:33:27,922 INFO  [stdout] (ajp--0.0.0.0-8009-13) 34
+05:33:27,923 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:33:27,925 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:33:27,926 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:33:27,939 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:33:27,959 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-13) Username and Password Verified
+05:33:27,961 INFO  [stdout] (ajp--0.0.0.0-8009-13) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@7553d200}
+05:33:27,968 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) com.inbasket.login.core.LoginData@e830c7e1
+05:33:27,971 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+05:33:27,972 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) ./instruction.jsp
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,922 INFO  [stdout] (ajp--0.0.0.0-8009-13) 34
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,923 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,925 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,926 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,939 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,959 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-13) Username and Password Verified
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,961 INFO  [stdout] (ajp--0.0.0.0-8009-13) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@7553d200}
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,968 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) com.inbasket.login.core.LoginData@e830c7e1
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,971 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 05:33:28 | 05:33:27,972 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) ./instruction.jsp
+05:34:05,410 INFO  [stdout] (ajp--0.0.0.0-8009-13) 34
+05:34:05,411 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:34:05,412 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:34:05,413 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:34:05,421 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:34:05,423 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-13) Username and Password Verified
+05:34:05,424 INFO  [stdout] (ajp--0.0.0.0-8009-13) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@4d193c9b}
+05:34:05,425 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.inbasket.exception.InvalidLoginException: Already logged in
+05:34:05,426 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75)
+05:34:05,427 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+05:34:05,427 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+05:34:05,428 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:34:05,429 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:34:05,430 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:34:05,431 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+05:34:05,432 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:34:05,433 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:34:05,433 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:34:05,434 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:34:05,435 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:34:05,436 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:34:05,437 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:34:05,438 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:34:05,439 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:34:05,440 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:34:05,440 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:34:05,441 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:34:05,442 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+05:34:05,443 ERROR [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) Already logged in: com.inbasket.exception.InvalidLoginException: Already logged in
+	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75) [classes:]
+	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+05:34:05,456 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) Connection Rollbacked
+05:34:05,458 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+05:34:05,458 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) /?errorMessage=Already logged in
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,410 INFO  [stdout] (ajp--0.0.0.0-8009-13) 34
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,411 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,412 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,413 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,421 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,423 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-13) Username and Password Verified
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,424 INFO  [stdout] (ajp--0.0.0.0-8009-13) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@4d193c9b}
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,425 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.inbasket.exception.InvalidLoginException: Already logged in
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,426 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,427 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,427 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,428 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,429 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,430 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,431 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,432 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,433 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,433 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,434 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,435 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,436 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,437 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,438 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,439 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,440 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,440 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,441 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,442 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,443 ERROR [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) Already logged in: com.inbasket.exception.InvalidLoginException: Already logged in
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,456 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) Connection Rollbacked
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,458 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 05:34:05 | 05:34:05,458 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-13) /?errorMessage=Already logged in
+05:34:12,072 INFO  [stdout] (ajp--0.0.0.0-8009-1) {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@4d193c9b}
+05:34:12,073 INFO  [stdout] (ajp--0.0.0.0-8009-1) cur date1409981652072exp date1409981951432expirydate<curdatefalse
+INFO   | jvm 1    | 2014/09/06 05:34:12 | 05:34:12,072 INFO  [stdout] (ajp--0.0.0.0-8009-1) {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@4d193c9b}
+INFO   | jvm 1    | 2014/09/06 05:34:12 | 05:34:12,073 INFO  [stdout] (ajp--0.0.0.0-8009-1) cur date1409981652072exp date1409981951432expirydate<curdatefalse
+05:34:26,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) 34
+05:34:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+05:34:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+05:34:26,895 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+05:34:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+05:34:26,910 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-8) Username and Password Verified
+05:34:26,911 INFO  [stdout] (ajp--0.0.0.0-8009-8) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33}
+05:34:26,912 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.inbasket.exception.InvalidLoginException: Already logged in
+05:34:26,914 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75)
+05:34:26,915 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+05:34:26,916 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+05:34:26,917 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:34:26,918 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:34:26,919 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:34:26,920 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+05:34:26,921 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:34:26,922 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:34:26,923 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:34:26,924 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:34:26,925 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:34:26,926 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:34:26,927 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorRINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) 34
+eportValve.INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+invoke(ErrINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+orReportVaINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,895 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+lve.java:1INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+02)
+INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,910 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-8) Username and Password Verified
+INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,911 INFO  [stdout] (ajp--0.0.0.0-8009-8) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33}
+INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,912 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.inbasket.exception.InvalidLoginException: Already logged in
+05:34:2INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,914 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75)
+6,928 ERRORINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,915 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+ [stderr] (ajp--0.INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,916 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+0.0.0-8009-8)INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,917 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+ 	at org.apacINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,918 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+he.catalina.corINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,919 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+e.StandardEngINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,920 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+ineValve.invoke(StanINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,921 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+dardEngineValve.java:109)
+INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,922 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,923 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+34:26,930 ERROR [INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,924 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+stderr] (ajp--0.0.0.0-80INFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,925 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09-8) 	at org.apache.cINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,926 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+atalina.connectINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,927 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+or.CoyoteAdapteINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,928 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+r.seINFO   | jvm 1    | 2014/09/06 05:34:26 | 05:34:26,930 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+rvice(CoyoteAdapter.java:368)
+05:34:26,931 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:34:26,932 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:34:26,934 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:34:26,935 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+05:34:26,937 ERROR [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) Already logged in: com.inbasket.exception.InvalidLoginException: Already logged in
+	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75) [classes:]
+	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+05:34:26,963 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) Connection Rollbacked
+05:34:26,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+05:34:26,966 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) /userLogin.jsp?errorMessage=Already logged in
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,931 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,932 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,934 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,935 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,937 ERROR [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) Already logged in: com.inbasket.exception.InvalidLoginException: Already logged in
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:75) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40) [classes:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,963 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) Connection Rollbacked
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 05:34:27 | 05:34:26,966 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-8) /userLogin.jsp?errorMessage=Already logged in
+05:34:51,408 INFO  [stdout] (ajp--0.0.0.0-8009-6) 34
+05:34:51,409 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+05:34:51,411 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+05:34:51,412 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+05:34:51,425 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+05:34:51,429 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-6) Username and Password Verified
+05:34:51,430 INFO  [stdout] (ajp--0.0.0.0-8009-6) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:34:51,443 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-6) com.inbasket.login.core.LoginData@17d4fd1c
+05:34:51,451 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+05:34:51,452 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-6) ./instruction.jsp
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,408 INFO  [stdout] (ajp--0.0.0.0-8009-6) 34
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,409 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,411 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,412 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,425 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,429 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-6) Username and Password Verified
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,430 INFO  [stdout] (ajp--0.0.0.0-8009-6) valueBound : {com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,443 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-6) com.inbasket.login.core.LoginData@17d4fd1c
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,451 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 05:34:51 | 05:34:51,452 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-6) ./instruction.jsp
+05:36:28,215 INFO  [stdout] (ajp--0.0.0.0-8009-5) 34
+05:36:28,216 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+05:36:28,217 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+05:36:28,218 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,215 INFO  [stdout] (ajp--0.0.0.0-8009-5) 34
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,216 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,217 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,218 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+05:36:28,228 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:36:28,230 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-5) Username and Password Verified
+05:36:28,231 INFO  [stdout] (ajp--0.0.0.0-8009-5) valueBound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:36:28,237 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-5) com.inbasket.login.core.LoginData@38faa0bf
+05:36:28,239 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+05:36:28,240 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-5) ./instruction.jsp
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,228 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,230 INFO  [com.inbasket.login.core.LoginActionDAO] (ajp--0.0.0.0-8009-5) Username and Password Verified
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,231 INFO  [stdout] (ajp--0.0.0.0-8009-5) valueBound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,237 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-5) com.inbasket.login.core.LoginData@38faa0bf
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,239 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/09/06 05:36:28 | 05:36:28,240 INFO  [com.inbasket.login.LoginServlet] (ajp--0.0.0.0-8009-5) ./instruction.jsp
+05:38:01,132 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:38:01,133 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:38:01,136 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881132exp date1409981868581expirydate<curdatetrue
+05:38:01,138 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:38:01,139 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:38:01,142 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881138exp date1409981869487expirydate<curdatetrue
+05:38:01,144 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:38:01,145 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:38:01,149 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881144exp date1409981870753expirydate<curdatetrue
+05:38:01,150 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:38:01,151 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:38:01,154 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881150exp date1409981870742expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,132 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,133 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,136 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881132exp date1409981868581expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,138 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,139 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,142 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881138exp date1409981869487expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,144 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,145 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,149 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881144exp date1409981870753expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,150 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,151 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@e830c7e1=org.apache.catalina.session.StandardSessionFacade@1734ad33, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:38:01 | 05:38:01,154 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981881150exp date1409981870742expirydate<curdatetrue
+05:39:01,158 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:39:01,159 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:39:01,161 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:39:01,164 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981941158exp date1409981920307expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:39:01 | 05:39:01,158 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:39:01 | 05:39:01,159 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:39:01 | 05:39:01,161 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:39:01 | 05:39:01,164 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409981941158exp date1409981920307expirydate<curdatetrue
+05:40:01,168 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:40:01,170 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,172 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001168exp date1409981952937expirydate<curdatetrue
+05:40:01,173 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:40:01,174 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,176 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001173exp date1409981952618expirydate<curdatetrue
+05:40:01,177 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:40:01,178 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,180 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,183 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001177exp date1409981966891expirydate<curdatetrue
+05:40:01,185 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:40:01,186 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,189 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+05:40:01,191 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001185exp date1409981945408expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,168 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,170 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,172 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001168exp date1409981952937expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,173 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,174 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,176 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001173exp date1409981952618expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,177 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,178 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,180 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,183 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001177exp date1409981966891expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,185 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,186 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,189 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1, com.inbasket.login.core.LoginData@17d4fd1c=org.apache.catalina.session.StandardSessionFacade@1f2f1270}
+INFO   | jvm 1    | 2014/09/06 05:40:01 | 05:40:01,191 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982001185exp date1409981945408expirydate<curdatetrue
+05:41:01,195 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:41:01,196 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+05:41:01,199 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+05:41:01,201 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982061195exp date1409982054823expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:41:01 | 05:41:01,195 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:41:01 | 05:41:01,196 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+INFO   | jvm 1    | 2014/09/06 05:41:01 | 05:41:01,199 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+INFO   | jvm 1    | 2014/09/06 05:41:01 | 05:41:01,201 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982061195exp date1409982054823expirydate<curdatetrue
+05:42:01,205 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:42:01,206 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+05:42:01,207 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982121205exp date1409982075335expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:42:01 | 05:42:01,205 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:42:01 | 05:42:01,206 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {com.inbasket.login.core.LoginData@38faa0bf=org.apache.catalina.session.StandardSessionFacade@500c77d1}
+INFO   | jvm 1    | 2014/09/06 05:42:01 | 05:42:01,207 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982121205exp date1409982075335expirydate<curdatetrue
+05:43:01,210 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:43:01,212 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {}
+05:43:01,213 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+05:43:01,214 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982181210exp date1409982179632expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:43:01 | 05:43:01,210 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:43:01 | 05:43:01,212 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) valueUnbound : {}
+INFO   | jvm 1    | 2014/09/06 05:43:01 | 05:43:01,213 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/06 05:43:01 | 05:43:01,214 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982181210exp date1409982179632expirydate<curdatetrue
+05:49:01,229 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:49:01,230 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+05:49:01,231 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982541228exp date1409982540547expirydate<curdatetrue
+05:49:01,232 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+05:49:01,233 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+05:49:01,234 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982541232exp date1409982541201expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,229 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,230 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,231 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982541228exp date1409982540547expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,232 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,233 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/06 05:49:01 | 05:49:01,234 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1409982541232exp date1409982541201expirydate<curdatetrue
+06:17:23,968 INFO  [stdout] (Finalizer) Connection Count 1
+06:17:23,968 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:17:23,969 INFO  [stdout] (Finalizer) Connection Count 1
+06:17:23,970 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:17:23,970 INFO  [stdout] (Finalizer) Connection Count 1
+06:17:23,971 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:17:23,971 INFO  [stdout] (Finalizer) Connection Count 1
+06:17:23,972 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,968 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,968 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,969 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,970 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,970 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,971 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,971 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/06 06:17:24 | 06:17:23,972 INFO  [stdout] (Finalizer) Releasing connection back to pool

@@ -1,0 +1,888 @@
+00:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 269
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,002 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 269
+00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+00:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+00:00:00,013 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+00:00:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 19 00:00:00 UTC 2014
+00:00:00,016 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 19 00:00:00 UTC 2014
+00:00:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,026 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,074 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+00:00:00,088 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,013 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,015 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 19 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,016 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Dec 19 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,026 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,045 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,049 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,052 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,058 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,062 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,072 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,074 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 00:00:00,088 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/19 05:30:00 | 
+00:11:54,736 INFO  [stdout] (Finalizer) Connection Count 1
+00:11:54,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+00:11:54,738 INFO  [stdout] (Finalizer) Connection Count 1
+00:11:54,739 INFO  [stdout] (Finalizer) Releasing connection back to pool
+00:11:54,740 INFO  [stdout] (Finalizer) Connection Count 1
+00:11:54,741 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,736 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,737 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,738 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,739 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,740 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 05:41:54 | 00:11:54,741 INFO  [stdout] (Finalizer) Releasing connection back to pool
+00:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 269
+00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+00:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+00:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+00:30:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 19 00:30:00 UTC 2014
+00:30:00,022 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 19 00:30:00 UTC 2014
+00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 269
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+00:30:00,059 INFOINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+  [stdout] (Mail360QuartINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+zScheduler_Worker-4) datINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,020 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 19 00:30:00 UTC 2014
+eCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,022 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Dec 19 00:30:00 UTC 2014
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,060 INFO INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+ [stdout] (Mail360QuartINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+zScheduler_Worker-4) INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,046 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,061 INFO  INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,053 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+[stdout] (Mail360QuarINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+tzScheduler_Worker-4)INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+ dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,057 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,059 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,060 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,063 INFO  [stdout] (Mail3INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,061 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+60QuartzScheINFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,063 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+duler_Worker-4) dateCompare1
+00:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+00:30:00,085 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,064 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,065 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,066 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,067 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,068 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,069 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,070 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,071 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,073 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,076 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,077 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,078 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,080 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,081 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,082 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,083 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,084 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 00:30:00,085 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/12/19 06:00:00 | 
+09:52:22,698 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2014/12/19 15:22:22 | 09:52:22,698 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+09:58:57,198 INFO  [stdout] (ajp--0.0.0.0-8009-13) /adminLogin.jsp
+09:58:57,199 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+09:58:57,200 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+09:58:57,201 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+09:58:57,202 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+09:58:57,214 INFO INFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,198 INFO  [stdout] (ajp--0.0.0.0-8009-13) /adminLogin.jsp
+ [stdout] INFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,199 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+(ajp--0.0.0INFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,200 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+.0-8009-13INFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,201 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+) New conINFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,202 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+nectINFO   | jvm 1    | 2014/12/19 15:28:57 | 09:58:57,214 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+ion added in pool
+09:58:58,123 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) username :support@thinktalentnext.com
+09:58:58,124 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-13) LoginActionServlet Sessioncom.pojos.Client@6ec5a6af
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,123 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) username :support@thinktalentnext.com
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,124 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-13) LoginActionServlet Sessioncom.pojos.Client@6ec5a6af
+09:58:58,861 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-5) com.pojos.Client@6ec5a6af
+09:58:58,863 INFO  [stdout] (ajp--0.0.0.0-8009-5) 269
+09:58:58,863 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+09:58:58,865 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+09:58:58,866 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+09:58:58,876 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,861 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-5) com.pojos.Client@6ec5a6af
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,863 INFO  [stdout] (ajp--0.0.0.0-8009-5) 269
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,863 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,865 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,866 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 15:28:58 | 09:58:58,876 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+09:59:49,862 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+09:59:49,863 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+09:59:49,864 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+09:59:49,865 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+09:59:49,877 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 15:29:49 | 09:59:49,862 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+INFO   | jvm 1    | 2014/12/19 15:29:49 | 09:59:49,863 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 15:29:49 | 09:59:49,864 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/19 15:29:49 | 09:59:49,865 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 15:29:49 | 09:59:49,877 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+10:30:35,791 INFO  [stdout] (Finalizer) Connection Count 1
+10:30:35,791 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:30:35,792 INFO  [stdout] (Finalizer) Connection Count 1
+10:30:35,792 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 16:00:35 | 10:30:35,791 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 16:00:35 | 10:30:35,791 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 16:00:35 | 10:30:35,792 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 16:00:35 | 10:30:35,792 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:48:12,670 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:dRdgevO96UPdwgSoR68dtq5NiLNKEqvKxpO6VorrSeAKqWICt7sktw==
+10:48:12,672 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:arjun.nayar@kalpataru.com
+10:48:12,673 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:Robi6nhX6EkQJqvhkM1t+xoXTWBJXt5J
+10:48:12,674 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:MDISCCYY
+10:48:12,675 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:Qwl/m1pZTRsz+rmIaQcUHA==
+10:48:12,677 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:112
+10:48:12,678 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:KxPe3viurpiWhpNhjPENyaIMuRbCR+Lc
+10:48:12,679 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:validate
+10:48:12,680 INFO  [stdout] (ajp--0.0.0.0-8009-12) 269
+10:48:12,681 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+10:48:12,681 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+10:48:12,682 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+10:48:12,689 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+10:48:12,723 INFO  [com.fs360.respondent.AutoSurveyLinkProviderServlet] (ajp--0.0.0.0-8009-12) AutoLoginActionServlet Sessioncom.pojos.Respondent@5c8e420e
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,670 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:dRdgevO96UPdwgSoR68dtq5NiLNKEqvKxpO6VorrSeAKqWICt7sktw==
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,672 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:arjun.nayar@kalpataru.com
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,673 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:Robi6nhX6EkQJqvhkM1t+xoXTWBJXt5J
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,674 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:MDISCCYY
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,675 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:Qwl/m1pZTRsz+rmIaQcUHA==
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,677 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:112
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,678 INFO  [stdout] (ajp--0.0.0.0-8009-12) sender Decode Call:KxPe3viurpiWhpNhjPENyaIMuRbCR+Lc
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,679 INFO  [stdout] (ajp--0.0.0.0-8009-12) reciever Decode Call:validate
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,680 INFO  [stdout] (ajp--0.0.0.0-8009-12) 269
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,681 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,681 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,682 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,689 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 16:18:12 | 10:48:12,723 INFO  [com.fs360.respondent.AutoSurveyLinkProviderServlet] (ajp--0.0.0.0-8009-12) AutoLoginActionServlet Sessioncom.pojos.Respondent@5c8e420e
+10:48:12,980 INFO  [stdout] (ajp--0.0.0.0-8009-5) 269
+10:48:12,981 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+10:48:12,983 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+10:48:12,984 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+10:48:12,995 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 16:18:13 | 10:48:12,980 INFO  [stdout] (ajp--0.0.0.0-8009-5) 269
+INFO   | jvm 1    | 2014/12/19 16:18:13 | 10:48:12,981 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 16:18:13 | 10:48:12,983 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2014/12/19 16:18:13 | 10:48:12,984 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 16:18:13 | 10:48:12,995 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+10:52:29,133 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:FRevyt7Gx5Ud+dJ+ibwuGNa8nC9s2hDucdARxOcPFFqxjN0uGCMMJA==
+10:52:29,135 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:rohit.agarwal@kalpataru.com
+10:52:29,137 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:bWVJB25s5GS7vdSF1/IItWae8BTSDSQi
+10:52:29,139 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:MVWHRMHR
+10:52:29,141 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:K/v22NnLGxniNnopOXeZmg==
+10:52:29,142 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:109
+10:52:29,144 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:HgGC0wTNFpb9mx/XGtkZdBrzh/0DT7Hg
+10:52:29,146 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:validate
+10:52:29,148 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+10:52:29,148 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+10:52:29,150 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+10:52:29,150 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,133 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:FRevyt7Gx5Ud+dJ+ibwuGNa8nC9s2hDucdARxOcPFFqxjN0uGCMMJA==
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,135 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:rohit.agarwal@kalpataru.com
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,137 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:bWVJB25s5GS7vdSF1/IItWae8BTSDSQi
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,139 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:MVWHRMHR
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,141 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:K/v22NnLGxniNnopOXeZmg==
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,142 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:109
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,144 INFO  [stdout] (ajp--0.0.0.0-8009-16) sender Decode Call:HgGC0wTNFpb9mx/XGtkZdBrzh/0DT7Hg
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,146 INFO  [stdout] (ajp--0.0.0.0-8009-16) reciever Decode Call:validate
+1INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,148 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+0:52:29,163 INFO  [sINFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,148 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+tdout] (ajp--0.0.0.INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,150 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+0-8009-16) New connecINFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,150 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+tion aINFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,163 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+dded in pool
+10:52:29,167 INFO  [com.fs360.respondent.AutoSurveyLinkProviderServlet] (ajp--0.0.0.0-8009-16) AutoLoginActionServlet Sessioncom.pojos.Respondent@6efcf2ee
+INFO   | jvm 1    | 2014/12/19 16:22:29 | 10:52:29,167 INFO  [com.fs360.respondent.AutoSurveyLinkProviderServlet] (ajp--0.0.0.0-8009-16) AutoLoginActionServlet Sessioncom.pojos.Respondent@6efcf2ee
+11:12:44,205 INFO  [stdout] (ajp--0.0.0.0-8009-18) /adminLogin.jsp
+11:12:44,205 INFO  [stdout] (ajp--0.0.0.0-8009-18) 269
+11:12:44,206 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+11:12:44,207 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+11:12:44,207 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+11:12:44,215 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,205 INFO  [stdout] (ajp--0.0.0.0-8009-18) /adminLogin.jsp
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,205 INFO  [stdout] (ajp--0.0.0.0-8009-18) 269
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,206 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,207 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,207 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 16:42:44 | 11:12:44,215 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+11:12:45,116 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-18) username :support@thinktalentnext.com
+11:12:45,117 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-18) LoginActionServlet Sessioncom.pojos.Client@7d85bb0e
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,116 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-18) username :support@thinktalentnext.com
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,117 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-18) LoginActionServlet Sessioncom.pojos.Client@7d85bb0e
+11:12:45,581 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@7d85bb0e
+11:12:45,582 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+11:12:45,583 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+11:12:45,584 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+11:12:45,585 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+11:12:45,596 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,581 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@7d85bb0e
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,582 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,583 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,584 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,585 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 16:42:45 | 11:12:45,596 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+12:04:41,165 INFO  [stdout] (ajp--0.0.0.0-8009-17) /adminLogin.jsp
+12:04:41,166 INFO  [stdout] (ajp--0.0.0.0-8009-17) 269
+12:04:41,167 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+12:04:41,168 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+12:04:41,169 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,165 INFO  [stdout] (ajp--0.0.0.0-8009-17) /adminLogin.jsp
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,166 INFO  [stdout] (ajp--0.0.0.0-8009-17) 269
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,167 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,168 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,169 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+12:04:41,179 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:34:41 | 12:04:41,179 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+12:04:42,089 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-17) username :support@thinktalentnext.com
+12:04:42,091 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-17) LoginActionServlet Sessioncom.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,089 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-17) username :support@thinktalentnext.com
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,091 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-17) LoginActionServlet Sessioncom.pojos.Client@1b5b0824
+12:04:42,400 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-21) com.pojos.Client@1b5b0824
+12:04:42,401 INFO  [stdout] (ajp--0.0.0.0-8009-21) 269
+12:04:42,402 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+12:04:42,404 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+12:04:42,404 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+12:04:42,415 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,400 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-21) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,401 INFO  [stdout] (ajp--0.0.0.0-8009-21) 269
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,402 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,404 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,404 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:34:42 | 12:04:42,415 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+12:06:39,774 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+12:06:39,775 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+12:06:39,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+12:06:39,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+12:06:39,789 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:36:39 | 12:06:39,774 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+INFO   | jvm 1    | 2014/12/19 17:36:39 | 12:06:39,775 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:36:39 | 12:06:39,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:36:39 | 12:06:39,777 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:36:39 | 12:06:39,789 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+12:08:23,370 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@1b5b0824
+12:08:23,372 INFO  [stdout] (ajp--0.0.0.0-8009-6) 269
+12:08:23,373 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+12:08:23,374 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+12:08:23,375 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+12:08:23,387 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,370 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,372 INFO  [stdout] (ajp--0.0.0.0-8009-6) 269
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,373 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,374 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,375 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:38:23 | 12:08:23,387 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+12:10:55,656 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@1b5b0824
+12:10:55,658 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+12:10:55,658 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+12:10:55,660 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+12:10:55,661 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+12:10:55,672 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,656 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,658 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,658 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,660 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,661 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:40:55 | 12:10:55,672 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+12:10:56,437 INFO  [stdout] (ajp--0.0.0.0-8009-13) Response: 250 Great success
+12:10:56,438 INFO  [stdout] (ajp--0.0.0.0-8009-13) 
+12:10:56,474 INFO  [stdout] (ajp--0.0.0.0-8009-13) mail sent successfully... 
+INFO   | jvm 1    | 2014/12/19 17:40:56 | 12:10:56,437 INFO  [stdout] (ajp--0.0.0.0-8009-13) Response: 250 Great success
+INFO   | jvm 1    | 2014/12/19 17:40:56 | 12:10:56,438 INFO  [stdout] (ajp--0.0.0.0-8009-13) 
+INFO   | jvm 1    | 2014/12/19 17:40:56 | 12:10:56,474 INFO  [stdout] (ajp--0.0.0.0-8009-13) mail sent successfully... 
+12:10:57,125 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-20) com.pojos.Client@1b5b0824
+12:10:57,126 INFO  [stdout] (ajp--0.0.0.0-8009-20) 269
+12:10:57,127 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+12:10:57,128 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+12:10:57,128 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+12:10:57,138 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,125 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-20) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,126 INFO  [stdout] (ajp--0.0.0.0-8009-20) 269
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,127 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,128 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,128 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:40:57 | 12:10:57,138 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+12:11:08,116 INFO  [stdout] (ajp--0.0.0.0-8009-14) 269
+12:11:08,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+12:11:08,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+12:11:08,118 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+12:11:08,125 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:41:08 | 12:11:08,116 INFO  [stdout] (ajp--0.0.0.0-8009-14) 269
+INFO   | jvm 1    | 2014/12/19 17:41:08 | 12:11:08,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:41:08 | 12:11:08,117 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:41:08 | 12:11:08,118 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:41:08 | 12:11:08,125 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+12:20:37,712 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+12:20:37,713 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+12:20:37,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+12:20:37,715 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+12:20:37,728 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:50:37 | 12:20:37,712 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+INFO   | jvm 1    | 2014/12/19 17:50:37 | 12:20:37,713 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:50:37 | 12:20:37,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:50:37 | 12:20:37,715 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:50:37 | 12:20:37,728 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+12:20:40,235 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@1b5b0824
+12:20:40,236 INFO  [stdout] (ajp--0.0.0.0-8009-6) 269
+12:20:40,237 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+12:20:40,239 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+12:20:40,240 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+12:20:40,251 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,235 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-6) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,236 INFO  [stdout] (ajp--0.0.0.0-8009-6) 269
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,237 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,239 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,240 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:50:40 | 12:20:40,251 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+12:21:03,916 INFO  [stdout] (ajp--0.0.0.0-8009-4) 269
+12:21:03,917 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+12:21:03,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+12:21:03,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+12:21:03,925 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:51:04 | 12:21:03,916 INFO  [stdout] (ajp--0.0.0.0-8009-4) 269
+INFO   | jvm 1    | 2014/12/19 17:51:04 | 12:21:03,917 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:51:04 | 12:21:03,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:51:04 | 12:21:03,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:51:04 | 12:21:03,925 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+12:21:35,196 INFO  [stdout] (ajp--0.0.0.0-8009-14) 269
+12:21:35,197 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+12:21:35,198 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+12:21:35,199 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+12:21:35,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:51:35 | 12:21:35,196 INFO  [stdout] (ajp--0.0.0.0-8009-14) 269
+INFO   | jvm 1    | 2014/12/19 17:51:35 | 12:21:35,197 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:51:35 | 12:21:35,198 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:51:35 | 12:21:35,199 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:51:35 | 12:21:35,208 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+12:21:37,591 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@1b5b0824
+12:21:37,593 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+12:21:37,594 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+12:21:37,595 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+12:21:37,596 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+12:21:37,607 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,591 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,593 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,594 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,595 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,596 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:51:37 | 12:21:37,607 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+12:22:19,495 INFO  [stdout] (ajp--0.0.0.0-8009-1) 269
+12:22:19,496 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+12:22:19,497 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+12:22:19,498 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+12:22:19,509 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:52:19 | 12:22:19,495 INFO  [stdout] (ajp--0.0.0.0-8009-1) 269
+INFO   | jvm 1    | 2014/12/19 17:52:19 | 12:22:19,496 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:52:19 | 12:22:19,497 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:52:19 | 12:22:19,498 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:52:19 | 12:22:19,509 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+12:22:43,601 INFO  [stdout] (ajp--0.0.0.0-8009-21) 269
+12:22:43,602 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+12:22:43,603 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+12:22:43,603 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+12:22:43,611 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:52:43 | 12:22:43,601 INFO  [stdout] (ajp--0.0.0.0-8009-21) 269
+INFO   | jvm 1    | 2014/12/19 17:52:43 | 12:22:43,602 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:52:43 | 12:22:43,603 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:52:43 | 12:22:43,603 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:52:43 | 12:22:43,611 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+12:22:45,956 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@1b5b0824
+12:22:45,957 INFO  [stdout] (ajp--0.0.0.0-8009-15) 269
+12:22:45,958 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+12:22:45,959 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+12:22:45,960 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+12:22:45,971 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,956 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-15) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,957 INFO  [stdout] (ajp--0.0.0.0-8009-15) 269
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,958 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,959 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,960 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:52:45 | 12:22:45,971 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+12:22:53,580 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+12:22:53,581 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+12:22:53,582 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+12:22:53,583 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+12:22:53,596 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:52:53 | 12:22:53,580 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+INFO   | jvm 1    | 2014/12/19 17:52:53 | 12:22:53,581 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:52:53 | 12:22:53,582 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:52:53 | 12:22:53,583 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:52:53 | 12:22:53,596 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+12:23:14,015 INFO  [stdout] (ajp--0.0.0.0-8009-1) 269
+12:23:14,015 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+12:23:14,016 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+12:23:14,017 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+12:23:14,023 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:53:14 | 12:23:14,015 INFO  [stdout] (ajp--0.0.0.0-8009-1) 269
+INFO   | jvm 1    | 2014/12/19 17:53:14 | 12:23:14,015 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:53:14 | 12:23:14,016 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:53:14 | 12:23:14,017 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:53:14 | 12:23:14,023 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+12:23:16,370 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@1b5b0824
+12:23:16,371 INFO  [stdout] (ajp--0.0.0.0-8009-7) 269
+12:23:16,372 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+12:23:16,373 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+12:23:16,374 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+12:23:16,385 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,370 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,371 INFO  [stdout] (ajp--0.0.0.0-8009-7) 269
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,372 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,373 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,374 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:53:16 | 12:23:16,385 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+12:25:22,587 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,588 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,589 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,589 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,590 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,591 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,592 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,592 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,593 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,593 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,593 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,594 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,594 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,595 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,595 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,596 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,596 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,597 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,597 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,598 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,598 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,599 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,599 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,600 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,600 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,601 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,601 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,601 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,602 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,602 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,603 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,603 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,604 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,604 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,605 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,605 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,605 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,606 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,606 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,607 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,607 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:22,608 INFO  [stdout] (Finalizer) Connection Count 1
+12:25:22,608 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,587 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,588 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,589 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,589 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,590 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,590 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,591 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,592 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,592 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,593 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,593 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,593 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,594 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,594 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,595 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,595 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,596 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,596 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,597 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,597 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,598 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,598 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,599 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,599 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,600 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,600 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,601 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,601 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,601 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,602 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,602 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,603 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,603 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,604 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,604 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,605 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,605 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,605 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,606 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,606 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,607 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,607 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,608 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 17:55:22 | 12:25:22,608 INFO  [stdout] (Finalizer) Releasing connection back to pool
+12:25:40,482 INFO  [stdout] (ajp--0.0.0.0-8009-11) 269
+12:25:40,483 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+12:25:40,484 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+12:25:40,485 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:55:40 | 12:25:40,482 INFO  [stdout] (ajp--0.0.0.0-8009-11) 269
+INFO   | jvm 1    | 2014/12/19 17:55:40 | 12:25:40,483 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:55:40 | 12:25:40,484 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:55:40 | 12:25:40,485 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+12:25:40,495 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:55:40 | 12:25:40,495 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+12:26:07,542 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+12:26:07,542 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+12:26:07,543 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+12:26:07,544 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+12:26:07,556 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:56:07 | 12:26:07,542 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+INFO   | jvm 1    | 2014/12/19 17:56:07 | 12:26:07,542 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:56:07 | 12:26:07,543 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:56:07 | 12:26:07,544 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:56:07 | 12:26:07,556 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+12:26:10,910 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) com.pojos.Client@1b5b0824
+12:26:10,911 INFO  [stdout] (ajp--0.0.0.0-8009-4) 269
+12:26:10,912 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+12:26:10,913 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+12:26:10,914 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+12:26:10,925 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,910 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,911 INFO  [stdout] (ajp--0.0.0.0-8009-4) 269
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,912 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,913 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,914 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:56:10 | 12:26:10,925 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+12:26:25,939 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+12:26:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+12:26:25,942 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+12:26:25,943 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+12:26:25,954 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:56:25 | 12:26:25,939 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+INFO   | jvm 1    | 2014/12/19 17:56:25 | 12:26:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:56:25 | 12:26:25,942 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:56:25 | 12:26:25,943 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:56:25 | 12:26:25,954 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+12:26:54,488 INFO  [stdout] (ajp--0.0.0.0-8009-20) 269
+12:26:54,489 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+12:26:54,490 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+12:26:54,490 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+12:26:54,498 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:56:54 | 12:26:54,488 INFO  [stdout] (ajp--0.0.0.0-8009-20) 269
+INFO   | jvm 1    | 2014/12/19 17:56:54 | 12:26:54,489 INFO  [stdout] (ajp--0.0.0.0-8009-20) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:56:54 | 12:26:54,490 INFO  [stdout] (ajp--0.0.0.0-8009-20) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:56:54 | 12:26:54,490 INFO  [stdout] (ajp--0.0.0.0-8009-20) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:56:54 | 12:26:54,498 INFO  [stdout] (ajp--0.0.0.0-8009-20) New connection added in pool
+12:26:58,665 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@1b5b0824
+12:26:58,666 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+12:26:58,667 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+12:26:58,667 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+12:26:58,668 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+12:26:58,675 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,665 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,666 INFO  [stdout] (ajp--0.0.0.0-8009-13) 269
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,667 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,667 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,668 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:56:58 | 12:26:58,675 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+12:27:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+12:27:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+12:27:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+12:27:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+12:27:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:57:47 | 12:27:47,754 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+INFO   | jvm 1    | 2014/12/19 17:57:47 | 12:27:47,755 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:57:47 | 12:27:47,757 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:57:47 | 12:27:47,758 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:57:47 | 12:27:47,770 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+12:28:02,416 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+12:28:02,417 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+12:28:02,419 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+12:28:02,420 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+12:28:02,431 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:58:02 | 12:28:02,416 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+INFO   | jvm 1    | 2014/12/19 17:58:02 | 12:28:02,417 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:58:02 | 12:28:02,419 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:58:02 | 12:28:02,420 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:58:02 | 12:28:02,431 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+12:28:05,134 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-17) com.pojos.Client@1b5b0824
+12:28:05,135 INFO  [stdout] (ajp--0.0.0.0-8009-17) 269
+12:28:05,136 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+12:28:05,138 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+12:28:05,138 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,134 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-17) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,135 INFO  [stdout] (ajp--0.0.0.0-8009-17) 269
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,136 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,138 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,138 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+12:28:05,150 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:58:05 | 12:28:05,150 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+12:28:43,800 INFO  [stdout] (ajp--0.0.0.0-8009-9) 269
+12:28:43,801 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+12:28:43,803 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+12:28:43,804 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:58:43 | 12:28:43,800 INFO  [stdout] (ajp--0.0.0.0-8009-9) 269
+INFO   | jvm 1    | 2014/12/19 17:58:43 | 12:28:43,801 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:58:43 | 12:28:43,803 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:58:43 | 12:28:43,804 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+12:28:43,815 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:58:43 | 12:28:43,815 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+12:29:02,582 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+12:29:02,583 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+12:29:02,584 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+12:29:02,585 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+12:29:02,597 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:59:02 | 12:29:02,582 INFO  [stdout] (ajp--0.0.0.0-8009-19) 269
+INFO   | jvm 1    | 2014/12/19 17:59:02 | 12:29:02,583 INFO  [stdout] (ajp--0.0.0.0-8009-19) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:59:02 | 12:29:02,584 INFO  [stdout] (ajp--0.0.0.0-8009-19) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:59:02 | 12:29:02,585 INFO  [stdout] (ajp--0.0.0.0-8009-19) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:59:02 | 12:29:02,597 INFO  [stdout] (ajp--0.0.0.0-8009-19) New connection added in pool
+12:29:04,971 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-11) com.pojos.Client@1b5b0824
+12:29:04,972 INFO  [stdout] (ajp--0.0.0.0-8009-11) 269
+12:29:04,972 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+12:29:04,973 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+12:29:04,974 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+12:29:04,981 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,971 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-11) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,972 INFO  [stdout] (ajp--0.0.0.0-8009-11) 269
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,972 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,973 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,974 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:59:05 | 12:29:04,981 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+12:29:19,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+12:29:19,336 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+12:29:19,337 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+12:29:19,338 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+12:29:19,350 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:59:19 | 12:29:19,334 INFO  [stdout] (ajp--0.0.0.0-8009-16) 269
+INFO   | jvm 1    | 2014/12/19 17:59:19 | 12:29:19,336 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:59:19 | 12:29:19,337 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:59:19 | 12:29:19,338 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:59:19 | 12:29:19,350 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+12:29:35,748 INFO  [stdout] (ajp--0.0.0.0-8009-9) 269
+12:29:35,749 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+12:29:35,750 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+12:29:35,751 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+12:29:35,763 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2014/12/19 17:59:35 | 12:29:35,748 INFO  [stdout] (ajp--0.0.0.0-8009-9) 269
+INFO   | jvm 1    | 2014/12/19 17:59:35 | 12:29:35,749 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:59:35 | 12:29:35,750 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2014/12/19 17:59:35 | 12:29:35,751 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2014/12/19 17:59:35 | 12:29:35,763 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+12:29:38,148 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-10) com.pojos.Client@1b5b0824
+12:29:38,149 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+12:29:38,150 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/12/19 17:59:38 | 12:29:38,148 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-10) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 17:59:38 | 12:29:38,149 INFO  [stdout] (ajp--0.0.0.0-8009-10) 269
+INFO   | jvm 1    | 2014/12/19 17:59:38 | 12:29:38,150 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+12:43:29,265 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 18:13:29 | 12:43:29,265 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-7) com.pojos.Client@1b5b0824
+12:46:51,568 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 18:16:51 | 12:46:51,568 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-16) com.pojos.Client@1b5b0824
+12:50:03,073 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-9) com.pojos.Client@1b5b0824
+INFO   | jvm 1    | 2014/12/19 18:20:03 | 12:50:03,073 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-9) com.pojos.Client@1b5b0824
+13:16:23,558 INFO  [stdout] (ajp--0.0.0.0-8009-5) /adminLogin.jsp
+INFO   | jvm 1    | 2014/12/19 18:46:23 | 13:16:23,558 INFO  [stdout] (ajp--0.0.0.0-8009-5) /adminLogin.jsp
+14:24:55,253 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,254 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,255 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,256 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,257 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,257 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,258 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,258 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,259 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,259 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,260 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,261 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,261 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,262 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,262 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,262 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,263 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,263 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,264 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,264 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,265 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,265 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,266 INFO  [stdout] (Finalizer) Releasing connection back to pool
+14:24:55,266 INFO  [stdout] (Finalizer) Connection Count 1
+14:24:55,267 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,253 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,254 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,255 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,256 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,257 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,257 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,258 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,258 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,259 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,259 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,260 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,260 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,261 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,261 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,262 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,262 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,262 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,263 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,263 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,264 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,264 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,265 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,265 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,266 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,266 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/12/19 19:54:55 | 14:24:55,267 INFO  [stdout] (Finalizer) Releasing connection back to pool
+16:49:25,391 INFO  [stdout] (ajp--0.0.0.0-8009-24) /adminLogin.jsp
+INFO   | jvm 1    | 2014/12/19 22:19:25 | 16:49:25,391 INFO  [stdout] (ajp--0.0.0.0-8009-24) /adminLogin.jsp
+17:22:40,073 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2014/12/19 22:52:40 | 17:22:40,073 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

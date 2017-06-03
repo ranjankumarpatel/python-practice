@@ -1,0 +1,272 @@
+00:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 14
+00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+00:00:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+00:00:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+00:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Oct 03 00:00:00 UTC 2014
+00:00:00,024 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Oct 03 00:00:00 UTC 2014
+00:00:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+00:00:00,046 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) 14
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Error while closing
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) Remove connection from pool
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,022 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) New connection added in pool
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Oct 03 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,024 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) schedule on check at Fri Oct 03 00:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,043 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,044 INFO  [stdout] (Mail360QuartzScheduler_Worker-1) dateCompare1
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 00:00:00,046 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-1) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/03 05:30:00 | 
+00:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 14
+00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+00:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) 14
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) Remove connection from pool
+00:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+00:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Oct 03 00:30:00 UTC 2014
+00:30:00,020 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Oct 03 00:30:00 UTC 2014
+00:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+00:30:00,043 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Oct 03 00:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,020 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) schedule on check at Fri Oct 03 00:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,031 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,034 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-2) dateCompare1
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 00:30:00,043 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-2) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/03 06:00:00 | 
+01:58:46,035 INFO  [stdout] (Finalizer) Connection Count 1
+01:58:46,055 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/10/03 07:28:46 | 01:58:46,035 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/10/03 07:28:46 | 01:58:46,055 INFO  [stdout] (Finalizer) Releasing connection back to pool
+22:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 14
+22:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+22:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+22:00:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Oct 03 22:00:00 UTC 2014
+22:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Oct 03 22:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) 14
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Error while closing
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) Remove connection from pool
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,018 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Oct 03 22:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,021 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) schedule on check at Fri Oct 03 22:00:00 UTC 2014
+22:00:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,119 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,124 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,126 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,135 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+22:00:00,139 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,112 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,119 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,124 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,126 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,133 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,135 INFO  [stdout] (Mail360QuartzScheduler_Worker-3) dateCompare1
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 22:00:00,139 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-3) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 03:30:00 | 
+22:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 14
+22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+22:30:00,008 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) 14
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,007 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Error while closing
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,008 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) Remove connection from pool
+22:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+22:30:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Oct 03 22:30:00 UTC 2014
+22:30:00,031 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Oct 03 22:30:00 UTC 2014
+22:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+22:30:00,059 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,029 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Oct 03 22:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,031 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) schedule on check at Fri Oct 03 22:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,041 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,047 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,051 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,056 INFO  [stdout] (Mail360QuartzScheduler_Worker-4) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 22:30:00,059 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-4) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 04:00:00 | 
+22:57:53,271 INFO  [stdout] (Finalizer) Connection Count 1
+22:57:53,272 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/10/04 04:27:53 | 22:57:53,271 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/10/04 04:27:53 | 22:57:53,272 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 14
+23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) connection is idle true connection release count 2
+23:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Error while closing
+23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Remove connection from pool
+23:00:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+23:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Fri Oct 03 23:00:00 UTC 2014
+23:00:00,025 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-5) schedule on check at Fri Oct 03 23:00:00 UTC 2014
+23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+23:00:00,057 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-5) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,003 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) 14
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Error while closing
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) Remove connection from pool
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,023 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) New connection added in pool
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,024 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) schedule on check at Fri Oct 03 23:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,025 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-5) schedule on check at Fri Oct 03 23:00:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,042 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,048 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,050 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,054 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,055 INFO  [stdout] (Mail360QuartzScheduler_Worker-5) dateCompare1
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 23:00:00,057 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-5) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 04:30:00 | 
+23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 14
+23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) connection is idle true connection release count 2
+23:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Error while closing
+23:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Remove connection from pool
+23:30:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+23:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Fri Oct 03 23:30:00 UTC 2014
+23:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-6) schedule on check at Fri Oct 03 23:30:00 UTC 2014
+23:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) 14
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,004 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,005 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Error while closing
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,006 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) Remove connection from pool
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,017 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) New connection added in pool
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,019 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) schedule on check at Fri Oct 03 23:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,019 INFO  [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-6) schedule on check at Fri Oct 03 23:30:00 UTC 2014
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,027 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,030 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+23:30:00,042 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-6) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,035 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,036 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,039 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,040 INFO  [stdout] (Mail360QuartzScheduler_Worker-6) dateCompare1
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 23:30:00,042 ERROR [com.mail.scheduler.MailJob] (Mail360QuartzScheduler_Worker-6) URI scheme is not "file": java.lang.IllegalArgumentException: URI scheme is not "file"
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at java.io.File.<init>(File.java:421) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.getReminderEmailTemplateFileText(AutoReminderMail.java:132) [classes:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.generateEmailTemplate(AutoReminderMail.java:98) [classes:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at com.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:82) [classes:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at com.mail.scheduler.MailJob.execute(MailJob.java:48) [classes:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2014/10/04 05:00:00 | 

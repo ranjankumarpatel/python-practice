@@ -1,0 +1,205 @@
+INFO   | jvm 1    | 2016/08/06 18:24:38 | 12:54:38,507 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:24:38 | 12:54:38,514 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sat Aug 06 18:24:38 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:24:39 | 12:54:39,098 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:24:39 | 12:54:39,099 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,797 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,798 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,799 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,800 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,808 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,809 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet]] (ajp--0.0.0.0-8009-17) Servlet.service() for servlet TestEligibilityControlServlet threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,845 ERROR [stderr] (ajp--0.0.0.0-8009-17) java.lang.NullPointerException
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,846 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,848 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,849 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,850 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,851 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,853 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,854 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,856 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,857 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,858 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,860 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,861 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,863 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,864 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,865 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,867 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,868 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,869 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,871 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,872 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,874 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,875 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,876 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,878 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,879 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,881 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,882 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,883 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,885 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,886 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,887 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/08/06 18:25:10 | 12:55:10,888 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 12:55:11,513 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 12:55:11,514 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 12:55:11,513 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default]] (ajp--0.0.0.0-8009-17) Servlet.service() for servlet default threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.app.utility.web.ParameterUtility.getCookieValue(ParameterUtility.java:78) [AppUtility-0.0.1.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at com.assess.login.DeligateLogin.validateUserSession(DeligateLogin.java:389) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at com.assess.questionnaire.TestEligibilityControlServlet.doGet(TestEligibilityControlServlet.java:77) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:840) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:622) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:560) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:488) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl.doRewrite(NormalRewrittenUrl.java:213) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:171) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:84) [classes:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/08/06 18:25:11 | 
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,740 INFO  [stdout] (ajp--0.0.0.0-8009-11) 3
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,741 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,741 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,742 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,749 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:25:36 | 12:55:36,753 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sat Aug 06 18:25:36 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:25:37 | 12:55:37,297 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:25:37 | 12:55:37,297 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,699 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,700 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,701 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,702 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,709 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:26:36 | 12:56:36,716 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Aug 06 18:26:36 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:26:37 | 12:56:37,290 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:26:37 | 12:56:37,291 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,452 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,453 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,454 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,454 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,461 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:27:36 | 12:57:36,468 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sat Aug 06 18:27:36 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:27:37 | 12:57:37,063 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:27:37 | 12:57:37,064 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,446 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,447 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,448 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,448 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,458 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:28:36 | 12:58:36,464 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Aug 06 18:28:36 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:28:37 | 12:58:37,015 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:28:37 | 12:58:37,200 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,503 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,503 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,504 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,504 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,515 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:29:36 | 12:59:36,526 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Aug 06 18:29:36 IST 2016
+INFO   | jvm 1    | 2016/08/06 18:29:37 | 12:59:37,156 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:29:37 | 12:59:37,157 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,790 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,790 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,791 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,792 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,802 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,822 ERROR [stderr] (ajp--0.0.0.0-8009-9) testDuration :3600
+INFO   | jvm 1    | 2016/08/06 18:30:23 | 13:00:23,823 ERROR [stderr] (ajp--0.0.0.0-8009-9) totalQuesTime :3345
+INFO   | jvm 1    | 2016/08/06 18:30:24 | 13:00:24,623 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 18:30:24 | 13:00:24,624 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 18:30:25 | 13:00:24,958 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/08/06 18:30:25 | 13:00:24,959 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:14:36 | 13:44:36,314 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:14:36 | 13:44:36,315 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,747 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,748 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,749 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,757 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 19:15:21 | 13:45:21,764 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:15:22 | 13:45:22,350 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 19:15:22 | 13:45:22,351 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 19:15:23 | 13:45:23,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2016/08/06 19:15:23 | 13:45:23,597 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 19:15:23 | 13:45:23,598 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2016/08/06 19:15:23 | 13:45:23,599 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 19:15:23 | 13:45:23,610 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 19:15:25 | 13:45:25,319 INFO  [stdout] (ajp--0.0.0.0-8009-18) {55={TOTALCOUNT=136, SUBMITCOUNT=129}, 54={TOTALCOUNT=246, SUBMITCOUNT=240}, 83={TOTALCOUNT=1, SUBMITCOUNT=1}, 57={TOTALCOUNT=76, SUBMITCOUNT=70}, 56={TOTALCOUNT=186, SUBMITCOUNT=186}}
+INFO   | jvm 1    | 2016/08/06 19:15:25 | 13:45:25,349 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:15:25 | 13:45:25,350 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:15:25 | 13:45:25,353 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:15:25 | 13:45:25,354 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:15:26 | 13:45:26,005 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 19:15:26 | 13:45:26,005 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,150 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,151 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,153 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,153 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,161 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,403 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,404 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,408 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:16:00 | 13:46:00,409 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:16:01 | 13:46:01,204 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/08/06 19:16:01 | 13:46:01,205 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/08/06 19:56:45 | 14:26:45,292 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:56:46 | 14:26:46,766 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:56:46 | 14:26:46,767 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/06 19:56:51 | 14:26:51,261 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/08/06 19:56:51 | 14:26:51,261 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/08/07 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-2) Mail Triggered at Sun Aug 07 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/08/07 00:15:00 | 18:45:00,001 INFO  [stdout] (mailScheduler-5) Mail Triggered at Sun Aug 07 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/08/07 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-1) Mail Triggered at Sun Aug 07 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/08/07 01:00:00 | 19:30:00,077 INFO  [stdout] (mailScheduler-6) Mail Triggered at Sun Aug 07 01:00:00 IST 2016

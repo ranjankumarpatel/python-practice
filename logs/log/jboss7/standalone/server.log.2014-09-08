@@ -1,0 +1,226 @@
+04:01:32,475 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2014/09/08 04:01:32 | 04:01:32,475 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+06:24:17,003 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+06:24:17,006 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+06:24:17,006 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410157457003exp date1410157417478expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 06:24:17 | 06:24:17,003 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/08 06:24:17 | 06:24:17,006 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 06:24:17 | 06:24:17,006 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410157457003exp date1410157417478expirydate<curdatetrue
+STATUS | wrapper  | 2014/09/08 06:59:44 | TERM trapped.  Shutting down.
+06:59:45,594 INFO  [org.jboss.as.osgi] (MSC service thread 1-3) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,594 INFO  [org.jboss.as.osgi] (MSC service thread 1-3) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,676 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,725 INFO  [com.filter.HibernateSessionRequestFilter] Filter Destroy method call to flushSessionFactory
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,726 INFO  [com.fs360.hibernate.HibernateUtil] sessionFactory close
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,897 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+INFO   | jvm 1    | 2014/09/08 06:59:45 | 06:59:45,901 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:45,942 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment shield.war in 353ms
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:46,064 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment 360feedback.war in 476ms
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:46,313 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment tastebury.war in 729ms
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:46,544 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abilitytest.war in 956ms
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:46,873 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abcengg.war in 1285ms
+INFO   | jvm 1    | 2014/09/08 06:59:46 | 06:59:46,877 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 1251ms
+STATUS | wrapper  | 2014/09/08 06:59:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2014/09/08 07:01:03 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/09/08 07:01:03 | Java Service Wrapper Community Edition 64-bit 3.5.13
+STATUS | wrapper  | 2014/09/08 07:01:03 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2014/09/08 07:01:03 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2014/09/08 07:01:03 | 
+STATUS | wrapper  | 2014/09/08 07:01:04 | Launching a JVM...
+INFO   | jvm 1    | 2014/09/08 07:01:04 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2014/09/08 07:01:04 | WARNING: -logmodule is deprecated. Please use the system property 'java.util.logging.manager' or the 'java.util.logging.LogManager' service loader.
+INFO   | jvm 1    | 2014/09/08 07:01:07 | 07:01:07,697 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+INFO   | jvm 1    | 2014/09/08 07:01:09 | 07:01:09,880 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+INFO   | jvm 1    | 2014/09/08 07:01:10 | 07:01:10,082 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:14,995 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,048 INFO  [org.xnio] XNIO Version 3.0.3.GA
+07:01:15,206 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,157 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,192 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,206 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+07:01:15,226 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+07:01:15,244 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+07:01:15,256 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+07:01:15,256 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+07:01:15,280 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013100: Current PicketBox version=4.0.7.Final
+07:01:15,291 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+07:01:15,286 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 3.2.3.GA
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,226 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,244 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,256 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,256 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,280 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013100: Current PicketBox version=4.0.7.Final
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,291 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,286 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 3.2.3.GA
+07:01:15,335 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+07:01:15,364 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,335 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,364 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+07:01:15,432 INFO  [org.jboss.as.connector] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,432 INFO  [org.jboss.as.connector] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+07:01:15,678 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,678 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+07:01:15,902 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-3) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+07:01:15,903 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,902 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-3) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2014/09/08 07:01:15 | 07:01:15,903 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+07:01:17,003 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-4) JBoss Web Services - Stack CXF Server 4.0.2.GA
+INFO   | jvm 1    | 2014/09/08 07:01:17 | 07:01:17,003 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-4) JBoss Web Services - Stack CXF Server 4.0.2.GA
+07:01:17,189 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+INFO   | jvm 1    | 2014/09/08 07:01:17 | 07:01:17,189 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+07:01:18,254 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+07:01:18,265 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:4447
+07:01:18,264 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /0.0.0.0:9999
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,254 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,265 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:4447
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,264 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on /0.0.0.0:9999
+07:01:18,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "360feedback.war"
+07:01:18,667 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "abilitytest.war"
+07:01:18,665 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "abcengg.war"
+07:01:18,665 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "shield.war"
+07:01:18,672 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "tastebury.war"
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "360feedback.war"
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,667 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "abilitytest.war"
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,665 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "abcengg.war"
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,665 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "shield.war"
+INFO   | jvm 1    | 2014/09/08 07:01:18 | 07:01:18,672 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "tastebury.war"
+07:01:20,762 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/09/08 07:01:20 | 07:01:20,762 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+07:01:21,629 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2014/09/08 07:01:21 | 07:01:21,629 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: 
+07:01:23,220 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/09/08 07:01:23 | 07:01:23,220 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+07:01:23,588 INFO  [org.jboss.web] (MSC service thread 1-8) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2014/09/08 07:01:23 | 07:01:23,588 INFO  [org.jboss.web] (MSC service thread 1-8) JBAS018210: Registering web context: 
+07:01:23,824 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/09/08 07:01:23 | 07:01:23,824 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+07:01:24,401 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+INFO   | jvm 1    | 2014/09/08 07:01:24 | 07:01:24,401 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+07:01:24,518 INFO  [stdout] (MSC service thread 1-5) Log4J Logging started for application: /opt/jboss7/standalone/tmp/vfs/temp85ace3af6e0198c/abilitytest.war-5d873e9c3e8f87b0/WEB-INF/classes/log4j.properties
+INFO   | jvm 1    | 2014/09/08 07:01:24 | 07:01:24,518 INFO  [stdout] (MSC service thread 1-5) Log4J Logging started for application: /opt/jboss7/standalone/tmp/vfs/temp85ace3af6e0198c/abilitytest.war-5d873e9c3e8f87b0/WEB-INF/classes/log4j.properties
+07:01:24,630 INFO  [org.jboss.web] (MSC service thread 1-5) JBAS018210: Registering web context: 
+07:01:24,659 INFO  [stdout] (MSC service thread 1-2) Log4J Logging started for application: /opt/jboss7/standalone/tmp/vfs/temp85ace3af6e0198c/360feedback.war-733f07b70ccf39df/WEB-INF/classes/log4j.properties
+INFO   | jvm 1    | 2014/09/08 07:01:24 | 07:01:24,630 INFO  [org.jboss.web] (MSC service thread 1-5) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2014/09/08 07:01:24 | 07:01:24,659 INFO  [stdout] (MSC service thread 1-2) Log4J Logging started for application: /opt/jboss7/standalone/tmp/vfs/temp85ace3af6e0198c/360feedback.war-733f07b70ccf39df/WEB-INF/classes/log4j.properties
+07:01:25,365 INFO  [org.jbossINFO   | jvm 1    | 2014/09/08 07:01:25 | 07:01:25,365 INFO  [org.jboss.web] (MSC service thread 1-5) JBAS018210: Registering web context: 
+.web] (MSC service thread 1-5) JBAS018210: Registering web context: 
+07:01:25,406 INFO  [stdout] (MSC service thread 1-2) 0
+INFO   | jvm 1    | 2014/09/08 07:01:25 | 07:01:25,406 INFO  [stdout] (MSC service thread 1-2) 0
+07:01:25,913 INFO  [stdout] (MSC service thread 1-2) New connection added in pool
+INFO   | jvm 1    | 2014/09/08 07:01:25 | 07:01:25,913 INFO  [stdout] (MSC service thread 1-2) New connection added in pool
+07:01:27,145 INFO  [org.jboss.web] (MSC service thread 1-2) JBAS018210: Registering web context: 
+07:01:27,149 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015951: Admin console listening on http://0.0.0.0:9990
+07:01:27,151 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 22487ms - Started 1287 of 1372 services (84 services are passive or on-demand)
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,145 INFO  [org.jboss.web] (MSC service thread 1-2) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,149 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015951: Admin console listening on http://0.0.0.0:9990
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,151 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 22487ms - Started 1287 of 1372 services (84 services are passive or on-demand)
+07:01:27,264 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "shield.war"
+07:01:27,266 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abcengg.war"
+07:01:27,267 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abilitytest.war"
+07:01:27,268 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "360feedback.war"
+07:01:27,269 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "tastebury.war"
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,264 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "shield.war"
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,266 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abcengg.war"
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,267 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abilitytest.war"
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,268 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "360feedback.war"
+INFO   | jvm 1    | 2014/09/08 07:01:27 | 07:01:27,269 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "tastebury.war"
+07:02:57,381 ERROR [stderr] (Finalizer) log4j:ERROR Failed to flush writer,
+07:02:57,382 ERROR [stderr] (Finalizer) java.io.IOException: Stream Closed
+07:02:57,383 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.writeBytes(Native Method)
+07:02:57,384 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+07:02:57,386 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+07:02:57,387 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+07:02:57,388 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+07:02:57,389 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+07:02:57,390 ERROR [stderr] (Finalizer) 	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+07:02:57,391 ERROR [stderr] (Finalizer) 	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+07:02:57,393 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.writeFooter(WriterAppender.java:361)
+07:02:57,394 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.close(WriterAppender.java:206)
+07:02:57,395 ERROR [stderr] (Finalizer) 	at org.apache.log4j.AppenderSkeleton.finalize(AppenderSkeleton.java:144)
+07:02:57,396 ERROR [stderr] (Finalizer) 	at java.lang.System$2.invokeFinalize(System.java:1210)
+07:02:57,398 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+07:02:57,399 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+07:02:57,400 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+07:02:57,402 ERROR [stderr] (Finalizer) log4j:ERROR Failed to flush writer,
+07:02:57,403 ERROR [stderr] (Finalizer) java.io.IOException: Stream Closed
+07:02:57,404 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.writeBytes(Native Method)
+07:02:57,405 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+07:02:57,407 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+07:02:57,408 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+07:02:57,409 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+07:02:57,410 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+07:02:57,410 ERROR [stderr] (Finalizer) 	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+07:02:57,411 ERROR [stderr] (Finalizer) 	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+07:02:57,413 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.writeFooter(WriterAppender.java:361)
+07:02:57,414 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.close(WriterAppender.java:206)
+07:02:57,416 ERROR [stderr] (Finalizer) 	at org.apache.log4j.AppenderSkeleton.finalize(AppenderSkeleton.java:144)
+07:02:57,418 ERROR [stderr] (Finalizer) 	at java.lang.System$2.invokeFinalize(System.java:1210)
+07:02:57,419 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+07:02:57,421 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+07:02:57,422 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,381 ERROR [stderr] (Finalizer) log4j:ERROR Failed to flush writer,
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,382 ERROR [stderr] (Finalizer) java.io.IOException: Stream Closed
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,383 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.writeBytes(Native Method)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,384 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,386 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,387 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,388 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,389 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,390 ERROR [stderr] (Finalizer) 	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,391 ERROR [stderr] (Finalizer) 	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,393 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.writeFooter(WriterAppender.java:361)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,394 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.close(WriterAppender.java:206)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,395 ERROR [stderr] (Finalizer) 	at org.apache.log4j.AppenderSkeleton.finalize(AppenderSkeleton.java:144)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,396 ERROR [stderr] (Finalizer) 	at java.lang.System$2.invokeFinalize(System.java:1210)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,398 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,399 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,400 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,402 ERROR [stderr] (Finalizer) log4j:ERROR Failed to flush writer,
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,403 ERROR [stderr] (Finalizer) java.io.IOException: Stream Closed
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,404 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.writeBytes(Native Method)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,405 ERROR [stderr] (Finalizer) 	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,407 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,408 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,409 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,410 ERROR [stderr] (Finalizer) 	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,410 ERROR [stderr] (Finalizer) 	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,411 ERROR [stderr] (Finalizer) 	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,413 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.writeFooter(WriterAppender.java:361)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,414 ERROR [stderr] (Finalizer) 	at org.apache.log4j.WriterAppender.close(WriterAppender.java:206)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,416 ERROR [stderr] (Finalizer) 	at org.apache.log4j.AppenderSkeleton.finalize(AppenderSkeleton.java:144)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,418 ERROR [stderr] (Finalizer) 	at java.lang.System$2.invokeFinalize(System.java:1210)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,419 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,421 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+INFO   | jvm 1    | 2014/09/08 07:02:57 | 07:02:57,422 ERROR [stderr] (Finalizer) 	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+08:33:15,961 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+08:33:15,962 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+08:33:15,963 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410165195961exp date1410165193302expirydate<curdatetrue
+08:33:15,965 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+08:33:15,966 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+08:33:15,967 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410165195965exp date1410165194890expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,961 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,962 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,963 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410165195961exp date1410165193302expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,965 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,966 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 08:33:16 | 08:33:15,967 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410165195965exp date1410165194890expirydate<curdatetrue
+08:55:16,021 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+08:55:16,022 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+08:55:16,023 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410166516021exp date1410166475184expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 08:55:16 | 08:55:16,021 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/08 08:55:16 | 08:55:16,022 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 08:55:16 | 08:55:16,023 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410166516021exp date1410166475184expirydate<curdatetrue
+09:25:16,094 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+09:25:16,095 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+09:25:16,096 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410168316094exp date1410168311181expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 09:25:16 | 09:25:16,094 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/08 09:25:16 | 09:25:16,095 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 09:25:16 | 09:25:16,096 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410168316094exp date1410168311181expirydate<curdatetrue
+11:43:16,428 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jbosINFO   | jvm 1    | 2014/09/08 11:43:16 | 11:43:16,428 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+s.web]]) sessionDestroyed
+11:43:16,429 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+11:43:16,431 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410176596428exp date1410176578400expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/08 11:43:16 | 11:43:16,429 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/08 11:43:16 | 11:43:16,431 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410176596428exp date1410176578400expirydate<curdatetrue
+23:42:17,752 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-5) Invalid message received with signature 18245
+INFO   | jvm 1    | 2014/09/08 23:42:17 | 23:42:17,752 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-5) Invalid message received with signature 18245

@@ -1,0 +1,48 @@
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,101 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,102 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,103 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,104 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,105 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,106 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,107 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,108 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,109 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,110 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,111 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,112 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,113 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/02/25 00:06:55 | 18:36:55,114 ERROR [stderr] (ajp--0.0.0.0-8009-18) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/02/25 00:06:57 | 18:36:57,364 INFO  [stdout] (ajp--0.0.0.0-8009-24) English (United States)
+INFO   | jvm 1    | 2017/02/25 00:06:57 | 18:36:57,365 INFO  [stdout] (ajp--0.0.0.0-8009-24) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/02/25 00:08:33 | 18:38:33,301 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2017/02/25 00:08:33 | 18:38:33,302 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/02/25 00:08:33 | 18:38:33,305 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2017/02/25 00:08:33 | 18:38:33,306 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/02/25 00:10:00 | 18:40:00,094 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2017/02/25 00:10:00 | 18:40:00,095 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-22) Mail Triggered at Sat Feb 25 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,001 INFO  [stdout] (mailScheduler-43) Mail Triggered at Sat Feb 25 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,100 INFO  [stdout] (mailScheduler-43) 2017-02-22 00:15:00.0check date1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,101 INFO  [stdout] (mailScheduler-22) 2017-02-22 00:15:00.0check date1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,121 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-22) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,123 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-43) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,637 INFO  [stdout] (mailScheduler-43) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,638 INFO  [stdout] (mailScheduler-43) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Sat Feb 25 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,642 INFO  [stdout] (mailScheduler-43) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,643 INFO  [stdout] (mailScheduler-43) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,643 INFO  [stdout] (mailScheduler-43) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,754 INFO  [stdout] (mailScheduler-22) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,756 INFO  [stdout] (mailScheduler-22) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to anshul.bansal@dbschenker.comat Sat Feb 25 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,758 INFO  [stdout] (mailScheduler-22) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,759 INFO  [stdout] (mailScheduler-22) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 00:15:00 | 18:45:00,760 INFO  [stdout] (mailScheduler-22) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-11) Mail Triggered at Sat Feb 25 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,002 INFO  [stdout] (mailScheduler-44) Mail Triggered at Sat Feb 25 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,332 INFO  [stdout] (mailScheduler-11) 2017-02-25 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,332 INFO  [stdout] (mailScheduler-44) 2017-02-25 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,333 INFO  [stdout] (mailScheduler-11) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,334 INFO  [stdout] (mailScheduler-44) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,334 INFO  [stdout] (mailScheduler-11) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,335 INFO  [stdout] (mailScheduler-44) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,336 INFO  [stdout] (mailScheduler-11) 2017-02-23 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/02/25 01:00:00 | 19:30:00,337 INFO  [stdout] (mailScheduler-44) 2017-02-23 00:15:00.0check date-1

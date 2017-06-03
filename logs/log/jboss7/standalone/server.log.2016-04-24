@@ -1,0 +1,96 @@
+07:07:20,697 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-13) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/04/24 12:37:20 | 07:07:20,697 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-13) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+07:07:20,759 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-13) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/04/24 12:37:20 | 07:07:20,759 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-13) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+07:22:45,935 INFO  [stdout] (ajp--0.0.0.0-8009-7) /user/Response
+07:22:45,953 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-7) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/04/24 12:52:45 | 07:22:45,935 INFO  [stdout] (ajp--0.0.0.0-8009-7) /user/Response
+INFO   | jvm 1    | 2016/04/24 12:52:46 | 07:22:45,953 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (ajp--0.0.0.0-8009-7) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+07:22:46,116 INFO  [stdout] (ajp--0.0.0.0-8009-7) post Handle---------------------------------------------@@@@---1  org.apache.catalina.connector.ResponseFacade@511829ff
+07:22:46,118 INFO  [stdout] (ajp--0.0.0.0-8009-7) 302
+07:22:46,119 INFO  [stdout] (ajp--0.0.0.0-8009-7) null
+INFO   | jvm 1    | 2016/04/24 12:52:46 | 07:22:46,116 INFO  [stdout] (ajp--0.0.0.0-8009-7) post Handle---------------------------------------------@@@@---1  org.apache.catalina.connector.ResponseFacade@511829ff
+INFO   | jvm 1    | 2016/04/24 12:52:46 | 07:22:46,118 INFO  [stdout] (ajp--0.0.0.0-8009-7) 302
+INFO   | jvm 1    | 2016/04/24 12:52:46 | 07:22:46,119 INFO  [stdout] (ajp--0.0.0.0-8009-7) null
+13:22:16,992 INFO  [stdout] (ajp--0.0.0.0-8009-2) English (United States)
+13:22:16,993 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:17 | 13:22:16,992 INFO  [stdout] (ajp--0.0.0.0-8009-2) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:17 | 13:22:16,993 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+13:22:18,341 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+13:22:18,342 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:18 | 13:22:18,341 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:18 | 13:22:18,342 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+13:22:19,271 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+13:22:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:19 | 13:22:19,271 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:19 | 13:22:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+13:22:22,059 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+13:22:22,060 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:22 | 13:22:22,059 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:22 | 13:22:22,060 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+13:22:23,129 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+13:22:23,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:23 | 13:22:23,129 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:23 | 13:22:23,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+13:22:24,058 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+13:22:24,059 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/04/24 18:52:24 | 13:22:24,058 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2016/04/24 18:52:24 | 13:22:24,059 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+23:00:00,859 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:00,875 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to pooja@sektra.comat Mon Apr 25 04:30:00 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:00 | 23:00:00,859 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:00 | 23:00:00,875 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to pooja@sektra.comat Mon Apr 25 04:30:00 IST 2016
+23:00:01,275 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:01,276 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to pooja@sektra.comat Mon Apr 25 04:30:01 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:01 | 23:00:01,275 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:01 | 23:00:01,276 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to pooja@sektra.comat Mon Apr 25 04:30:01 IST 2016
+23:00:01,813 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:01,815 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to sarikakhaire@gofynd.comat Mon Apr 25 04:30:01 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:01 | 23:00:01,813 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:01 | 23:00:01,815 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to sarikakhaire@gofynd.comat Mon Apr 25 04:30:01 IST 2016
+23:00:02,470 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:02,472 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to Manjari.Singhal@hdfcbank.comat Mon Apr 25 04:30:02 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:02 | 23:00:02,470 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:02 | 23:00:02,472 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to Manjari.Singhal@hdfcbank.comat Mon Apr 25 04:30:02 IST 2016
+23:00:02,988 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:02,989 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to neeharika.dogra@thinktalentindia.comat Mon Apr 25 04:30:02 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:02,988 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:02,989 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to neeharika.dogra@thinktalentindia.comat Mon Apr 25 04:30:02 IST 2016
+23:00:03,397 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:03,399 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to asatyajitd@gmail.comat Mon Apr 25 04:30:03 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:03,397 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:03,399 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to asatyajitd@gmail.comat Mon Apr 25 04:30:03 IST 2016
+23:00:03,858 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:03,859 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:03 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:03,858 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:03 | 23:00:03,859 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:03 IST 2016
+23:00:04,253 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:04,255 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste01@gmail.comat Mon Apr 25 04:30:04 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:04 | 23:00:04,253 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:04 | 23:00:04,255 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste01@gmail.comat Mon Apr 25 04:30:04 IST 2016
+23:00:04,670 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:04,671 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to astyajitd@gmail.comat Mon Apr 25 04:30:04 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:04 | 23:00:04,670 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:04 | 23:00:04,671 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to astyajitd@gmail.comat Mon Apr 25 04:30:04 IST 2016
+23:00:05,125 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:05,126 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:05 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:05 | 23:00:05,125 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:05 | 23:00:05,126 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:05 IST 2016
+23:00:05,522 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:05,524 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:05 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:05 | 23:00:05,522 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:05 | 23:00:05,524 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste02@gmail.comat Mon Apr 25 04:30:05 IST 2016
+23:00:05,963 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:05,964 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to tts12@gmail.comat Mon Apr 25 04:30:05 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:05,963 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:05,964 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to tts12@gmail.comat Mon Apr 25 04:30:05 IST 2016
+23:00:06,433 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:06,434 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste01@gmail.comat Mon Apr 25 04:30:06 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:06,433 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:06,434 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to demoteste01@gmail.comat Mon Apr 25 04:30:06 IST 2016
+23:00:06,897 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:00:06,899 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to tts13@gmail.comat Mon Apr 25 04:30:06 IST 2016
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:06,897 INFO  [stdout] (mailScheduler-2) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/04/25 04:30:06 | 23:00:06,899 INFO  [stdout] (mailScheduler-2) Email with subject Reminder: Request to complete New Hire Survey sent to tts13@gmail.comat Mon Apr 25 04:30:06 IST 2016
+23:26:04,038 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2016/04/25 04:56:04 | 23:26:04,038 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

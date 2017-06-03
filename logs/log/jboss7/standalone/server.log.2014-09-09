@@ -1,0 +1,8 @@
+08:49:24,657 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+08:49:24,658 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+08:49:24,659 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410252564657exp date1410252546131expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/09 08:49:24 | 08:49:24,657 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/09 08:49:24 | 08:49:24,658 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/09 08:49:24 | 08:49:24,659 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410252564657exp date1410252546131expirydate<curdatetrue
+23:39:55,021 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2014/09/09 23:39:55 | 23:39:55,021 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

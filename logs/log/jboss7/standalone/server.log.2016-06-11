@@ -1,0 +1,1256 @@
+00:40:10,056 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+00:40:10,059 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.fs360.exception.InvalidLoginException: invalid respondent
+00:40:10,060 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+00:40:10,061 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+00:40:10,062 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+00:40:10,062 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+00:40:10,063 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+00:40:10,065 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+00:40:10,066 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+00:40:10,067 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+00:40:10,068 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+00:40:10,069 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+00:40:10,070 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+00:40:10,072 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+00:40:10,073 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+00:40:10,075 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+00:40:10,076 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+00:40:10,077 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+00:40:10,078 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+00:40:10,080 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+00:40:10,081 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,056 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,059 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,060 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,061 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,062 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,062 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,063 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,065 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,066 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,067 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,068 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,069 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,070 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,072 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,073 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,075 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,076 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,077 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,078 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,080 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/06/11 06:10:10 | 00:40:10,081 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+01:06:57,486 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+01:06:57,490 ERROR [stderr] (ajp--0.0.0.0-8009-1) com.fs360.exception.InvalidLoginException: invalid respondent
+01:06:57,491 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+01:06:57,492 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+01:06:57,493 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+01:06:57,494 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+01:06:57,494 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:06:57,495 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+01:06:57,496 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+01:06:57,497 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+01:06:57,498 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+01:06:57,499 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+01:06:57,499 EINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,486 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+RROR [stderr] (aINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,490 ERROR [stderr] (ajp--0.0.0.0-8009-1) com.fs360.exception.InvalidLoginException: invalid respondent
+jp--0.0.0.0-8009-1) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+01:06:57,501 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+01:06:57,502 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,491 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+at org.apache.catINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,492 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+alina.valvINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,493 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+es.ErrorRepoINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,494 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+rtValve.invokINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,494 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+e(ErrorRepoINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,495 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+rtValve.javINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,496 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+a:102)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,497 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,498 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+01:06INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,499 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+:57,504 ERROINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,499 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+R [stderr]INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,501 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+ (ajp--0.0.0.0-8009-1) 	at org.aINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,502 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+pachINFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,504 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+e.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+01:06:57,511 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+01:06:57,512 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+01:06:57,513 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+01:06:57,515 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+01:06:57,516 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,511 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,512 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,513 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,515 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/06/11 06:36:57 | 01:06:57,516 ERROR [stderr] (ajp--0.0.0.0-8009-1) 	at java.lang.Thread.run(Thread.java:745)
+03:51:35,203 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+03:51:35,204 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:21:35 | 03:51:35,203 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:21:35 | 03:51:35,204 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:53:04,978 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+03:53:04,979 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:23:05 | 03:53:04,978 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:23:05 | 03:53:04,979 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:53:42,158 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+03:53:42,158 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:23:42 | 03:53:42,158 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:23:42 | 03:53:42,158 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:53:59,975 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+03:53:59,976 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+03:53:59,977 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+03:53:59,978 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+03:53:59,988 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:53:59,975 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:53:59,976 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:53:59,977 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:53:59,978 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:53:59,988 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+03:54:00,568 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:00,569 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:54:00,568 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:24:00 | 03:54:00,569 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:02,082 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+03:54:02,082 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+03:54:02,083 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+03:54:02,084 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+03:54:02,093 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,082 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,082 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,083 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,084 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,093 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+03:54:02,470 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+03:54:02,471 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:02,475 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+03:54:02,476 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,470 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,471 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,475 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:02 | 03:54:02,476 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:03,157 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:03,158 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:24:03 | 03:54:03,157 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:24:03 | 03:54:03,158 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:10,335 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:10 | 03:54:10,335 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:12,052 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+03:54:12,053 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:12 | 03:54:12,052 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:12 | 03:54:12,053 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:16,425 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+03:54:16,425 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:16 | 03:54:16,425 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:16 | 03:54:16,425 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:48,217 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+03:54:48,218 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+03:54:48,219 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+03:54:48,220 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+03:54:48,227 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+03:54:48,251 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,217 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,218 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,219 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,220 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,227 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:24:48 | 03:54:48,251 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:48,943 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:48,944 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:24:49 | 03:54:48,943 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:24:49 | 03:54:48,944 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:54:50,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+03:54:50,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+03:54:50,043 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+03:54:50,044 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+03:54:50,050 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:24:50 | 03:54:50,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/11 09:24:50 | 03:54:50,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:24:50 | 03:54:50,043 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:24:50 | 03:54:50,044 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:24:50 | 03:54:50,050 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+03:54:51,999 INFO  [stdout] (ajp--0.0.0.0-8009-8) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=114, SUBMITCOUNT=113}, 82={TOTALCOUNT=41, SUBMITCOUNT=41}, 52={TOTALCOUNT=151, SUBMITCOUNT=149}, 59={TOTALCOUNT=143, SUBMITCOUNT=132}, 58={TOTALCOUNT=120, SUBMITCOUNT=119}, 109={TOTALCOUNT=2, SUBMITCOUNT=1}, 60={TOTALCOUNT=215, SUBMITCOUNT=213}}
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:51,999 INFO  [stdout] (ajp--0.0.0.0-8009-8) {68={TOTALCOUNT=1, SUBMITCOUNT=1}, 53={TOTALCOUNT=114, SUBMITCOUNT=113}, 82={TOTALCOUNT=41, SUBMITCOUNT=41}, 52={TOTALCOUNT=151, SUBMITCOUNT=149}, 59={TOTALCOUNT=143, SUBMITCOUNT=132}, 58={TOTALCOUNT=120, SUBMITCOUNT=119}, 109={TOTALCOUNT=2, SUBMITCOUNT=1}, 60={TOTALCOUNT=215, SUBMITCOUNT=213}}
+03:54:52,035 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+03:54:52,036 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:52,039 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+03:54:52,040 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,035 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,036 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,039 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,040 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:54:52,738 INFO  [stdout] (Finalizer) Connection Count 1
+03:54:52,738 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,738 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:24:52 | 03:54:52,738 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:59:00,720 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:00 | 03:59:00,720 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:02,341 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+03:59:02,342 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:02 | 03:59:02,341 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:29:02 | 03:59:02,342 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:11,494 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+03:59:11,495 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+03:59:11,496 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+03:59:11,497 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+03:59:11,506 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+03:59:11,512 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,494 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,495 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,496 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,497 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,506 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:29:11 | 03:59:11,512 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:12,166 INFO  [stdout] (Finalizer) Connection Count 1
+03:59:12,167 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:29:12 | 03:59:12,166 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:29:12 | 03:59:12,167 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:59:13,246 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+03:59:13,247 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+03:59:13,248 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+03:59:13,249 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+03:59:13,260 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,246 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,247 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,248 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,249 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,260 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+03:59:13,681 INFO  [stdout] (ajp--0.0.0.0-8009-5) {34={TOTALCOUNT=166, SUBMITCOUNT=150}}
+03:59:13,689 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+03:59:13,690 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:13,693 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+03:59:13,694 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,681 INFO  [stdout] (ajp--0.0.0.0-8009-5) {34={TOTALCOUNT=166, SUBMITCOUNT=150}}
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,689 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,690 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,693 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:29:13 | 03:59:13,694 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:14,214 INFO  [stdout] (Finalizer) Connection Count 1
+03:59:14,215 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:29:14 | 03:59:14,214 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:29:14 | 03:59:14,215 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:59:17,070 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+03:59:17,070 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+03:59:17,071 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+03:59:17,072 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+03:59:17,079 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,070 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,070 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,071 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,072 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,079 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+03:59:17,527 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+03:59:17,527 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:17,531 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+03:59:17,532 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,527 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,527 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,531 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/06/11 09:29:17 | 03:59:17,532 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+03:59:18,433 INFO  [stdout] (Finalizer) Connection Count 1
+03:59:18,433 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:29:18 | 03:59:18,433 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:29:18 | 03:59:18,433 INFO  [stdout] (Finalizer) Releasing connection back to pool
+03:59:43,739 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+03:59:43,739 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+03:59:43,740 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+03:59:43,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+03:59:43,750 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 09:29:43 | 03:59:43,739 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/11 09:29:43 | 03:59:43,739 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 09:29:43 | 03:59:43,740 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/11 09:29:43 | 03:59:43,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 09:29:43 | 03:59:43,750 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+03:59:44,493 INFO  [stdout] (Finalizer) Connection Count 1
+03:59:44,493 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 09:29:44 | 03:59:44,493 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 09:29:44 | 03:59:44,493 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:17:46,281 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+05:17:46,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:47:46 | 05:17:46,281 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:47:46 | 05:17:46,282 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:18:57,003 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+05:18:57,003 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+05:18:57,004 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+05:18:57,005 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+05:18:57,012 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+05:18:57,019 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,003 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,003 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,004 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,005 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,012 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,019 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:18:57,576 INFO  [stdout] (Finalizer) Connection Count 1
+05:18:57,577 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,576 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:48:57 | 05:18:57,577 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:18:59,291 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+05:18:59,291 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+05:18:59,292 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+05:18:59,293 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+05:18:59,300 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:48:59 | 05:18:59,291 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/11 10:48:59 | 05:18:59,291 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:48:59 | 05:18:59,292 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:48:59 | 05:18:59,293 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:48:59 | 05:18:59,300 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+05:19:00,680 INFO  [stdout] (ajp--0.0.0.0-8009-10) {55={TOTALCOUNT=126, SUBMITCOUNT=118}, 54={TOTALCOUNT=205, SUBMITCOUNT=196}, 83={TOTALCOUNT=1, SUBMITCOUNT=1}, 57={TOTALCOUNT=65, SUBMITCOUNT=61}, 56={TOTALCOUNT=164, SUBMITCOUNT=161}}
+INFO   | jvm 1    | 2016/06/11 10:49:00 | 05:19:00,680 INFO  [stdout] (ajp--0.0.0.0-8009-10) {55={TOTALCOUNT=126, SUBMITCOUNT=118}, 54={TOTALCOUNT=205, SUBMITCOUNT=196}, 83={TOTALCOUNT=1, SUBMITCOUNT=1}, 57={TOTALCOUNT=65, SUBMITCOUNT=61}, 56={TOTALCOUNT=164, SUBMITCOUNT=161}}
+05:19:00,708 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+05:19:00,709 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:19:00,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+05:19:00,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:49:00 | 05:19:00,708 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:49:00 | 05:19:00,709 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:49:00 | 05:19:00,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:49:00 | 05:19:00,714 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:19:01,287 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:01,288 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:49:01 | 05:19:01,287 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:49:01 | 05:19:01,288 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:19:33,754 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+05:19:33,755 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+05:19:33,756 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+05:19:33,756 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+05:19:33,764 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,754 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,755 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,756 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,756 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,764 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+05:19:33,943 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:19:33,944 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:19:33,947 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:19:33,948 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,943 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,944 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,947 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:49:33 | 05:19:33,948 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:19:34,735 INFO  [stdout] (Finalizer) Connection Count 1
+05:19:34,736 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:49:34 | 05:19:34,735 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:49:34 | 05:19:34,736 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:20:16,147 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+05:20:16,148 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+05:20:16,149 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+05:20:16,150 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,147 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,148 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,149 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,150 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+05:20:16,159 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,159 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:20:16,792 INFO  [stdout] (Finalizer) Connection Count 1
+05:20:16,793 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,792 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:50:16 | 05:20:16,793 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:20:19,055 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+05:20:19,056 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+05:20:19,057 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+05:20:19,058 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,055 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,056 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,057 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,058 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+05:20:19,066 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,066 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:20:19,268 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+05:20:19,269 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:20:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+05:20:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,268 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,269 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,272 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:20:19,950 INFO  [stdout] (Finalizer) Connection Count 1
+05:20:19,951 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,950 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:50:19 | 05:20:19,951 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:23:21,375 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+05:23:21,375 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+05:23:21,376 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+05:23:21,377 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+05:23:21,384 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,375 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,375 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,376 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,377 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,384 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+05:23:21,399 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,399 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:23:21,978 INFO  [stdout] (Finalizer) Connection Count 1
+05:23:21,979 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,978 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 10:53:21 | 05:23:21,979 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:29:15,495 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:29:15,496 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 10:59:15 | 05:29:15,495 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/06/11 10:59:15 | 05:29:15,496 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:14,682 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+05:31:14,683 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+05:31:14,683 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+05:31:14,684 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+05:31:14,691 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:01:14 | 05:31:14,682 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2016/06/11 11:01:14 | 05:31:14,683 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:01:14 | 05:31:14,683 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:01:14 | 05:31:14,684 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:01:14 | 05:31:14,691 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+05:31:15,219 INFO  [stdout] (Finalizer) Connection Count 1
+05:31:15,220 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:01:15 | 05:31:15,219 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:01:15 | 05:31:15,220 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:31:16,891 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+05:31:16,892 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+05:31:16,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+05:31:16,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+05:31:16,904 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:01:16 | 05:31:16,891 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/11 11:01:16 | 05:31:16,892 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:01:16 | 05:31:16,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:01:16 | 05:31:16,893 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:01:16 | 05:31:16,904 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+05:31:16,986 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+05:31:16,987 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:16,990 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+05:31:16,990 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:16,986 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:16,987 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:16,990 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:16,990 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:17,545 INFO  [stdout] (Finalizer) Connection Count 1
+05:31:17,547 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:17,545 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:01:17 | 05:31:17,547 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:31:43,164 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+05:31:43,165 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:31:43,166 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:31:43,167 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:31:43,176 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,164 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,165 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,166 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,167 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,176 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:31:43,190 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+05:31:43,193 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:43,197 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+05:31:43,198 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,190 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,193 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,197 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,198 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:43,809 INFO  [stdout] (Finalizer) Connection Count 1
+05:31:43,810 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,809 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:01:43 | 05:31:43,810 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:31:56,712 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+05:31:56,713 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+05:31:56,713 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+05:31:56,714 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+05:31:56,721 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,712 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,713 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,713 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,714 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,721 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+05:31:56,876 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:31:56,877 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,876 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/06/11 11:01:56 | 05:31:56,877 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:31:57,562 INFO  [stdout] (Finalizer) Connection Count 1
+05:31:57,562 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:01:57 | 05:31:57,562 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:01:57 | 05:31:57,562 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:32:02,191 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+05:32:02,192 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+05:32:02,193 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+05:32:02,194 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+05:32:02,206 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,191 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,192 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,193 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,194 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,206 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+05:32:02,852 INFO  [stdout] (Finalizer) Connection Count 1
+05:32:02,8INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,852 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:02:02 | 05:32:02,853 INFO  [stdout] (Finalizer) Releasing connection back to pool
+53 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:32:24,375 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+05:32:24,376 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+05:32:24,377 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+05:32:24,378 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+05:32:24,387 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+05:32:24,389 INFO  [stdout] (ajp--0.0.0.0-8009-22) 
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,375 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,376 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,377 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,378 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,387 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:02:24 | 05:32:24,389 INFO  [stdout] (ajp--0.0.0.0-8009-22) 
+05:32:24,962 INFO  [stdout] (Finalizer) Connection Count 1
+05:32:24,962 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:02:25 | 05:32:24,962 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:02:25 | 05:32:24,962 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:33:24,562 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+05:33:24,563 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+05:33:24,564 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+05:33:24,565 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+05:33:24,577 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,562 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,563 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,564 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,565 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,577 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+05:33:24,710 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sat Jun 11 11:03:24 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:03:24 | 05:33:24,710 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sat Jun 11 11:03:24 IST 2016
+05:33:25,257 INFO  [stdout] (Finalizer) Connection Count 1
+05:33:25,257 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:03:25 | 05:33:25,257 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:03:25 | 05:33:25,257 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:34:25,331 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+05:34:25,332 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+05:34:25,333 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+05:34:25,333 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+05:34:25,342 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+05:34:25,346 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:04:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,331 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,332 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,333 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,333 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,342 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,346 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:04:25 IST 2016
+05:34:25,904 INFO  [stdout] (Finalizer) Connection Count 1
+05:34:25,904 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,904 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:04:25 | 05:34:25,904 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:35:24,759 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+05:35:24,760 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+05:35:24,761 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+05:35:24,762 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,759 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,760 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,761 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,762 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+05:35:24,773 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+05:35:24,777 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:05:24 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,773 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:05:24 | 05:35:24,777 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:05:24 IST 2016
+05:35:25,307 INFO  [stdout] (Finalizer) Connection Count 1
+05:35:25,308 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:05:25 | 05:35:25,307 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:05:25 | 05:35:25,308 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:36:39,734 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+05:36:39,735 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+05:36:39,736 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+05:36:39,737 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+05:36:39,747 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+05:36:39,751 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:06:39 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,734 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,735 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,736 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,737 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,747 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:06:39 | 05:36:39,751 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:06:39 IST 2016
+05:36:40,317 INFO  [stdout] (Finalizer) Connection Count 1
+05:36:40,318 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:06:40 | 05:36:40,317 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:06:40 | 05:36:40,318 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:37:24,952 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+05:37:24,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+05:37:24,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+05:37:24,954 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+05:37:24,962 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+05:37:24,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:07:24 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,952 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,953 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,954 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,962 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:07:24 | 05:37:24,966 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:07:24 IST 2016
+05:37:25,472 INFO  [stdout] (Finalizer) Connection Count 1
+05:37:25,473 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:07:25 | 05:37:25,472 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:07:25 | 05:37:25,473 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:38:24,934 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:38:24,935 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+05:38:24,936 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+05:38:24,937 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+05:38:24,947 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+05:38:24,951 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:08:24 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,934 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,935 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,936 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,937 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,947 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:08:24 | 05:38:24,951 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:08:24 IST 2016
+05:38:25,500 INFO  [stdout] (Finalizer) Connection Count 1
+05:38:25,500 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:08:25 | 05:38:25,500 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:08:25 | 05:38:25,500 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:39:26,760 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+05:39:26,762 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:39:26,763 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:39:26,765 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:39:26,774 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:39:26,778 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:09:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,760 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,762 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,763 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,765 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,774 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:09:26 | 05:39:26,778 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:09:26 IST 2016
+05:39:27,317 INFO  [stdout] (Finalizer) Connection Count 1
+05:39:27,318 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:09:27 | 05:39:27,317 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:09:27 | 05:39:27,318 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:40:25,023 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+05:40:25,024 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+05:40:25,025 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+05:40:25,026 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+05:40:25,035 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+05:40:25,040 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:10:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,023 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,024 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,025 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,026 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,035 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,040 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:10:25 IST 2016
+05:40:25,590 INFO  [stdout] (Finalizer) Connection Count 1
+05:40:25,591 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,590 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:10:25 | 05:40:25,591 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:41:40,183 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+05:41:40,184 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+05:41:40,185 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+05:41:40,186 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+05:41:40,194 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+05:41:40,198 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:11:40 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,183 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,184 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,185 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,186 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,194 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,198 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:11:40 IST 2016
+05:41:40,718 INFO  [stdout] (Finalizer) Connection Count 1
+05:41:40,719 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,718 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:11:40 | 05:41:40,719 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:42:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+05:42:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+05:42:25,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+05:42:25,206 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+05:42:25,214 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+05:42:25,219 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:12:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,206 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,214 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,219 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:12:25 IST 2016
+05:42:25,761 INFO  [stdout] (Finalizer) Connection Count 1
+05:42:25,761 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,761 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:12:25 | 05:42:25,761 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:43:25,291 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+05:43:25,292 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+05:43:25,293 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+05:43:25,293 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+05:43:25,301 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+05:43:25,306 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:13:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,291 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,292 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,293 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,293 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,301 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,306 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:13:25 IST 2016
+05:43:25,895 INFO  [stdout] (Finalizer) Connection Count 1
+05:43:25,896 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,895 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:13:25 | 05:43:25,896 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:44:25,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+05:44:25,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+05:44:25,838 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+05:44:25,839 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+05:44:25,847 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:44:25,852 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:14:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,838 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,839 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,847 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:14:25 | 05:44:25,852 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:14:25 IST 2016
+05:44:26,417 INFO  [stdout] (Finalizer) Connection Count 1
+05:44:26,417 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:14:26 | 05:44:26,417 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:14:26 | 05:44:26,417 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:45:25,391 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+05:45:25,392 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+05:45:25,393 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+05:45:25,394 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+05:45:25,403 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+05:45:25,408 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:15:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,391 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,392 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,393 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,394 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,403 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,408 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:15:25 IST 2016
+05:45:25,914 INFO  [stdout] (Finalizer) Connection Count 1
+05:45:25,915 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,914 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:15:25 | 05:45:25,915 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:46:25,449 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+05:46:25,450 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+05:46:25,451 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+05:46:25,451 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+05:46:25,459 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:46:25,462 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sat Jun 11 11:16:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,449 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,450 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,451 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,451 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,459 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:16:25 | 05:46:25,462 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sat Jun 11 11:16:25 IST 2016
+05:46:26,017 INFO  [stdout] (Finalizer) Connection Count 1
+05:46:26,017 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:16:26 | 05:46:26,017 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:16:26 | 05:46:26,017 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:47:40,525 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+05:47:40,526 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+05:47:40,527 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+05:47:40,528 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+05:47:40,538 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+05:47:40,543 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sat Jun 11 11:17:40 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,525 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,526 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,527 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,528 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,538 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:17:40 | 05:47:40,543 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sat Jun 11 11:17:40 IST 2016
+05:47:41,102 INFO  [stdout] (Finalizer) Connection Count 1
+05:47:41,103 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:17:41 | 05:47:41,102 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:17:41 | 05:47:41,103 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:48:25,594 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+05:48:25,595 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+05:48:25,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+05:48:25,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+05:48:25,603 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+05:48:25,607 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:18:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,594 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,595 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,596 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,603 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:18:25 | 05:48:25,607 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:18:25 IST 2016
+05:48:26,166 INFO  [stdout] (Finalizer) Connection Count 1
+05:48:26,167 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:18:26 | 05:48:26,166 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:18:26 | 05:48:26,167 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:49:26,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+05:49:26,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+05:49:26,414 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+05:49:26,415 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+05:49:26,425 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+05:49:26,429 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:19:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,413 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,414 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,415 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,425 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:19:26 | 05:49:26,429 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:19:26 IST 2016
+05:49:26,970 INFO  [stdout] (Finalizer) Connection Count 1
+05:49:26,971 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:19:27 | 05:49:26,970 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:19:27 | 05:49:26,971 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:50:26,312 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+05:50:26,313 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+05:50:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+05:50:26,315 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,312 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,313 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,315 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+05:50:26,323 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+05:50:26,333 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:20:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,323 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,333 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:20:26 IST 2016
+05:50:26,844 INFO  [stdout] (Finalizer) Connection Count 1
+05:50:26,845 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,844 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:20:26 | 05:50:26,845 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:51:25,827 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:51:25,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+05:51:25,829 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+05:51:25,829 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,827 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,828 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,829 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,829 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+05:51:25,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+05:51:25,850 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:21:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,843 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:21:25 | 05:51:25,850 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:21:25 IST 2016
+05:51:26,366 INFO  [stdout] (Finalizer) Connection Count 1
+05:51:26,367 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:21:26 | 05:51:26,366 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:21:26 | 05:51:26,367 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:52:25,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+05:52:25,825 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:52:25,826 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:52:25,827 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:52:25,838 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:52:25,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:22:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,824 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,825 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,826 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,827 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,838 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:22:25 | 05:52:25,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:22:25 IST 2016
+05:52:26,466 INFO  [stdout] (Finalizer) Connection Count 1
+05:52:26,467 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:22:26 | 05:52:26,466 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:22:26 | 05:52:26,467 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:53:25,938 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+05:53:25,939 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+05:53:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+05:53:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:23:25 | 05:53:25,938 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 11:23:25 | 05:53:25,939 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:23:25 | 05:53:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:23:25 | 05:53:25,940 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+05:53:25,949 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+05:53:25,961 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:23:25 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:23:26 | 05:53:25,949 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:23:26 | 05:53:25,961 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:23:25 IST 2016
+05:53:26,557 INFO  [stdout] (Finalizer) Connection Count 1
+05:53:26,558 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:23:26 | 05:53:26,557 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:23:26 | 05:53:26,558 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:54:26,580 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+05:54:26,581 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+05:54:26,582 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+05:54:26,582 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+05:54:26,590 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+05:54:26,594 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:24:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,580 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,581 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,582 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,582 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,590 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:24:26 | 05:54:26,594 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:24:26 IST 2016
+05:54:27,171 INFO  [stdout] (Finalizer) Connection Count 1
+05:54:27,171 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:24:27 | 05:54:27,171 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:24:27 | 05:54:27,171 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:55:26,177 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+05:55:26,177 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+05:55:26,178 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+05:55:26,179 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+05:55:26,187 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+05:55:26,192 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:25:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,177 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,177 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,178 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,179 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,187 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,192 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:25:26 IST 2016
+05:55:26,734 INFO  [stdout] (Finalizer) Connection Count 1
+05:55:26,735 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,734 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:25:26 | 05:55:26,735 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:56:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+05:56:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+05:56:26,112 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+05:56:26,113 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+05:56:26,121 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+05:56:26,126 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:26:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,111 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,112 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,113 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,121 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,126 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:26:26 IST 2016
+05:56:26,668 INFO  [stdout] (Finalizer) Connection Count 1
+05:56:26,669 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,668 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:26:26 | 05:56:26,669 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:57:26,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+05:57:26,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+05:57:26,390 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+05:57:26,390 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+05:57:26,398 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+05:57:26,402 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:27:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,389 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,390 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,390 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,398 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,402 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:27:26 IST 2016
+05:57:26,947 INFO  [stdout] (Finalizer) Connection Count 1
+05:57:26,947 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,947 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:27:26 | 05:57:26,947 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:58:26,604 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+05:58:26,604 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+05:58:26,605 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+05:58:26,605 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+05:58:26,613 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+05:58:26,618 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:28:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,604 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,604 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,605 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,605 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,613 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:28:26 | 05:58:26,618 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:28:26 IST 2016
+05:58:27,152 INFO  [stdout] (Finalizer) Connection Count 1
+05:58:27,153 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:28:27 | 05:58:27,152 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:28:27 | 05:58:27,153 INFO  [stdout] (Finalizer) Releasing connection back to pool
+05:59:26,893 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+05:59:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+05:59:26,895 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+05:59:26,896 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+05:59:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:59:26,910 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sat Jun 11 11:29:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,893 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,894 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,895 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,896 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:29:26 | 05:59:26,910 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sat Jun 11 11:29:26 IST 2016
+05:59:27,505 INFO  [stdout] (Finalizer) Connection Count 1
+05:59:27,506 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:29:27 | 05:59:27,505 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:29:27 | 05:59:27,506 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:00:26,487 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+06:00:26,488 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+06:00:26,489 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+06:00:26,490 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+06:00:26,499 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+06:00:26,504 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sat Jun 11 11:30:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,487 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,488 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,489 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,490 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,499 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:30:26 | 06:00:26,504 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sat Jun 11 11:30:26 IST 2016
+06:00:27,055 INFO  [stdout] (Finalizer) Connection Count 1
+06:00:27,055 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:30:27 | 06:00:27,055 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:30:27 | 06:00:27,055 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:01:26,469 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+06:01:26,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+06:01:26,471 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+06:01:26,471 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+06:01:26,480 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+06:01:26,485 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:31:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,469 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,471 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,471 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,480 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:31:26 | 06:01:26,485 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:31:26 IST 2016
+06:01:27,051 INFO  [stdout] (Finalizer) Connection Count 1
+06:01:27,052 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:31:27 | 06:01:27,051 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:31:27 | 06:01:27,052 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:02:26,553 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+06:02:26,554 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+06:02:26,554 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+06:02:26,555 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+06:02:26,565 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+06:02:26,568 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sat Jun 11 11:32:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,553 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,554 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,554 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,555 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,565 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:32:26 | 06:02:26,568 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sat Jun 11 11:32:26 IST 2016
+06:02:27,100 INFO  [stdout] (Finalizer) Connection Count 1
+06:02:27,101 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:32:27 | 06:02:27,100 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:32:27 | 06:02:27,101 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:03:26,665 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+06:03:26,666 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+06:03:26,668 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+06:03:26,669 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,665 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,666 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,668 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,669 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+06:03:26,680 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+06:03:26,684 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:33:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,680 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:33:26 | 06:03:26,684 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sat Jun 11 11:33:26 IST 2016
+06:03:27,240 INFO  [stdout] (Finalizer) Connection Count 1
+06:03:27,241 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:33:27 | 06:03:27,240 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:33:27 | 06:03:27,241 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:04:27,119 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+06:04:27,120 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+06:04:27,121 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+06:04:27,122 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+06:04:27,134 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+06:04:27,139 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:34:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,119 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,120 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,121 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,122 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,134 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,139 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sat Jun 11 11:34:27 IST 2016
+06:04:27,683 INFO  [stdout] (Finalizer) Connection Count 1
+06:04:27,683 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,683 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:34:27 | 06:04:27,683 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:05:26,779 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+06:05:26,780 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+06:05:26,782 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+06:05:26,783 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,779 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,780 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,782 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,783 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+06:05:26,795 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+06:05:26,804 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:35:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,795 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:35:26 | 06:05:26,804 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sat Jun 11 11:35:26 IST 2016
+06:05:27,343 INFO  [stdout] (Finalizer) Connection Count 1
+06:05:27,344 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:35:27 | 06:05:27,343 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:35:27 | 06:05:27,344 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:06:26,765 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+06:06:26,766 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+06:06:26,767 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+06:06:26,768 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+06:06:26,781 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+06:06:26,786 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:36:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,765 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,766 INFO  [stdout] (ajp--0.0.0.0-8009-15) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,767 INFO  [stdout] (ajp--0.0.0.0-8009-15) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,768 INFO  [stdout] (ajp--0.0.0.0-8009-15) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,781 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:36:26 | 06:06:26,786 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sat Jun 11 11:36:26 IST 2016
+06:06:27,344 INFO  [stdout] (Finalizer) Connection Count 1
+06:06:27,345 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:36:27 | 06:06:27,344 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:36:27 | 06:06:27,345 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:07:26,840 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+06:07:26,840 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+06:07:26,841 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+06:07:26,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+06:07:26,850 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+06:07:26,855 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:37:26 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,840 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,840 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,841 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,850 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:37:26 | 06:07:26,855 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sat Jun 11 11:37:26 IST 2016
+06:07:27,431 INFO  [stdout] (Finalizer) Connection Count 1
+06:07:27,432 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:37:27 | 06:07:27,431 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:37:27 | 06:07:27,432 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:08:27,448 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+06:08:27,448 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+06:08:27,449 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+06:08:27,450 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+06:08:27,462 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+06:08:27,466 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:38:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,448 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,448 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,449 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,450 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,462 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:38:27 | 06:08:27,466 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sat Jun 11 11:38:27 IST 2016
+06:08:28,021 INFO  [stdout] (Finalizer) Connection Count 1
+06:08:28,021 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:38:28 | 06:08:28,021 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:38:28 | 06:08:28,021 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:09:27,736 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+06:09:27,737 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+06:09:27,738 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+06:09:27,738 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+06:09:27,746 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+06:09:27,750 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:39:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,736 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,737 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,738 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,738 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,746 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:39:27 | 06:09:27,750 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sat Jun 11 11:39:27 IST 2016
+06:09:28,316 INFO  [stdout] (Finalizer) Connection Count 1
+06:09:28,316 INFO  INFO   | jvm 1    | 2016/06/11 11:39:28 | 06:09:28,316 INFO  [stdout] (Finalizer) Connection Count 1
+[stINFO   | jvm 1    | 2016/06/11 11:39:28 | 06:09:28,316 INFO  [stdout] (Finalizer) Releasing connection back to pool
+dout] (Finalizer) Releasing connection back to pool
+06:10:27,144 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+06:10:27,144 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+06:10:27,145 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+06:10:27,146 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+06:10:27,153 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+06:10:27,157 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:40:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,144 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,144 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,145 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,146 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,153 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,157 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sat Jun 11 11:40:27 IST 2016
+06:10:27,683 INFO  [stdout] (Finalizer) Connection Count 1
+06:10:27,683 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,683 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:40:27 | 06:10:27,683 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:11:27,162 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+06:11:27,163 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+06:11:27,164 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+06:11:27,165 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+06:11:27,176 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+06:11:27,182 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:41:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,162 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,163 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,164 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,165 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,176 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,182 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sat Jun 11 11:41:27 IST 2016
+06:11:27,744 INFO  [stdout] (Finalizer) Connection Count 1
+06:11:27,745 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,744 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:41:27 | 06:11:27,745 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:12:42,331 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+06:12:42,332 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+06:12:42,333 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+06:12:42,333 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+06:12:42,342 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+06:12:42,346 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:42:42 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,331 INFO  [stdout] (ajp--0.0.0.0-8009-5) 3
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,332 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,333 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,333 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,342 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,346 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sat Jun 11 11:42:42 IST 2016
+06:12:42,858 INFO  [stdout] (Finalizer) Connection Count 1
+06:12:42,858 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,858 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:42:42 | 06:12:42,858 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:13:27,359 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+06:13:27,359 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+06:13:27,360 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+06:13:27,361 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+06:13:27,368 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,359 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,359 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,360 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,361 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,368 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+06:13:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:43:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sat Jun 11 11:43:27 IST 2016
+06:13:27,954 INFO  [stdout] (Finalizer) Connection Count 1
+06:13:27,955 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,954 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:43:27 | 06:13:27,955 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:14:27,936 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+06:14:27,937 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+06:14:27,938 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+06:14:27,939 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+06:14:27,947 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+06:14:27,952 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:44:27 IST 2016
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,936 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,937 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,938 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,939 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,947 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 11:44:27 | 06:14:27,952 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sat Jun 11 11:44:27 IST 2016
+06:14:28,502 INFO  [stdout] (Finalizer) Connection Count 1
+06:14:28,503 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 11:44:28 | 06:14:28,502 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 11:44:28 | 06:14:28,503 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:37:10,066 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+06:37:10,067 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+06:37:10,068 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+06:37:10,069 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+06:37:10,078 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,066 INFO  [stdout] (ajp--0.0.0.0-8009-22) 3
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,067 INFO  [stdout] (ajp--0.0.0.0-8009-22) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,068 INFO  [stdout] (ajp--0.0.0.0-8009-22) Error while closing
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,069 INFO  [stdout] (ajp--0.0.0.0-8009-22) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,078 INFO  [stdout] (ajp--0.0.0.0-8009-22) New connection added in pool
+06:37:10,096 ERROR [stderr] (ajp--0.0.0.0-8009-22) testDuration :3600
+06:37:10,097 ERROR [stderr] (ajp--0.0.0.0-8009-22) totalQuesTime :0
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,096 ERROR [stderr] (ajp--0.0.0.0-8009-22) testDuration :3600
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,097 ERROR [stderr] (ajp--0.0.0.0-8009-22) totalQuesTime :0
+06:37:10,846 INFO  [stdout] (Finalizer) Connection Count 1
+06:37:10,846 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,846 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 12:07:10 | 06:37:10,846 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:37:12,658 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+06:37:12,659 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:07:12 | 06:37:12,658 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:07:12 | 06:37:12,659 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:37:48,555 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+06:37:48,556 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:07:48 | 06:37:48,555 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:07:48 | 06:37:48,556 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:38:08,970 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+06:38:08,971 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:08:08 | 06:38:08,970 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:08:08 | 06:38:08,971 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:20,168 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+06:39:20,169 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+06:39:20,170 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+06:39:20,171 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+06:39:20,180 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+06:39:20,187 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,168 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,169 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,170 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,171 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,180 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,187 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:20,742 INFO  [stdout] (Finalizer) Connection Count 1
+06:39:20,742 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,742 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 12:09:20 | 06:39:20,742 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:39:22,452 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+06:39:22,452 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+06:39:22,453 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+06:39:22,454 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+06:39:22,461 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 12:09:22 | 06:39:22,452 INFO  [stdout] (ajp--0.0.0.0-8009-21) 3
+INFO   | jvm 1    | 2016/06/11 12:09:22 | 06:39:22,452 INFO  [stdout] (ajp--0.0.0.0-8009-21) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 12:09:22 | 06:39:22,453 INFO  [stdout] (ajp--0.0.0.0-8009-21) Error while closing
+INFO   | jvm 1    | 2016/06/11 12:09:22 | 06:39:22,454 INFO  [stdout] (ajp--0.0.0.0-8009-21) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 12:09:22 | 06:39:22,461 INFO  [stdout] (ajp--0.0.0.0-8009-21) New connection added in pool
+06:39:23,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) {55={TOTALCOUNT=126, SUBMITCOUNT=118}, 54={TOTALCOUNT=205, SUBMITCOUNT=196}, 83={TOTALCOUNT=1, SUBMITCOUNT=1}, 57={TOTALCOUNT=66, SUBMITCOUNT=62}, 56={TOTALCOUNT=164, SUBMITCOUNT=161}}
+06:39:23,847 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+06:39:23,847 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:23,851 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+06:39:23,852 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:09:23 | 06:39:23,825 INFO  [stdout] (ajp--0.0.0.0-8009-21) {55={TOTALCOUNT=126, SUBMITCOUNT=118}, 54={TOTALCOUNT=205, SUBMITCOUNT=196}, 83={TOTALCOUNT=1, SUBMITCOUNT=1}, 57={TOTALCOUNT=66, SUBMITCOUNT=62}, 56={TOTALCOUNT=164, SUBMITCOUNT=161}}
+INFO   | jvm 1    | 2016/06/11 12:09:23 | 06:39:23,847 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:09:23 | 06:39:23,847 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:09:23 | 06:39:23,851 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:09:23 | 06:39:23,852 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:24,430 INFO  [stdout] (Finalizer) Connection Count 1
+06:39:24,430 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 12:09:24 | 06:39:24,430 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 12:09:24 | 06:39:24,430 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:39:56,802 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+06:39:56,802 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+06:39:56,803 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+06:39:56,803 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+06:39:56,811 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/11 12:09:56 | 06:39:56,802 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/11 12:09:56 | 06:39:56,802 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/11 12:09:56 | 06:39:56,803 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/11 12:09:56 | 06:39:56,803 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/11 12:09:56 | 06:39:56,811 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+06:39:57,001 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+06:39:57,002 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:57,005 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+06:39:57,006 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,001 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,002 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,005 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,006 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:39:57,644 INFO  [stdout] (Finalizer) Connection Count 1
+06:39:57,644 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,644 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/11 12:09:57 | 06:39:57,644 INFO  [stdout] (Finalizer) Releasing connection back to pool

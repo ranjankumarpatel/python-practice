@@ -1,0 +1,60 @@
+10:02:08,800 INFO  [stdout] (ajp--0.0.0.0-8009-24) 3
+10:02:08,801 INFO  [stdout] (ajp--0.0.0.0-8009-24) connection is idle true connection release count 2
+10:02:08,802 INFO  [stdout] (ajp--0.0.0.0-8009-24) Error while closing
+10:02:08,802 INFO  [stdout] (ajp--0.0.0.0-8009-24) Remove connection from pool
+INFO   | jvm 1    | 2015/11/29 15:32:08 | 10:02:08,800 INFO  [stdout] (ajp--0.0.0.0-8009-24) 3
+INFO   | jvm 1    | 2015/11/29 15:32:08 | 10:02:08,801 INFO  [stdout] (ajp--0.0.0.0-8009-24) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/11/29 15:32:08 | 10:02:08,802 INFO  [stdout] (ajp--0.0.0.0-8009-24) Error while closing
+INFO   | jvm 1    | 2015/11/29 15:32:08 | 10:02:08,802 INFO  [stdout] (ajp--0.0.0.0-8009-24) Remove connection from pool
+10:02:08,813 INFO  [stdout] (ajp--0.0.0.0-8009-24) New connection added in pool
+INFO   | jvm 1    | 2015/11/29 15:32:08 | 10:02:08,813 INFO  [stdout] (ajp--0.0.0.0-8009-24) New connection added in pool
+10:02:10,120 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,122 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,123 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,123 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,124 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,124 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,125 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,125 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,126 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,126 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,127 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,127 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,128 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,128 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,129 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,130 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:10,130 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:10,131 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,120 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,122 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,123 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,123 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,124 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,124 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,125 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,125 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,126 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,126 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,127 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,127 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,128 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,128 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,129 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,130 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,130 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:10 | 10:02:10,131 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:02:56,264 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+10:02:56,265 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+10:02:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+10:02:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+10:02:56,277 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,264 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,265 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,277 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+10:02:56,854 INFO  [stdout] (Finalizer) Connection Count 1
+10:02:56,942 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,854 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/11/29 15:32:56 | 10:02:56,942 INFO  [stdout] (Finalizer) Releasing connection back to pool

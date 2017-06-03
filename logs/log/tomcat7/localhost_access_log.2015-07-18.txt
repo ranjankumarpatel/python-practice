@@ -1,0 +1,11 @@
+54.67.94.103 - - [18/Jul/2015:00:56:32 +0000] "GET / HTTP/1.0" 200 11197
+74.82.47.3 - - [18/Jul/2015:05:02:37 +0000] "GET / HTTP/1.1" 200 11197
+182.64.91.206 - - [18/Jul/2015:09:01:31 +0000] "GET / HTTP/1.1" 200 11217
+182.64.91.206 - - [18/Jul/2015:09:01:31 +0000] "GET /favicon.ico HTTP/1.1" 200 21630
+182.64.91.206 - - [18/Jul/2015:09:01:34 +0000] "GET /manager/html HTTP/1.1" 401 2486
+182.64.91.206 - admin [18/Jul/2015:09:01:37 +0000] "GET /manager/html HTTP/1.1" 200 31474
+182.64.91.206 - admin [18/Jul/2015:09:01:37 +0000] "GET /manager/images/asf-logo.gif HTTP/1.1" 200 7279
+182.64.91.206 - admin [18/Jul/2015:09:01:37 +0000] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+182.64.91.206 - admin [18/Jul/2015:09:01:53 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=1AC608341693AE7E69FC5630774BEDF4 HTTP/1.1" 200 31532
+182.64.91.206 - admin [18/Jul/2015:09:02:45 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=D634D8AB6E40C79AB7A1207907152233 HTTP/1.1" 200 31532
+182.64.91.206 - admin [18/Jul/2015:09:03:48 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=B9DE35DF7DE3665135C5699AF032A8E9 HTTP/1.1" 200 31532

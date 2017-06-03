@@ -1,0 +1,272 @@
+INFO   | jvm 1    | 2014/08/12 10:55:10 | 10:55:10,805 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 585ms
+STATUS | wrapper  | 2014/08/12 10:55:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2014/08/12 10:55:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/08/12 10:55:11 | Java Service Wrapper Community Edition 64-bit 3.5.13
+STATUS | wrapper  | 2014/08/12 10:55:11 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2014/08/12 10:55:11 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2014/08/12 10:55:11 | 
+STATUS | wrapper  | 2014/08/12 10:55:11 | Launching a JVM...
+INFO   | jvm 1    | 2014/08/12 10:55:12 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2014/08/12 10:55:12 | WARNING: -logmodule is deprecated. Please use the system property 'java.util.logging.manager' or the 'java.util.logging.LogManager' service loader.
+INFO   | jvm 1    | 2014/08/12 10:55:12 | 10:55:12,720 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+INFO   | jvm 1    | 2014/08/12 10:55:13 | 10:55:13,166 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+INFO   | jvm 1    | 2014/08/12 10:55:13 | 10:55:13,292 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,408 INFO  [org.xnio] XNIO Version 3.0.3.GA
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,417 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+10:55:15,522 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,438 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,461 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,510 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,522 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+10:55:15,550 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,550 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+10:55:15,645 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+10:55:15,664 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+10:55:15,683 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+10:55:15,703 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+10:55:15,720 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+10:55:15,729 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013100: Current PicketBox version=4.0.7.Final
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,645 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,664 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,683 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,703 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,720 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+INFO   | jvm 1    | 2014/08/12 10:55:15 | 10:55:15,729 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013100: Current PicketBox version=4.0.7.Final
+10:55:15,938 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+10:55:15,943 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+10:55:16,012 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:15,938 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:15,943 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:16,012 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+10:55:16,375 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-3) JBoss Web Services - Stack CXF Server 4.0.2.GA
+10:55:16,440 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+10:55:16,444 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-4) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:16,375 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-3) JBoss Web Services - Stack CXF Server 4.0.2.GA
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:16,440 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+INFO   | jvm 1    | 2014/08/12 10:55:16 | 10:55:16,444 INFO  [org.apache.coyote.ajp.AjpProtocol] (MSC service thread 1-4) Starting Coyote AJP/1.3 on ajp--0.0.0.0-8009
+10:55:17,610 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+INFO   | jvm 1    | 2014/08/12 10:55:17 | 10:55:17,610 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+10:55:17,694 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+10:55:17,701 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /0.0.0.0:9999
+10:55:17,702 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on /0.0.0.0:4447
+INFO   | jvm 1    | 2014/08/12 10:55:17 | 10:55:17,694 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory /opt/jboss7/standalone/deployments
+INFO   | jvm 1    | 2014/08/12 10:55:17 | 10:55:17,701 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /0.0.0.0:9999
+INFO   | jvm 1    | 2014/08/12 10:55:17 | 10:55:17,702 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on /0.0.0.0:4447
+10:55:17,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "abcengg.war"
+INFO   | jvm 1    | 2014/08/12 10:55:17 | 10:55:17,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "abcengg.war"
+10:55:22,636 INFO  [org.jboss.web] (MSC service thread 1-3) JBAS018210: Registering web context: 
+10:55:22,650 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://0.0.0.0:9990
+10:55:22,652 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 10473ms - Started 355 of 432 services (76 services are passive or on-demand)
+INFO   | jvm 1    | 2014/08/12 10:55:22 | 10:55:22,636 INFO  [org.jboss.web] (MSC service thread 1-3) JBAS018210: Registering web context: 
+INFO   | jvm 1    | 2014/08/12 10:55:22 | 10:55:22,650 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://0.0.0.0:9990
+INFO   | jvm 1    | 2014/08/12 10:55:22 | 10:55:22,652 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 10473ms - Started 355 of 432 services (76 services are passive or on-demand)
+10:55:23,141 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abcengg.war"
+INFO   | jvm 1    | 2014/08/12 10:55:23 | 10:55:23,141 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "abcengg.war"
+11:48:09,366 INFO  [stdout] (ajp--0.0.0.0-8009-4) 0
+INFO   | jvm 1    | 2014/08/12 11:48:09 | 11:48:09,366 INFO  [stdout] (ajp--0.0.0.0-8009-4) 0
+11:48:09,615 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:09 | 11:48:09,615 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+11:48:09,642 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/08/12 11:48:09 | 11:48:09,642 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+11:48:10,004 INFO  [stdout] (ajp--0.0.0.0-8009-8) 1
+11:48:10,023 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:10 | 11:48:10,004 INFO  [stdout] (ajp--0.0.0.0-8009-8) 1
+INFO   | jvm 1    | 2014/08/12 11:48:10 | 11:48:10,023 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+11:48:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/08/12 11:48:10 | 11:48:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+11:48:10,981 INFO  [stdout] (ajp--0.0.0.0-8009-8) 2
+11:48:11,018 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:11 | 11:48:10,981 INFO  [stdout] (ajp--0.0.0.0-8009-8) 2
+INFO   | jvm 1    | 2014/08/12 11:48:11 | 11:48:11,018 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+11:48:20,312 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+11:48:20,333 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,312 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,333 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+11:48:20,825 ERROR [stderr] (ajp--0.0.0.0-8009-2) javax.mail.MessagingException: Could not connect to SMTP host: 69.89.14.35, port: 465;
+11:48:20,826 ERROR [stderr] (ajp--0.0.0.0-8009-2)   nested exception is:
+11:48:20,827 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	java.net.ConnectException: Connection refused
+11:48:20,828 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+11:48:20,829 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+11:48:20,830 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.mail.Service.connect(Service.java:295)
+11:48:20,831 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.mail.Service.connect(Service.java:176)
+11:48:20,832 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.mail.MailUtility.sendHTMLMail(MailUtility.java:65)
+11:48:20,834 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.mail.SendUserCredentailMail.sendUserCredentailMail(SendUserCredentailMail.java:66)
+11:48:20,835 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.user.UserControlServlet.doGet(UserControlServlet.java:152)
+11:48:20,836 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+11:48:20,837 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+11:48:20,838 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+11:48:20,839 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+11:48:20,841 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+11:48:20,842 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+11:48:20,844 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+11:48:20,845 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+11:48:20,852 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+11:48:20,854 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+11:48:20,856 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoINFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,825 ERROR [stderr] (ajp--0.0.0.0-8009-2) javax.mail.MessagingException: Could not connect to SMTP host: 69.89.14.35, port: 465;
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,826 ERROR [stderr] (ajp--0.0.0.0-8009-2)   nested exception is:
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,827 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	java.net.ConnectException: Connection refused
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,828 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,829 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,830 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.mail.Service.connect(Service.java:295)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,831 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.mail.Service.connect(Service.java:176)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,832 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.mail.MailUtility.sendHTMLMail(MailUtility.java:65)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,834 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.mail.SendUserCredentailMail.sendUserCredentailMail(SendUserCredentailMail.java:66)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,835 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.admin.user.UserControlServlet.doGet(UserControlServlet.java:152)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,836 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,837 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,838 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,839 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,841 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,842 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,844 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,845 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,852 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,854 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+teAdapter.java:368)
+11:48:20,862 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+11:48:20,863 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+11:48:20,864 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+11:48:20,870 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.lang.Thread.run(Thread.java:745)
+11:48:20,872 ERROR [stderr] (ajp--0.0.0.0-8009-2) Caused by: java.net.ConnectException: Connection refused
+11:48:20,873 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:48:20,874 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+11:48:20,875 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+11:48:20,876 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+11:48:20,877 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:48:20,878 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.Socket.connect(Socket.java:579)
+11:48:20,879 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+11:48:20,880 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+11:48:20,882 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:288)
+11:48:20,883 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+11:48:20,884 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+11:48:20,885 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	... 21 more
+11:48:20,886 ERROR [com.admin.user.UserControlServlet] (ajp--0.0.0.0-8009-2) Could not connect to SMTP host: 69.89.14.35, port: 465: javax.mail.MessagingException: Could not connect to SMTP host: 69.89.14.35, port: 465;
+  nested exception is:
+	java.net.ConnectException: Connection refused
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934) [mail-1.4.4.jar:1.4.4]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638) [mail-1.4.4.jar:1.4.4]
+	at javax.mail.Service.connect(Service.java:295) [mail-1.4.4.jar:1.4.4]
+	at javax.mail.Service.connect(Service.java:176) [mail-1.4.4.jar:1.4.4]
+	at com.admin.mail.MailUtility.sendHTMLMail(MailUtility.java:65) [classes:]
+	at com.admin.mail.SendUserCredentailMail.sendUserCredentailMail(SendUserCredentailMail.java:66) [classes:]
+	at com.admin.user.UserControlServlet.doGet(UserControlServlet.java:152) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) [rt.jar:1.7.0_60]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) [rt.jar:1.7.0_60]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) [rt.jar:1.7.0_60]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) [rt.jar:1.7.0_60]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) [rt.jar:1.7.0_60]
+	at java.net.Socket.connect(Socket.java:579) [rt.jar:1.7.0_60]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618) [jsse.jar:1.7.0_60]
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160) [jsse.jar:1.7.0_60]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:288) [mail-1.4.4.jar:1.4.4]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231) [mail-1.4.4.jar:1.4.4]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900) [mail-1.4.4.jar:1.4.4]
+	... 21 more
+
+11:48:20,919 INFO  [com.admin.user.UserControlServlet] (ajp--0.0.0.0-8009-2) Connection Rollbacked
+11:48:20,920 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,856 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,862 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,863 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,864 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,870 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,872 ERROR [stderr] (ajp--0.0.0.0-8009-2) Caused by: java.net.ConnectException: Connection refused
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,873 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,874 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,875 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,876 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,877 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,878 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at java.net.Socket.connect(Socket.java:579)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,879 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,880 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,882 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:288)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,883 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,884 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,885 ERROR [stderr] (ajp--0.0.0.0-8009-2) 	... 21 more
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,886 ERROR [com.admin.user.UserControlServlet] (ajp--0.0.0.0-8009-2) Could not connect to SMTP host: 69.89.14.35, port: 465: javax.mail.MessagingException: Could not connect to SMTP host: 69.89.14.35, port: 465;
+INFO   | jvm 1    | 2014/08/12 11:48:20 |   nested exception is:
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	java.net.ConnectException: Connection refused
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at javax.mail.Service.connect(Service.java:295) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at javax.mail.Service.connect(Service.java:176) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.admin.mail.MailUtility.sendHTMLMail(MailUtility.java:65) [classes:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.admin.mail.SendUserCredentailMail.sendUserCredentailMail(SendUserCredentailMail.java:66) [classes:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.admin.user.UserControlServlet.doGet(UserControlServlet.java:152) [classes:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | Caused by: java.net.ConnectException: Connection refused
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.PlainSocketImpl.socketConnect(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at java.net.Socket.connect(Socket.java:579) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618) [jsse.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160) [jsse.jar:1.7.0_60]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:288) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900) [mail-1.4.4.jar:1.4.4]
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 	... 21 more
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,919 INFO  [com.admin.user.UserControlServlet] (ajp--0.0.0.0-8009-2) Connection Rollbacked
+INFO   | jvm 1    | 2014/08/12 11:48:20 | 11:48:20,920 INFO  [stdout] (ajp--0.0.0.0-8009-2) Connection back to Pool
+11:48:21,609 INFO  [stdout] (ajp--0.0.0.0-8009-8) 4
+11:48:21,633 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+11:48:21,641 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+11:48:21,646 INFO  [stdout] (ajp--0.0.0.0-8009-8) 5
+INFO   | jvm 1    | 2014/08/12 11:48:21 | 11:48:21,609 INFO  [stdout] (ajp--0.0.0.0-8009-8) 4
+INFO   | jvm 1    | 2014/08/12 11:48:21 | 11:48:21,633 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:21 | 11:48:21,641 INFO  [stdout] (ajp--0.0.0.0-8009-8) Connection back to Pool
+INFO   | jvm 1    | 2014/08/12 11:48:21 | 11:48:21,646 INFO  [stdout] (ajp--0.0.0.0-8009-8) 5
+11:48:21,670 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2014/08/12 11:48:21 | 11:48:21,670 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+12:07:04,697 INFO  [stdout] (Finalizer) Connection Count 1
+12:07:04,698 INFO  [stdout] (Finalizer) Releasing conn back to pool
+12:07:04,699 INFO  [stdout] (Finalizer) Connection Count 1
+12:07:04,700 INFO  [stdout] (Finalizer) Releasing conn back to pool
+12:07:04,701 INFO  [stdout] (Finalizer) Connection Count 1
+12:07:04,701 INFO  [stdout] (Finalizer) Releasing conn back to pool
+12:07:04,702 INFO  [stdout] (Finalizer) Connection Count 1
+12:07:04,703 INFO  [stdout] (Finalizer) Releasing conn back to pool
+12:07:04,704 INFO  [stdout] (Finalizer) Connection Count 1
+12:07:04,705 INFO  [stdout] (Finalizer) Releasing conn back to pool
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,697 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,698 INFO  [stdout] (Finalizer) Releasing conn back to pool
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,699 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,700 INFO  [stdout] (Finalizer) Releasing conn back to pool
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,701 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,701 INFO  [stdout] (Finalizer) Releasing conn back to pool
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,702 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,703 INFO  [stdout] (Finalizer) Releasing conn back to pool
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,704 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/08/12 12:07:04 | 12:07:04,705 INFO  [stdout] (Finalizer) Releasing conn back to pool

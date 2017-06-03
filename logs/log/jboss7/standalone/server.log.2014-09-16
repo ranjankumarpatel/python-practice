@@ -1,0 +1,400 @@
+07:07:39,909 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+07:07:39,912 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+07:07:39,912 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+07:07:39,913 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+07:07:39,914 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+07:07:39,915 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+07:07:39,916 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+07:07:39,917 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+07:07:39,918 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+07:07:39,919 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+07:07:39,920 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.WebFilter.doFilter(WebFilter.java:50)
+07:07:39,921 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+07:07:39,922 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+07:07:39,923 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+07:07:39,924 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+07:07:39,925 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+07:07:39,926 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+07:07:39,927 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+07:07:39,928 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+07:07:39,930 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+07:07:39,931 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+07:07:39,932 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+07:07:39,933 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+07:07:39,934 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+07:07:39,934 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+07:07:39,936 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+07:07:39,936 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+07:07:39,937 ERROR [stderr] (ajp--0.0.0.0-8009-15) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+07:07:39,939 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+07:07:39,939 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+07:07:39,940 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,909 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+07:07:3INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,912 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,912 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,913 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,914 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,915 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,916 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,917 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,918 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,919 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,920 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.WebFilter.doFilter(WebFilter.java:50)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,921 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,922 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,923 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+9,941 ERRINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,924 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+OR [stderrINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,925 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+] (ajp--0.INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,926 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+0.0.0-8009-1INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,927 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+5) 	at coINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,928 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+m.google.gINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,930 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+son.internINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,931 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+al.bind.TyINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,932 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+peAdapters$13.INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,933 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+read(TypeAdINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,934 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+apters.jINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,934 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+ava:358)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,936 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,936 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,937 ERROR [stderr] (ajp--0.0.0.0-8009-15) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,939 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,939 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+0INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,940 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+7:07:39,94INFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,941 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:358)
+4 ERRINFO   | jvm 1    | 2014/09/16 07:07:39 | 07:07:39,944 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+OR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+07:07:39,945 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+07:07:39,947 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+07:07:39,948 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+07:07:39,949 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	... 25 more
+INFO   | jvm 1    | 2014/09/16 07:07:40 | 07:07:39,945 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+INFO   | jvm 1    | 2014/09/16 07:07:40 | 07:07:39,947 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+INFO   | jvm 1    | 2014/09/16 07:07:40 | 07:07:39,948 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+INFO   | jvm 1    | 2014/09/16 07:07:40 | 07:07:39,949 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	... 25 more
+07:08:16,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+07:08:16,297 INFO  [stdINFO   | jvm 1    | 2014/09/16 07:08:16 | 07:08:16,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+out]INFO   | jvm 1    | 2014/09/16 07:08:16 | 07:08:16,297 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+ (ajp--0.0.0.0-8009-5) Connection back to Pool
+07:08:16,312 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+07:08:16,330 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:08:16 | 07:08:16,312 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:08:16 | 07:08:16,330 INFO  [stdout] (ajp--0.0.0.0-8009-5) Connection back to Pool
+07:10:30,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:10:30 | 07:10:30,992 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:10:31,015 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:10:31,036 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:10:31,052 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:10:31 | 07:10:31,015 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:10:31 | 07:10:31,036 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:10:31 | 07:10:31,052 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+07:12:27,207 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+07:12:27,226 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+07:12:27,240 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+07:12:27,254 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:12:27 | 07:12:27,207 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:12:27 | 07:12:27,226 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:12:27 | 07:12:27,240 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:12:27 | 07:12:27,254 INFO  [stdout] (ajp--0.0.0.0-8009-1) Connection back to Pool
+07:14:18,798 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:14:18 | 07:14:18,798 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+07:14:18,825 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+07:14:18,848 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+07:14:18,862 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:14:18 | 07:14:18,825 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:14:18 | 07:14:18,848 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:14:18 | 07:14:18,862 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+07:19:23,395 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+07:19:23,408 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+07:19:23,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+07:19:23,437 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:19:23 | 07:19:23,395 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:19:23 | 07:19:23,408 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:19:23 | 07:19:23,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:19:23 | 07:19:23,437 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+07:29:50,582 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 07:29:50 | 07:29:50,582 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+09:12:56,853 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+09:12:56,855 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+09:12:56,856 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+09:12:56,857 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+09:12:56,858 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+09:12:56,859 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+09:12:56,861 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+09:12:56,862 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:12:56,864 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+09:12:56,865 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.cINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,853 ERROR [stderr] (ajp--0.0.0.0-8009-13) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+atalina.core.ApplicationFiINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,855 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+lterChain.doFilter(ApINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,856 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+plicationFilterChain.jINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,857 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+ava:248)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,858 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+0INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,859 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+9:12:56,867 ERRORINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,861 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+ [stderr] (ajp--0.0.0.INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,862 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+0-8009-13) 	at com.ttINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,864 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+next.filter.WebFilINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,865 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+ter.doINFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,867 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.ttnext.filter.WebFilter.doFilter(WebFilter.java:50)
+Filter(WebFilter.java:50)
+09:12:56,868 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:12:56,870 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:12:56,871 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+09:12:56,872 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:12:56,873 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:12:56,874 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:12:56,875 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:12:56,876 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:12:56,878 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:12:56,880 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:12:56,881 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:12:56,883 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:12:56,885 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:12:56,886 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:12:56,888 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:12:56,889 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+09:12:56,891 ERROR [stderr] (ajp--0.0.0.0-8009-13) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+09:12:56,893 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+09:12:56,894 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+09:12:56,896 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+09:12:56,898 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:358)
+09:12:56,899 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+09:12:56,901 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+09:12:56,903 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+09:12:56,905 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+09:12:56,906 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	... 25 more
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,868 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,870 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,871 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,872 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,873 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,874 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,875 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,876 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,878 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,880 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,881 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,883 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,885 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,886 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,888 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,889 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,891 ERROR [stderr] (ajp--0.0.0.0-8009-13) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 149
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,893 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,894 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,896 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,898 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:358)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,899 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,901 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,903 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,905 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+INFO   | jvm 1    | 2014/09/16 09:12:56 | 09:12:56,906 ERROR [stderr] (ajp--0.0.0.0-8009-13) 	... 25 more
+09:13:29,322 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:13:29,334 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:13:29,356 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:13:29,370 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:13:29 | 09:13:29,322 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:13:29 | 09:13:29,334 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:13:29 | 09:13:29,356 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:13:29 | 09:13:29,370 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:14:28,749 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 150
+09:14:28,750 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+09:14:28,751 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+09:14:28,752 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+09:14:28,752 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+09:14:28,753 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+09:14:28,754 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+09:14:28,755 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:14:28,756 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+09:14:28,757 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:14:28,757 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.WebFilter.doFilter(WebFilter.java:50)
+09:14:28,758 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:14:28,759 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:14:28,760 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+09:14:28,761 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:14:28,762 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:14:28,763 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:14:28,763 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:14:28,764 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:14:28,765 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:14:28,766 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:14:28,767 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:14:28,768 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:14:28,770 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:14:28,771 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:14:28,773 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:14:28,775 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+09:14:28,776 ERROR [stderr] (ajp--0.0.0.0-8009-15) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 150
+09:14:28,777 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+09:14:28,779 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+09:14:28,780 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+09:14:28,781 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:358)
+09:14:28,782 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+09:14:28,783 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+09:14:28,784 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+09:14:28,785 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+09:14:28,786 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	... 25 more
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,749 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 150
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,750 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:818)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,751 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:768)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,752 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:717)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,752 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:689)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,753 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.service.AuthnticateServiceServlet.doGet(AuthnticateServiceServlet.java:69)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,754 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,755 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,756 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,757 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,757 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.WebFilter.doFilter(WebFilter.java:50)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,758 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,759 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,760 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.ttnext.filter.CrossScriptingFilter.doFilter(CrossScriptingFilter.java:36)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,761 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,762 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,763 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,763 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,764 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,765 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,766 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,767 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,768 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,770 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,771 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,773 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,775 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,776 ERROR [stderr] (ajp--0.0.0.0-8009-15) Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 150
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,777 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,779 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1006)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,780 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:811)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,781 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:358)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,782 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.TypeAdapters$13.read(TypeAdapters.java:346)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,783 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,784 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,785 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.google.gson.Gson.fromJson(Gson.java:803)
+INFO   | jvm 1    | 2014/09/16 09:14:28 | 09:14:28,786 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	... 25 more
+09:29:05,284 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+09:29:05,297 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+09:29:05,308 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+09:29:05,318 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:29:05 | 09:29:05,284 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:29:05 | 09:29:05,297 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:29:05 | 09:29:05,308 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:29:05 | 09:29:05,318 INFO  [stdout] (ajp--0.0.0.0-8009-18) Connection back to Pool
+09:33:04,140 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:33:04 | 09:33:04,140 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+09:33:30,056 INFO  [stdout] (ajp--0.0.0.0-8009-6) ConnectioINFO   | jvm 1    | 2014/09/16 09:33:30 | 09:33:30,056 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+n back to Pool
+09:33:30,074 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:33:30,091 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:33:30,103 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:33:30 | 09:33:30,074 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:33:30 | 09:33:30,091 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:33:30 | 09:33:30,103 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+09:33:47,084 INFO  [stdout] (ajp--0.0.0.0-8009-5) null
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,084 INFO  [stdout] (ajp--0.0.0.0-8009-5) null
+09:33:47,085 INFO  [stdout] (ajp--0.0.0.0-8009-5) 11
+09:33:47,086 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+09:33:47,087 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+09:33:47,088 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+09:33:47,105 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+09:33:47,109 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-5) username :sasmita.khandual@thinkcareersindia.com
+09:33:47,110 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) LoginActionServlet Sessioncom.pojos.Client@25675577
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,085 INFO  [stdout] (ajp--0.0.0.0-8009-5) 11
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,086 INFO  [stdout] (ajp--0.0.0.0-8009-5) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,087 INFO  [stdout] (ajp--0.0.0.0-8009-5) Error while closing
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,088 INFO  [stdout] (ajp--0.0.0.0-8009-5) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,105 INFO  [stdout] (ajp--0.0.0.0-8009-5) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,109 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-5) username :sasmita.khandual@thinkcareersindia.com
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,110 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-5) LoginActionServlet Sessioncom.pojos.Client@25675577
+09:33:47,436 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-2) com.pojos.Client@25675577
+09:33:47,438 INFO  [stdout] (ajp--0.0.0.0-8009-2) 11
+09:33:47,438 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+09:33:47,440 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+09:33:47,441 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+09:33:47,461 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,436 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-2) com.pojos.Client@25675577
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,438 INFO  [stdout] (ajp--0.0.0.0-8009-2) 11
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,438 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,440 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,441 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 09:33:47 | 09:33:47,461 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+09:41:28,001 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+09:41:28,011 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:41:28 | 09:41:28,001 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:41:28 | 09:41:28,011 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+09:41:28,023 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+09:41:28,034 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:41:28 | 09:41:28,023 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 09:41:28 | 09:41:28,034 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+10:06:45,018 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+10:06:45,036 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 10:06:45 | 10:06:45,018 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 10:06:45 | 10:06:45,036 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+10:06:45,061 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+10:06:45,075 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 10:06:45 | 10:06:45,061 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+INFO   | jvm 1    | 2014/09/16 10:06:45 | 10:06:45,075 INFO  [stdout] (ajp--0.0.0.0-8009-17) Connection back to Pool
+10:20:26,135 INFO  [stdout] (ajp--0.0.0.0-8009-3) null
+10:20:26,137 INFO  [stdout] (ajp--0.0.0.0-8009-3) 11
+10:20:26,137 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+10:20:26,138 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+10:20:26,138 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,135 INFO  [stdout] (ajp--0.0.0.0-8009-3) null
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,137 INFO  [stdout] (ajp--0.0.0.0-8009-3) 11
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,137 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,138 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,138 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+10:20:26,151 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+10:20:26,154 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-3) username :sasmita.khandual@thinkcareersindia.com
+10:20:26,155 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-3) LoginActionServlet Sessioncom.pojos.Client@1721d36a
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,151 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,154 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-3) username :sasmita.khandual@thinkcareersindia.com
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,155 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-3) LoginActionServlet Sessioncom.pojos.Client@1721d36a
+10:20:26,484 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-2) com.pojos.Client@1721d36a
+10:20:26,484 INFO  [stdout] (ajp--0.0.0.0-8009-2) 11
+10:20:26,485 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+10:20:26,486 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+10:20:26,486 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+10:20:26,498 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,484 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-2) com.pojos.Client@1721d36a
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,484 INFO  [stdout] (ajp--0.0.0.0-8009-2) 11
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,485 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,486 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,486 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 10:20:26 | 10:20:26,498 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+10:20:38,700 INFO  [stdout] (Finalizer) Connection Count 1
+10:20:38,701 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:20:38,702 INFO  [stdout] (Finalizer) Connection Count 1
+10:20:38,703 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:20:38,704 INFO  [stdout] (Finalizer) Connection Count 1
+10:20:38,705 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,700 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,701 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,702 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,703 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,704 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,705 INFO  [stdout] (Finalizer) Releasing connection back to pool
+10:20:38,919 INFO  [stdout] (ajp--0.0.0.0-8009-4) 11
+10:20:38,920 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+10:20:38,920 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+10:20:38,921 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+10:20:38,932 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,919 INFO  [stdout] (ajp--0.0.0.0-8009-4) 11
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,920 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,920 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,921 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 10:20:38 | 10:20:38,932 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+10:21:02,225 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-18) com.pojos.Client@1721d36a
+10:21:02,226 INFO  [stdout] (ajp--0.0.0.0-8009-18) 11
+10:21:02,227 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+10:21:02,227 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+10:21:02,228 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+10:21:02,246 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,225 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-18) com.pojos.Client@1721d36a
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,226 INFO  [stdout] (ajp--0.0.0.0-8009-18) 11
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,227 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,227 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,228 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2014/09/16 10:21:02 | 10:21:02,246 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+12:13:41,974 INFO  [stdout] (Finalizer) Connection Count 1
+12:13:41,975 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/09/16 12:13:41 | 12:13:41,974 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/09/16 12:13:41 | 12:13:41,975 INFO  [stdout] (Finalizer) Releasing connection back to pool

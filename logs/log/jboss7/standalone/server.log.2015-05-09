@@ -1,0 +1,46 @@
+00:37:48,408 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-7) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/05/09 06:07:48 | 00:37:48,408 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-7) Invalid message received with signature 18245
+17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 2
+17:30:00,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+17:30:00,015 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Sat May 09 23:00:00 IST 2015
+17:30:00,018 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Hibernate: 
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 2
+17:30:00,018 INFO  [stINFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,014 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+dout] (360_MailQuaINFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,015 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Sat May 09 23:00:00 IST 2015
+rtzScheduler_Worker-INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,018 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Hibernate: 
+2)INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,018 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)     /* criteria query */ select
+     /* criteria query */ select
+17:30:00,019 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.ET_ID as ET1_20_0_,
+17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.AUTO_REMINDER_STATUS as AUTO2_20_0_,
+17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_CONTENT as EMAIL3_20_0_,
+17:30:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_SUB as EMAIL4_20_0_,
+17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_TITLE as EMAIL5_20_0_,
+17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.PROJECT_NAME as PROJECT6_20_0_,
+17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.REMINDER_TIME_PATTERN as REMINDER7_20_0_ 
+17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)     from
+17:30:00,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         email_service this_ 
+17:30:00,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)     where
+17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.PROJECT_NAME=? 
+17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         and this_.EMAIL_TITLE=?
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,019 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.ET_ID as ET1_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.AUTO_REMINDER_STATUS as AUTO2_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_CONTENT as EMAIL3_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_SUB as EMAIL4_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.EMAIL_TITLE as EMAIL5_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.PROJECT_NAME as PROJECT6_20_0_,
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.REMINDER_TIME_PATTERN as REMINDER7_20_0_ 
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)     from
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         email_service this_ 
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)     where
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         this_.PROJECT_NAME=? 
+INFO   | jvm 1    | 2015/05/09 23:00:00 | 17:30:00,025 INFO  [stdout] (360_MailQuartzScheduler_Worker-2)         and this_.EMAIL_TITLE=?
+23:00:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 2
+23:00:00,045 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) New connection added in pool
+23:00:00,046 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) schedule on check at Sun May 10 04:30:00 IST 2015
+23:00:00,065 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Sun May 10 04:30:00 IST 2015
+23:00:00,066 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Mon May 11 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/05/10 04:30:00 | 23:00:00,005 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) 2
+INFO   | jvm 1    | 2015/05/10 04:30:00 | 23:00:00,045 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) New connection added in pool
+INFO   | jvm 1    | 2015/05/10 04:30:00 | 23:00:00,046 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) schedule on check at Sun May 10 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/05/10 04:30:00 | 23:00:00,065 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Sun May 10 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/05/10 04:30:00 | 23:00:00,066 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-3) Mon May 11 04:30:00 IST 2015

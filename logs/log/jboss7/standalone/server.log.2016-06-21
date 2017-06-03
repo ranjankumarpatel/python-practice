@@ -1,0 +1,504 @@
+INFO   | jvm 1    | 2016/06/21 23:30:05 | 18:00:05,781 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:30:05 | 18:00:05,789 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:30:05 | 18:00:05,793 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Tue Jun 21 23:30:05 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:30:06 | 18:00:06,417 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:30:06 | 18:00:06,417 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,407 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,408 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,409 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,410 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,421 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:31:02 | 18:01:02,427 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Tue Jun 21 23:31:02 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,496 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,497 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,731 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,732 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,733 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,734 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,742 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:31:03 | 18:01:03,748 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Tue Jun 21 23:31:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:31:04 | 18:01:04,381 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:31:04 | 18:01:04,382 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:31:39 | 18:01:39,804 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,113 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,114 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,115 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,116 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,124 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:32:02 | 18:02:02,128 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Tue Jun 21 23:32:02 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:32:03 | 18:02:03,193 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:32:03 | 18:02:03,194 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,609 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,610 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,612 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,613 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,621 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:32:04 | 18:02:04,625 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Tue Jun 21 23:32:04 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:32:05 | 18:02:05,269 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:32:05 | 18:02:05,269 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,793 INFO  [stdout] (ajp--0.0.0.0-8009-18) 3
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,794 INFO  [stdout] (ajp--0.0.0.0-8009-18) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,795 INFO  [stdout] (ajp--0.0.0.0-8009-18) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,796 INFO  [stdout] (ajp--0.0.0.0-8009-18) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,805 INFO  [stdout] (ajp--0.0.0.0-8009-18) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:33:01 | 18:03:01,810 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Tue Jun 21 23:33:01 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:33:02 | 18:03:02,393 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:33:02 | 18:03:02,394 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,113 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,114 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,115 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,115 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,123 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,127 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Tue Jun 21 23:33:04 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,755 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:33:04 | 18:03:04,756 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,134 INFO  [stdout] (ajp--0.0.0.0-8009-2) 3
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,134 INFO  [stdout] (ajp--0.0.0.0-8009-2) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,135 INFO  [stdout] (ajp--0.0.0.0-8009-2) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,136 INFO  [stdout] (ajp--0.0.0.0-8009-2) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,143 INFO  [stdout] (ajp--0.0.0.0-8009-2) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,147 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Tue Jun 21 23:34:02 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,747 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:34:02 | 18:04:02,748 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,192 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,193 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,194 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,194 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,203 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,207 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Tue Jun 21 23:34:04 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,796 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:34:04 | 18:04:04,797 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,441 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,442 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,443 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,444 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,454 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:35:03 | 18:05:03,459 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Tue Jun 21 23:35:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,052 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,052 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,053 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,054 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,054 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,055 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,063 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,067 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Tue Jun 21 23:35:04 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,642 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:35:04 | 18:05:04,643 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,903 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,903 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,904 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,905 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,912 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:36:01 | 18:06:01,916 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Tue Jun 21 23:36:01 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:36:02 | 18:06:02,560 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:36:02 | 18:06:02,561 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,525 INFO  [stdout] (ajp--0.0.0.0-8009-6) 3
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,525 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,526 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,527 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,534 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:36:05 | 18:06:05,538 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Tue Jun 21 23:36:05 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:36:06 | 18:06:06,153 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:36:06 | 18:06:06,154 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,430 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,430 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,432 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,432 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,443 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,463 ERROR [stderr] (ajp--0.0.0.0-8009-17) testDuration :3600
+INFO   | jvm 1    | 2016/06/21 23:37:02 | 18:07:02,464 ERROR [stderr] (ajp--0.0.0.0-8009-17) totalQuesTime :3600
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,293 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,294 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,295 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,295 INFO  [stdout] (ajp--0.0.0.0-8009-10) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,296 INFO  [stdout] (ajp--0.0.0.0-8009-10) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,297 INFO  [stdout] (ajp--0.0.0.0-8009-10) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,304 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,309 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Tue Jun 21 23:37:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,917 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,918 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,919 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,919 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,921 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,921 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,929 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:37:03 | 18:07:03,933 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Tue Jun 21 23:37:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:37:04 | 18:07:04,526 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:37:04 | 18:07:04,527 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:37:05 | 18:07:04,936 INFO  [stdout] (ajp--0.0.0.0-8009-2) English (United States)
+INFO   | jvm 1    | 2016/06/21 23:37:05 | 18:07:04,937 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,782 INFO  [stdout] (ajp--0.0.0.0-8009-8) 3
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,782 INFO  [stdout] (ajp--0.0.0.0-8009-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,783 INFO  [stdout] (ajp--0.0.0.0-8009-8) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,784 INFO  [stdout] (ajp--0.0.0.0-8009-8) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,792 INFO  [stdout] (ajp--0.0.0.0-8009-8) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:38:03 | 18:08:03,796 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Tue Jun 21 23:38:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:38:04 | 18:08:04,383 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:38:04 | 18:08:04,384 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,821 INFO  [stdout] (ajp--0.0.0.0-8009-7) 3
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,821 INFO  [stdout] (ajp--0.0.0.0-8009-7) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,822 INFO  [stdout] (ajp--0.0.0.0-8009-7) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,823 INFO  [stdout] (ajp--0.0.0.0-8009-7) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,831 INFO  [stdout] (ajp--0.0.0.0-8009-7) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:39:03 | 18:09:03,835 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Tue Jun 21 23:39:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:39:04 | 18:09:04,429 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:39:04 | 18:09:04,430 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,704 INFO  [stdout] (ajp--0.0.0.0-8009-4) 3
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,705 INFO  [stdout] (ajp--0.0.0.0-8009-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,706 INFO  [stdout] (ajp--0.0.0.0-8009-4) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,707 INFO  [stdout] (ajp--0.0.0.0-8009-4) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,719 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:40:03 | 18:10:03,724 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Tue Jun 21 23:40:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:40:04 | 18:10:04,435 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:40:04 | 18:10:04,436 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,766 INFO  [stdout] (ajp--0.0.0.0-8009-14) 3
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,772 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,773 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,774 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,783 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:41:03 | 18:11:03,788 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Tue Jun 21 23:41:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:41:04 | 18:11:04,369 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:41:04 | 18:11:04,369 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,787 INFO  [stdout] (ajp--0.0.0.0-8009-1) 3
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,787 INFO  [stdout] (ajp--0.0.0.0-8009-1) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,789 INFO  [stdout] (ajp--0.0.0.0-8009-1) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,789 INFO  [stdout] (ajp--0.0.0.0-8009-1) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,797 INFO  [stdout] (ajp--0.0.0.0-8009-1) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:42:03 | 18:12:03,801 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Tue Jun 21 23:42:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:42:04 | 18:12:04,399 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:42:04 | 18:12:04,400 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,708 INFO  [stdout] (ajp--0.0.0.0-8009-17) 3
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,709 INFO  [stdout] (ajp--0.0.0.0-8009-17) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,710 INFO  [stdout] (ajp--0.0.0.0-8009-17) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,710 INFO  [stdout] (ajp--0.0.0.0-8009-17) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,719 INFO  [stdout] (ajp--0.0.0.0-8009-17) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:43:03 | 18:13:03,725 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Tue Jun 21 23:43:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:43:04 | 18:13:04,319 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:43:04 | 18:13:04,320 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,759 INFO  [stdout] (ajp--0.0.0.0-8009-12) 3
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,759 INFO  [stdout] (ajp--0.0.0.0-8009-12) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,760 INFO  [stdout] (ajp--0.0.0.0-8009-12) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,761 INFO  [stdout] (ajp--0.0.0.0-8009-12) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,770 INFO  [stdout] (ajp--0.0.0.0-8009-12) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:44:03 | 18:14:03,775 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Tue Jun 21 23:44:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:44:04 | 18:14:04,354 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:44:04 | 18:14:04,355 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,235 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,236 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,237 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,237 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,245 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,250 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Tue Jun 21 23:45:04 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,849 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:45:04 | 18:15:04,849 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,713 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,713 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,714 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,714 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,725 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:46:03 | 18:16:03,729 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Tue Jun 21 23:46:03 IST 2016
+INFO   | jvm 1    | 2016/06/21 23:46:04 | 18:16:04,294 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:46:04 | 18:16:04,294 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,091 INFO  [stdout] (ajp--0.0.0.0-8009-9) 3
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,092 INFO  [stdout] (ajp--0.0.0.0-8009-9) connection is idle true connection release count 2
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,093 INFO  [stdout] (ajp--0.0.0.0-8009-9) Error while closing
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,094 INFO  [stdout] (ajp--0.0.0.0-8009-9) Remove connection from pool
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,101 INFO  [stdout] (ajp--0.0.0.0-8009-9) New connection added in pool
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,116 ERROR [stderr] (ajp--0.0.0.0-8009-9) testDuration :3600
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,117 ERROR [stderr] (ajp--0.0.0.0-8009-9) totalQuesTime :3461
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,901 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2016/06/21 23:46:45 | 18:16:45,902 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2016/06/21 23:46:46 | 18:16:46,522 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2016/06/21 23:46:46 | 18:16:46,523 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/06/22 00:15:00 | 18:45:00,727 INFO  [stdout] (mailScheduler-1) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/06/22 00:15:00 | 18:45:00,728 INFO  [stdout] (mailScheduler-1) Email with subject Reminder: Request to complete New Hire Survey sent to m.mehak08@gmail.comat Wed Jun 22 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 19:30:00,280 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-2) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:88) [classes:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:63) [classes:]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 01:00:00 | 
+STATUS | wrapper  | 2016/06/22 09:06:31 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,083 INFO  [org.jboss.as.osgi] (MSC service thread 1-3) JBAS011942: Stopping OSGi Framework
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,142 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,176 INFO  [org.apache.catalina.core.StandardContext] Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,172 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[next360.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.fs360.login.LoginActionServlet.destroy(LoginActionServlet.java:150) [classes:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	... 8 more
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,175 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:142) [classes:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	... 8 more
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,175 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:137) [classes:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	... 8 more
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,173 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/]] Servlet LoginActionServlet threw unload() exception: javax.servlet.ServletException: Servlet.destroy() for servlet LoginActionServlet threw exception
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1399) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1682) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3985) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.assess.login.LoginActionServlet.destroy(LoginActionServlet.java:142) [classes:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1382) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	... 8 more
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,259 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,272 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Jun 21 09:16:29 IST 2016]; parent: Root WebApplicationContext
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,273 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."abilitytest.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:55)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,289 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,291 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,291 INFO  [org.springframework.web.context.support.GenericWebApplicationContext] Closing org.springframework.web.context.support.GenericWebApplicationContext@5cd83010: startup date [Tue Jun 21 09:30:11 IST 2016]; parent: WebApplicationContext for namespace 'dispatcher-servlet'
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,293 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,288 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."indusind.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,311 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,295 WARN  [org.jboss.msc.service.fail] MSC00004: Failure during stop of service jboss.web.deployment."quiz.thinktalentnext.net"./: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebDeploymentService.stop(WebDeploymentService.java:108)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1911) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1874) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,325 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,333 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,335 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,336 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,341 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,342 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,324 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,346 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.detection.DetectionServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,333 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestQuestionOptionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,354 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,356 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,348 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[RootQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,344 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,359 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,357 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnaireControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,357 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.assess.login.AutoLoginServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,388 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,391 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,392 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,394 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,416 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,417 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,419 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,387 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[engage.thinktalentnext.net].[/]] Closing Spring root WebApplicationContext
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,382 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,424 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,425 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,426 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,428 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,429 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,422 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,431 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,432 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,422 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Closing Root WebApplicationContext: startup date [Tue Jun 21 09:16:12 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,389 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,434 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,437 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,439 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[com.assess.excel.GeneratePositionTrackerServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,440 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,442 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,430 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,452 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,455 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] Shutting down ExecutorService 'mailScheduler'
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,451 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,436 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestEligibilityControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,460 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,453 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,482 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,480 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.assess.testauthor.image.DisplayImageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,484 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,483 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,487 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,486 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.rest.client.PositionUserRestServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,490 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,488 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,493 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,492 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestMasterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,495 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,494 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,498 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,497 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[LoginActionServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,501 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[logs.LoggerActionServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,504 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,505 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,499 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,525 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,524 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,528 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,529 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,502 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[jsp] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,526 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,532 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestQuestionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,532 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,533 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,536 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UploadPassageServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,538 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,540 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateInfoControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,541 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[SubjectTopicControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,543 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UserCredentialPdfServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,536 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,544 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ImageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,537 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,602 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientTestPackageControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,605 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[GenerateOnePageReportServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,606 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[MailSchedulerControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,608 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[TestSetControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,546 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@1409cddf" of service jboss.web.deployment."indusind.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,603 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,618 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,620 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,621 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,623 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[abilitytest.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,617 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UploadBulkUserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,630 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ReportTemplateMeterControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,624 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@567ff477" of service jboss.web.deployment."abilitytest.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:55)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,632 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[QuestionnnaireBackupControlSerlvet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,679 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientCustomizationControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,681 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ExcelUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,682 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[default] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,683 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[SessionRenewServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,685 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[PositionControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,687 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[UserControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,688 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[PostionUserReortControlServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,690 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[LogoutAction] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,692 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ImageUploadServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,693 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[ClientCustomizationServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,697 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment shield.war in 636ms
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,695 INFO  [org.apache.catalina.core.ContainerBase] Container org.apache.catalina.core.ContainerBase.[jboss.web].[quiz.thinktalentnext.net].[/].[com.rest.client.ClientServiceInformationServlet] has not been started
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,701 WARN  [org.jboss.msc] MSC00006: Uninjection "org.jboss.msc.service.ValueInjection@28d1b19b" of service jboss.web.deployment."quiz.thinktalentnext.net"./ failed unexpectedly: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at com.filter.HibernateSessionRequestFilter.destroy(HibernateSessionRequestFilter.java:56)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:504)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:3301)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3989)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:926)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.as.web.deployment.WebContextInjector.uninject(WebContextInjector.java:69)
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.inject.CastingInjector.uninject(CastingInjector.java:60) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.uninject(ServiceControllerImpl.java:1919) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at org.jboss.msc.service.ServiceControllerImpl$StopTask.run(ServiceControllerImpl.java:1893) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,725 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,727 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+INFO   | jvm 1    | 2016/06/22 09:06:32 | 03:36:32,841 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment next360.war in 766ms
+INFO   | jvm 1    | 2016/06/22 09:06:33 | 03:36:33,015 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment abilitytest.war in 944ms
+INFO   | jvm 1    | 2016/06/22 09:06:33 | 03:36:33,027 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment engage.war in 966ms
+INFO   | jvm 1    | 2016/06/22 09:06:33 | 03:36:33,031 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment quiz.war in 961ms
+INFO   | jvm 1    | 2016/06/22 09:06:33 | 03:36:33,057 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment indusindassess.war in 986ms
+INFO   | jvm 1    | 2016/06/22 09:06:33 | 03:36:33,070 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 987ms
+STATUS | wrapper  | 2016/06/22 09:06:33 | <-- Wrapper Stopped

@@ -1,0 +1,612 @@
+05:11:20,277 INFO  [stdout] (ajp--0.0.0.0-8009-23) English (United States)
+05:11:20,278 INFO  [stdout] (ajp--0.0.0.0-8009-23) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:41:20 | 05:11:20,277 INFO  [stdout] (ajp--0.0.0.0-8009-23) English (United States)
+INFO   | jvm 1    | 2017/04/16 10:41:20 | 05:11:20,278 INFO  [stdout] (ajp--0.0.0.0-8009-23) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:16,144 INFO  [stdout] (ajp--0.0.0.0-8009-20) /clientLogin.jsp
+05:13:16,159 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:16,163 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:16,165 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:16,167 ERROR [stderr] (ajp--0.0.0.0-8009-20) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+05:13:16,168 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.core.DeligateLogin.validateClientLogin(DeligateLogin.java:122)
+05:13:16,169 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:51)
+05:13:16,170 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+05:13:16,171 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+05:13:16,172 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+05:13:16,175 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:13:16,175 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:13:16,177 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:13:16,178 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+05:13:16,179 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:13:16,180 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:13:16,181 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:13:16,182 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:13:16,183 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:13:16,184 ERROR [stderr] (ajp--0.0.0.0-8009-2INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,144 INFO  [stdout] (ajp--0.0.0.0-8009-20) /clientLogin.jsp
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,159 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,163 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,165 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,167 ERROR [stderr] (ajp--0.0.0.0-8009-20) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,168 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.core.DeligateLogin.validateClientLogin(DeligateLogin.java:122)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,169 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:51)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,170 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,171 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,172 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,175 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,175 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,177 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,178 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,179 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,180 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,181 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,182 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,183 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+0) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:13:16,187 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:13:16,188 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:13:16,189 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:13:16,190 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:13:16,191 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:13:16,191 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:13:16,192 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,184 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,187 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,188 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,189 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,190 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,191 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,191 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/16 10:43:16 | 05:13:16,192 ERROR [stderr] (ajp--0.0.0.0-8009-20) 	at java.lang.Thread.run(Thread.java:745)
+05:13:17,559 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+05:13:17,560 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:17 | 05:13:17,559 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2017/04/16 10:43:17 | 05:13:17,560 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:30,249 INFO  [stdout] (ajp--0.0.0.0-8009-4) /clientLogin.jsp
+05:13:30,258 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:30 | 05:13:30,249 INFO  [stdout] (ajp--0.0.0.0-8009-4) /clientLogin.jsp
+INFO   | jvm 1    | 2017/04/16 10:43:30 | 05:13:30,258 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:31,629 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:31,686 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+05:13:31,686 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:31 | 05:13:31,629 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:31 | 05:13:31,686 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/04/16 10:43:31 | 05:13:31,686 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:37,814 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:37 | 05:13:37,814 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+05:13:37,837 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:13:37,838 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 10:43:37 | 05:13:37,837 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/04/16 10:43:37 | 05:13:37,838 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+06:06:43,802 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 50331691
+INFO   | jvm 1    | 2017/04/16 11:36:43 | 06:06:43,802 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 50331691
+14:20:13,246 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+14:20:13,247 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/16 19:50:13 | 14:20:13,246 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/04/16 19:50:13 | 14:20:13,247 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:17:48,261 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+15:17:48,261 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/16 20:47:48 | 15:17:48,261 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:47:48 | 15:17:48,261 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:18:26,801 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+15:18:26,802 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:18:26,805 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+15:18:26,806 INFO  [stdout] (ajp--0.0.0.0-8009-1INFO   | jvm 1    | 2017/04/16 20:48:26 | 15:18:26,801 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+6) DirectoryINFO   | jvm 1    | 2017/04/16 20:48:26 | 15:18:26,802 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+ forINFO   | jvm 1    | 2017/04/16 20:48:26 | 15:18:26,805 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+ resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/16 20:48:26 | 15:18:26,806 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:19:54,948 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/16 20:49:54 | 15:19:54,948 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:19:56,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+15:19:56,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/04/16 20:49:56 | 15:19:56,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:49:56 | 15:19:56,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:26:13,899 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+15:26:13,899 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:13 | 15:26:13,899 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:13 | 15:26:13,899 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+15:26:15,797 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+15:26:15,798 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:15 | 15:26:15,797 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:15 | 15:26:15,798 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+15:26:16,738 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+15:26:16,739 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:16 | 15:26:16,738 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:16 | 15:26:16,739 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+15:26:18,095 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+15:26:18,095 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:18 | 15:26:18,095 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:18 | 15:26:18,095 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+15:26:21,404 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+15:26:21,404 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:21 | 15:26:21,404 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:21 | 15:26:21,404 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+15:26:22,292 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+15:26:22,293 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 20:56:22 | 15:26:22,292 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+INFO   | jvm 1    | 2017/04/16 20:56:22 | 15:26:22,293 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:16:45,607 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 23:46:45 | 18:16:45,607 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:16:46,641 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:16:46,658 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+18:16:46,659 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 23:46:46 | 18:16:46,641 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/16 23:46:46 | 18:16:46,658 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2017/04/16 23:46:46 | 18:16:46,659 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:43:51,379 INFO  [stdout] (ajp--0.0.0.0-8009-23) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,379 INFO  [stdout] (ajp--0.0.0.0-8009-23) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:43:51,396 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,397 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,410 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,410 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,413 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,414 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,416 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,417 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,420 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,420 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,423 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,423 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,425 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,426 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,428 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,428 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,430 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,431 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,433 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,433 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,436 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,436 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,439 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,440 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,442 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,443 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,445 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,446 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,448 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,448 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,450 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,451 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,454 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,454 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,457 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,457 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,459 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,460 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,462 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,462 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,464 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,465 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+18:43:51,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,470 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,470 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,473 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,473 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,475 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,476 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,478 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,478 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,480 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,480 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,482 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+18:43:51,483 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+18:43:51,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 0
+18:43:51,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : Overall he is a very good Manager and very good human being. 
+18:43:51,486 INFO  [stdout] (ajp--0.0.0.0-8009-23) Improvement areas in my point of view is  -  little more micromanaging the team is required, Project Management, resource allocation / team management skill should be improved.
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,396 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,397 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,410 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,410 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,413 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,414 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,416 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,417 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,420 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,420 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,423 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,423 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,425 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,426 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,428 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,428 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,430 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,431 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,433 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,433 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,436 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,436 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,439 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,440 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,442 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,443 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,445 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,446 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,448 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,448 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,450 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,451 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,454 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,454 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,457 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,457 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,459 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,460 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,462 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,462 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,464 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,465 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 4
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,467 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,470 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,470 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,473 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,473 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,475 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,476 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,478 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,478 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,480 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,480 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,482 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 5
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,483 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : null
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 0
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,485 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : Overall he is a very good Manager and very good human being. 
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,486 INFO  [stdout] (ajp--0.0.0.0-8009-23) Improvement areas in my point of view is  -  little more micromanaging the team is required, Project Management, resource allocation / team management skill should be improved.
+18:43:51,489 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 0
+18:43:51,494 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : need to stop being negative about the job security and market situation.
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,489 INFO  [stdout] (ajp--0.0.0.0-8009-23) Rate : 0
+INFO   | jvm 1    | 2017/04/17 00:13:51 | 18:43:51,494 INFO  [stdout] (ajp--0.0.0.0-8009-23) Subjective : need to stop being negative about the job security and market situation.
+18:43:52,452 INFO  [stdout] (ajp--0.0.0.0-8009-23) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:13:52 | 18:43:52,452 INFO  [stdout] (ajp--0.0.0.0-8009-23) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:43:54,210 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+18:43:54,210 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/17 00:13:54 | 18:43:54,210 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2017/04/17 00:13:54 | 18:43:54,210 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:45:00,001 INFO  [stdout] (mailScheduler-20) Mail Triggered at Mon Apr 17 00:15:00 IST 2017
+18:45:00,001 INFO  [stdout] (mailScheduler-39) Mail Triggered at Mon Apr 17 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,001 INFO  [stdout] (mailScheduler-20) Mail Triggered at Mon Apr 17 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,001 INFO  [stdout] (mailScheduler-39) Mail Triggered at Mon Apr 17 00:15:00 IST 2017
+18:45:00,099 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,099 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,099 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,099 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,605 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,607 INFO  [stdout] (mailScheduler-39) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:00 IST 2017
+18:45:00,609 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,610 INFO  [stdout] (mailScheduler-20) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:00 IST 2017
+18:45:00,623 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,625 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLINFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,605 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+OSE (the defaINFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,607 INFO  [stdout] (mailScheduler-39) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:00 IST 2017
+ult) and to INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,609 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+run against INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,610 INFO  [stdout] (mailScheduler-20) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:00 IST 2017
+HiberINFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,623 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+nate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:00 | 18:45:00,625 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,053 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,054 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+18:45:01,070 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,079 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,081 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+18:45:01,098 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,053 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,054 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,070 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,079 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,081 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,098 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,750 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,751 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+18:45:01,753 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,755 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+18:45:01,770 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,774 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,750 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,751 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,753 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,755 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,770 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-39) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 00:15:01 | 18:45:01,774 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-20) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:02,315 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:02,316 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:02 IST 2017
+18:45:02,318 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-20) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+	at sun.reflect.GeneratedMethodAccessor625.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,315 INFO  [stdout] (mailScheduler-20) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,316 INFO  [stdout] (mailScheduler-20) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:02 IST 2017
+18:45:02,416 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:02,417 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:02 IST 2017
+18:45:02,435 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-39) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIINFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,318 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-20) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+teratorINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+.tryToComputINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+eNext(AbstraINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+ctIterator.jaINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+va:143) [guavINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+a-18.0.jar:]
+	at cINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+om.google.cINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+ommon.cINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+ollect.AbINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at sun.reflect.GeneratedMethodAccessor625.invoke(Unknown Source) [:1.7.0_60]
+stractIterINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+ator.hasNexINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+t(AbstractINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+Iterator.javINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+a:138) [guava-18.0.jar:]
+	at com.ttn.surveINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+y.commons.INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+mail.scheduler.MailJobScheduler.neINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+wHireReminderMail(INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+MailJobSchedINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+uler.java:1INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+15) [classeINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+s:]
+	at coINFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+m.ttn.INFO   | jvm 1    | 2017/04/17 00:15:02 | 
+survey.comINFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,416 INFO  [stdout] (mailScheduler-39) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+monsINFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,417 INFO  [stdout] (mailScheduler-39) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 00:15:02 IST 2017
+.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+	at sun.reflect.GeneratedMethodAccessor625.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 18:45:02,435 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-39) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:66) [classes:]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at sun.reflect.GeneratedMethodAccessor625.invoke(Unknown Source) [:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 00:15:02 | 
+19:30:00,000 INFO  [stdout] (mailScheduler-10) Mail Triggered at Mon Apr 17 01:00:00 IST 2017
+19:30:00,011 INFO  [stdout] (mailScheduler-40) Mail Triggered at Mon Apr 17 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-10) Mail Triggered at Mon Apr 17 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:00 | 19:30:00,011 INFO  [stdout] (mailScheduler-40) Mail Triggered at Mon Apr 17 01:00:00 IST 2017
+19:30:00,195 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:00,196 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:00 | 19:30:00,195 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:00 | 19:30:00,196 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:05,537 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,538 INFO  [stdout] (mailScheduler-10) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,543 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,544 INFO  [stdout] (mailScheduler-40) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,562 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:05,563 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,537 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,538 INFO  [stdout] (mailScheduler-10) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,543 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,544 INFO  [stdout] (mailScheduler-40) Email with subject Participation Invite for Talent Inventory Process FY'16: Finding Your Career Anchor sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,562 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,563 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:05,752 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,753 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,763 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,765 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,774 WARN  [org.springframework.orm.jpa.vendor.INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,752 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,753 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,763 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,765 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:05,778 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,774 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,778 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:05,967 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,973 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,967 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:05 | 19:30:05,973 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,985 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:05,986 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+19:30:05,993 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:06,002 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:05,985 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:05,986 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:05 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:05,993 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,002 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-40) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:06,201 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:06,214 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:06 IST 2017
+19:30:06,216 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-40) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+	at sun.reflect.GeneratedMethodAccessor627.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+19:30:06,220 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:30:06,236 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:06 IST 2017
+19:30:06,238 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-10) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+	at sun.reflect.GeneratedMethodAccessor627.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,201 INFO  [stdout] (mailScheduler-40) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,214 INFO  [stdout] (mailScheduler-40) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:06 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,220 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,236 INFO  [stdout] (mailScheduler-10) Email with subject Important: New Employee Survey - Your Access details sent to anjul.pratyush@thinktalentindia.comat Mon Apr 17 01:00:06 IST 2017
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,216 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-40) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at sun.reflect.GeneratedMethodAccessor627.invoke(Unknown Source) [:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 19:30:06,238 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-10) Unexpected error occurred in scheduled task.: java.lang.NumberFormatException: For input string: ""
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Integer.parseInt(Integer.java:527) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:104) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler$1.apply(MailJobScheduler.java:1) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.Iterators$7.computeNext(Iterators.java:652) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:143) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:138) [guava-18.0.jar:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:115) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:82) [classes:]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at sun.reflect.GeneratedMethodAccessor627.invoke(Unknown Source) [:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2017/04/17 01:00:06 | 
+19:36:32,128 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/17 01:06:32 | 19:36:32,128 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:36:50,513 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:36:50,516 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.fs360.exception.InvalidLoginException: invalid respondent
+19:36:50,517 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+19:36:50,517 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+19:36:50,518 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+19:36:50,519 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+19:36:50,520 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+19:36:50,521 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+19:36:50,522 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+19:36:50,523 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+19:36:50,524 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+19:36:50,525 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+19:36:50,526 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+19:36:50,527 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+19:36:50,528 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+19:36:50,529 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+19:36:50,530 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+19:36:50,531 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+19:36:50,532 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+19:36:50,533 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+19:36:50,534 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,513 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,516 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,517 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,517 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,518 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,519 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,520 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,521 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,522 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,523 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,524 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,525 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,526 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,527 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,528 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,529 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,530 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,531 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,532 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,533 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/04/17 01:06:50 | 19:36:50,534 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,220 @@
+04:53:51,521 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+04:53:51,523 INFO  [stdout] (ajp--0.0.0.0-8009-11) 4
+04:53:51,523 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+04:53:51,525 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+04:53:51,525 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+04:53:51,537 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,521 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,523 INFO  [stdout] (ajp--0.0.0.0-8009-11) 4
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,523 INFO  [stdout] (ajp--0.0.0.0-8009-11) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,525 INFO  [stdout] (ajp--0.0.0.0-8009-11) Error while closing
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,525 INFO  [stdout] (ajp--0.0.0.0-8009-11) Remove connection from pool
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,537 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+04:53:51,544 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+04:53:51,546 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:255)
+04:53:51,547 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:68)
+04:53:51,549 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:74)
+04:53:51,550 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:131)
+04:53:51,552 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+04:53:51,553 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+04:53:51,555 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+04:53:51,556 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:53:51,558 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+04:53:51,560 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+04:53:51,562 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:53:51,564 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+04:53:51,566 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+04:53:51,568 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+04:53:51,570 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+04:53:51,572 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+04:53:51,573 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+04:53:51,575 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+04:53:51,576 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+04:53:51,578 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+04:53:51,579 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+04:53:51,581 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,544 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,546 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:255)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,547 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:68)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,549 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:74)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,550 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:131)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,552 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,553 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,555 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,556 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,558 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:96)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,560 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,562 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,564 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,566 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,568 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,570 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,572 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,573 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,575 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,576 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,578 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,579 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2015/02/28 10:23:51 | 04:53:51,581 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.Thread.run(Thread.java:745)
+04:53:51,985 INFO  [stdout] (Finalizer) Connection Count 1
+04:53:51,986 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/02/28 10:23:52 | 04:53:51,985 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/02/28 10:23:52 | 04:53:51,986 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:00:00,002 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) 35
+17:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 4
+17:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) connection is idle true connection release count 2
+17:00:00,004 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) connection is idle true connection release count 2
+17:00:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Error while closing
+17:00:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Remove connection from pool
+17:00:00,008 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Error while closing
+17:00:00,009 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Remove connection from pool
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,002 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) 35
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 4
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,004 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Error while closing
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Remove connection from pool
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,008 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Error while closing
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,009 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Remove connection from pool
+17:00:00,021 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) New connection added in pool
+17:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) New connection added in pool
+17:00:00,023 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) schedule on check at Sat Feb 28 17:00:00 UTC 2015
+17:00:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) schedule on check at Sat Feb 28 17:00:00 UTC 2015
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,021 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,022 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) New connection added in pool
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,023 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) schedule on check at Sat Feb 28 17:00:00 UTC 2015
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) schedule on check at Sat Feb 28 17:00:00 UTC 2015
+17:00:00,643 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:00,644 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) 
+17:00:00,661 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:00,664 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-8) line 1:37: expecting "set", found 'where'
+17:00:00,665 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-8) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,643 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,644 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,661 INFO  [stdout] (DefaultQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,664 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-8) line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 17:00:00,665 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] (DefaultQuartzScheduler_Worker-8) line 1:37: expecting "set", found 'where': line 1:37: expecting "set", found 'where'
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at antlr.Parser.match(Parser.java:211) [antlr-2.7.7.jar:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.setClause(HqlBaseParser.java:414) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.updateStatement(HqlBaseParser.java:216) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:140) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at com.assess.mail.scheduler.AutoReminderMail.updateEmailSentTime(AutoReminderMail.java:111) [classes:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at com.assess.mail.scheduler.AutoReminderMail.sendInvitationReminderMail(AutoReminderMail.java:102) [classes:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at com.assess.mail.scheduler.MailJob.execute(MailJob.java:56) [classes:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.2.1.jar:]
+INFO   | jvm 1    | 2015/02/28 22:30:00 | 
+17:00:01,455 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:01,456 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:01,476 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,455 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,456 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,476 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:01,827 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great succeINFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,827 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+ss
+17:00:01,827 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:01,843 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,827 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:01 | 17:00:01,843 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:02,473 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:02,474 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:02,492 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:02 | 17:00:02,473 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:02 | 17:00:02,474 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:02 | 17:00:02,492 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:03,043 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:03,044 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:03,061 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,043 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,044 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,061 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:03,736 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:03,737 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:03,756 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,736 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,737 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:03 | 17:00:03,756 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:04,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:04,017 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,017 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:04,035 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,035 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:04,362 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:04,364 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:04,380 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,362 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,364 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,380 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:04,698 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:04,698 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:04,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,698 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,698 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:04 | 17:00:04,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:05,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:05,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,023 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,024 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:05,040 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,040 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:05,375 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:05,377 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:05,393 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,375 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,377 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,393 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:05,715 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:05,716 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:05,733 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,715 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,716 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:05 | 17:00:05,733 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:06,116 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:06,117 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,116 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,117 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:06,182 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,182 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:06,558 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:06,559 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:06,576 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,558 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,559 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,576 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+17:00:06,895 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+17:00:06,895 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+17:00:06,911 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,895 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) Response: 250 Great success
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,895 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) 
+INFO   | jvm 1    | 2015/02/28 22:30:06 | 17:00:06,911 INFO  [stdout] (360_MailQuartzScheduler_Worker-8) mail sent successfully... 
+23:28:36,598 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-14) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/03/01 04:58:36 | 23:28:36,598 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-14) Invalid message received with signature 18245

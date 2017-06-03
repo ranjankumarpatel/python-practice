@@ -1,0 +1,26 @@
+09:41:38,275 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+09:41:38,277 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+09:41:38,278 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514898275exp date1410514868197expirydate<curdatetrue
+09:41:38,279 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+09:41:38,281 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+09:41:38,282 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514898279exp date1410514858107expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,275 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,277 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,278 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514898275exp date1410514868197expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,279 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,281 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/12 09:41:38 | 09:41:38,282 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514898279exp date1410514858107expirydate<curdatetrue
+09:42:38,285 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+09:42:38,286 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+09:42:38,287 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514958285exp date1410514900414expirydate<curdatetrue
+09:42:38,288 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+09:42:38,289 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+09:42:38,289 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514958288exp date1410514906759expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,285 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,286 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,287 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514958285exp date1410514900414expirydate<curdatetrue
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,288 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) sessionDestroyed
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,289 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) {}
+INFO   | jvm 1    | 2014/09/12 09:42:38 | 09:42:38,289 INFO  [stdout] (ContainerBackgroundProcessor[StandardEngine[jboss.web]]) cur date1410514958288exp date1410514906759expirydate<curdatetrue
+20:42:29,714 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2014/09/12 20:42:29 | 20:42:29,714 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

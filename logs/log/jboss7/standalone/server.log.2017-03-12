@@ -1,0 +1,1278 @@
+04:17:25,084 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+04:17:25,103 ERROR [stderr] (ajp--0.0.0.0-8009-17) com.fs360.exception.InvalidLoginException: invalid respondent
+04:17:25,104 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+04:17:25,105 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+04:17:25,106 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+04:17:25,106 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+04:17:25,107 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:17:25,108 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+04:17:25,109 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+04:17:25,110 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+04:17:25,111 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+04:17:25,112 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+04:17:25,113 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+04:17:25,114 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+04:17:25,115 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+04:17:25,115 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+04:17:25,116 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+04:17:25,117 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+04:17:25,118 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+04:17:25,118 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+04:17:25,119 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at java.lang.Thread.run(Thread.java:745)
+04:17:25,123 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+04:17:25,124 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,084 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,103 ERROR [stderr] (ajp--0.0.0.0-8009-17) com.fs360.exception.InvalidLoginException: invalid respondent
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,104 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.fs360.respondent.RespondentSurveyServlet.doGet(RespondentSurveyServlet.java:95)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,105 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,106 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,106 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,107 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,108 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,109 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,110 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,111 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,112 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,113 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,114 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,115 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,115 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,116 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,117 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,118 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,118 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,119 ERROR [stderr] (ajp--0.0.0.0-8009-17) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,123 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/12 09:47:25 | 04:17:25,124 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+04:17:41,416 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+04:17:41,418 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 09:47:41 | 04:17:41,416 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/03/12 09:47:41 | 04:17:41,418 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+06:28:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+06:28:08,607 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:58:08 | 06:28:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:58:08 | 06:28:08,607 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:28:42,236 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+06:28:42,236 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:28:42,240 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+06:28:42,241 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:58:42 | 06:28:42,236 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:58:42 | 06:28:42,236 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:58:42 | 06:28:42,240 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:58:42 | 06:28:42,241 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:29:03,279 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+06:29:03,280 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:29:03,284 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+06:29:03,284 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:59:03 | 06:29:03,279 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:59:03 | 06:29:03,280 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:59:03 | 06:29:03,284 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:59:03 | 06:29:03,284 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:29:42,548 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+06:29:42,548 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 11:59:42 | 06:29:42,548 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+INFO   | jvm 1    | 2017/03/12 11:59:42 | 06:29:42,548 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:29:49,282 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2017/03/12 11:59:49 | 06:29:49,282 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+06:30:49,598 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:00:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:00:49 | 06:30:49,598 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:00:49 IST 2017
+06:31:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:01:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:01:49 | 06:31:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:01:49 IST 2017
+06:32:49,373 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:02:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:02:49 | 06:32:49,373 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:02:49 IST 2017
+06:33:49,661 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:03:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:03:49 | 06:33:49,661 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:03:49 IST 2017
+06:34:49,422 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:04:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:04:49 | 06:34:49,422 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:04:49 IST 2017
+06:35:49,421 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:05:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:05:49 | 06:35:49,421 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:05:49 IST 2017
+06:36:49,410 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:06:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:06:49 | 06:36:49,410 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:06:49 IST 2017
+06:37:49,391 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:07:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:07:49 | 06:37:49,391 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:07:49 IST 2017
+06:38:50,716 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:08:50 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:08:50 | 06:38:50,716 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:08:50 IST 2017
+06:39:49,411 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:09:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:09:49 | 06:39:49,411 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:09:49 IST 2017
+06:40:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:10:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:10:49 | 06:40:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:10:49 IST 2017
+06:41:49,397 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:11:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:11:49 | 06:41:49,397 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:11:49 IST 2017
+06:42:49,402 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:12:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:12:49 | 06:42:49,402 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:12:49 IST 2017
+06:43:49,492 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:13:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:13:49 | 06:43:49,492 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:13:49 IST 2017
+06:44:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:14:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:14:49 | 06:44:49,717 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:14:49 IST 2017
+06:45:49,412 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:15:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:15:49 | 06:45:49,412 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:15:49 IST 2017
+06:46:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:16:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:16:49 | 06:46:49,408 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:16:49 IST 2017
+06:47:49,468 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:17:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:17:49 | 06:47:49,468 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:17:49 IST 2017
+06:48:49,418 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:18:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:18:49 | 06:48:49,418 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:18:49 IST 2017
+06:49:49,415 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:19:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:19:49 | 06:49:49,415 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:19:49 IST 2017
+06:50:50,033 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:20:50 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:20:50 | 06:50:50,033 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:20:50 IST 2017
+06:51:49,414 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:21:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:21:49 | 06:51:49,414 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:21:49 IST 2017
+06:52:49,469 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:22:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:22:49 | 06:52:49,469 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:22:49 IST 2017
+06:53:49,428 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:23:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:23:49 | 06:53:49,428 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:23:49 IST 2017
+06:54:49,462 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:24:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:24:49 | 06:54:49,462 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 12:24:49 IST 2017
+06:55:49,456 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:25:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:25:49 | 06:55:49,456 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 12:25:49 IST 2017
+06:56:49,773 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:26:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:26:49 | 06:56:49,773 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 12:26:49 IST 2017
+06:57:49,433 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:27:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:27:49 | 06:57:49,433 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:27:49 IST 2017
+06:58:49,440 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:28:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:28:49 | 06:58:49,440 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:28:49 IST 2017
+06:59:49,477 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:29:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:29:49 | 06:59:49,477 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 12:29:49 IST 2017
+07:00:49,447 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:30:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:30:49 | 07:00:49,447 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:30:49 IST 2017
+07:01:49,444 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:31:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:31:49 | 07:01:49,444 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:31:49 IST 2017
+07:02:49,790 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:32:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:32:49 | 07:02:49,790 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:32:49 IST 2017
+07:03:49,444 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:33:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:33:49 | 07:03:49,444 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 12:33:49 IST 2017
+07:04:49,473 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:34:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:34:49 | 07:04:49,473 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 12:34:49 IST 2017
+07:05:49,501 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:35:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:35:49 | 07:05:49,501 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:35:49 IST 2017
+07:06:49,441 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:36:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:36:49 | 07:06:49,441 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:36:49 IST 2017
+07:07:49,457 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:37:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:37:49 | 07:07:49,457 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:37:49 IST 2017
+07:08:49,747 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:38:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:38:49 | 07:08:49,747 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:38:49 IST 2017
+07:09:49,454 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:39:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:39:49 | 07:09:49,454 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:39:49 IST 2017
+07:10:49,750 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:40:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:40:49 | 07:10:49,750 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:40:49 IST 2017
+07:11:49,727 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:41:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:41:49 | 07:11:49,727 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:41:49 IST 2017
+07:12:49,739 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:42:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:42:49 | 07:12:49,739 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 12:42:49 IST 2017
+07:13:49,800 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:43:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:43:49 | 07:13:49,800 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:43:49 IST 2017
+07:14:49,764 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:44:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:44:49 | 07:14:49,764 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:44:49 IST 2017
+07:15:49,761 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:45:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:45:49 | 07:15:49,761 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:45:49 IST 2017
+07:16:49,760 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:46:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:46:49 | 07:16:49,760 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:46:49 IST 2017
+07:17:49,749 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:47:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:47:49 | 07:17:49,749 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:47:49 IST 2017
+07:18:49,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:48:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:48:49 | 07:18:49,741 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:48:49 IST 2017
+07:19:49,842 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:49:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:49:49 | 07:19:49,842 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:49:49 IST 2017
+07:20:49,836 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:50:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:50:49 | 07:20:49,836 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 12:50:49 IST 2017
+07:21:49,801 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:51:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:51:49 | 07:21:49,801 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 12:51:49 IST 2017
+07:22:50,073 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:52:50 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:52:50 | 07:22:50,073 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 12:52:50 IST 2017
+07:23:49,795 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:53:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:53:49 | 07:23:49,795 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 12:53:49 IST 2017
+07:24:49,803 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:54:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:54:49 | 07:24:49,803 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 12:54:49 IST 2017
+07:25:49,802 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:55:49 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:55:49 | 07:25:49,802 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 12:55:49 IST 2017
+07:26:50,096 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:56:50 IST 2017
+INFO   | jvm 1    | 2017/03/12 12:56:50 | 07:26:50,096 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 12:56:50 IST 2017
+07:27:46,358 ERROR [stderr] (ajp--0.0.0.0-8009-19) testDuration :3600
+07:27:46,358 ERROR [stderr] (ajp--0.0.0.0-8009-19) totalQuesTime :3476
+INFO   | jvm 1    | 2017/03/12 12:57:46 | 07:27:46,358 ERROR [stderr] (ajp--0.0.0.0-8009-19) testDuration :3600
+INFO   | jvm 1    | 2017/03/12 12:57:46 | 07:27:46,358 ERROR [stderr] (ajp--0.0.0.0-8009-19) totalQuesTime :3476
+07:27:47,938 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+07:27:47,938 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 12:57:47 | 07:27:47,938 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2017/03/12 12:57:47 | 07:27:47,938 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+09:33:07,185 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+09:33:07,186 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:03:07 | 09:33:07,185 INFO  [stdout] (ajp--0.0.0.0-8009-8) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:03:07 | 09:33:07,186 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+09:33:51,845 INFO  [stdout] (ajp--0.0.0.0-8009-16) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,845 INFO  [stdout] (ajp--0.0.0.0-8009-16) /respondentLogin.jsp
+09:33:51,858 ERROR [stderr] (ajp--0.0.0.0-8009-16) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+09:33:51,861 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+09:33:51,862 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+09:33:51,863 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+09:33:51,864 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+09:33:51,865 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+09:33:51,866 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:33:51,866 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+09:33:51,867 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:33:51,868 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+09:33:51,869 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:33:51,870 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:33:51,871 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:33:51,872 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:33:51,873 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:33:51,874 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:33:51,874 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:33:51,875 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:33:51,876 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:33:51,877 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:33:51,878 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:33:51,879 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:33:51,879 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,858 ERROR [stderr] (ajp--0.0.0.0-8009-16) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,861 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,862 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,863 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,864 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,865 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,866 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,866 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,867 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,868 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,869 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,870 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,871 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,872 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,873 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,874 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,874 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,875 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,876 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,877 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,878 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,879 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/12 15:03:51 | 09:33:51,879 ERROR [stderr] (ajp--0.0.0.0-8009-16) 	at java.lang.Thread.run(Thread.java:745)
+09:33:53,386 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+09:33:53,387 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:03:53 | 09:33:53,386 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:03:53 | 09:33:53,387 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+09:34:40,133 INFO  [stdout] (ajp--0.0.0.0-8009-8) /respondentLogin.jsp
+09:34:40,139 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+09:34:40,140 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+09:34:40,141 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+09:34:40,142 ERROR [stderr] (ajp--0.0.0.0-8009-8INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,133 INFO  [stdout] (ajp--0.0.0.0-8009-8) /respondentLogin.jsp
+) 	at com.fs360.logiINFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,139 ERROR [stderr] (ajp--0.0.0.0-8009-8) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+n.LoginActionINFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,140 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,141 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,142 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+Servlet.doGet(LoginActionServlet.java:77)
+09:34:40,146 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+09:34:40,154 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+09:34:40,156 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:34:40,159 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+09:34:40,177 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:34:40,179 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+09:34:40,180 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:34:40,181 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:34:40,182 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:34:40,182 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:34:40,183 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:34:40,184 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:34:40,185 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:34:40,186 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:34:40,187 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:34:40,188 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:34:40,189 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:34:40,189 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:34:40,190 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,146 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,154 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,156 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,159 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,177 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,179 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,180 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,181 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,182 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,182 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,183 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,184 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,185 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,186 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,187 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,188 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,189 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,189 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/12 15:04:40 | 09:34:40,190 ERROR [stderr] (ajp--0.0.0.0-8009-8) 	at java.lang.Thread.run(Thread.java:745)
+09:34:41,827 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+09:34:41,828 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:04:41 | 09:34:41,827 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:04:41 | 09:34:41,828 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+09:35:36,111 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+09:35:36,115 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+09:35:36,116 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+09:35:36,117 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+09:35:36,118 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+09:35:36,119 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+09:35:36,120 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+09:35:36,120 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:35:36,121 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+09:35:36,122 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:35:36,123 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+09:35:36,124 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:35:36,125 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:35:36,126 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:35:36,127 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:35:36,128 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:35:36,129 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:35:36,130 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:35:36,131 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:35:36,131 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:35:36,132 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:35:36,133 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:35:36,134 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:35:36,136 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,111 INFO  [stdout] (ajp--0.0.0.0-8009-11) /respondentLogin.jsp
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,115 ERROR [stderr] (ajp--0.0.0.0-8009-11) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,116 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,117 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,118 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,119 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,120 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,120 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,121 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,122 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,123 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,124 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,125 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,126 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,127 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,128 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,129 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,130 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,131 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,131 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,132 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,133 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,134 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/12 15:05:36 | 09:35:36,136 ERROR [stderr] (ajp--0.0.0.0-8009-11) 	at java.lang.Thread.run(Thread.java:745)
+09:35:37,668 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+09:35:37,669 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:05:37 | 09:35:37,668 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:05:37 | 09:35:37,669 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+09:37:44,645 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+09:37:44,645 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:07:44 | 09:37:44,645 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:07:44 | 09:37:44,645 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+09:38:22,759 INFO  [stdout] (ajp--0.0.0.0-8009-6) /respondentLogin.jsp
+09:38:22,764 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+09:38:22,766 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+09:38:22,767 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+09:38:22,768 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+09:38:22,769 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+09:38:22,771 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+09:38:22,772 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+09:38:22,772 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilteINFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,759 INFO  [stdout] (ajp--0.0.0.0-8009-6) /respondentLogin.jsp
+rChain.java:329INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,764 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.fs360.exception.InvalidLoginException: User Name or Password does not match
+)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,766 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.core.DeligateLogin.validateRespondentLogin(DeligateLogin.java:252)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,767 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.core.DeligateLogin.validateLogin(DeligateLogin.java:55)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,768 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.LoginActionServlet.doGet(LoginActionServlet.java:77)
+09:38:22,7INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,769 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.fs360.login.LoginActionServlet.doPost(LoginActionServlet.java:133)
+74 ERROR [stdINFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,771 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+err] (ajp--0.0INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,772 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+.0.0-8009-6) INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,772 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+	at oINFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,774 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+rg.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:38:22,777 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+09:38:22,778 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+09:38:22,779 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+09:38:22,780 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+09:38:22,785 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+09:38:22,787 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+09:38:22,788 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+09:38:22,789 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+09:38:22,790 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+09:38:22,790 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+09:38:22,791 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+09:38:22,792 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+09:38:22,793 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+09:38:22,794 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,777 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:97)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,778 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,779 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,780 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,785 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,787 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,788 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,789 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,790 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,790 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,791 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,792 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,793 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2017/03/12 15:08:22 | 09:38:22,794 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+09:38:24,337 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+09:38:24,337 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 15:08:24 | 09:38:24,337 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/03/12 15:08:24 | 09:38:24,337 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+10:58:30,520 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+10:58:30,520 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:28:30 | 10:58:30,520 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:28:30 | 10:58:30,520 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+10:59:33,484 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+10:59:33,484 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+10:59:33,488 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+10:59:33,489 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:29:33 | 10:59:33,484 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:29:33 | 10:59:33,484 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:29:33 | 10:59:33,488 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:29:33 | 10:59:33,489 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+11:04:00,121 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+11:04:00,122 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+11:04:00,126 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+11:04:00,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:34:00 | 11:04:00,121 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:34:00 | 11:04:00,122 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:34:00 | 11:04:00,126 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:34:00 | 11:04:00,127 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+11:04:16,243 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+11:04:16,244 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 16:34:16 | 11:04:16,243 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+INFO   | jvm 1    | 2017/03/12 16:34:16 | 11:04:16,244 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+11:04:24,329 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2017/03/12 16:34:24 | 11:04:24,329 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+11:05:24,912 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:35:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:35:24 | 11:05:24,912 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:35:24 IST 2017
+11:06:25,062 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 16:36:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:36:25 | 11:06:25,062 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 16:36:25 IST 2017
+11:07:25,893 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 16:37:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:37:25 | 11:07:25,893 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 16:37:25 IST 2017
+11:08:24,525 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 16:38:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:38:24 | 11:08:24,525 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 16:38:24 IST 2017
+11:09:25,545 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 16:39:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:39:25 | 11:09:25,545 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 16:39:25 IST 2017
+11:10:25,743 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 16:40:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:40:25 | 11:10:25,743 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 16:40:25 IST 2017
+11:11:24,592 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 16:41:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:41:24 | 11:11:24,592 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 16:41:24 IST 2017
+11:12:25,445 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 16:42:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:42:25 | 11:12:25,445 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 16:42:25 IST 2017
+11:13:25,788 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 16:43:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:43:25 | 11:13:25,788 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 16:43:25 IST 2017
+11:14:24,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 16:44:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:44:24 | 11:14:24,918 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 16:44:24 IST 2017
+11:15:26,342 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 16:45:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:45:26 | 11:15:26,342 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 16:45:26 IST 2017
+11:16:24,906 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 16:46:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:46:24 | 11:16:24,906 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 16:46:24 IST 2017
+11:17:24,682 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 16:47:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:47:24 | 11:17:24,682 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 16:47:24 IST 2017
+11:18:25,887 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:48:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:48:25 | 11:18:25,887 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:48:25 IST 2017
+11:19:25,826 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 16:49:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:49:25 | 11:19:25,826 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 16:49:25 IST 2017
+11:20:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 16:50:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:50:26 | 11:20:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 16:50:26 IST 2017
+11:21:24,527 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 16:51:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:51:24 | 11:21:24,527 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 16:51:24 IST 2017
+11:22:24,604 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 16:52:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:52:24 | 11:22:24,604 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 16:52:24 IST 2017
+11:23:24,551 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 16:53:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:53:24 | 11:23:24,551 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 16:53:24 IST 2017
+11:24:25,592 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 16:54:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:54:25 | 11:24:25,592 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 16:54:25 IST 2017
+11:25:24,817 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:55:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:55:24 | 11:25:24,817 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 16:55:24 IST 2017
+11:26:25,449 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 16:56:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:56:25 | 11:26:25,449 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 16:56:25 IST 2017
+11:27:25,534 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 16:57:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:57:25 | 11:27:25,534 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 16:57:25 IST 2017
+11:28:26,158 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 16:58:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:58:26 | 11:28:26,158 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 16:58:26 IST 2017
+11:29:26,319 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 16:59:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 16:59:26 | 11:29:26,319 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 16:59:26 IST 2017
+11:30:25,834 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:00:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:00:25 | 11:30:25,834 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:00:25 IST 2017
+11:31:26,323 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 17:01:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:01:26 | 11:31:26,323 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 17:01:26 IST 2017
+11:32:24,671 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 17:02:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:02:24 | 11:32:24,671 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 17:02:24 IST 2017
+11:33:26,107 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 17:03:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:03:26 | 11:33:26,107 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 17:03:26 IST 2017
+11:34:25,717 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:04:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:04:25 | 11:34:25,717 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:04:25 IST 2017
+11:35:24,522 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:05:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:05:24 | 11:35:24,522 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:05:24 IST 2017
+11:36:24,652 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:06:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:06:24 | 11:36:24,652 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:06:24 IST 2017
+11:37:25,093 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:07:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:07:25 | 11:37:25,093 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:07:25 IST 2017
+11:38:24,625 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 17:08:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:08:24 | 11:38:24,625 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Mar 12 17:08:24 IST 2017
+11:39:25,063 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 17:09:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:09:25 | 11:39:25,063 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Mar 12 17:09:25 IST 2017
+11:40:24,697 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 17:10:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:10:24 | 11:40:24,697 INFO  [stdout] (ajp--0.0.0.0-8009-7) Data backup at Sun Mar 12 17:10:24 IST 2017
+11:41:24,594 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:11:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:11:24 | 11:41:24,594 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:11:24 IST 2017
+11:42:25,280 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:12:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:12:25 | 11:42:25,280 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:12:25 IST 2017
+11:43:25,280 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:13:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:13:25 | 11:43:25,280 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:13:25 IST 2017
+11:44:24,714 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:14:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:14:24 | 11:44:24,714 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:14:24 IST 2017
+11:45:24,578 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:15:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:15:24 | 11:45:24,578 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:15:24 IST 2017
+11:46:25,941 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 17:16:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:16:26 | 11:46:25,941 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 17:16:25 IST 2017
+11:47:24,600 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 17:17:24 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:17:24 | 11:47:24,600 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 17:17:24 IST 2017
+11:48:25,211 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 17:18:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:18:25 | 11:48:25,211 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 17:18:25 IST 2017
+11:49:25,170 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:19:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:19:25 | 11:49:25,170 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:19:25 IST 2017
+11:50:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:20:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:20:26 | 11:50:26,906 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:20:26 IST 2017
+11:51:26,747 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:21:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:21:26 | 11:51:26,747 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:21:26 IST 2017
+11:52:25,143 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:22:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:22:25 | 11:52:25,143 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:22:25 IST 2017
+11:53:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 17:23:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:23:26 | 11:53:26,185 INFO  [stdout] (ajp--0.0.0.0-8009-14) Data backup at Sun Mar 12 17:23:26 IST 2017
+11:54:28,935 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 17:24:28 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:24:28 | 11:54:28,935 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Mar 12 17:24:28 IST 2017
+11:55:25,797 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 17:25:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:25:25 | 11:55:25,797 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Mar 12 17:25:25 IST 2017
+11:56:26,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:26:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:26:26 | 11:56:26,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Data backup at Sun Mar 12 17:26:26 IST 2017
+11:57:26,013 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:27:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:27:26 | 11:57:26,013 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Mar 12 17:27:26 IST 2017
+11:58:26,621 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:28:26 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:28:26 | 11:58:26,621 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Mar 12 17:28:26 IST 2017
+11:59:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:29:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:29:25 | 11:59:25,204 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Mar 12 17:29:25 IST 2017
+12:00:25,184 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:30:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:30:25 | 12:00:25,184 INFO  [stdout] (ajp--0.0.0.0-8009-16) Data backup at Sun Mar 12 17:30:25 IST 2017
+12:01:25,611 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:31:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:31:25 | 12:01:25,611 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Mar 12 17:31:25 IST 2017
+12:02:25,207 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 17:32:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:32:25 | 12:02:25,207 INFO  [stdout] (ajp--0.0.0.0-8009-20) Data backup at Sun Mar 12 17:32:25 IST 2017
+12:03:25,420 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:33:25 IST 2017
+INFO   | jvm 1    | 2017/03/12 17:33:25 | 12:03:25,420 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Sun Mar 12 17:33:25 IST 2017
+12:04:04,850 ERROR [stderr] (ajp--0.0.0.0-8009-21) testDuration :3600
+12:04:04,851 ERROR [stderr] (ajp--0.0.0.0-8009-21) totalQuesTime :3578
+INFO   | jvm 1    | 2017/03/12 17:34:04 | 12:04:04,850 ERROR [stderr] (ajp--0.0.0.0-8009-21) testDuration :3600
+INFO   | jvm 1    | 2017/03/12 17:34:04 | 12:04:04,851 ERROR [stderr] (ajp--0.0.0.0-8009-21) totalQuesTime :3578
+12:04:07,012 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+12:04:07,013 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:34:07 | 12:04:07,012 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/12 17:34:07 | 12:04:07,013 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+12:04:47,608 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+12:04:47,609 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:34:47 | 12:04:47,608 INFO  [stdout] (ajp--0.0.0.0-8009-14) English (United States)
+INFO   | jvm 1    | 2017/03/12 17:34:47 | 12:04:47,609 INFO  [stdout] (ajp--0.0.0.0-8009-14) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+12:05:09,589 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+12:05:09,590 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+12:05:09,593 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+12:05:09,593 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:35:09 | 12:05:09,589 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+INFO   | jvm 1    | 2017/03/12 17:35:09 | 12:05:09,590 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:35:09 | 12:05:09,593 INFO  [stdout] (ajp--0.0.0.0-8009-19) English (United States)
+INFO   | jvm 1    | 2017/03/12 17:35:09 | 12:05:09,593 INFO  [stdout] (ajp--0.0.0.0-8009-19) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+12:06:26,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:36:26 | 12:06:26,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+12:06:28,712 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+12:06:28,713 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2017/03/12 17:36:28 | 12:06:28,712 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/12 17:36:28 | 12:06:28,713 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:13:18,997 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 19:43:19 | 14:13:18,997 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+14:13:20,171 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 19:43:20 | 14:13:20,171 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+14:13:20,242 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+14:13:20,244 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/12 19:43:20 | 14:13:20,242 INFO  [stdout] (ajp--0.0.0.0-8009-16) English (United States)
+INFO   | jvm 1    | 2017/03/12 19:43:20 | 14:13:20,244 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+18:45:00,000 INFO  [stdout] (mailScheduler-25) Mail Triggered at Mon Mar 13 00:15:00 IST 2017
+18:45:00,001 INFO  [stdout] (mailScheduler-50) Mail Triggered at Mon Mar 13 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-25) Mail Triggered at Mon Mar 13 00:15:00 IST 2017
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,001 INFO  [stdout] (mailScheduler-50) Mail Triggered at Mon Mar 13 00:15:00 IST 2017
+18:45:00,073 INFO  [stdout] (mailScheduler-50) 2017-03-10 00:15:00.0check date1
+18:45:00,074 INFO  [stdout] (mailScheduler-25) 2017-03-10 00:15:00.0check date1
+18:45:00,091 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-25) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,091 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-50) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,073 INFO  [stdout] (mailScheduler-50) 2017-03-10 00:15:00.0check date1
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,074 INFO  [stdout] (mailScheduler-25) 2017-03-10 00:15:00.0check date1
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,091 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-25) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,091 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-50) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,601 INFO  [stdout] (mailScheduler-25) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,602 INFO  [stdout] (mailScheduler-25) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to maruti.khengare@dbschenker.comat Mon Mar 13 00:15:00 IST 2017
+18:45:00,604 INFO  [stdout] (mailScheduler-25) 2017-03-10 00:15:00.0check date1
+18:45:00,605 INFO  [stdout] (mailScheduler-50) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,606 INFO  [stdout] (mINFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,601 INFO  [stdout] (mailScheduler-25) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+ailSchedulerINFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,602 INFO  [stdout] (mailScheduler-25) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to maruti.khengare@dbschenker.comat Mon Mar 13 00:15:00 IST 2017
+-50) Email wINFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,604 INFO  [stdout] (mailScheduler-25) 2017-03-10 00:15:00.0check date1
+ith subject RemINFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,605 INFO  [stdout] (mailScheduler-50) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+inderINFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,606 INFO  [stdout] (mailScheduler-50) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to maruti.khengare@dbschenker.comat Mon Mar 13 00:15:00 IST 2017
+: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to maruti.khengare@dbschenker.comat Mon Mar 13 00:15:00 IST 2017
+18:45:00,610 INFO  [stdout] (mailScheduler-50) 2017-03-10 00:15:00.0check date1
+18:45:00,612 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-25) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,610 INFO  [stdout] (mailScheduler-50) 2017-03-10 00:15:00.0check date1
+false
+INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,612 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-25) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:INFO   | jvm 1    | 2017/03/13 00:15:00 | 18:45:00,616 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-50) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+00,616 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-50) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:01,033 INFO  [stdout] (mailScheduler-25) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,034 INFO  [stdout] (mailScheduler-25) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to Prashant.Redij@dbschenker.comat Mon Mar 13 00:15:01 IST 2017
+18:45:01,035 INFO  [stdout] (mailScheduler-25) 2017-03-12 00:15:00.0check date-1
+18:45:01,036 INFO  [stdout] (mailScheduler-25) 2017-03-12 00:15:00.0check date-1
+18:45:01,099 INFO  [stdout] (mailScheduler-50) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:01,100 INFO  [stdout] (mailScheduler-50) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to Prashant.Redij@dbschenker.comat Mon Mar 13 00:15:01 IST 2017
+18:45:01,101 INFO  [stdout] (mailScheduler-50) 2017-03-12 00:15:00.0check date-1
+18:45:01,103 INFO  [stdout] (mailScheduler-50) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,033 INFO  [stdout] (mailScheduler-25) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,034 INFO  [stdout] (mailScheduler-25) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to Prashant.Redij@dbschenker.comat Mon Mar 13 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,035 INFO  [stdout] (mailScheduler-25) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,036 INFO  [stdout] (mailScheduler-25) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,099 INFO  [stdout] (mailScheduler-50) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,100 INFO  [stdout] (mailScheduler-50) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to Prashant.Redij@dbschenker.comat Mon Mar 13 00:15:01 IST 2017
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,101 INFO  [stdout] (mailScheduler-50) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 00:15:01 | 18:45:01,103 INFO  [stdout] (mailScheduler-50) 2017-03-12 00:15:00.0check date-1
+19:03:53,644 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:33:53 | 19:03:53,644 INFO  [stdout] (ajp--0.0.0.0-8009-16) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:03:54,974 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:33:54 | 19:03:54,974 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:03:55,043 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+19:03:55,044 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:33:55 | 19:03:55,043 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2017/03/13 00:33:55 | 19:03:55,044 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:21:16,237 INFO  [stdout] (ajpINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,237 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:21:16,293 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,293 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,293 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,293 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,427 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,428 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,430 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,431 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,435 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,436 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,439 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,440 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,442 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,443 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,446 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,447 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,450 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,451 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,453 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,453 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,455 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,456 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,458 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,459 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,460 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,461 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,463 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,463 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,465 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,465 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,474 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,475 INFO  [stdout] (ajINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,424 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,427 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,428 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,430 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,431 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,435 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,436 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,439 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,440 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,442 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,443 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,446 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,447 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,450 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,451 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,453 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,453 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,455 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+pINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,456 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+--0.0.0.0-INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,458 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,459 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,460 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,461 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,463 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,463 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,465 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,465 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,470 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,474 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,475 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,481 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,481 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,484 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,484 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,486 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,487 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,489 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,489 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,492 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,493 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,496 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,497 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,499 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,500 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,502 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,503 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,505 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,505 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,508 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,518 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,522 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,522 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,524 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,525 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,527 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,527 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,530 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,531 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,533 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,534 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,538 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,539 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,543 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,543 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,546 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,547 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,551 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,551 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,554 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,555 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,558 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,558 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,561 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,561 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,563 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,564 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,567 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,567 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,569 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,570 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,571 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:21:16,572 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,574 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,575 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,576 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,577 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:21:16,579 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,481 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,481 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,484 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,484 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+579 INFO  [INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,486 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+stdout] (INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,487 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ajp--0.0INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,489 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+.0.0-8009-8)INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,489 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ Subjective : I cINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,492 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+an rate TeaINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,493 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+mworkINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,496 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+ and RelINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,497 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ationshiINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,499 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+ps as oneINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,500 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ of the beINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,502 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+st values, I hINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,503 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ave demonstrated the most at my workplace. NotINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,505 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+ only did INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,505 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+I successfINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,508 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+ully manINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,518 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+age the INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,522 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+conflictINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,522 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+s betweeINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,524 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+n my twoINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,525 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ team mINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,527 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+embers, INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,527 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+but alsoINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,530 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+ get the best out of them. In fact, by instilINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,531 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ling the valuINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,533 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+e of team work iINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,534 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+n achieving theINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,538 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+ common goal anINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,539 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+d creating a compeINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,543 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+titive goal forINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,543 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ both of them, INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,546 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+the conflicting nINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,547 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ature has turned INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,551 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+out as competitiINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,551 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ve which in turINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,554 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+n produced bettINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,555 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+er results. WitINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,558 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+h my humility aINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,558 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+nd admirable relaINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,561 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+tionship within and INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,561 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+outside of the dINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,563 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+epartment, I comINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,564 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+mand an excellenINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,567 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+t respect and trINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,567 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+ust from most INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,569 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+of my peers and cINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,570 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+olleagues at INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,571 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+our esteemed orgaINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,572 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+nization.
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,574 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:21:16,585 INFO  [stdouINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,575 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+t] (ajp--0.0.0.0-8009-8) 
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,576 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 5
+19:INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,577 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+21:16,586 INFO  [stdout] (aINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,579 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+jp--0.0.0.0-8009-8) SeINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,579 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : I can rate Teamwork and Relationships as one of the best values, I have demonstrated the most at my workplace. Not only did I successfully manage the conflicts between my two team members, but also get the best out of them. In fact, by instilling the value of team work in achieving the common goal and creating a competitive goal for both of them, the conflicting nature has turned out as competitive which in turn produced better results. With my humility and admirable relationship within and outside of the department, I command an excellent respect and trust from most of my peers and colleagues at our esteemed organization.
+condly, during last six yearINFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,585 INFO  [stdout] (ajp--0.0.0.0-8009-8) 
+s of INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,586 INFO  [stdout] (ajp--0.0.0.0-8009-8) Secondly, during last six years of my tenure, heading the department, I have delivered my promise, many a times. The most prominent and classic example is cost reduction in AOP year over year continuously since 2011 ( From Rs. 7.3 Cr to 4.5Cr) as a result of various initiatives such as package consolidation, process improvement, manpower rationalization etc.
+my tenure, heading the department, I have delivered my promise, many a times. The most prominent and classic example is cost reduction in AOP year over year continuously since 2011 ( From Rs. 7.3 Cr to 4.5Cr) as a result of various initiatives such as package consolidation, process improvement, manpower rationalization etc.
+19:21:16,592 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+19:21:16,593 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : Despite my busy schedule, I may devote some more time towards social responsibilities to be able to contribute for society development. 
+19:21:16,595 INFO  [stdout] (ajp--0.0.0.0-8009-8) 
+19:21:16,595 INFO  [stdout] (ajp--0.0.0.0-8009-8) Secondly, I should look for more opportunity for entrepreneurship at my workplace.  Although, thinking out of box, I have introduced thematic garden concept as an added feature to the Terminalâs indoor landscaping covering major festivals, I should continue to explore more innovative and cost effective ways & means to improve overall ambience and aesthetic of the IGIA.
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,592 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,593 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : Despite my busy schedule, I may devote some more time towards social responsibilities to be able to contribute for society development. 
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,595 INFO  [stdout] (ajp--0.0.0.0-8009-8) 
+INFO   | jvm 1    | 2017/03/13 00:51:16 | 19:21:16,595 INFO  [stdout] (ajp--0.0.0.0-8009-8) Secondly, I should look for more opportunity for entrepreneurship at my workplace.  Although, thinking out of box, I have introduced thematic garden concept as an added feature to the Terminalâs indoor landscaping covering major festivals, I should continue to explore more innovative and cost effective ways & means to improve overall ambience and aesthetic of the IGIA.
+19:21:17,395 INFO  [stdout] (ajp--0.0.0.0-8009-8) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/03/13 00:51:17 | 19:21:17,395 INFO  [stdout] (ajp--0.0.0.0-8009-8) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:21:18,884 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+19:21:18,884 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:51:18 | 19:21:18,884 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2017/03/13 00:51:18 | 19:21:18,884 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:21:52,139 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:51:52 | 19:21:52,139 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:21:53,365 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:21:53,433 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+19:21:53,434 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:51:53 | 19:21:53,365 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 00:51:53 | 19:21:53,433 INFO  [stdout] (ajp--0.0.0.0-8009-7) English (United States)
+INFO   | jvm 1    | 2017/03/13 00:51:53 | 19:21:53,434 INFO  [stdout] (ajp--0.0.0.0-8009-7) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:30:00,002 INFO  [stdout] (mailScheduler-26) Mail Triggered at Mon Mar 13 01:00:00 IST 2017
+19:30:00,003 INFO  [stdout] (mailScheduler-13) Mail Triggered at Mon Mar 13 01:00:00 IST 2017
+19:30:00,057 INFO  [stdout] (mailScheduler-13) 2017-03-13 00:15:00.0check date-1
+19:30:00,057 INFO  [stdout] (mailScheduler-13) 2017-03-13 00:15:00.0check date-1
+19:30:00,058 INFO  [stdout] (mailScheduler-13) 2017-03-12 00:15:00.0check date-1
+19:30:00,059 INFO  [stdout] (mailScheduler-13) 2017-03-12 00:15:00.0check date-1
+19:30:00,062 INFO  [stdout] (mailScheduler-26) 2017-03-13 00:15:00.0check date-1
+19:30:00,063 INFO  [stdout] (mailScheduler-26) 2017-03-13 00:15:00.0check date-1
+19:30:00,063 INFO  [stdout] (mailScheduler-26) 2017-03-12 00:15:00.0check date-1
+19:30:00,064 INFO  [stdout] (mailScheduler-26) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,002 INFO  [stdout] (mailScheduler-26) Mail Triggered at Mon Mar 13 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,003 INFO  [stdout] (mailScheduler-13) Mail Triggered at Mon Mar 13 01:00:00 IST 2017
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,057 INFO  [stdout] (mailScheduler-13) 2017-03-13 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,057 INFO  [stdout] (mailScheduler-13) 2017-03-13 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,058 INFO  [stdout] (mailScheduler-13) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,059 INFO  [stdout] (mailScheduler-13) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,062 INFO  [stdout] (mailScheduler-26) 2017-03-13 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,063 INFO  [stdout] (mailScheduler-26) 2017-03-13 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,063 INFO  [stdout] (mailScheduler-26) 2017-03-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2017/03/13 01:00:00 | 19:30:00,064 INFO  [stdout] (mailScheduler-26) 2017-03-12 00:15:00.0check date-1
+19:34:05,805 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:34:05,848 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:05,848 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,805 INFO  [stdout] (ajp--0.0.0.0-8009-8) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,848 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,848 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,889 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:05,937 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,945 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,946 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,949 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:05,950 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,953 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,954 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,956 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,956 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,958 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,959 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,961 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,961 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,889 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,937 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,945 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,946 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,949 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,950 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,953 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,954 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,956 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,956 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,958 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,959 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,961 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:05 | 19:34:05,961 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,963 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,964 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,968 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,969 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,971 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:05,971 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,973 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,974 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,977 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,977 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,980 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,980 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,983 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,984 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,987 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:05,988 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:05,991 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,025 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,028 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,029 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,034 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,035 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,037 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,038 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,041 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,045 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,051 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,054 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,055 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,057 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,057 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,059 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,060 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,963 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,964 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,966 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,968 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,969 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,971 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,971 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,973 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,974 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,977 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,977 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,980 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,980 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,983 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,984 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,987 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,988 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:05,991 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,025 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,028 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,029 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,032 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,034 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,035 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,037 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,038 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,041 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,042 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,045 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,051 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,054 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,055 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,057 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,057 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,059 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,060 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,083 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,089 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,092 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,092 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,094 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,094 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,097 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,098 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,100 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,108 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,112 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,112 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,114 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,115 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,117 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,118 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,120 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,121 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,125 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,125 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,128 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,128 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,133 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,134 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,136 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,136 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,138 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,139 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,141 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,141 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,145 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+19:34:06,145 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+19:34:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+19:34:06,151 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+19:34:06,151 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : She has demonstrated good initiatives towards social responsibilities and entreprenuership.
+19:34:06,154 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+19:34:06,154 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : She should improve upon "teamwork and relationships" and "Respect for individual".
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,083 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,089 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,092 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,092 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,094 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,094 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,097 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,098 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,100 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,108 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,112 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,112 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,114 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,115 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,117 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,118 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,120 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,121 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,125 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,125 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,128 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,128 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,130 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,133 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,134 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,136 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,136 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,138 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,139 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,141 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,141 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,145 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,145 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,148 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,151 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,151 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : She has demonstrated good initiatives towards social responsibilities and entreprenuership.
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,154 INFO  [stdout] (ajp--0.0.0.0-8009-8) Rate : 0
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,154 INFO  [stdout] (ajp--0.0.0.0-8009-8) Subjective : She should improve upon "teamwork and relationships" and "Respect for individual".
+19:34:06,602 INFO  [stdout] (ajp--0.0.0.0-8009-8) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/03/13 01:04:06 | 19:34:06,602 INFO  [stdout] (ajp--0.0.0.0-8009-8) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:34:08,110 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+19:34:08,110 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:04:08 | 19:34:08,110 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2017/03/13 01:04:08 | 19:34:08,110 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:34:38,620 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:04:38 | 19:34:38,620 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:34:39,761 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:34:39,826 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+19:34:39,826 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:04:39 | 19:34:39,761 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:04:39 | 19:34:39,826 INFO  [stdout] (ajp--0.0.0.0-8009-20) English (United States)
+INFO   | jvm 1    | 2017/03/13 01:04:39 | 19:34:39,826 INFO  [stdout] (ajp--0.0.0.0-8009-20) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:46:48,550 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+19:46:48,571 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,572 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,582 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,583 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,585 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,586 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,589 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,590 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,593 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,594 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,595 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,596 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,598 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,598 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,600 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,600 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,602 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,603 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,604 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,605 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,607 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,608 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,610 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,611 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,612 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,613 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,614 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,615 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,617 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,617 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,619 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,619 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,624 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+19:46:48,625 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,627 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,627 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,629 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,550 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+48,629 INFO  [stdout] INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,571 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+(ajp--0.0.0.0-8009-9) SubjectINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,572 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ive : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,582 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,583 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,585 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,586 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,589 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,590 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,593 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,594 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,631 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,631 IINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,595 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+NFO  [stdout] (ajp--0.0INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,596 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+.0.0-8009-9) INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,598 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+SubjectiveINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,598 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,600 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,600 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,602 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,603 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,604 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,605 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,607 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,608 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,610 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,611 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,612 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,613 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,633 IINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,614 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+NFO  [stdout] INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,615 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+(ajp--0.0.0.INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,617 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+0-8009-9) RateINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,617 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,619 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,619 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+48,640 INFO  [stdout]INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ (ajp--0.0.0INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,624 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 3
+.0-8009-9) SuINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,625 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+bjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,627 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,627 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,629 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,629 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,631 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,631 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,633 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,642 INFO  [stdoINFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,640 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+ut] (INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,642 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,646 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+19:46:48,646 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+19:46:48,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,650 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,650 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,652 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,652 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,654 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,655 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,657 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,662 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,664 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,664 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,666 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,667 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,669 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+19:46:48,669 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,671 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,671 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,673 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,674 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,676 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,677 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,678 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,679 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,681 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,682 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,685 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+19:46:48,685 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,688 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+19:46:48,688 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,692 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,692 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,694 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,695 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,697 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,697 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,699 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,699 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,701 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+19:46:48,702 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+19:46:48,704 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+19:46:48,704 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : He has a very admiring vaules of "Respect for individiual". He behaves and treats everybody irrespective of hirarchy, with due respect and dignity without any arrogance.Secondly, he delivers his promise ,most of the time.
+19:46:48,709 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+19:46:48,710 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : He may explore more opportunities for "Entreprenuership" and "Learning"
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,643 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,644 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,645 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,646 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,646 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,648 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,650 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,650 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,652 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,652 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,654 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,655 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,657 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,662 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,664 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,664 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,666 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,667 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,669 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,669 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,671 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,671 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,673 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,674 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,676 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,677 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,678 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,679 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,681 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,682 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,685 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,685 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,688 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 5
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,688 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,692 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,692 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,694 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,695 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,697 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,697 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,699 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,699 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,701 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 4
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,702 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : null
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,704 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,704 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : He has a very admiring vaules of "Respect for individiual". He behaves and treats everybody irrespective of hirarchy, with due respect and dignity without any arrogance.Secondly, he delivers his promise ,most of the time.
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,709 INFO  [stdout] (ajp--0.0.0.0-8009-9) Rate : 0
+INFO   | jvm 1    | 2017/03/13 01:16:48 | 19:46:48,710 INFO  [stdout] (ajp--0.0.0.0-8009-9) Subjective : He may explore more opportunities for "Entreprenuership" and "Learning"
+19:46:49,214 INFO  [stdout] (ajp--0.0.0.0-8009-9) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2017/03/13 01:16:49 | 19:46:49,214 INFO  [stdout] (ajp--0.0.0.0-8009-9) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+19:46:50,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+19:46:50,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+INFO   | jvm 1    | 2017/03/13 01:16:50 | 19:46:50,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2017/03/13 01:16:50 | 19:46:50,421 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/360feedback
+20:45:14,681 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2017/03/13 02:15:14 | 20:45:14,681 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856

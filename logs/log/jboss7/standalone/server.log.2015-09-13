@@ -1,0 +1,18 @@
+23:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 3
+23:00:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+23:00:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Error while closing
+23:00:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Remove connection from pool
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 3
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Error while closing
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Remove connection from pool
+23:00:00,018 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) New connection added in pool
+23:00:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) schedule on check at Mon Sep 14 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,018 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) schedule on check at Mon Sep 14 04:30:00 IST 2015
+23:00:00,900 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2015/09/14 04:30:00 | 23:00:00,900 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+23:30:15,652 INFO  [stdout] (Finalizer) Connection Count 1
+23:30:15,653 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/09/14 05:00:15 | 23:30:15,652 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/09/14 05:00:15 | 23:30:15,653 INFO  [stdout] (Finalizer) Releasing connection back to pool

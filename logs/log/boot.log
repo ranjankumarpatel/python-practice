@@ -1,0 +1,36 @@
+%G		Welcome to [0;36mCentOS[0;39m 
+Starting udev: %G[60G[[0;32m  OK  [0;39m]
+Setting hostname punyasm.thinktalentnext.net:  [60G[[0;32m  OK  [0;39m]
+Checking filesystems
+/dev/xvda1: clean, 203096/2293760 files, 6352454/9175040 blocks
+[60G[[0;32m  OK  [0;39m]
+Remounting root filesystem in read-write mode:  [60G[[0;32m  OK  [0;39m]
+Mounting local filesystems:  [60G[[0;32m  OK  [0;39m]
+Enabling /etc/fstab swaps:  [60G[[0;32m  OK  [0;39m]
+Entering non-interactive startup
+ipset: Loaded with no configuration
+Bringing up loopback interface:  [60G[[0;32m  OK  [0;39m]
+Bringing up interface eth0:  Determining if ip address 69.89.14.35 is already in use for device eth0...
+[60G[[0;32m  OK  [0;39m]
+Starting auditd: [60G[[0;32m  OK  [0;39m]
+Starting system logger: [60G[[0;32m  OK  [0;39m]
+Starting Tomcat Application Server...
+Removed stale pid file: /opt/tomcat7/bin/tomcat7.pid
+Mounting filesystems:  [60G[[0;32m  OK  [0;39m]
+Retrigger failed udev events[60G[[0;32m  OK  [0;39m]
+Starting snmpd: [60G[[0;32m  OK  [0;39m]
+Starting sshd: [60G[[0;32m  OK  [0;39m]
+Starting xinetd: [60G[[0;32m  OK  [0;39m]
+Starting ntpd: [60G[[0;32m  OK  [0;39m]
+Starting MySQL SUCCESS! 
+Starting Dovecot Imap: [60G[[0;32m  OK  [0;39m]
+Starting JBoss Application Server...
+Removed stale pid file: /opt/jboss7/bin/jboss7.pid
+Starting sendmail: [60G[[0;32m  OK  [0;39m]
+Starting sm-client: [60G[[0;32m  OK  [0;39m]
+Starting httpd: [Sun Sep 25 23:23:56 2016] [warn] module php5_module is already loaded, skipping
+[60G[[0;32m  OK  [0;39m]
+Starting mongod: [60G[[0;32m  OK  [0;39m]
+Starting crond: [60G[[0;32m  OK  [0;39m]
+Starting fail2ban: [60G[[0;32m  OK  [0;39m]
+Starting atd: [60G[[0;32m  OK  [0;39m]

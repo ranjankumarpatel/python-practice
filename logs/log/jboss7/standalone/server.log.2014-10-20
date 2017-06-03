@@ -1,0 +1,30 @@
+04:26:38,252 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+04:26:38,301 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+04:26:38,310 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+04:26:38,319 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/20 09:56:38 | 04:26:38,252 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/20 09:56:38 | 04:26:38,301 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/20 09:56:38 | 04:26:38,310 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/10/20 09:56:38 | 04:26:38,319 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+07:25:36,871 INFO  [stdout] (ajp--0.0.0.0-8009-4) /adminLogin.jsp
+07:25:36,873 INFO  [stdout] (ajp--0.0.0.0-8009-4) 1
+07:25:36,895 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/10/20 12:55:36 | 07:25:36,871 INFO  [stdout] (ajp--0.0.0.0-8009-4) /adminLogin.jsp
+INFO   | jvm 1    | 2014/10/20 12:55:36 | 07:25:36,873 INFO  [stdout] (ajp--0.0.0.0-8009-4) 1
+INFO   | jvm 1    | 2014/10/20 12:55:36 | 07:25:36,895 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+07:25:38,280 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) username :ranjan.patel@thinkcareersindia.com
+07:25:38,282 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-4) LoginActionServlet Sessioncom.pojos.Client@2cfb41ee
+INFO   | jvm 1    | 2014/10/20 12:55:38 | 07:25:38,280 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-4) username :ranjan.patel@thinkcareersindia.com
+INFO   | jvm 1    | 2014/10/20 12:55:38 | 07:25:38,282 INFO  [com.fs360.login.AutoLoginServlet] (ajp--0.0.0.0-8009-4) LoginActionServlet Sessioncom.pojos.Client@2cfb41ee
+07:25:38,678 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@2cfb41ee
+07:25:38,680 INFO  [stdout] (ajp--0.0.0.0-8009-13) 2
+07:25:38,698 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/10/20 12:55:38 | 07:25:38,678 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-13) com.pojos.Client@2cfb41ee
+INFO   | jvm 1    | 2014/10/20 12:55:38 | 07:25:38,680 INFO  [stdout] (ajp--0.0.0.0-8009-13) 2
+INFO   | jvm 1    | 2014/10/20 12:55:38 | 07:25:38,698 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+07:25:54,454 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-10) com.pojos.Client@2cfb41ee
+07:25:54,455 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+07:25:54,474 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool
+INFO   | jvm 1    | 2014/10/20 12:55:54 | 07:25:54,454 INFO  [com.fs360.login.core.UserLoginDeligate] (ajp--0.0.0.0-8009-10) com.pojos.Client@2cfb41ee
+INFO   | jvm 1    | 2014/10/20 12:55:54 | 07:25:54,455 INFO  [stdout] (ajp--0.0.0.0-8009-10) 3
+INFO   | jvm 1    | 2014/10/20 12:55:54 | 07:25:54,474 INFO  [stdout] (ajp--0.0.0.0-8009-10) New connection added in pool

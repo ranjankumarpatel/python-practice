@@ -1,0 +1,144 @@
+09:58:49,588 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+09:58:49,590 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+09:58:49,591 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+09:58:49,592 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+09:58:49,605 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+09:58:49,607 INFO  [stdout] (ajp--0.0.0.0-8009-16)  userIdCookie :433
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,588 INFO  [stdout] (ajp--0.0.0.0-8009-16) 3
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,590 INFO  [stdout] (ajp--0.0.0.0-8009-16) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,591 INFO  [stdout] (ajp--0.0.0.0-8009-16) Error while closing
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,592 INFO  [stdout] (ajp--0.0.0.0-8009-16) Remove connection from pool
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,605 INFO  [stdout] (ajp--0.0.0.0-8009-16) New connection added in pool
+INFO   | jvm 1    | 2015/08/02 15:28:49 | 09:58:49,607 INFO  [stdout] (ajp--0.0.0.0-8009-16)  userIdCookie :433
+09:58:50,722 INFO  [stdout] (Finalizer) Connection Count 1
+09:58:50,724 INFO  [stdout] (Finalizer) Releasing connection back to pool
+09:58:50,725 INFO  [stdout] (Finalizer) Connection Count 1
+09:58:50,726 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/08/02 15:28:50 | 09:58:50,722 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/08/02 15:28:50 | 09:58:50,724 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2015/08/02 15:28:50 | 09:58:50,725 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2015/08/02 15:28:50 | 09:58:50,726 INFO  [stdout] (Finalizer) Releasing connection back to pool
+23:00:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 2
+23:00:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+23:00:00,024 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 123,331,710 milliseconds ago.  The last packet sent successfully to the server was 123,331,712 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+23:00:00,030 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+23:00:00,032 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+23:00:00,034 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+23:00:00,036 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+23:00:00,037 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+23:00:00,039 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+23:00:00,040 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+23:00:00,042 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+23:00:00,043 ERROINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,004 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 2
+R [stderr] (360_MaiINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,006 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) connection is idle true connection release count 2
+lQuartzScheduINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,024 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 123,331,710 milliseconds ago.  The last packet sent successfully to the server was 123,331,712 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+ler_Worker-2) INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,030 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at com.mysqINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,032 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+l.jdbc.MysqINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,034 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+lIO.sqlQueryDirINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,036 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+ect(MysqlIINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,037 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+O.java:2651)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,039 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,040 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+23:00:00,045 ERROR [stderr] (360_MailQuartzScheduler_WorkerINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,042 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+-2) 	at com.mysqlINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,043 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+.jdbcINFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,045 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+23:00:00,046 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+23:00:00,048 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+23:00:00,050 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+23:00:00,051 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+23:00:00,053 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+23:00:00,055 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+23:00:00,056 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+23:00:00,062 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+23:00:00,065 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+23:00:00,067 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+23:00:00,068 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+23:00:00,069 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+23:00:00,070 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1392)
+23:00:00,071 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mail.scheduler.MailJob.execute(MailJob.java:40)
+23:00:00,072 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+23:00:00,073 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+23:00:00,074 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) Caused by: java.net.SocketException: Broken pipe
+23:00:00,075 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+23:00:00,076 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+23:00:00,077 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+23:00:00,078 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+23:00:00,079 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+23:00:00,080 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+23:00:00,081 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	... 19 more
+23:00:00,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Error while closing
+23:00:00,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Remove connection from pool
+23:00:00,104 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+23:00:00,105 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Mon Aug 03 04:30:00 IST 2015
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,046 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,048 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,050 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,051 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,053 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,055 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.CentralPage.init(CentralPage.java:32)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,056 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at connectionManager.hibernate.ManagerConnectionProvider.getConnection(ManagerConnectionProvider.java:60)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,062 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,065 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,067 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,068 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,069 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,070 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1392)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,071 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mail.scheduler.MailJob.execute(MailJob.java:40)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,072 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,073 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,074 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) Caused by: java.net.SocketException: Broken pipe
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,075 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,076 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,077 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,078 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,079 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,080 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,081 ERROR [stderr] (360_MailQuartzScheduler_Worker-2) 	... 19 more
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Error while closing
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,086 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Remove connection from pool
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,104 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) New connection added in pool
+INFO   | jvm 1    | 2015/08/03 04:30:00 | 23:00:00,105 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) schedule on check at Mon Aug 03 04:30:00 IST 2015
+23:00:03,131 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:03,132 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:03 | 23:00:03,131 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:03 | 23:00:03,132 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:03,205 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:03 | 23:00:03,205 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:04,032 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:04,033 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:04 | 23:00:04,032 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:04 | 23:00:04,033 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:04,084 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:04 | 23:00:04,084 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:04,996 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:04,997 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:05 | 23:00:04,996 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:05 | 23:00:04,997 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:05,061 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:05 | 23:00:05,061 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:05,959 INFO  [stdouINFO   | jvm 1    | 2015/08/03 04:30:05 | 23:00:05,959 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+t] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:05,961 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:06,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:06 | 23:00:05,961 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:06 | 23:00:06,016 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:06,832 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:06,833 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:06 | 23:00:06,832 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:06 | 23:00:06,833 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:06,884 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:06 | 23:00:06,884 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:07,716 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:07,717 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:07 | 23:00:07,716 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:07 | 23:00:07,717 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:07,772 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:07 | 23:00:07,772 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+23:00:08,659 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+23:00:08,660 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+INFO   | jvm 1    | 2015/08/03 04:30:08 | 23:00:08,659 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) Response: 250 Great success
+INFO   | jvm 1    | 2015/08/03 04:30:08 | 23:00:08,660 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) 
+23:00:08,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 
+INFO   | jvm 1    | 2015/08/03 04:30:08 | 23:00:08,719 INFO  [stdout] (360_MailQuartzScheduler_Worker-2) mail sent successfully... 

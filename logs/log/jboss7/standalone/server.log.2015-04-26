@@ -1,0 +1,40 @@
+13:48:30,732 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-16) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/04/26 19:18:30 | 13:48:30,732 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-16) Invalid message received with signature 18245
+13:48:30,829 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-16) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/04/26 19:18:30 | 13:48:30,829 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-16) Invalid message received with signature 18245
+17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 3
+17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+17:30:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) 2
+17:30:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Error while closing
+17:30:00,008 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Remove connection from pool
+17:30:00,009 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+17:30:00,011 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Error while closing
+17:30:00,012 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Remove connection from pool
+17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) New connection added in pool
+17:30:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) schedule on check at Sun Apr 26 23:00:00 IST 2015
+17:30:00,038 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) New connection added in pool
+17:30:00,040 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) schedule on check at Sun Apr 26 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,003 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 3
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,005 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,006 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) 2
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,007 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Error while closing
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,008 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Remove connection from pool
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,009 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) connection is idle true connection release count 2
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,011 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Error while closing
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,012 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Remove connection from pool
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,020 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,021 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) schedule on check at Sun Apr 26 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,038 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) New connection added in pool
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,040 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) schedule on check at Sun Apr 26 23:00:00 IST 2015
+17:30:00,056 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Sun Apr 26 23:00:00 IST 2015
+17:30:00,057 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Mon Apr 27 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,056 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Sun Apr 26 23:00:00 IST 2015
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,057 INFO  [stdout] (Ass_MailQuartzScheduler_Worker-4) Mon Apr 27 23:00:00 IST 2015
+17:30:00,946 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Response: 250 Great success
+17:30:00,947 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,946 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) Response: 250 Great success
+INFO   | jvm 1    | 2015/04/26 23:00:00 | 17:30:00,947 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) 
+17:30:01,013 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) mail sent successfully... 
+INFO   | jvm 1    | 2015/04/26 23:00:01 | 17:30:01,013 INFO  [stdout] (360_MailQuartzScheduler_Worker-4) mail sent successfully... 
+23:52:35,598 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-2) Invalid message received with signature 18245
+INFO   | jvm 1    | 2015/04/27 05:22:35 | 23:52:35,598 ERROR [org.apache.coyote.ajp.AjpMessage] (ajp--0.0.0.0-8009-2) Invalid message received with signature 18245

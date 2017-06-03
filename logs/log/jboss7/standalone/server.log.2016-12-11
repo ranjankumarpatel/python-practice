@@ -1,0 +1,56 @@
+09:18:11,758 INFO  [stdout] (ajp--0.0.0.0-8009-2) English (United States)
+09:18:11,760 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/12/11 14:48:11 | 09:18:11,758 INFO  [stdout] (ajp--0.0.0.0-8009-2) English (United States)
+INFO   | jvm 1    | 2016/12/11 14:48:11 | 09:18:11,760 INFO  [stdout] (ajp--0.0.0.0-8009-2) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,000 INFO  [stdout] (mailScheduler-10) Mail Triggered at Mon Dec 12 00:15:00 IST 2016
+18:45:00,000 INFO  [stdout] (mailScheduler-10) Mail Triggered at Mon Dec 12 00:15:00 IST 2016
+18:45:00,182 INFO  [stdout] (mailScheduler-19) Mail Triggered at Mon Dec 12 00:15:00 IST 2016
+18:45:00,258 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+18:45:00,258 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+18:45:00,259 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+18:45:00,260 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+18:45:00,261 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+18:45:00,261 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+18:45:00,262 INFO  [stdout] (mailScheduler-19) 2016-12-09 00:15:00.0check date1
+18:45:00,263 INFO  [stdout] (mailScheduler-10) 2016-12-09 00:15:00.0check date1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,182 INFO  [stdout] (mailScheduler-19) Mail Triggered at Mon Dec 12 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,258 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,258 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,259 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,260 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,261 INFO  [stdout] (mailScheduler-19) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,261 INFO  [stdout] (mailScheduler-10) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,262 INFO  [stdout] (mailScheduler-19) 2016-12-09 00:15:00.0check date1
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,263 INFO  [stdout] (mailScheduler-10) 2016-12-09 00:15:00.0check date1
+18:45:00,284 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-19) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,284 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,284 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-19) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,284 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-10) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,667 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,669 INFO  [stdout] (mailScheduler-10) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to tamanna.sood@dbschenker.comat Mon Dec 12 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,667 INFO  [stdout] (mailScheduler-10) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,669 INFO  [stdout] (mailScheduler-10) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to tamanna.sood@dbschenker.comat Mon Dec 12 00:15:00 IST 2016
+18:45:00,709 INFO  [stdout] (mailScheduler-19) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+18:45:00,711 INFO  [stdout] (mailScheduler-19) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to tamanna.sood@dbschenker.comat Mon Dec 12 00:15:00 IST 2016
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,709 INFO  [stdout] (mailScheduler-19) POST https://api.mailgun.net/v3/thinktalentnext.net/messages returned a response status of 200 OK
+INFO   | jvm 1    | 2016/12/12 00:15:00 | 18:45:00,711 INFO  [stdout] (mailScheduler-19) Email with subject Reminder: Request to complete <strong>DB Schenker New Hire Survey</strong> sent to tamanna.sood@dbschenker.comat Mon Dec 12 00:15:00 IST 2016
+19:30:00,000 INFO  [stdout] (mailScheduler-1) Mail Triggered at Mon Dec 12 01:00:00 IST 2016
+19:30:00,001 INFO  [stdout] (mailScheduler-20) Mail Triggered at Mon Dec 12 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,000 INFO  [stdout] (mailScheduler-1) Mail Triggered at Mon Dec 12 01:00:00 IST 2016
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,001 INFO  [stdout] (mailScheduler-20) Mail Triggered at Mon Dec 12 01:00:00 IST 2016
+19:30:00,117 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+19:30:00,117 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+19:30:00,118 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+19:30:00,119 INFO  [stdout] (mailScheduler-20) 2016-12-12 00:15:00.0check date-1
+19:30:00,122 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+19:30:00,122 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+19:30:00,123 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+19:30:00,125 INFO  [stdout] (mailScheduler-1) 2016-12-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,117 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,117 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,118 INFO  [stdout] (mailScheduler-20) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,119 INFO  [stdout] (mailScheduler-20) 2016-12-12 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,122 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,122 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,123 INFO  [stdout] (mailScheduler-1) 2016-12-10 00:15:00.0check date-1
+INFO   | jvm 1    | 2016/12/12 01:00:00 | 19:30:00,125 INFO  [stdout] (mailScheduler-1) 2016-12-12 00:15:00.0check date-1

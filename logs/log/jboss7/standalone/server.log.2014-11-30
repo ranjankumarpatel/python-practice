@@ -1,0 +1,290 @@
+05:55:38,048 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+05:55:38,049 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+05:55:38,050 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+05:55:38,051 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+05:55:38,072 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+05:55:38,085 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,048 INFO  [stdout] (ajp--0.0.0.0-8009-13) 3
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,049 INFO  [stdout] (ajp--0.0.0.0-8009-13) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,050 INFO  [stdout] (ajp--0.0.0.0-8009-13) Error while closing
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,051 INFO  [stdout] (ajp--0.0.0.0-8009-13) Remove connection from pool
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,072 INFO  [stdout] (ajp--0.0.0.0-8009-13) New connection added in pool
+INFO   | jvm 1    | 2014/11/30 11:25:38 | 05:55:38,085 INFO  [stdout] (ajp--0.0.0.0-8009-13) Connection back to Pool
+05:55:40,073 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+05:55:40,074 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+05:55:40,086 ERROR [stderr] (ajp--0.0.0.0-8009-3) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 87,706,145 milliseconds ago.  The last packet sent successfully to the server was 87,706,146 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+05:55:40,090 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+05:55:40,097 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+05:55:40,098 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+05:55:40,100 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+05:55:40,102 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+05:55:40,103 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+05:55:40,104 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+05:55:40,105 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+05:55:40,107 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+05:55:40,108 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+05:55:40,110 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+05:55:40,111 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+05:55:40,112 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+05:55:40,113 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+05:55:40,115 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+05:55:40,117 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.CentralPage.init(CentralPage.java:22)
+05:55:40,118 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.inbasket.client.ClientControlServlet.doGet(ClientControlServlet.java:51)
+05:55:40,119 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+05:55:40,121 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:55:40,122 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:55:40,124 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:55:40,126 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+05:55:40,128 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:55:40,129 ERROR [stderr] (ajp--0.0.0.0-8009INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,073 INFO  [stdout] (ajp--0.0.0.0-8009-3) 3
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,074 INFO  [stdout] (ajp--0.0.0.0-8009-3) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,086 ERROR [stderr] (ajp--0.0.0.0-8009-3) com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: The last packet successfully received from the server was 87,706,145 milliseconds ago.  The last packet sent successfully to the server was 87,706,146 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,090 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,097 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,098 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,100 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,102 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,103 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,104 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3851)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,105 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2471)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,107 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+-3) 	atINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,108 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2677)
+ org.apachINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,110 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2627)
+e.cataliINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,111 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1556)
+na.core.INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,112 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.isConnectionOK(ConnectionPoolBean.java:92)
+ApplicatINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,113 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:43)
+ionFilteINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,115 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.ConnectionPoolBean.getDBConnection(ConnectionPoolBean.java:23)
+rChain.dINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,117 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at connectionManager.CentralPage.init(CentralPage.java:22)
+oFiltINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,118 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.inbasket.client.ClientControlServlet.doGet(ClientControlServlet.java:51)
+er(ApplicaINFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,119 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+tionFilterChain.java:INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,121 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+248)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,122 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,124 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,126 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,128 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,129 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:55:40,134 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:55:40,136 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:55:40,139 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:55:40,141 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:55:40,143 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:55:40,145 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:55:40,147 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:55:40,149 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:55:40,151 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:55:40,153 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:55:40,154 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.lang.Thread.run(Thread.java:745)
+05:55:40,156 ERROR [stderr] (ajp--0.0.0.0-8009-3) Caused by: java.net.SocketException: Broken pipe
+05:55:40,157 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+05:55:40,159 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+05:55:40,161 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+05:55:40,163 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+05:55:40,165 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+05:55:40,167 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+05:55:40,168 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	... 28 more
+05:55:40,175 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+05:55:40,176 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+05:55:40,205 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+05:55:40,212 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,134 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,136 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,139 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,141 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,143 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,145 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,147 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,149 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,151 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,153 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,154 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,156 ERROR [stderr] (ajp--0.0.0.0-8009-3) Caused by: java.net.SocketException: Broken pipe
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,157 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,159 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,161 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,163 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,165 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,167 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3832)
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,168 ERROR [stderr] (ajp--0.0.0.0-8009-3) 	... 28 more
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,175 INFO  [stdout] (ajp--0.0.0.0-8009-3) Error while closing
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,176 INFO  [stdout] (ajp--0.0.0.0-8009-3) Remove connection from pool
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,205 INFO  [stdout] (ajp--0.0.0.0-8009-3) New connection added in pool
+INFO   | jvm 1    | 2014/11/30 11:25:40 | 05:55:40,212 INFO  [stdout] (ajp--0.0.0.0-8009-3) Connection back to Pool
+05:57:16,920 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+05:57:16,942 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+INFO   | jvm 1    | 2014/11/30 11:27:16 | 05:57:16,920 INFO  [stdout] (ajp--0.0.0.0-8009-15) 3
+INFO   | jvm 1    | 2014/11/30 11:27:16 | 05:57:16,942 INFO  [stdout] (ajp--0.0.0.0-8009-15) New connection added in pool
+05:57:17,995 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.inbasket.exception.InvalidLoginException: Authentication failed from Portal
+05:57:17,996 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.login.AutoLoginServlet.doGet(AutoLoginServlet.java:127)
+05:57:17,997 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.login.AutoLoginServlet.doPost(AutoLoginServlet.java:182)
+05:57:17,998 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+05:57:17,999 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:57:18,000 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:57:18,001 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:57:18,003 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+05:57:18,003 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:57:18,005 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:57:18,006 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:57:18,007 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:57:18,008 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:57:18,010 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:57:18,012 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:57:18,014 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:57:18,016 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:57:18,017 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:57:18,019 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:57:18,022 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:57:18,025 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+05:57:18,031 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:17,995 ERROR [stderr] (ajp--0.0.0.0-8009-15) com.inbasket.exception.InvalidLoginException: Authentication failed from Portal
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:17,996 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.login.AutoLoginServlet.doGet(AutoLoginServlet.java:127)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:17,997 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.login.AutoLoginServlet.doPost(AutoLoginServlet.java:182)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:17,998 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:17,999 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,000 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,001 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,003 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,003 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,005 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,006 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,007 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,008 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,010 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,012 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,014 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,016 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,017 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,019 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,022 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,025 ERROR [stderr] (ajp--0.0.0.0-8009-15) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/11/30 11:27:18 | 05:57:18,031 INFO  [stdout] (ajp--0.0.0.0-8009-15) Connection back to Pool
+06:02:20,373 INFO  [stdout] (Finalizer) Connection Count 1
+06:02:20,375 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:02:20,375 INFO  [stdout] (Finalizer) Connection Count 1
+06:02:20,376 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/11/30 11:32:20 | 06:02:20,373 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/11/30 11:32:20 | 06:02:20,375 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/11/30 11:32:20 | 06:02:20,375 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/11/30 11:32:20 | 06:02:20,376 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:26:26,416 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+06:26:26,418 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+06:26:26,419 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+06:26:26,421 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+06:26:26,458 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,416 INFO  [stdout] (ajp--0.0.0.0-8009-14) 4
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,418 INFO  [stdout] (ajp--0.0.0.0-8009-14) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,419 INFO  [stdout] (ajp--0.0.0.0-8009-14) Error while closing
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,421 INFO  [stdout] (ajp--0.0.0.0-8009-14) Remove connection from pool
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,458 INFO  [stdout] (ajp--0.0.0.0-8009-14) New connection added in pool
+06:26:26,462 ERROR [stderr] (ajp--0.0.0.0-8009-14) com.inbasket.exception.InvalidLoginException: Invalid Username or Password
+06:26:26,464 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.core.LoginActionDAO.validateUserLogin(LoginActionDAO.java:86)
+06:26:26,466 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.core.LoginActionDAO.validateLogin(LoginActionDAO.java:27)
+06:26:26,468 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:68)
+06:26:26,470 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+06:26:26,472 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+06:26:26,473 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+06:26:26,475 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+06:26:26,477 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+06:26:26,479 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+06:26:26,480 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+06:26:26,482 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+06:26:26,483 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+06:26:26,485 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+06:26:26,487 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+06:26:26,489 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+06:26:26,491 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+06:26:26,493 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+06:26:26,495 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+06:26:26,497 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+06:26:26,498 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+06:26:26,500 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+06:26:26,502 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at java.lang.Thread.run(Thread.java:745)
+06:26:26,508 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,462 ERROR [stderr] (ajp--0.0.0.0-8009-14) com.inbasket.exception.InvalidLoginException: Invalid Username or Password
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,464 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.core.LoginActionDAO.validateUserLogin(LoginActionDAO.java:86)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,466 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.core.LoginActionDAO.validateLogin(LoginActionDAO.java:27)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,468 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:68)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,470 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,472 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,473 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,475 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,477 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,479 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,480 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,482 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,483 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,485 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,487 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,489 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,491 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,493 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,495 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,497 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,498 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,500 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,502 ERROR [stderr] (ajp--0.0.0.0-8009-14) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/11/30 11:56:26 | 06:26:26,508 INFO  [stdout] (ajp--0.0.0.0-8009-14) Connection back to Pool
+06:26:28,322 INFO  [stdout] (ajp--0.0.0.0-8009-6) 4
+06:26:28,323 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+06:26:28,324 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+06:26:28,325 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+06:26:28,352 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+06:26:28,354 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.inbasket.exception.InvalidLoginException: Invalid Username or Password
+06:26:28,356 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.core.LoginActionDAO.validateUserLogin(LoginActionDAO.java:86)
+06:26:28,357 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.core.LoginActionDAO.validateLogin(LoginActionDAO.java:27)
+06:26:28,358 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:68)
+06:26:28,359 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+06:26:28,360 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+06:26:28,361 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+06:26:28,363 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+06:26:28,364 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+06:26:28,365 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+06:26:28,366 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+06:26:28,368 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,322 INFO  [stdout] (ajp--0.0.0.0-8009-6) 4
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,323 INFO  [stdout] (ajp--0.0.0.0-8009-6) connection is idle true connection release count 2
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,324 INFO  [stdout] (ajp--0.0.0.0-8009-6) Error while closing
+06:26:28,36INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,325 INFO  [stdout] (ajp--0.0.0.0-8009-6) Remove connection from pool
+9 ERROR [stderr] (ajpINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,352 INFO  [stdout] (ajp--0.0.0.0-8009-6) New connection added in pool
+--0.0.0.0-8009-6) 	atINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,354 ERROR [stderr] (ajp--0.0.0.0-8009-6) com.inbasket.exception.InvalidLoginException: Invalid Username or Password
+ org.apache.cataINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,356 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.core.LoginActionDAO.validateUserLogin(LoginActionDAO.java:86)
+lina.core.StandaINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,357 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.core.LoginActionDAO.validateLogin(LoginActionDAO.java:27)
+rdWrapperValve.inINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,358 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.LoginServlet.doGet(LoginServlet.java:68)
+voke(StandardWrapperValveINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,359 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.login.LoginServlet.doPost(LoginServlet.java:142)
+.java:275)
+06:26:28,370 ERROR [stderr] (ajp--0.INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,360 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+0.0.0-8009-6) 	at org.apache.caINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,361 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+talina.core.StandardCoINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,363 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+ntextValve.invokINFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,364 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+e(StandardContextValve.java:16INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,365 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at com.inbasket.filter.NoCacheFilter.doFilter(NoCacheFilter.java:40)
+1)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,366 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,368 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,369 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,370 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,372 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+06:26:28,372 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+06:26:28,373 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+06:26:28,375 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+06:26:28,376 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+06:26:28,377 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+06:26:28,379 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+06:26:28,380 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+06:26:28,381 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+06:26:28,382 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+06:26:28,387 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,373 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,375 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,376 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,377 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,379 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,380 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,381 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,382 ERROR [stderr] (ajp--0.0.0.0-8009-6) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2014/11/30 11:56:28 | 06:26:28,387 INFO  [stdout] (ajp--0.0.0.0-8009-6) Connection back to Pool
+07:49:52,076 INFO  [stdout] (Finalizer) Connection Count 1
+07:49:52,077 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/11/30 13:19:52 | 07:49:52,076 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/11/30 13:19:52 | 07:49:52,077 INFO  [stdout] (Finalizer) Releasing connection back to pool
+17:43:56,441 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 67174480
+INFO   | jvm 1    | 2014/11/30 23:13:56 | 17:43:56,441 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 67174480

@@ -1,0 +1,9 @@
+182.71.157.42 - - [24/Nov/2014:11:36:40 +0000] "GET / HTTP/1.1" 200 11217
+182.71.157.42 - - [24/Nov/2014:11:37:04 +0000] "GET /host-manager/html HTTP/1.1" 401 2057
+182.71.157.42 - admin [24/Nov/2014:11:37:10 +0000] "GET /host-manager/html HTTP/1.1" 200 11341
+182.71.157.42 - admin [24/Nov/2014:11:37:12 +0000] "GET /host-manager/images/tomcat.gif HTTP/1.1" 200 1934
+182.71.157.42 - admin [24/Nov/2014:11:37:12 +0000] "GET /host-manager/images/asf-logo.gif HTTP/1.1" 200 7279
+182.71.157.42 - - [24/Nov/2014:11:37:19 +0000] "GET /manager/html HTTP/1.1" 401 2486
+182.71.157.42 - admin [24/Nov/2014:11:37:27 +0000] "GET /manager/html HTTP/1.1" 200 22326
+182.71.157.42 - admin [24/Nov/2014:11:39:08 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=F476B6B4D33B6B3C4F979C8BE7E65C91 HTTP/1.1" 200 22384
+182.71.157.42 - admin [24/Nov/2014:12:02:11 +0000] "POST /manager/html/reload?path=/thinktalentindia&org.apache.catalina.filters.CSRF_NONCE=9A3006CAB5891843E1EE2B6186A1F840 HTTP/1.1" 200 22384

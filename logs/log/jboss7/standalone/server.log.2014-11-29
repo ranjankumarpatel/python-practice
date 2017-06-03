@@ -1,0 +1,24 @@
+05:33:52,460 INFO  [stdout]INFO   | jvm 1    | 2014/11/29 11:03:52 | 05:33:52,460 INFO  [stdout] (ajp--0.0.0.0-8009-11) 0
+ (ajp--0.0.0.0-8009-11) 0
+05:33:52,757 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+INFO   | jvm 1    | 2014/11/29 11:03:52 | 05:33:52,757 INFO  [stdout] (ajp--0.0.0.0-8009-11) New connection added in pool
+05:33:52,841 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+INFO   | jvm 1    | 2014/11/29 11:03:52 | 05:33:52,841 INFO  [stdout] (ajp--0.0.0.0-8009-11) Connection back to Pool
+05:33:53,268 INFO  [stdout] (ajp--0.0.0.0-8009-4) 1
+05:33:53,293 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+05:33:53,309 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+INFO   | jvm 1    | 2014/11/29 11:03:53 | 05:33:53,268 INFO  [stdout] (ajp--0.0.0.0-8009-4) 1
+INFO   | jvm 1    | 2014/11/29 11:03:53 | 05:33:53,293 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/11/29 11:03:53 | 05:33:53,309 INFO  [stdout] (ajp--0.0.0.0-8009-4) Connection back to Pool
+05:33:53,904 INFO  [stdout] (ajp--0.0.0.0-8009-4) 2
+05:33:53,933 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+INFO   | jvm 1    | 2014/11/29 11:03:53 | 05:33:53,904 INFO  [stdout] (ajp--0.0.0.0-8009-4) 2
+INFO   | jvm 1    | 2014/11/29 11:03:53 | 05:33:53,933 INFO  [stdout] (ajp--0.0.0.0-8009-4) New connection added in pool
+06:06:37,083 INFO  [stdout] (Finalizer) Connection Count 1
+06:06:37,084 INFO  [stdout] (Finalizer) Releasing connection back to pool
+06:06:37,085 INFO  [stdout] (Finalizer) Connection Count 1
+06:06:37,086 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/11/29 11:36:37 | 06:06:37,083 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/11/29 11:36:37 | 06:06:37,084 INFO  [stdout] (Finalizer) Releasing connection back to pool
+INFO   | jvm 1    | 2014/11/29 11:36:37 | 06:06:37,085 INFO  [stdout] (Finalizer) Connection Count 1
+INFO   | jvm 1    | 2014/11/29 11:36:37 | 06:06:37,086 INFO  [stdout] (Finalizer) Releasing connection back to pool

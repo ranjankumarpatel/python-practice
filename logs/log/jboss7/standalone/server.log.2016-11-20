@@ -1,0 +1,1434 @@
+04:57:05,693 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 50331692
+INFO   | jvm 1    | 2016/11/20 10:27:05 | 04:57:05,693 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 50331692
+05:37:28,147 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+05:37:28,149 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:07:28 | 05:37:28,147 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:07:28 | 05:37:28,149 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:38:37,879 ERROR [stderr] (ajp--0.0.0.0-8009-4) java.lang.NullPointerException
+05:38:37,880 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:46)
+05:38:37,881 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76)
+05:38:37,882 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+05:38:37,883 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+05:38:37,884 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+05:38:37,885 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:38:37,886 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+05:38:37,886 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+05:38:37,887 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+05:38:37,888 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+05:38:37,889 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:38:37,890 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:38:37,891 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+05:38:37,892 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+05:38:37,893 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+05:38:37,894 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+05:38:37,895 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+05:38:37,896 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+05:38:37,897 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+05:38:37,898 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+05:38:37,898 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+05:38:37,899 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+05:38:37,900 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+05:38:37,901 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+05:38:37,902 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+05:38:37,903 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,879 ERROR [stderr] (ajp--0.0.0.0-8009-4) java.lang.NullPointerException
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,880 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:46)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,881 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,882 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,883 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,884 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,885 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,886 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,886 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,887 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,888 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,889 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,890 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,891 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,892 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,893 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,894 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,895 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,896 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,897 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,898 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,898 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,899 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,900 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,901 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,902 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/11/20 11:08:37 | 05:38:37,903 ERROR [stderr] (ajp--0.0.0.0-8009-4) 	at java.lang.Thread.run(Thread.java:745)
+05:38:38,553 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LoginActionServlet]] (ajp--0.0.0.0-8009-4) Servlet.service() for servlet LoginActionServlet threw exception: java.lang.NullPointerException
+	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:46) [classes:]
+	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87) [clasINFO   | jvm 1    | 2016/11/20 11:08:38 | 05:38:38,553 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[LoginActionServlet]] (ajp--0.0.0.0-8009-4) Servlet.service() for servlet LoginActionServlet threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:46) [classes:]
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76) [classes:]
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+ses:INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+]
+	atINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.3.jar:4.0.3]
+ org.apache.INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+catalina.core.ApplicatINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+ionFilterChINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+ain.internaINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+lDoFilter(AINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+pplicationFiINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87) [classes:]
+lterChain.jINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+ava:280) [jINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+bossweb-INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+7.0.13.FinaINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+l.jar:]
+	aINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+t org.apINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+ache.caINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+talina.cINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+ore.ApplicINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+ationFilINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+terChain.doFiINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+lter(INFO   | jvm 1    | 2016/11/20 11:08:38 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+ApplicaINFO   | jvm 1    | 2016/11/20 11:08:38 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+tionINFO   | jvm 1    | 2016/11/20 11:08:38 | 
+FilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+05:38:38,588 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+05:38:38,590 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 05:38:38,588 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:08:38 | 05:38:38,590 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:38:48,943 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+05:38:48,944 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:08:48 | 05:38:48,943 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:08:48 | 05:38:48,944 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:39:27,985 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:39:27,986 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:39:27,990 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+05:39:27,990 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:09:28 | 05:39:27,985 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:09:28 | 05:39:27,986 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:09:28 | 05:39:27,990 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:09:28 | 05:39:27,990 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+05:40:46,568 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:10:46 | 05:40:46,568 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:11:51,109 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+06:11:51,110 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:41:51 | 06:11:51,109 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:41:51 | 06:11:51,110 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:13:49,372 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+06:13:49,372 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:13:49,376 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+06:13:49,376 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:43:49 | 06:13:49,372 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:43:49 | 06:13:49,372 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:43:49 | 06:13:49,376 INFO  [stdout] (ajp--0.0.0.0-8009-1) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:43:49 | 06:13:49,376 INFO  [stdout] (ajp--0.0.0.0-8009-1) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:14:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+06:14:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:14:10,046 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+06:14:10,046 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:44:10 | 06:14:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:44:10 | 06:14:10,042 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:44:10 | 06:14:10,046 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:44:10 | 06:14:10,046 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:14:50,089 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+06:14:50,090 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 11:44:50 | 06:14:50,089 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United States)
+INFO   | jvm 1    | 2016/11/20 11:44:50 | 06:14:50,090 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:14:59,554 INFO  [stdout] (ajp--0.0.0.0-8009-4) 
+INFO   | jvm 1    | 2016/11/20 11:44:59 | 06:14:59,554 INFO  [stdout] (ajp--0.0.0.0-8009-4) 
+06:15:59,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 11:45:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:45:59 | 06:15:59,343 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 11:45:59 IST 2016
+06:16:59,667 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 11:46:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:46:59 | 06:16:59,667 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 11:46:59 IST 2016
+06:17:59,212 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 11:47:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:47:59 | 06:17:59,212 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 11:47:59 IST 2016
+06:18:59,231 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 11:48:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:48:59 | 06:18:59,231 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 11:48:59 IST 2016
+06:19:59,239 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 11:49:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:49:59 | 06:19:59,239 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 11:49:59 IST 2016
+06:20:59,229 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 11:50:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:50:59 | 06:20:59,229 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 11:50:59 IST 2016
+06:21:59,850 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 11:51:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:51:59 | 06:21:59,850 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 11:51:59 IST 2016
+06:22:59,226 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 11:52:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:52:59 | 06:22:59,226 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 11:52:59 IST 2016
+06:23:59,235 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 11:53:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:53:59 | 06:23:59,235 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 11:53:59 IST 2016
+06:24:59,268 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 11:54:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:54:59 | 06:24:59,268 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 11:54:59 IST 2016
+06:26:00,228 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 11:56:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:56:00 | 06:26:00,228 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 11:56:00 IST 2016
+06:26:59,552 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 11:56:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:56:59 | 06:26:59,552 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 11:56:59 IST 2016
+06:27:59,889 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 11:57:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:57:59 | 06:27:59,889 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 11:57:59 IST 2016
+06:28:59,857 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 11:58:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:58:59 | 06:28:59,857 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 11:58:59 IST 2016
+06:29:59,239 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 11:59:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 11:59:59 | 06:29:59,239 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 11:59:59 IST 2016
+06:31:00,654 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:01:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:01:00 | 06:31:00,654 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:01:00 IST 2016
+06:31:59,277 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:01:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:01:59 | 06:31:59,277 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:01:59 IST 2016
+06:32:59,625 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:02:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:02:59 | 06:32:59,625 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:02:59 IST 2016
+06:33:59,677 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:03:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:03:59 | 06:33:59,677 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:03:59 IST 2016
+06:34:23,819 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+06:34:23,820 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:04:23 | 06:34:23,819 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:04:23 | 06:34:23,820 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:34:59,282 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:04:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:04:59 | 06:34:59,282 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:04:59 IST 2016
+06:35:07,967 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+06:35:07,967 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:35:07,972 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+06:35:07,973 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:05:07 | 06:35:07,967 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:05:07 | 06:35:07,967 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:05:07 | 06:35:07,972 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:05:07 | 06:35:07,973 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:35:59,249 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:05:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:05:59 | 06:35:59,249 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:05:59 IST 2016
+06:36:44,484 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+06:36:44,485 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:36:44,490 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+06:36:44,490 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:06:44 | 06:36:44,484 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:06:44 | 06:36:44,485 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:06:44 | 06:36:44,490 INFO  [stdout] (ajp--0.0.0.0-8009-10) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:06:44 | 06:36:44,490 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:36:56,032 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+06:36:56,033 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:06:56 | 06:36:56,032 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:06:56 | 06:36:56,033 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:36:59,322 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:06:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:06:59 | 06:36:59,322 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:06:59 IST 2016
+06:37:04,141 INFO  [stdout] (ajp--0.0.0.0-8009-4) 
+INFO   | jvm 1    | 2016/11/20 12:07:04 | 06:37:04,141 INFO  [stdout] (ajp--0.0.0.0-8009-4) 
+06:37:59,275 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:07:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:07:59 | 06:37:59,275 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:07:59 IST 2016
+06:38:03,412 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:08:03 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:08:03 | 06:38:03,412 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:08:03 IST 2016
+06:38:59,255 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:08:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:08:59 | 06:38:59,255 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:08:59 IST 2016
+06:39:03,069 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:09:03 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:09:03 | 06:39:03,069 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:09:03 IST 2016
+06:39:59,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:09:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:09:59 | 06:39:59,622 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:09:59 IST 2016
+06:40:04,593 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:10:04 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:10:04 | 06:40:04,593 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:10:04 IST 2016
+06:40:59,293 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:10:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:10:59 | 06:40:59,293 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:10:59 IST 2016
+06:41:02,461 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:11:02 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:11:02 | 06:41:02,461 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:11:02 IST 2016
+06:41:59,277 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:11:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:11:59 | 06:41:59,277 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:11:59 IST 2016
+06:42:02,190 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:12:02 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:12:02 | 06:42:02,190 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:12:02 IST 2016
+06:42:59,301 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:12:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:12:59 | 06:42:59,301 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:12:59 IST 2016
+06:43:01,920 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:13:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:13:01 | 06:43:01,920 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:13:01 IST 2016
+06:43:59,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:13:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:13:59 | 06:43:59,868 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:13:59 IST 2016
+06:44:01,840 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:14:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:14:01 | 06:44:01,840 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:14:01 IST 2016
+06:44:59,278 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:14:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:14:59 | 06:44:59,278 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:14:59 IST 2016
+06:45:01,631 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:15:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:15:01 | 06:45:01,631 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:15:01 IST 2016
+06:45:59,659 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:15:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:15:59 | 06:45:59,659 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:15:59 IST 2016
+06:46:02,261 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:16:02 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:16:02 | 06:46:02,261 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:16:02 IST 2016
+06:46:59,273 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:16:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:16:59 | 06:46:59,273 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:16:59 IST 2016
+06:47:01,169 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:17:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:17:01 | 06:47:01,169 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:17:01 IST 2016
+06:47:59,301 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:17:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:17:59 | 06:47:59,301 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:17:59 IST 2016
+06:48:00,989 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:18:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:18:00 | 06:48:00,989 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:18:00 IST 2016
+06:48:59,344 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:18:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:18:59 | 06:48:59,344 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:18:59 IST 2016
+06:49:00,892 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:19:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:19:00 | 06:49:00,892 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:19:00 IST 2016
+06:49:59,313 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:19:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:19:59 | 06:49:59,313 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:19:59 IST 2016
+06:50:00,743 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:20:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:20:00 | 06:50:00,743 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:20:00 IST 2016
+06:50:33,439 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+06:50:33,440 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:20:33 | 06:50:33,439 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:20:33 | 06:50:33,440 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:51:00,480 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:21:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:21:00 | 06:51:00,480 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:21:00 IST 2016
+06:51:01,716 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:21:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:21:01 | 06:51:01,716 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:21:01 IST 2016
+06:51:59,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:21:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:21:59 | 06:51:59,276 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:21:59 IST 2016
+06:52:00,930 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:22:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:22:00 | 06:52:00,930 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:22:00 IST 2016
+06:52:05,259 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+06:52:05,260 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:52:05,264 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+06:52:05,265 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:22:05 | 06:52:05,259 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:22:05 | 06:52:05,260 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:22:05 | 06:52:05,264 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:22:05 | 06:52:05,265 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:52:48,444 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+06:52:48,445 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:52:48,448 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+06:52:48,449 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:22:48 | 06:52:48,444 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:22:48 | 06:52:48,445 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:22:48 | 06:52:48,448 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:22:48 | 06:52:48,449 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:52:59,309 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:22:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:22:59 | 06:52:59,309 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:22:59 IST 2016
+06:53:00,172 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:23:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:23:00 | 06:53:00,172 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:23:00 IST 2016
+06:53:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+06:53:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:23:27 | 06:53:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:23:27 | 06:53:27,375 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+06:53:55,675 INFO  [stdout] (ajp--0.0.0.0-8009-12) 
+INFO   | jvm 1    | 2016/11/20 12:23:55 | 06:53:55,675 INFO  [stdout] (ajp--0.0.0.0-8009-12) 
+06:53:59,334 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:23:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:23:59 | 06:53:59,334 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:23:59 IST 2016
+06:54:01,204 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:24:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:24:01 | 06:54:01,204 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:24:01 IST 2016
+06:54:52,406 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:24:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:24:52 | 06:54:52,406 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:24:52 IST 2016
+06:54:59,692 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:24:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:24:59 | 06:54:59,692 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:24:59 IST 2016
+06:55:00,366 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:25:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:25:00 | 06:55:00,366 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:25:00 IST 2016
+06:55:52,681 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:25:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:25:52 | 06:55:52,681 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:25:52 IST 2016
+06:55:59,296 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:25:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:25:59 | 06:55:59,296 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:25:59 IST 2016
+06:55:59,961 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:25:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:26:00 | 06:55:59,961 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:25:59 IST 2016
+06:56:52,158 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:26:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:26:52 | 06:56:52,158 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:26:52 IST 2016
+06:56:59,712 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:26:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:26:59 | 06:56:59,712 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:26:59 IST 2016
+06:57:01,992 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:27:01 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:27:02 | 06:57:01,992 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:27:01 IST 2016
+06:57:52,195 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:27:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:27:52 | 06:57:52,195 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:27:52 IST 2016
+06:57:59,087 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:27:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:27:59 | 06:57:59,087 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:27:59 IST 2016
+06:57:59,713 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:27:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:27:59 | 06:57:59,713 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:27:59 IST 2016
+06:58:52,168 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:28:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:28:52 | 06:58:52,168 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:28:52 IST 2016
+06:58:58,738 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:28:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:28:58 | 06:58:58,738 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:28:58 IST 2016
+06:58:59,426 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:28:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:28:59 | 06:58:59,426 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:28:59 IST 2016
+06:59:52,079 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:29:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:29:52 | 06:59:52,079 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:29:52 IST 2016
+06:59:58,495 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:29:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:29:58 | 06:59:58,495 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:29:58 IST 2016
+06:59:59,693 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:29:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:29:59 | 06:59:59,693 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:29:59 IST 2016
+07:00:52,207 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:30:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:30:52 | 07:00:52,207 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:30:52 IST 2016
+07:00:58,305 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:30:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:30:58 | 07:00:58,305 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:30:58 IST 2016
+07:00:59,324 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:30:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:30:59 | 07:00:59,324 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:30:59 IST 2016
+07:01:52,991 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:31:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:31:53 | 07:01:52,991 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:31:52 IST 2016
+07:01:58,073 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:31:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:31:58 | 07:01:58,073 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:31:58 IST 2016
+07:01:59,343 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:31:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:31:59 | 07:01:59,343 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:31:59 IST 2016
+07:02:52,032 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:32:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:32:52 | 07:02:52,032 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:32:52 IST 2016
+07:02:58,246 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:32:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:32:58 | 07:02:58,246 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:32:58 IST 2016
+07:02:59,733 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:32:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:32:59 | 07:02:59,733 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:32:59 IST 2016
+07:03:52,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:33:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:33:52 | 07:03:52,185 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:33:52 IST 2016
+07:03:57,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:33:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:33:57 | 07:03:57,837 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:33:57 IST 2016
+07:03:59,314 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:33:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:33:59 | 07:03:59,314 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:33:59 IST 2016
+07:04:52,073 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:34:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:34:52 | 07:04:52,073 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:34:52 IST 2016
+07:04:57,663 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:34:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:34:57 | 07:04:57,663 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:34:57 IST 2016
+07:04:59,310 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:34:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:34:59 | 07:04:59,310 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:34:59 IST 2016
+07:05:52,112 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:35:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:35:52 | 07:05:52,112 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:35:52 IST 2016
+07:05:57,641 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:35:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:35:57 | 07:05:57,641 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:35:57 IST 2016
+07:06:00,003 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:36:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:36:00 | 07:06:00,003 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:36:00 IST 2016
+07:06:52,118 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:36:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:36:52 | 07:06:52,118 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:36:52 IST 2016
+07:06:57,221 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:36:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:36:57 | 07:06:57,221 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:36:57 IST 2016
+07:06:59,338 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:36:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:36:59 | 07:06:59,338 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:36:59 IST 2016
+07:07:52,635 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:37:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:37:52 | 07:07:52,635 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:37:52 IST 2016
+07:07:57,314 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:37:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:37:57 | 07:07:57,314 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:37:57 IST 2016
+07:07:59,340 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:37:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:37:59 | 07:07:59,340 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:37:59 IST 2016
+07:08:52,317 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:38:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:38:52 | 07:08:52,317 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:38:52 IST 2016
+07:08:57,397 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:38:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:38:57 | 07:08:57,397 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:38:57 IST 2016
+07:08:59,654 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:38:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:38:59 | 07:08:59,654 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:38:59 IST 2016
+07:09:52,119 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:39:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:39:52 | 07:09:52,119 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:39:52 IST 2016
+07:09:56,399 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:39:56 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:39:56 | 07:09:56,399 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:39:56 IST 2016
+07:09:59,332 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:39:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:39:59 | 07:09:59,332 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:39:59 IST 2016
+07:10:52,209 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:40:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:40:52 | 07:10:52,209 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:40:52 IST 2016
+07:10:56,298 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:40:56 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:40:56 | 07:10:56,298 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:40:56 IST 2016
+07:11:00,336 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:41:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:41:00 | 07:11:00,336 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:41:00 IST 2016
+07:11:52,635 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:41:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:41:52 | 07:11:52,635 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:41:52 IST 2016
+07:11:56,095 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:41:56 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:41:56 | 07:11:56,095 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:41:56 IST 2016
+07:11:59,375 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:41:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:41:59 | 07:11:59,375 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 12:41:59 IST 2016
+07:12:52,350 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:42:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:42:52 | 07:12:52,350 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:42:52 IST 2016
+07:12:55,742 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:42:55 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:42:55 | 07:12:55,742 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:42:55 IST 2016
+07:13:00,358 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:43:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:43:00 | 07:13:00,358 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:43:00 IST 2016
+07:13:52,433 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:43:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:43:52 | 07:13:52,433 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 12:43:52 IST 2016
+07:13:55,468 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:43:55 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:43:55 | 07:13:55,468 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:43:55 IST 2016
+07:13:59,941 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:43:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:43:59 | 07:13:59,941 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 12:43:59 IST 2016
+07:14:52,155 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:44:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:44:52 | 07:14:52,155 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:44:52 IST 2016
+07:14:55,486 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:44:55 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:44:55 | 07:14:55,486 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 12:44:55 IST 2016
+07:14:59,595 ERROR [stderr] (ajp--0.0.0.0-8009-15) testDuration :3600
+07:14:59,596 ERROR [stderr] (ajp--0.0.0.0-8009-15) totalQuesTime :3600
+INFO   | jvm 1    | 2016/11/20 12:44:59 | 07:14:59,595 ERROR [stderr] (ajp--0.0.0.0-8009-15) testDuration :3600
+INFO   | jvm 1    | 2016/11/20 12:44:59 | 07:14:59,596 ERROR [stderr] (ajp--0.0.0.0-8009-15) totalQuesTime :3600
+07:15:00,602 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:45:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:45:00 | 07:15:00,602 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:45:00 IST 2016
+07:15:02,094 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+07:15:02,095 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 12:45:02 | 07:15:02,094 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/20 12:45:02 | 07:15:02,095 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+07:15:52,219 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:45:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:45:52 | 07:15:52,219 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:45:52 IST 2016
+07:15:55,027 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:45:55 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:45:55 | 07:15:55,027 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 12:45:55 IST 2016
+07:16:52,288 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:46:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:46:52 | 07:16:52,288 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:46:52 IST 2016
+07:16:54,889 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:46:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:46:54 | 07:16:54,889 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:46:54 IST 2016
+07:17:52,307 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:47:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:47:52 | 07:17:52,307 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:47:52 IST 2016
+07:17:54,672 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:47:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:47:54 | 07:17:54,672 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:47:54 IST 2016
+07:18:52,206 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:48:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:48:52 | 07:18:52,206 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:48:52 IST 2016
+07:18:54,856 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:48:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:48:54 | 07:18:54,856 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:48:54 IST 2016
+07:19:52,589 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:49:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:49:52 | 07:19:52,589 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:49:52 IST 2016
+07:19:54,232 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:49:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:49:54 | 07:19:54,232 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:49:54 IST 2016
+07:20:52,242 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:50:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:50:52 | 07:20:52,242 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:50:52 IST 2016
+07:20:54,312 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:50:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:50:54 | 07:20:54,312 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:50:54 IST 2016
+07:21:52,978 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:51:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:51:53 | 07:21:52,978 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:51:52 IST 2016
+07:21:53,761 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:51:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:51:53 | 07:21:53,761 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:51:53 IST 2016
+07:22:52,236 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:52:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:52:52 | 07:22:52,236 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:52:52 IST 2016
+07:22:53,458 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:52:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:52:53 | 07:22:53,458 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:52:53 IST 2016
+07:23:52,182 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:53:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:53:52 | 07:23:52,182 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:53:52 IST 2016
+07:23:53,254 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:53:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:53:53 | 07:23:53,254 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:53:53 IST 2016
+07:24:52,738 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:54:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:54:52 | 07:24:52,738 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:54:52 IST 2016
+07:24:54,650 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:54:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:54:54 | 07:24:54,650 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:54:54 IST 2016
+07:25:52,161 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:55:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:55:52 | 07:25:52,161 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 12:55:52 IST 2016
+07:25:52,832 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:55:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:55:52 | 07:25:52,832 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 12:55:52 IST 2016
+07:26:52,230 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:56:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:56:52 | 07:26:52,230 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 12:56:52 IST 2016
+07:26:52,895 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:56:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:56:52 | 07:26:52,895 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 12:56:52 IST 2016
+07:27:52,219 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:57:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:57:52 | 07:27:52,219 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 12:57:52 IST 2016
+07:27:52,873 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:57:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:57:52 | 07:27:52,873 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 12:57:52 IST 2016
+07:28:51,778 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:58:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:58:51 | 07:28:51,778 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 12:58:51 IST 2016
+07:28:52,427 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:58:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:58:52 | 07:28:52,427 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 12:58:52 IST 2016
+07:29:51,621 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:59:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:59:51 | 07:29:51,621 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 12:59:51 IST 2016
+07:29:52,260 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:59:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 12:59:52 | 07:29:52,260 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 12:59:52 IST 2016
+07:30:51,783 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:00:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:00:51 | 07:30:51,783 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:00:51 IST 2016
+07:30:53,161 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:00:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:00:53 | 07:30:53,161 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:00:53 IST 2016
+07:31:51,389 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:01:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:01:51 | 07:31:51,389 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:01:51 IST 2016
+07:31:52,288 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:01:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:01:52 | 07:31:52,288 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:01:52 IST 2016
+07:32:51,721 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:02:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:02:51 | 07:32:51,721 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:02:51 IST 2016
+07:32:52,819 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:02:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:02:52 | 07:32:52,819 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:02:52 IST 2016
+07:33:50,805 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:03:50 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:03:50 | 07:33:50,805 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:03:50 IST 2016
+07:33:52,204 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:03:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:03:52 | 07:33:52,204 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:03:52 IST 2016
+07:34:50,469 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:04:50 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:04:50 | 07:34:50,469 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:04:50 IST 2016
+07:34:52,477 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:04:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:04:52 | 07:34:52,477 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:04:52 IST 2016
+07:35:51,072 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:05:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:05:51 | 07:35:51,072 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:05:51 IST 2016
+07:35:52,265 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:05:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:05:52 | 07:35:52,265 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:05:52 IST 2016
+07:36:52,650 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:06:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:06:52 | 07:36:52,650 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:06:52 IST 2016
+07:36:53,319 ERROR [stderr] (ajp--0.0.0.0-8009-10) testDuration :3600
+07:36:53,320 ERROR [stderr] (ajp--0.0.0.0-8009-10) totalQuesTime :3591
+INFO   | jvm 1    | 2016/11/20 13:06:53 | 07:36:53,319 ERROR [stderr] (ajp--0.0.0.0-8009-10) testDuration :3600
+INFO   | jvm 1    | 2016/11/20 13:06:53 | 07:36:53,320 ERROR [stderr] (ajp--0.0.0.0-8009-10) totalQuesTime :3591
+07:36:55,075 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+07:36:55,076 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:06:55 | 07:36:55,075 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:06:55 | 07:36:55,076 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+07:37:52,213 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:07:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:07:52 | 07:37:52,213 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:07:52 IST 2016
+07:38:52,623 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:08:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:08:52 | 07:38:52,623 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:08:52 IST 2016
+07:39:52,656 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:09:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:09:52 | 07:39:52,656 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:09:52 IST 2016
+07:40:52,748 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:10:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:10:52 | 07:40:52,748 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:10:52 IST 2016
+07:41:53,345 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:11:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:11:53 | 07:41:53,345 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:11:53 IST 2016
+07:42:52,521 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:12:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:12:52 | 07:42:52,521 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:12:52 IST 2016
+07:43:52,633 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 13:13:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:13:52 | 07:43:52,633 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 13:13:52 IST 2016
+07:44:52,553 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:14:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:14:52 | 07:44:52,553 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:14:52 IST 2016
+07:45:52,702 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:15:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:15:52 | 07:45:52,702 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:15:52 IST 2016
+07:46:54,609 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:16:54 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:16:54 | 07:46:54,609 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:16:54 IST 2016
+07:47:52,739 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:17:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:17:52 | 07:47:52,739 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:17:52 IST 2016
+07:48:52,954 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 13:18:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:18:53 | 07:48:52,954 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 13:18:52 IST 2016
+07:49:52,761 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:19:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:19:52 | 07:49:52,761 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:19:52 IST 2016
+07:50:52,668 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:20:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:20:52 | 07:50:52,668 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:20:52 IST 2016
+07:51:52,692 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 13:21:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:21:52 | 07:51:52,692 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 13:21:52 IST 2016
+07:52:53,234 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 13:22:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:22:53 | 07:52:53,234 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 13:22:53 IST 2016
+07:53:52,790 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:23:52 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:23:52 | 07:53:52,790 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:23:52 IST 2016
+07:53:53,645 ERROR [stderr] (ajp--0.0.0.0-8009-13) testDuration :3600
+07:53:53,646 ERROR [stderr] (ajp--0.0.0.0-8009-13) totalQuesTime :3600
+INFO   | jvm 1    | 2016/11/20 13:23:53 | 07:53:53,645 ERROR [stderr] (ajp--0.0.0.0-8009-13) testDuration :3600
+INFO   | jvm 1    | 2016/11/20 13:23:53 | 07:53:53,646 ERROR [stderr] (ajp--0.0.0.0-8009-13) totalQuesTime :3600
+07:53:55,572 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+07:53:55,573 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:23:55 | 07:53:55,572 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:23:55 | 07:53:55,573 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+07:59:38,102 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+07:59:38,103 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:29:38 | 07:59:38,102 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:29:38 | 07:59:38,103 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:00:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+08:00:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:00:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+08:00:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:30:08 | 08:00:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:30:08 | 08:00:08,601 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:30:08 | 08:00:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:30:08 | 08:00:08,606 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:01:25,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:31:25 | 08:01:25,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:01:26,636 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+08:01:26,637 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:31:26 | 08:01:26,636 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:31:26 | 08:01:26,637 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:11:42,697 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+08:11:42,697 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:41:42 | 08:11:42,697 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:41:42 | 08:11:42,697 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:12:21,061 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:12:21,064 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.assess.exception.InvalidLoginException: User Name or Password is invalid
+08:12:21,065 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.DeligateLogin.validateUser(DeligateLogin.java:241)
+08:12:21,065 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:52)
+08:12:21,066 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76)
+08:12:21,067 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.LoginActionServlet.doPost(LoginActionServlet.java:121)
+08:12:21,068 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+08:12:21,069 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+08:12:21,070 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+08:12:21,071 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+08:12:21,072 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+08:12:21,073 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+08:12:21,074 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+08:12:21,076 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+08:12:21,078 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+08:12:21,079 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+08:12:21,080 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+08:12:21,081 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+08:12:21,081 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+08:12:21,082 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+08:12:21,083 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+08:12:21,084 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+08:12:21,085 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+08:12:21,086 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+08:12:21,087 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+08:12:21,088 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+08:12:21,089 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+08:12:21,090 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+08:12:21,090 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+08:12:21,091 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,061 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,064 ERROR [stderr] (ajp--0.0.0.0-8009-5) com.assess.exception.InvalidLoginException: User Name or Password is invalid
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,065 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.DeligateLogin.validateUser(DeligateLogin.java:241)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,065 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.DeligateLogin.validateLogin(DeligateLogin.java:52)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,066 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.LoginActionServlet.doGet(LoginActionServlet.java:76)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,067 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.assess.login.LoginActionServlet.doPost(LoginActionServlet.java:121)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,068 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,069 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,070 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,071 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,072 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,073 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,074 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,076 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,078 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,079 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,080 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,081 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,081 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,082 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,083 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,084 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,085 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,086 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,087 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,088 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,089 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,090 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,090 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/11/20 13:42:21 | 08:12:21,091 ERROR [stderr] (ajp--0.0.0.0-8009-5) 	at java.lang.Thread.run(Thread.java:745)
+08:12:22,383 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+08:12:22,384 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:42:22 | 08:12:22,383 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:42:22 | 08:12:22,384 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:13:01,201 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+08:13:01,201 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:13:01,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+08:13:01,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:43:01 | 08:13:01,201 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:43:01 | 08:13:01,201 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:43:01 | 08:13:01,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:43:01 | 08:13:01,205 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:14:12,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+08:14:12,843 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:14:12,846 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+08:14:12,847 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:44:12 | 08:14:12,842 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:44:12 | 08:14:12,843 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:44:12 | 08:14:12,846 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:44:12 | 08:14:12,847 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:14:17,963 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+08:14:17,964 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 13:44:18 | 08:14:17,963 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/11/20 13:44:18 | 08:14:17,964 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+08:14:25,651 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+INFO   | jvm 1    | 2016/11/20 13:44:25 | 08:14:25,651 INFO  [stdout] (ajp--0.0.0.0-8009-11) 
+08:15:26,016 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:45:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:45:26 | 08:15:26,016 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 13:45:26 IST 2016
+08:16:26,003 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 13:46:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:46:26 | 08:16:26,003 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 13:46:26 IST 2016
+08:17:26,331 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:47:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:47:26 | 08:17:26,331 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 13:47:26 IST 2016
+08:18:26,016 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 13:48:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:48:26 | 08:18:26,016 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 13:48:26 IST 2016
+08:19:26,033 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:49:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:49:26 | 08:19:26,033 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 13:49:26 IST 2016
+08:20:26,037 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:50:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:50:26 | 08:20:26,037 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 13:50:26 IST 2016
+08:21:25,978 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:51:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:51:26 | 08:21:25,978 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 13:51:25 IST 2016
+08:22:25,995 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 13:52:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:52:26 | 08:22:25,995 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 13:52:25 IST 2016
+08:23:26,327 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:53:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:53:26 | 08:23:26,327 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 13:53:26 IST 2016
+08:24:26,001 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 13:54:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:54:26 | 08:24:26,001 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 13:54:26 IST 2016
+08:25:26,070 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:55:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:55:26 | 08:25:26,070 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 13:55:26 IST 2016
+08:26:25,999 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:56:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:56:26 | 08:26:25,999 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 13:56:25 IST 2016
+08:27:26,014 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:57:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:57:26 | 08:27:26,014 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 13:57:26 IST 2016
+08:28:26,023 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:58:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:58:26 | 08:28:26,023 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 13:58:26 IST 2016
+08:29:26,396 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:59:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 13:59:26 | 08:29:26,396 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 13:59:26 IST 2016
+08:30:26,015 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:00:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:00:26 | 08:30:26,015 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:00:26 IST 2016
+08:31:26,003 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:01:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:01:26 | 08:31:26,003 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:01:26 IST 2016
+08:32:26,089 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:02:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:02:26 | 08:32:26,089 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:02:26 IST 2016
+08:33:26,045 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 14:03:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:03:26 | 08:33:26,045 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 14:03:26 IST 2016
+08:34:25,994 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:04:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:04:26 | 08:34:25,994 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:04:25 IST 2016
+08:35:26,365 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:05:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:05:26 | 08:35:26,365 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:05:26 IST 2016
+08:36:26,031 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:06:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:06:26 | 08:36:26,031 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:06:26 IST 2016
+08:37:25,991 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:07:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:07:26 | 08:37:25,991 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:07:25 IST 2016
+08:38:25,990 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:08:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:08:26 | 08:38:25,990 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:08:25 IST 2016
+08:39:26,058 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:09:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:09:26 | 08:39:26,058 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:09:26 IST 2016
+08:40:27,688 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:10:27 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:10:27 | 08:40:27,688 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:10:27 IST 2016
+08:41:26,010 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:11:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:11:26 | 08:41:26,010 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:11:26 IST 2016
+08:42:26,030 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:12:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:12:26 | 08:42:26,030 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:12:26 IST 2016
+08:43:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:13:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:13:26 | 08:43:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:13:26 IST 2016
+08:44:25,988 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 14:14:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:14:26 | 08:44:25,988 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 14:14:25 IST 2016
+08:45:25,994 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:15:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:15:25 | 08:45:25,994 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:15:25 IST 2016
+08:46:26,342 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:16:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:16:26 | 08:46:26,342 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:16:26 IST 2016
+08:47:26,441 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:17:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:17:26 | 08:47:26,441 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:17:26 IST 2016
+08:48:26,363 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 14:18:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:18:26 | 08:48:26,363 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 14:18:26 IST 2016
+08:49:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:19:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:19:26 | 08:49:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:19:26 IST 2016
+08:50:26,035 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:20:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:20:26 | 08:50:26,035 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:20:26 IST 2016
+08:51:27,052 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:21:27 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:21:27 | 08:51:27,052 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:21:27 IST 2016
+08:52:26,396 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:22:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:22:26 | 08:52:26,396 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:22:26 IST 2016
+08:53:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:23:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:23:26 | 08:53:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:23:26 IST 2016
+08:54:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:24:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:24:26 | 08:54:26,007 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:24:26 IST 2016
+08:55:26,654 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:25:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:25:26 | 08:55:26,654 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:25:26 IST 2016
+08:56:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:26:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:26:26 | 08:56:26,314 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:26:26 IST 2016
+08:57:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:27:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:27:26 | 08:57:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 14:27:26 IST 2016
+08:58:26,325 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 14:28:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:28:26 | 08:58:26,325 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 14:28:26 IST 2016
+08:59:25,984 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 14:29:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:29:26 | 08:59:25,984 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 14:29:25 IST 2016
+09:00:26,081 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:30:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:30:26 | 09:00:26,081 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:30:26 IST 2016
+09:01:26,738 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:31:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:31:26 | 09:01:26,738 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:31:26 IST 2016
+09:02:26,004 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:32:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:32:26 | 09:02:26,004 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 14:32:26 IST 2016
+09:03:26,439 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:33:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:33:26 | 09:03:26,439 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 14:33:26 IST 2016
+09:04:26,020 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:34:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:34:26 | 09:04:26,020 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:34:26 IST 2016
+09:05:26,006 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:35:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:35:26 | 09:05:26,006 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:35:26 IST 2016
+09:06:26,057 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:36:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:36:26 | 09:06:26,057 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 14:36:26 IST 2016
+09:07:25,990 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:37:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:37:26 | 09:07:25,990 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 14:37:25 IST 2016
+09:08:25,992 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:38:25 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:38:26 | 09:08:25,992 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 14:38:25 IST 2016
+09:09:26,660 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:39:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:39:26 | 09:09:26,660 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 14:39:26 IST 2016
+09:10:26,882 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:40:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:40:26 | 09:10:26,882 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Sun Nov 20 14:40:26 IST 2016
+09:11:26,035 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:41:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:41:26 | 09:11:26,035 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 14:41:26 IST 2016
+09:12:26,382 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:42:26 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:42:26 | 09:12:26,382 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 14:42:26 IST 2016
+09:13:27,580 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:43:27 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:43:27 | 09:13:27,580 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 14:43:27 IST 2016
+09:14:26,865 ERROR [stderr] (ajp--0.0.0.0-8009-21) testDuration :3600
+09:14:26,866 ERROR [stderr] (ajp--0.0.0.0-8009-21) totalQuesTime :3600
+INFO   | jvm 1    | 2016/11/20 14:44:26 | 09:14:26,865 ERROR [stderr] (ajp--0.0.0.0-8009-21) testDuration :3600
+INFO   | jvm 1    | 2016/11/20 14:44:26 | 09:14:26,866 ERROR [stderr] (ajp--0.0.0.0-8009-21) totalQuesTime :3600
+09:14:28,223 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:44:28 IST 2016
+INFO   | jvm 1    | 2016/11/20 14:44:28 | 09:14:28,223 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 14:44:28 IST 2016
+09:14:29,103 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+09:14:29,104 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 14:44:29 | 09:14:29,103 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/11/20 14:44:29 | 09:14:29,104 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:27:39,560 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+INFO   | jvm 1    | 2016/11/20 19:57:39 | 14:27:39,560 ERROR [org.jboss.remoting.remote.connection] (Remoting "punyasm:MANAGEMENT" read-1) JBREM000200: Remote connection failed: java.io.IOException: Received an invalid message length of 1195725856
+14:51:11,220 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United Kingdom)
+14:51:11,221 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:21:11 | 14:51:11,220 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:21:11 | 14:51:11,221 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:51:51,824 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+14:51:51,825 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:51:51,828 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+14:51:51,829 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:21:51 | 14:51:51,824 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:21:51 | 14:51:51,825 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:21:51 | 14:51:51,828 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:21:51 | 14:51:51,829 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:51:54,005 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United Kingdom)
+14:51:54,005 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:51:54,009 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United Kingdom)
+14:51:54,009 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:21:54 | 14:51:54,005 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:21:54 | 14:51:54,005 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:21:54 | 14:51:54,009 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:21:54 | 14:51:54,009 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:52:04,072 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+14:52:04,073 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:52:04,077 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+14:52:04,077 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:22:04 | 14:52:04,072 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:22:04 | 14:52:04,073 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:22:04 | 14:52:04,077 INFO  [stdout] (ajp--0.0.0.0-8009-11) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:22:04 | 14:52:04,077 INFO  [stdout] (ajp--0.0.0.0-8009-11) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:52:12,835 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United Kingdom)
+14:52:12,836 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:22:12 | 14:52:12,835 INFO  [stdout] (ajp--0.0.0.0-8009-17) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:22:12 | 14:52:12,836 INFO  [stdout] (ajp--0.0.0.0-8009-17) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:53:55,775 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United Kingdom)
+14:53:55,776 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:23:55 | 14:53:55,775 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:23:55 | 14:53:55,776 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:04,255 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United Kingdom)
+14:54:04,255 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:04 | 14:54:04,255 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:04 | 14:54:04,255 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:39,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+14:54:39,116 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:39,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+14:54:39,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:39 | 14:54:39,115 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:39 | 14:54:39,116 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:39 | 14:54:39,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:39 | 14:54:39,120 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:48,122 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United Kingdom)
+14:54:48,123 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:48,126 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United Kingdom)
+14:54:48,127 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:48 | 14:54:48,122 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:48 | 14:54:48,123 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:48 | 14:54:48,126 INFO  [stdout] (ajp--0.0.0.0-8009-18) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:48 | 14:54:48,127 INFO  [stdout] (ajp--0.0.0.0-8009-18) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:54:57,396 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United Kingdom)
+14:54:57,397 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:24:57 | 14:54:57,396 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:24:57 | 14:54:57,397 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+14:55:17,452 INFO  [stdout] (ajp--0.0.0.0-8009-15) {"195":{"bookmark":0,"tqoId":0,"qtime":0},"194":{"bookmark":0,"tqoId":0,"qtime":0},"197":{"bookmark":0,"tqoId":0,"qtime":0},"159":{"bookmark":0,"tqoId":0,"qtime":0},"196":{"bookmark":0,"tqoId":0,"qtime":0},"158":{"bookmark":0,"tqoId":0,"qtime":0},"191":{"bookmark":0,"tqoId":0,"qtime":0},"157":{"bookmark":0,"tqoId":0,"qtime":0},"190":{"bookmark":0,"tqoId":0,"qtime":0},"156":{"bookmark":0,"tqoId":680,"qtime":50},"193":{"bookmark":0,"tqoId":0,"qtime":0},"155":{"bookmark":0,"tqoId":0,"qtime":0},"192":{"bookmark":0,"tqoId":0,"qtime":0},"154":{"bookmark":1,"tqoId":0,"qtime":34},"152":{"bookmark":0,"tqoId":666,"qtime":122},"153":{"bookmark":0,"tqoId":0,"qtime":0},"150":{"bookmark":0,"tqoId":656,"qtime":44},"151":{"bookmark":0,"tqoId":0,"qtime":0},"198":{"bookmark":0,"tqoId":0,"qtime":0},"199":{"bookmark":0,"tqoId":843,"qtime":68},"202":{"bookmark":0,"tqoId":854,"qtime":78},"200":{"bookmark":0,"tqoId":848,"qtime":27},"201":{"bookmark":0,"tqoId":853,"qtime":110},"169":{"bookmark":0,"tqoId":0,"qtime":0},"166":{"bookmark":0,"tqoId":0,"qtime":0},"165":{"bookmark":0,"tqoId":0,"qtime":0},"168":{"bookmark":0,"tqoId":0,"qtime":0},"167":{"bookmark":0,"tqoId":0,"qtime":0},"161":{"bookmark":0,"tqoId":0,"qtime":0},"162":{"bookmark":0,"tqoId":0,"qtime":0},"163":{"bookmark":0,"tqoId":0,"qtime":0},"164":{"bookmark":0,"tqoId":0,"qtime":0},"160":{"bookmark":0,"tqoId":0,"qtime":0},"179":{"bookmark":0,"tqoId":0,"qtime":0},"178":{"bookmark":0,"tqoId":0,"qtime":0},"177":{"bookmark":0,"tqoId":0,"qtime":0},"176":{"bookmark":0,"tqoId":0,"qtime":0},"170":{"bookmark":0,"tqoId":0,"qtime":0},"171":{"bookmark":0,"tqoId":0,"qtime":0},"174":{"bookmark":0,"tqoId":0,"qtime":0},"175":{"bookmark":0,"tqoId":0,"qtime":0},"172":{"bookmark":0,"tqoId":0,"qtime":0},"173":{"bookmark":0,"tqoId":0,"qtime":0},"143":{"bookmark":0,"tqoId":0,"qtime":0},"144":{"bookmark":0,"tqoId":0,"qtime":0},"145":{"bookmark":0,"tqoId":0,"qtime":0},"146":{"bookmark":0,"tqoId":0,"qtime":0},"147":{"bookmark":0,"tqoId":645,"qtime":49},"148":{"bookmark":0,"tqoId":0,"qtime":0},"149":{"bookmark":0,"tqoId":0,"qtime":0},"188":{"bookmark":0,"tqoId":0,"qtime":0},"187":{"bookmark":0,"tqoId":0,"qtime":0},"189":{"bookmark":0,"tqoId":0,"qtime":0},"180":{"bookmark":0,"tqoId":0,"qtime":0},"181":{"bookmark":0,"tqoId":0,"qtime":0},"182":{"bookmark":0,"tqoId":0,"qtime":0},"183":{"bookmark":0,"tqoId":0,"qtime":0},"184":{"bookmark":0,"tqoId":0,"qtime":0},"185":{"bookmark":0,"tqoId":0,"qtime":0},"186":{"bookmark":0,"tqoId":0,"qtime":0}}
+INFO   | jvm 1    | 2016/11/20 20:25:17 | 14:55:17,452 INFO  [stdout] (ajp--0.0.0.0-8009-15) {"195":{"bookmark":0,"tqoId":0,"qtime":0},"194":{"bookmark":0,"tqoId":0,"qtime":0},"197":{"bookmark":0,"tqoId":0,"qtime":0},"159":{"bookmark":0,"tqoId":0,"qtime":0},"196":{"bookmark":0,"tqoId":0,"qtime":0},"158":{"bookmark":0,"tqoId":0,"qtime":0},"191":{"bookmark":0,"tqoId":0,"qtime":0},"157":{"bookmark":0,"tqoId":0,"qtime":0},"190":{"bookmark":0,"tqoId":0,"qtime":0},"156":{"bookmark":0,"tqoId":680,"qtime":50},"193":{"bookmark":0,"tqoId":0,"qtime":0},"155":{"bookmark":0,"tqoId":0,"qtime":0},"192":{"bookmark":0,"tqoId":0,"qtime":0},"154":{"bookmark":1,"tqoId":0,"qtime":34},"152":{"bookmark":0,"tqoId":666,"qtime":122},"153":{"bookmark":0,"tqoId":0,"qtime":0},"150":{"bookmark":0,"tqoId":656,"qtime":44},"151":{"bookmark":0,"tqoId":0,"qtime":0},"198":{"bookmark":0,"tqoId":0,"qtime":0},"199":{"bookmark":0,"tqoId":843,"qtime":68},"202":{"bookmark":0,"tqoId":854,"qtime":78},"200":{"bookmark":0,"tqoId":848,"qtime":27},"201":{"bookmark":0,"tqoId":853,"qtime":110},"169":{"bookmark":0,"tqoId":0,"qtime":0},"166":{"bookmark":0,"tqoId":0,"qtime":0},"165":{"bookmark":0,"tqoId":0,"qtime":0},"168":{"bookmark":0,"tqoId":0,"qtime":0},"167":{"bookmark":0,"tqoId":0,"qtime":0},"161":{"bookmark":0,"tqoId":0,"qtime":0},"162":{"bookmark":0,"tqoId":0,"qtime":0},"163":{"bookmark":0,"tqoId":0,"qtime":0},"164":{"bookmark":0,"tqoId":0,"qtime":0},"160":{"bookmark":0,"tqoId":0,"qtime":0},"179":{"bookmark":0,"tqoId":0,"qtime":0},"178":{"bookmark":0,"tqoId":0,"qtime":0},"177":{"bookmark":0,"tqoId":0,"qtime":0},"176":{"bookmark":0,"tqoId":0,"qtime":0},"170":{"bookmark":0,"tqoId":0,"qtime":0},"171":{"bookmark":0,"tqoId":0,"qtime":0},"174":{"bookmark":0,"tqoId":0,"qtime":0},"175":{"bookmark":0,"tqoId":0,"qtime":0},"172":{"bookmark":0,"tqoId":0,"qtime":0},"173":{"bookmark":0,"tqoId":0,"qtime":0},"143":{"bookmark":0,"tqoId":0,"qtime":0},"144":{"bookmark":0,"tqoId":0,"qtime":0},"145":{"bookmark":0,"tqoId":0,"qtime":0},"146":{"bookmark":0,"tqoId":0,"qtime":0},"147":{"bookmark":0,"tqoId":645,"qtime":49},"148":{"bookmark":0,"tqoId":0,"qtime":0},"149":{"bookmark":0,"tqoId":0,"qtime":0},"188":{"bookmark":0,"tqoId":0,"qtime":0},"187":{"bookmark":0,"tqoId":0,"qtime":0},"189":{"bookmark":0,"tqoId":0,"qtime":0},"180":{"bookmark":0,"tqoId":0,"qtime":0},"181":{"bookmark":0,"tqoId":0,"qtime":0},"182":{"bookmark":0,"tqoId":0,"qtime":0},"183":{"bookmark":0,"tqoId":0,"qtime":0},"184":{"bookmark":0,"tqoId":0,"qtime":0},"185":{"bookmark":0,"tqoId":0,"qtime":0},"186":{"bookmark":0,"tqoId":0,"qtime":0}}
+14:56:17,195 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:26:17 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:26:17 | 14:56:17,195 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:26:17 IST 2016
+14:57:15,407 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 20:27:15 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:27:15 | 14:57:15,407 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 20:27:15 IST 2016
+14:58:14,341 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 20:28:14 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:28:14 | 14:58:14,341 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 20:28:14 IST 2016
+14:59:13,545 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Nov 20 20:29:13 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:29:13 | 14:59:13,545 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Nov 20 20:29:13 IST 2016
+15:00:12,441 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 20:30:12 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:30:12 | 15:00:12,441 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 20:30:12 IST 2016
+15:01:11,205 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 20:31:11 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:31:11 | 15:01:11,205 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 20:31:11 IST 2016
+15:02:11,186 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:32:11 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:32:11 | 15:02:11,186 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:32:11 IST 2016
+15:03:09,235 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 20:33:09 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:33:09 | 15:03:09,235 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Sun Nov 20 20:33:09 IST 2016
+15:04:07,766 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 20:34:07 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:34:07 | 15:04:07,766 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Sun Nov 20 20:34:07 IST 2016
+15:05:05,600 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 20:35:05 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:35:05 | 15:05:05,600 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Sun Nov 20 20:35:05 IST 2016
+15:06:04,583 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 20:36:04 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:36:04 | 15:06:04,583 INFO  [stdout] (ajp--0.0.0.0-8009-22) Data backup at Sun Nov 20 20:36:04 IST 2016
+15:07:02,120 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 20:37:02 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:37:02 | 15:07:02,120 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Sun Nov 20 20:37:02 IST 2016
+15:08:00,922 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 20:38:00 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:38:00 | 15:08:00,922 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Sun Nov 20 20:38:00 IST 2016
+15:08:59,377 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 20:38:59 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:38:59 | 15:08:59,377 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Sun Nov 20 20:38:59 IST 2016
+15:09:58,580 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 20:39:58 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:39:58 | 15:09:58,580 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Sun Nov 20 20:39:58 IST 2016
+15:10:57,788 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 20:40:57 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:40:57 | 15:10:57,788 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Sun Nov 20 20:40:57 IST 2016
+15:11:56,606 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 20:41:56 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:41:56 | 15:11:56,606 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Sun Nov 20 20:41:56 IST 2016
+15:12:55,366 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 20:42:55 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:42:55 | 15:12:55,366 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Sun Nov 20 20:42:55 IST 2016
+15:13:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Nov 20 20:43:56 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:43:56 | 15:13:56,266 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Sun Nov 20 20:43:56 IST 2016
+15:14:53,222 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 20:44:53 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:44:53 | 15:14:53,222 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Sun Nov 20 20:44:53 IST 2016
+15:15:51,973 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 20:45:51 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:45:52 | 15:15:51,973 INFO  [stdout] (ajp--0.0.0.0-8009-15) Data backup at Sun Nov 20 20:45:51 IST 2016
+15:16:50,170 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:46:50 IST 2016
+INFO   | jvm 1    | 2016/11/20 20:46:50 | 15:16:50,170 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Sun Nov 20 20:46:50 IST 2016
+15:17:25,537 ERROR [stderr] (ajp--0.0.0.0-8009-17) testDuration :3600
+15:17:25,538 ERROR [stderr] (ajp--0.0.0.0-8009-17) totalQuesTime :1928
+INFO   | jvm 1    | 2016/11/20 20:47:25 | 15:17:25,537 ERROR [stderr] (ajp--0.0.0.0-8009-17) testDuration :3600
+INFO   | jvm 1    | 2016/11/20 20:47:25 | 15:17:25,538 ERROR [stderr] (ajp--0.0.0.0-8009-17) totalQuesTime :1928
+15:17:27,112 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United Kingdom)
+15:17:27,113 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:47:27 | 15:17:27,112 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:47:27 | 15:17:27,113 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:18:26,090 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United Kingdom)
+15:18:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:48:26 | 15:18:26,090 INFO  [stdout] (ajp--0.0.0.0-8009-15) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:48:26 | 15:18:26,091 INFO  [stdout] (ajp--0.0.0.0-8009-15) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:18:58,521 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+15:18:58,522 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:18:58,526 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+15:18:58,527 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:48:58 | 15:18:58,521 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:48:58 | 15:18:58,522 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:48:58 | 15:18:58,526 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:48:58 | 15:18:58,527 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:20:24,379 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:50:24 | 15:20:24,379 INFO  [stdout] (ajp--0.0.0.0-8009-10) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+15:20:25,370 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United Kingdom)
+15:20:25,371 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/20 20:50:25 | 15:20:25,370 INFO  [stdout] (ajp--0.0.0.0-8009-9) English (United Kingdom)
+INFO   | jvm 1    | 2016/11/20 20:50:25 | 15:20:25,371 INFO  [stdout] (ajp--0.0.0.0-8009-9) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:34:27,687 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+18:34:27,688 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:04:27 | 18:34:27,687 INFO  [stdout] (ajp--0.0.0.0-8009-22) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:04:27 | 18:34:27,688 INFO  [stdout] (ajp--0.0.0.0-8009-22) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:35:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+18:35:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:05:43 | 18:35:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-4) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:05:43 | 18:35:43,069 INFO  [stdout] (ajp--0.0.0.0-8009-4) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:36:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+18:36:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:36:26,372 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+18:36:26,372 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:06:26 | 18:36:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:06:26 | 18:36:26,368 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:06:26 | 18:36:26,372 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:06:26 | 18:36:26,372 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:37:33,188 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+18:37:33,188 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:37:33,192 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+18:37:33,193 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:07:33 | 18:37:33,188 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:07:33 | 18:37:33,188 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:07:33 | 18:37:33,192 INFO  [stdout] (ajp--0.0.0.0-8009-3) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:07:33 | 18:37:33,193 INFO  [stdout] (ajp--0.0.0.0-8009-3) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:37:57,541 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+18:37:57,542 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 00:07:57 | 18:37:57,541 INFO  [stdout] (ajp--0.0.0.0-8009-12) English (United States)
+INFO   | jvm 1    | 2016/11/21 00:07:57 | 18:37:57,542 INFO  [stdout] (ajp--0.0.0.0-8009-12) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+18:38:24,999 INFO  [stdout] (ajp--0.0.0.0-8009-3) 
+INFO   | jvm 1    | 2016/11/21 00:08:25 | 18:38:24,999 INFO  [stdout] (ajp--0.0.0.0-8009-3) 
+18:39:27,388 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:09:27 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:09:27 | 18:39:27,388 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:09:27 IST 2016
+18:40:27,383 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:10:27 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:10:27 | 18:40:27,383 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:10:27 IST 2016
+18:41:27,887 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:11:27 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:11:27 | 18:41:27,887 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:11:27 IST 2016
+18:42:28,047 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:12:28 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:12:28 | 18:42:28,047 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:12:28 IST 2016
+18:43:26,905 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:13:26 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:13:26 | 18:43:26,905 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:13:26 IST 2016
+18:44:27,384 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:14:27 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:14:27 | 18:44:27,384 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:14:27 IST 2016
+18:45:00,160 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-1) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,162 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+18:45:00,163 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-1) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7INFO   | jvm 1    | 2016/11/21 00:15:00 | 18:45:00,160 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-1) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2016/11/21 00:15:00 | 18:45:00,162 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-21) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+	at com.ttn.INFO   | jvm 1    | 2016/11/21 00:15:00 | 18:45:00,163 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-1) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+survey.commonINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+s.core.model.INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+SurveyDefinatINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+ion_$$_jaINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+vassist_108INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+.getProductCINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+lientInfoVieINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:62) [classes:]
+w(SurveyDefiINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at sun.reflect.GeneratedMethodAccessor446.invoke(Unknown Source) [:1.7.0_60]
+nation_$$_javassist_108.java) [classes:]
+	at com.tINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+tn.survey.commons.mailINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+.schedulerINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+.MailJobSchedINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+uler.getEmaiINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+lService(MaiINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+lJobScheduleINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+r.java:157) INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+[classes:]
+	aINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+t com.ttn.suINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+rvey.commonsINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+.mail.scheduler.MailJobScheduler.newHINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+ireReminderMail(MINFO   | jvm 1    | 2016/11/21 00:15:00 | 
+ailJobSchedINFO   | jvm 1    | 2016/11/21 00:15:00 | 18:45:00,165 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-21) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+uler.java:101)INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+ [classes:]
+INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.ttn.sINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+urvey.commonINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+s.mail.scheduler.MailJobScheduler.sendNewHireReINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+minderMail(MaiINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+lJobScheduleINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:62) [classes:]
+r.java:62) [cINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at sun.reflect.GeneratedMethodAccessor446.invoke(Unknown Source) [:1.7.0_60]
+lasses:]
+	atINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+ sun.reflect.GeINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+neratedMethoINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+dAccessorINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+446.invoke(UnINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+known SourceINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+) [:1.7.0_60]INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+
+	at sun.reflect.DelegatingMethodAccesINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+sorImpl.invokeINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+(DelegatingMINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+ethodAccessorImpINFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+l.java:43) [rt.jar:1.7.0INFO   | jvm 1    | 2016/11/21 00:15:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+_60]INFO   | jvm 1    | 2016/11/21 00:15:00 | 
+
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+18:45:00,165 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-21) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail(MailJobScheduler.java:62) [classes:]
+	at sun.reflect.GeneratedMethodAccessor446.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+18:45:28,185 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:15:28 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:15:28 | 18:45:28,185 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:15:28 IST 2016
+18:46:30,685 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:16:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:16:30 | 18:46:30,685 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:16:30 IST 2016
+18:47:30,435 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:17:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:17:30 | 18:47:30,435 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:17:30 IST 2016
+18:48:30,029 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:18:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:18:30 | 18:48:30,029 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:18:30 IST 2016
+18:49:31,010 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:19:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:19:31 | 18:49:31,010 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:19:31 IST 2016
+18:50:31,721 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:20:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:20:31 | 18:50:31,721 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:20:31 IST 2016
+18:51:30,919 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 00:21:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:21:30 | 18:51:30,919 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 00:21:30 IST 2016
+18:52:30,908 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:22:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:22:31 | 18:52:30,908 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:22:30 IST 2016
+18:53:31,718 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:23:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:23:31 | 18:53:31,718 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:23:31 IST 2016
+18:54:35,243 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 00:24:35 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:24:35 | 18:54:35,243 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 00:24:35 IST 2016
+18:55:30,826 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:25:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:25:30 | 18:55:30,826 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:25:30 IST 2016
+18:56:31,244 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:26:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:26:31 | 18:56:31,244 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:26:31 IST 2016
+18:57:32,254 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:27:32 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:27:32 | 18:57:32,254 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:27:32 IST 2016
+18:58:31,887 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:28:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:28:31 | 18:58:31,887 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:28:31 IST 2016
+18:59:31,019 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:29:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:29:31 | 18:59:31,019 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:29:31 IST 2016
+19:00:31,887 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:30:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:30:31 | 19:00:31,887 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:30:31 IST 2016
+19:01:31,390 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:31:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:31:31 | 19:01:31,390 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:31:31 IST 2016
+19:02:32,615 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:32:32 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:32:32 | 19:02:32,615 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:32:32 IST 2016
+19:03:31,569 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:33:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:33:31 | 19:03:31,569 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:33:31 IST 2016
+19:04:31,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:34:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:34:31 | 19:04:31,269 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:34:31 IST 2016
+19:05:30,982 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:35:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:35:31 | 19:05:30,982 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:35:30 IST 2016
+19:06:31,788 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:36:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:36:31 | 19:06:31,788 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:36:31 IST 2016
+19:07:31,251 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 00:37:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:37:31 | 19:07:31,251 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 00:37:31 IST 2016
+19:08:31,716 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:38:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:38:31 | 19:08:31,716 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 00:38:31 IST 2016
+19:09:30,773 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:39:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:39:30 | 19:09:30,773 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:39:30 IST 2016
+19:10:31,722 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:40:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:40:31 | 19:10:31,722 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:40:31 IST 2016
+19:11:30,739 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:41:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:41:30 | 19:11:30,739 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:41:30 IST 2016
+19:12:31,420 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:42:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:42:31 | 19:12:31,420 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:42:31 IST 2016
+19:13:31,085 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:43:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:43:31 | 19:13:31,085 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:43:31 IST 2016
+19:14:31,560 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:44:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:44:31 | 19:14:31,560 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:44:31 IST 2016
+19:15:33,569 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:45:33 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:45:33 | 19:15:33,569 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:45:33 IST 2016
+19:16:31,452 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:46:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:46:31 | 19:16:31,452 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:46:31 IST 2016
+19:17:31,726 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:47:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:47:31 | 19:17:31,726 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 00:47:31 IST 2016
+19:18:31,886 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:48:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:48:31 | 19:18:31,886 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 00:48:31 IST 2016
+19:19:31,888 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 00:49:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:49:31 | 19:19:31,888 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 00:49:31 IST 2016
+19:20:31,875 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:50:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:50:31 | 19:20:31,875 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 00:50:31 IST 2016
+19:21:32,569 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:51:32 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:51:32 | 19:21:32,569 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 00:51:32 IST 2016
+19:22:31,263 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:52:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:52:31 | 19:22:31,263 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 00:52:31 IST 2016
+19:23:30,939 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:53:30 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:53:30 | 19:23:30,939 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 00:53:30 IST 2016
+19:24:31,246 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:54:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:54:31 | 19:24:31,246 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 00:54:31 IST 2016
+19:25:31,399 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:55:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:55:31 | 19:25:31,399 INFO  [stdout] (ajp--0.0.0.0-8009-1) Data backup at Mon Nov 21 00:55:31 IST 2016
+19:26:32,030 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:56:32 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:56:32 | 19:26:32,030 INFO  [stdout] (ajp--0.0.0.0-8009-3) Data backup at Mon Nov 21 00:56:32 IST 2016
+19:27:31,716 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:57:31 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:57:31 | 19:27:31,716 INFO  [stdout] (ajp--0.0.0.0-8009-6) Data backup at Mon Nov 21 00:57:31 IST 2016
+19:28:32,040 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:58:32 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:58:32 | 19:28:32,040 INFO  [stdout] (ajp--0.0.0.0-8009-18) Data backup at Mon Nov 21 00:58:32 IST 2016
+19:29:33,797 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:59:33 IST 2016
+INFO   | jvm 1    | 2016/11/21 00:59:33 | 19:29:33,797 INFO  [stdout] (ajp--0.0.0.0-8009-2) Data backup at Mon Nov 21 00:59:33 IST 2016
+19:30:00,236 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-22) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:00,237 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+19:30:00,239 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-22) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:70) [classes:]
+	at sun.reflect.GeneratedMethodAccessor447.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.INFO   | jvm 1    | 2016/11/21 01:00:00 | 19:30:00,236 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-22) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+ReschedulingRunnable.run(ReINFO   | jvm 1    | 2016/11/21 01:00:00 | 19:30:00,237 WARN  [org.springframework.orm.jpa.vendor.HibernateJpaDialect] (mailScheduler-11) JDBC Connection to reset not identical to originally prepared Connection - please make sure to use connection release mode ON_CLOSE (the default) and to run against Hibernate 4.2+ (or switch HibernateJpaDialect's prepareConnection flag to false
+schedulingRunnable.javINFO   | jvm 1    | 2016/11/21 01:00:00 | 19:30:00,239 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-22) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+a:81) [spring-INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+context-4.2.4INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+.RELEASE.jar:4.INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+2.4.RELEASE]INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+
+	at java.utINFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+il.concurrenINFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+t.Executors$INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:70) [classes:]
+RunnableAdapter.call(ExecuINFO   | jvm 1    | 2016/11/21 01:00:00 | 	at sun.reflect.GeneratedMethodAccessor447.invoke(Unknown Source) [:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 19:30:00,244 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-11) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:70) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at sun.reflect.GeneratedMethodAccessor447.invoke(Unknown Source) [:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:00:00 | 
+tors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+19:30:00,244 ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler] (mailScheduler-11) Unexpected error occurred in scheduled task.: org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:272) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.invoke(JavassistLazyInitializer.java:185) [hibernate-core-4.1.7.Final.jar:4.1.7.Final]
+	at com.ttn.survey.commons.core.model.SurveyDefination_$$_javassist_108.getProductClientInfoView(SurveyDefination_$$_javassist_108.java) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.getEmailService(MailJobScheduler.java:157) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.newHireReminderMail(MailJobScheduler.java:101) [classes:]
+	at com.ttn.survey.commons.mail.scheduler.MailJobScheduler.sendNewHireReminderMail1(MailJobScheduler.java:70) [classes:]
+	at sun.reflect.GeneratedMethodAccessor447.invoke(Unknown Source) [:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_60]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_60]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_60]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+19:30:35,023 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 01:00:35 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:00:35 | 19:30:35,023 INFO  [stdout] (ajp--0.0.0.0-8009-13) Data backup at Mon Nov 21 01:00:35 IST 2016
+19:31:34,763 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 01:01:34 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:01:34 | 19:31:34,763 INFO  [stdout] (ajp--0.0.0.0-8009-19) Data backup at Mon Nov 21 01:01:34 IST 2016
+19:32:34,954 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 01:02:34 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:02:34 | 19:32:34,954 INFO  [stdout] (ajp--0.0.0.0-8009-4) Data backup at Mon Nov 21 01:02:34 IST 2016
+19:33:34,450 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 01:03:34 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:03:34 | 19:33:34,450 INFO  [stdout] (ajp--0.0.0.0-8009-11) Data backup at Mon Nov 21 01:03:34 IST 2016
+19:34:35,454 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 01:04:35 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:04:35 | 19:34:35,454 INFO  [stdout] (ajp--0.0.0.0-8009-17) Data backup at Mon Nov 21 01:04:35 IST 2016
+19:35:35,547 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 01:05:35 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:05:35 | 19:35:35,547 INFO  [stdout] (ajp--0.0.0.0-8009-21) Data backup at Mon Nov 21 01:05:35 IST 2016
+19:36:35,036 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 01:06:35 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:06:35 | 19:36:35,036 INFO  [stdout] (ajp--0.0.0.0-8009-12) Data backup at Mon Nov 21 01:06:35 IST 2016
+19:37:34,435 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 01:07:34 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:07:34 | 19:37:34,435 INFO  [stdout] (ajp--0.0.0.0-8009-5) Data backup at Mon Nov 21 01:07:34 IST 2016
+19:38:33,777 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 01:08:33 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:08:33 | 19:38:33,777 INFO  [stdout] (ajp--0.0.0.0-8009-9) Data backup at Mon Nov 21 01:08:33 IST 2016
+19:39:36,368 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 01:09:36 IST 2016
+INFO   | jvm 1    | 2016/11/21 01:09:36 | 19:39:36,368 INFO  [stdout] (ajp--0.0.0.0-8009-10) Data backup at Mon Nov 21 01:09:36 IST 2016
+19:39:48,850 ERROR [stderr] (ajp--0.0.0.0-8009-1) testDuration :3600
+19:39:48,851 ERROR [stderr] (ajp--0.0.0.0-8009-1) totalQuesTime :3487
+INFO   | jvm 1    | 2016/11/21 01:09:48 | 19:39:48,850 ERROR [stderr] (ajp--0.0.0.0-8009-1) testDuration :3600
+INFO   | jvm 1    | 2016/11/21 01:09:48 | 19:39:48,851 ERROR [stderr] (ajp--0.0.0.0-8009-1) totalQuesTime :3487
+19:39:51,693 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+19:39:51,694 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 01:09:51 | 19:39:51,693 INFO  [stdout] (ajp--0.0.0.0-8009-6) English (United States)
+INFO   | jvm 1    | 2016/11/21 01:09:51 | 19:39:51,694 INFO  [stdout] (ajp--0.0.0.0-8009-6) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+19:49:10,263 ERROR [stderr] (ajp--0.0.0.0-8009-21) java.lang.NullPointerException
+19:49:10,264 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.app.utility.web.ParameterUtility.getParamInteger(ParameterUtility.java:52)
+19:49:10,265 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:85)
+19:49:10,266 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+19:49:10,268 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+19:49:10,269 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+19:49:10,270 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+19:49:10,272 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+19:49:10,273 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+19:49:10,273 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+19:49:10,274 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+19:49:10,275 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+19:49:10,276 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+19:49:10,277 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+19:49:10,278 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+19:49:10,279 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+19:49:10,280 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+19:49:10,281 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+19:49:10,282 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+19:49:10,283 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+19:49:10,284 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+19:49:10,285 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+19:49:10,286 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+19:49:10,287 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+19:49:10,287 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+19:49:10,288 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+19:49:10,289 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,263 ERROR [stderr] (ajp--0.0.0.0-8009-21) java.lang.NullPointerException
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,264 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.app.utility.web.ParameterUtility.getParamInteger(ParameterUtility.java:52)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,265 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:85)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,266 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,268 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,269 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,270 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,272 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,273 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,273 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,274 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,275 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,276 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,277 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,278 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,279 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,280 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,281 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,282 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,283 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,284 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,285 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,286 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,287 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,287 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,288 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930)
+INFO   | jvm 1    | 2016/11/21 01:19:10 | 19:49:10,289 ERROR [stderr] (ajp--0.0.0.0-8009-21) 	at java.lang.Thread.run(Thread.java:745)
+19:49:10,990 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnaireControlServlet]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet QuestionnaireControlServlet threw exception: java.lang.NullPointerException
+	at org.app.utility.web.ParameterUtility.getParamInteger(ParameterUtility.java:52) [AppUtility-0.0.1.jar:]
+	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:85) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+
+19:49:11,012 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+19:49:11,013 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 19:49:10,990 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[indusind.thinktalentnext.net].[/].[QuestionnaireControlServlet]] (ajp--0.0.0.0-8009-21) Servlet.service() for servlet QuestionnaireControlServlet threw exception: java.lang.NullPointerException
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.app.utility.web.ParameterUtility.getParamInteger(ParameterUtility.java:52) [AppUtility-0.0.1.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at com.assess.questionnaire.QuestionnaireControlServlet.doGet(QuestionnaireControlServlet.java:85) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:734) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:394) [urlrewritefilter-4.0.3.jar:4.0.3]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at com.filter.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:87) [classes:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:280) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:153) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:505) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler.process(AjpProtocol.java:445) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.13.Final.jar:]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_60]
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 19:49:11,012 INFO  [stdout] (ajp--0.0.0.0-8009-21) English (United States)
+INFO   | jvm 1    | 2016/11/21 01:19:11 | 19:49:11,013 INFO  [stdout] (ajp--0.0.0.0-8009-21) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+19:49:24,655 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+19:49:24,655 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 01:19:24 | 19:49:24,655 INFO  [stdout] (ajp--0.0.0.0-8009-13) English (United States)
+INFO   | jvm 1    | 2016/11/21 01:19:24 | 19:49:24,655 INFO  [stdout] (ajp--0.0.0.0-8009-13) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+19:50:21,119 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+19:50:21,120 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+19:50:21,124 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+19:50:21,125 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 01:20:21 | 19:50:21,119 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/11/21 01:20:21 | 19:50:21,120 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
+INFO   | jvm 1    | 2016/11/21 01:20:21 | 19:50:21,124 INFO  [stdout] (ajp--0.0.0.0-8009-5) English (United States)
+INFO   | jvm 1    | 2016/11/21 01:20:21 | 19:50:21,125 INFO  [stdout] (ajp--0.0.0.0-8009-5) Directory for resource bundle is /opt/jboss7/jboss_setting/indusind
